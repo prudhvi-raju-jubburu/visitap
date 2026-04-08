@@ -1,0 +1,1 @@
+const n=(t,a="f_auto,q_auto")=>{if(!t||!t.includes("cloudinary.com"))return t;if(t.includes("/upload/")){const o=t.split("/upload/");if(o[1].startsWith("v")||o[1].includes("/"))return`${o[0]}/upload/${a}/${o[1]}`}return t};export{n as t};
