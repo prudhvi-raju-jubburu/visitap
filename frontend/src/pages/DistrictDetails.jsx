@@ -1,9 +1,10 @@
 import { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
-import { fetchDistrict, fetchPlaces } from '../services/api';
+import { fetchDistrict, fetchPlaces, trackClientEvent } from '../services/api';
 import PlaceCard from '../components/PlaceCard';
 import { GridSkeleton } from '../components/SkeletonLoader';
+import { useUserAuth } from '../context/AuthContext';
 
 const DEFAULT_IMAGE = 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1200';
 
@@ -17,24 +18,86 @@ export default function DistrictDetails() {
   const [activeImage, setActiveImage] = useState(0);
   const [lightbox, setLightbox] = useState(false);
 
+  const { isAuthenticated } = useUserAuth();
+  const [isSavedDistrict, setIsSavedDistrict] = useState(false);
+  const [saveLoading, setSaveLoading] = useState(false);
+
   useEffect(() => {
     const load = async () => {
       setLoading(true);
+      const cacheDKey = `cached_district_details_${districtName}`;
+      const cachePKey = `cached_district_places_${districtName}`;
       try {
+        const cachedD = localStorage.getItem(cacheDKey);
+        const cachedP = localStorage.getItem(cachePKey);
+        if (cachedD && cachedP) {
+          setDistrict(JSON.parse(cachedD));
+          setPlaces(JSON.parse(cachedP));
+          setLoading(false);
+        }
+
         const [dRes, pRes] = await Promise.all([
           fetchDistrict(districtName),
           fetchPlaces({ district: decodeURIComponent(districtName).replace(/-/g, ' ') }),
         ]);
-        setDistrict(dRes.data.data);
-        setPlaces(pRes.data.data || []);
+        const dData = dRes.data.data;
+        const pData = pRes.data.data || [];
+        setDistrict(dData);
+        setPlaces(pData);
+        localStorage.setItem(cacheDKey, JSON.stringify(dData));
+        localStorage.setItem(cachePKey, JSON.stringify(pData));
+        trackClientEvent('DISTRICT_VIEW', { districtId: dData._id });
+
+        if (isAuthenticated) {
+          const { getCollectionDashboard } = await import('../services/api');
+          const colRes = await getCollectionDashboard();
+          if (colRes.data?.success && colRes.data?.data?.savedDistricts) {
+            const saved = colRes.data.data.savedDistricts.some(
+              sd => (sd.districtId?._id || sd.districtId) === dData._id
+            );
+            setIsSavedDistrict(saved);
+          }
+        }
+        setError(null);
       } catch (err) {
-        setError('District not found.');
+        const cachedD = localStorage.getItem(cacheDKey);
+        const cachedP = localStorage.getItem(cachePKey);
+        if (cachedD && cachedP) {
+          setDistrict(JSON.parse(cachedD));
+          setPlaces(JSON.parse(cachedP));
+          setError(null);
+        } else {
+          setError('District not found.');
+        }
       } finally {
         setLoading(false);
       }
     };
     load();
-  }, [districtName]);
+  }, [districtName, isAuthenticated]);
+
+  const toggleSaveDistrict = async () => {
+    if (!isAuthenticated) {
+      window.location.href = `/login?from=${encodeURIComponent(window.location.pathname)}`;
+      return;
+    }
+
+    setSaveLoading(true);
+    try {
+      const { saveDistrictToCollection, removeDistrictFromCollection } = await import('../services/api');
+      if (isSavedDistrict) {
+        await removeDistrictFromCollection(district._id);
+        setIsSavedDistrict(false);
+      } else {
+        await saveDistrictToCollection(district._id);
+        setIsSavedDistrict(true);
+      }
+    } catch (err) {
+      console.error('[DistrictDetails] Toggle Save District Error:', err);
+    } finally {
+      setSaveLoading(false);
+    }
+  };
 
   const categories = ['All', ...new Set(places.map(p => p.category).filter(Boolean))];
   const filtered = category === 'All' ? places : places.filter(p => p.category === category);
@@ -100,10 +163,27 @@ export default function DistrictDetails() {
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M15 19l-7-7 7-7"/></svg>
                 All Districts
               </Link>
-              <h1 className="font-display text-5xl md:text-7xl font-black text-white mb-4 tracking-tight uppercase">
-                {district.name}
-              </h1>
-              <div className="h-1.5 w-24 bg-primary rounded-full mb-6"></div>
+              <div className="flex flex-col md:flex-row md:items-center justify-between gap-6 mb-6">
+                <div>
+                  <h1 className="font-display text-5xl md:text-7xl font-black text-white tracking-tight uppercase">
+                    {district.name}
+                  </h1>
+                  <div className="h-1.5 w-24 bg-primary rounded-full mt-2"></div>
+                </div>
+
+                <button
+                  onClick={toggleSaveDistrict}
+                  disabled={saveLoading}
+                  className={`px-6 py-3.5 rounded-2xl font-bold text-sm transition-all flex items-center justify-center gap-2 border backdrop-blur-xl shrink-0 self-start md:self-center ${
+                    isSavedDistrict
+                      ? 'bg-primary/20 border-primary/40 text-primary hover:bg-primary/30 shadow-[0_0_20px_rgba(251,191,36,0.15)] animate-pulse'
+                      : 'bg-white/5 border-white/10 text-white hover:bg-white/10'
+                  }`}
+                >
+                  <span className="text-lg">{isSavedDistrict ? '♥' : '♡'}</span>
+                  <span>{isSavedDistrict ? 'Saved District' : 'Save District'}</span>
+                </button>
+              </div>
               <p className="text-white/80 text-lg md:text-xl max-w-2xl font-medium leading-relaxed italic border-l-4 border-primary/50 pl-6">
                 "{district.shortDescription}"
               </p>

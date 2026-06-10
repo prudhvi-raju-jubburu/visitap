@@ -1,0 +1,298 @@
+[
+  {
+    "name": "Coringa Wildlife Sanctuary",
+    "slug": "coringa-wildlife-sanctuary",
+    "districtName": "Kakinada",
+    "description": "The second-largest stretch of mangrove forests in India, home to otters.",
+    "shortDescription": "A beautiful wildlife spot in Kakinada.",
+    "category": "Wildlife",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        82.2865,
+        16.9148
+      ]
+    },
+    "rating": {
+      "average": 4.8,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": true,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/5/5c/A_bench_on_the_path_leading_to_Coringa_Wildlife_Sanctuary.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/5/59/Entrance_Gateway_for_Coringa_Wildlife_reserve.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/a/a2/Pathway_leading_from_the_entrance_of_Coringa_reserve.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/6/66/A_glass_bridge_in_Coringa_reserve.jpg"
+    ]
+  },
+  {
+    "name": "Kakinada Beach",
+    "slug": "kakinada-beach",
+    "districtName": "Kakinada",
+    "description": "A broad beach featuring scenic boardwalks, sea breeze, and local street food.",
+    "shortDescription": "A beautiful beach spot in Kakinada.",
+    "category": "Beach",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        82.2794,
+        16.9897
+      ]
+    },
+    "rating": {
+      "average": 4.1,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Power_transmission_lines_at_Kakinada_beach_01.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/b/b5/View_of_Ships_from_Kakinada_beach.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/d/d2/Beach_Morning_Glory_(Ipomoea_pes-caprae)_at_Kakinada_beach_07.JPG",
+      "https://upload.wikimedia.org/wikipedia/commons/1/1e/Beach_Morning_Glory_(Ipomoea_pes-caprae)_at_Kakinada_beach_01.JPG"
+    ]
+  },
+  {
+    "name": "Hope Island",
+    "slug": "hope-island",
+    "districtName": "Kakinada",
+    "description": "A natural sandy spit barrier guarding the Kakinada port from major storm waves.",
+    "shortDescription": "A beautiful nature spot in Kakinada.",
+    "category": "Nature",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        82.3356,
+        16.9618
+      ]
+    },
+    "rating": {
+      "average": 4.7,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Satellite_kkd.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/2/2e/Hope_Island_Marina,_Queensland,_March_2017,_06.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/4/45/Road_between_Hope_Island_and_Sanctuary_Cove,_Hope_Island,_Queensland.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/0/02/Santa_Barbara,_Hope_Island,_Queensland.jpg"
+    ]
+  },
+  {
+    "name": "Annavaram Satyanarayana Temple",
+    "slug": "annavaram-satyanarayana-temple",
+    "districtName": "Kakinada",
+    "description": "A legendary temple on Ratnagiri hill, dedicated to Veera Venkata Satyanarayana.",
+    "shortDescription": "A beautiful temple / religious spot in Kakinada.",
+    "category": "Temple / Religious",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        82.509,
+        17.2815
+      ]
+    },
+    "rating": {
+      "average": 4.6,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/a/ac/A_Hindu_temple_at_Annavaram_Andhra_Pradesh.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/9/96/Temple_of_Vana_durga_at_Annavaram_temple_complex.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/a/a6/Sunset_view_at_Annavaram_Temple_Complex.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/c/c1/East_gopuram_at_Annavaram_Temple_01.jpg"
+    ]
+  },
+  {
+    "name": "Coringa Mangrove Boardwalk",
+    "slug": "coringa-mangrove-boardwalk",
+    "districtName": "Kakinada",
+    "description": "A 3-kilometer wooden pathway crossing mangrove swamps and river creeks.",
+    "shortDescription": "A beautiful adventure spot in Kakinada.",
+    "category": "Adventure",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        82.2619,
+        16.9038
+      ]
+    },
+    "rating": {
+      "average": 4.4,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/8/86/Forest_canopy.jpg",
+    "images": []
+  },
+  {
+    "name": "Kakinada City Center",
+    "slug": "kakinada-city-center",
+    "districtName": "Kakinada",
+    "description": "A commercial port city famed for the Kakinada Kaja sweet and coastal ports.",
+    "shortDescription": "A beautiful city spot in Kakinada.",
+    "category": "City",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        82.2475,
+        16.9891
+      ]
+    },
+    "rating": {
+      "average": 4.2,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Tropical_Cyclone_Phethai_(MODIS_2018-12-18).jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/c/c7/Tropical_Cyclone_Asani_(MODIS_2022-05-11).jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/3/3c/Auto_Rickshaw_parked_at_Balaji_Cheruvu_center_in_Kakinada.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/1/1e/Old_brick_wall.jpg"
+    ]
+  },
+  {
+    "name": "Annavaram Hills",
+    "slug": "annavaram-hills",
+    "districtName": "Kakinada",
+    "description": "The holy Ratnagiri hill complex offering forest views and pilgrim steps.",
+    "shortDescription": "A beautiful pilgrimage spot in Kakinada.",
+    "category": "Pilgrimage",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        82.5085,
+        17.2811
+      ]
+    },
+    "rating": {
+      "average": 4.8,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Annavaram_Lake.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/e/eb/Annavaram_hill_Valley.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/4/4e/Farm_lands_at_Annavaram,_AP.JPG",
+      "https://upload.wikimedia.org/wikipedia/commons/1/1e/Snail_on_Hill.jpg"
+    ]
+  },
+  {
+    "name": "Pithapuram Temple",
+    "slug": "pithapuram-temple",
+    "districtName": "Kakinada",
+    "description": "An ancient temple town representing a major Shakti Peetha (Kukkuteswara Shiva).",
+    "shortDescription": "A beautiful temple / religious spot in Kakinada.",
+    "category": "Temple / Religious",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        82.2568,
+        17.1147
+      ]
+    },
+    "rating": {
+      "average": 4.8,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/3/3c/A_Mandapa_at_Kunti_Madhavaswamy_temple_in_Pithapuram.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/1/16/Inscription_pillar_at_Kunti_Madhavaswamy_temple_in_Pithapuram.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/d/dc/1870_built_Sri_Seetarama_Temple_in_Pithapuram.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/6/61/Puruhutika_Devi_Sakthi_Peetam_Temple_in_Pithapuram.jpg"
+    ]
+  },
+  {
+    "name": "Uppada Beach",
+    "slug": "uppada-beach",
+    "districtName": "Kakinada",
+    "description": "A scenic sandy beach famous for handloom Uppada Jamdani weaving culture.",
+    "shortDescription": "A beautiful beach spot in Kakinada.",
+    "category": "Beach",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        82.3297,
+        17.0603
+      ]
+    },
+    "rating": {
+      "average": 4.9,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/8/87/Aerial_top-down_view_of_fishing_boats_near_Uppada,_Vizag.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/0/0f/Wave_at_beach.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/c/c5/Ocean_wave.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/e/ea/Sand_texture.jpg"
+    ]
+  },
+  {
+    "name": "Hope Island Lighthouse",
+    "slug": "hope-island-lighthouse",
+    "districtName": "Kakinada",
+    "description": "A historic lighthouse guiding ships into the Kakinada harbor bay.",
+    "shortDescription": "A beautiful heritage spot in Kakinada.",
+    "category": "Heritage",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        82.3408,
+        16.9574
+      ]
+    },
+    "rating": {
+      "average": 4.2,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/3/36/Hope_Island_Lighthouse,_Sep._2015.jpeg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/e/e7/Oak_Island_Lighthouse_(32718095947).jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/1/1a/Oak_Island_Lighthouse_(2)_(40694198103).jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/0/0c/Road_alongside_Kirk_Hope_-_geograph.org.uk_-_1128411.jpg"
+    ]
+  }
+]

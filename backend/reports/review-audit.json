@@ -1,0 +1,15 @@
+{
+  "timestamp": "2026-06-06T18:13:13.639Z",
+  "summary": {
+    "totalReviews": 0,
+    "orphanReviews": 0,
+    "duplicateReviews": 0,
+    "invalidRatingRange": 0,
+    "inconsistentPlaces": 0,
+    "clean": true
+  },
+  "orphans": [],
+  "duplicates": [],
+  "invalidRatings": [],
+  "inconsistentPlacesList": []
+}

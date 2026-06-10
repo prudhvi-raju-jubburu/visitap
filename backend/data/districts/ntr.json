@@ -1,0 +1,301 @@
+[
+  {
+    "name": "Kanaka Durga Temple",
+    "slug": "kanaka-durga-temple",
+    "districtName": "NTR",
+    "description": "A historic temple situated on Indrakeeladri hill, dedicated to Goddess Kanaka Durga.",
+    "shortDescription": "A beautiful temple / religious spot in NTR.",
+    "category": "Temple / Religious",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        80.6062,
+        16.5162
+      ]
+    },
+    "rating": {
+      "average": 4.2,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": true,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Indrakeeladri_and_Prakasam_Barrage_from_Tadepalli_(02).jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/c/c4/Bezawada_Kanaka_Durga_Temple.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/d/d7/View_of_Kanaka_Durga_Temple_Basement.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/4/41/Om_Symbol_at_Kanaka_Durga_Temple.jpg"
+    ]
+  },
+  {
+    "name": "Prakasam Barrage",
+    "slug": "prakasam-barrage",
+    "districtName": "NTR",
+    "description": "A massive bridge-dam built across the Krishna River, creating a vast lake reservoir.",
+    "shortDescription": "A beautiful city spot in NTR.",
+    "category": "City",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        80.6044,
+        16.5061
+      ]
+    },
+    "rating": {
+      "average": 4.4,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Indrakeeladri_and_Prakasam_Barrage_from_Tadepalli_(02).jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/e/ec/Indrakeeladri_and_Prakasam_Barrage_from_Tadepalli_(01).jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/3/3a/Fishing_boat_near_Prakasam_barrage.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/a/af/Indrakeeladri_and_Prakasam_Barrage.jpg"
+    ]
+  },
+  {
+    "name": "Bhavani Island",
+    "slug": "bhavani-island",
+    "districtName": "NTR",
+    "description": "A popular river island park offering boating, water sports, and resorts.",
+    "shortDescription": "A beautiful adventure spot in NTR.",
+    "category": "Adventure",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        80.5894,
+        16.5178
+      ]
+    },
+    "rating": {
+      "average": 4.1,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Bhavani_Island_(17).jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/f/fb/Rainbow_Mud_Snake_(Enhydris)_in_Bhavani_Island.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/a/a9/Greater_Crimson_Glider_(Urothemis_signata).jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/1/16/Lampyridae_(firefly).jpg"
+    ]
+  },
+  {
+    "name": "Kondapalli Fort",
+    "slug": "kondapalli-fort",
+    "districtName": "NTR",
+    "description": "A 14th-century fort built by Musunuri Nayaks, famous for wooden Kondapalli toys.",
+    "shortDescription": "A beautiful historical spot in NTR.",
+    "category": "Historical",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        80.5369,
+        16.6186
+      ]
+    },
+    "rating": {
+      "average": 4.8,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Vijayawada-Kondapalli_Quilla.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/5/50/Kondapalli_Fort.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/d/d9/Kondapalli_ghat_road.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/d/dd/Kondapalli_Fort_1.jpg"
+    ]
+  },
+  {
+    "name": "Undavalli Caves",
+    "slug": "undavalli-caves",
+    "districtName": "NTR",
+    "description": "Monolithic rock-cut caves carved out of solid sandstone hills, featuring a large reclining Vishnu.",
+    "shortDescription": "A beautiful historical spot in NTR.",
+    "category": "Historical",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        80.5794,
+        16.4922
+      ]
+    },
+    "rating": {
+      "average": 4.3,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/4/47/Undavalli_Caves,_Vijayawada,_Guntur,_Andhra_Pradesh,_India_(2018)_1.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/e/ef/Undavalli_caves_board.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/8/8f/Undavalli_Caves,_Vijayawada,_Guntur,_Andhra_Pradesh,_India_(2018).jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/4/43/Undavalli_caves,_Andhra_Pradesh.jpg"
+    ]
+  },
+  {
+    "name": "Vijayawada City Center",
+    "slug": "vijayawada-city-center",
+    "districtName": "NTR",
+    "description": "A bustling commercial hub known for commerce, logistics, and traditional festivals.",
+    "shortDescription": "A beautiful city spot in NTR.",
+    "category": "City",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        80.648,
+        16.5062
+      ]
+    },
+    "rating": {
+      "average": 4.4,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/3/3f/7th-century_Akkanna_Madanna_Lower_Cave,_Vijayawada,_Andhra_Pradesh_-_2.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/3/3e/7th-century_Akkanna_Madanna_Lower_Cave,_Vijayawada,_Andhra_Pradesh_-_3.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/2/26/7th-century_Akkanna_Madanna_Upper_Cave,_Vijayawada,_Andhra_Pradesh_-_2.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/d/d2/7th-century_Akkanna_Madanna_Upper_Cave,_Vijayawada,_Andhra_Pradesh_-_9.jpg"
+    ]
+  },
+  {
+    "name": "Kondapalli Toy Village",
+    "slug": "kondapalli-toy-village",
+    "districtName": "NTR",
+    "description": "A traditional artisans village where craftspeople carve colorful wooden toys.",
+    "shortDescription": "A beautiful culture spot in NTR.",
+    "category": "Culture",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        80.5408,
+        16.6125
+      ]
+    },
+    "rating": {
+      "average": 5,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/7/73/Kondapalli_Toys_(3404488827).jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/5/5a/Vijayawada-Kondapalli_Quilla.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/3/3a/Diya_lamp.jpg"
+    ]
+  },
+  {
+    "name": "Indrakeeladri Hills",
+    "slug": "indrakeeladri-hills",
+    "districtName": "NTR",
+    "description": "The sacred hill range overlooking the Krishna River, rich in mythology.",
+    "shortDescription": "A beautiful nature spot in NTR.",
+    "category": "Nature",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        80.6036,
+        16.5154
+      ]
+    },
+    "rating": {
+      "average": 4.8,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Indrakeeladri_and_Prakasam_Barrage_from_Tadepalli_(02).jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/e/ec/Indrakeeladri_and_Prakasam_Barrage_from_Tadepalli_(01).jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/7/79/A_View_of_Indrakeeladri_Hill_at_Vijayawada_01.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/0/02/Indrakeeladri_in_Vijayawada.jpg"
+    ]
+  },
+  {
+    "name": "Prakasam Lakefront",
+    "slug": "prakasam-lakefront",
+    "districtName": "NTR",
+    "description": "The peaceful lakefront park offering boat cruises and evening sunset spots.",
+    "shortDescription": "A beautiful nature spot in NTR.",
+    "category": "Nature",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        80.6005,
+        16.5039
+      ]
+    },
+    "rating": {
+      "average": 4.8,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/1/10/Prakasam_Barrage_View_of_Title.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/0/0d/Prakasam_barrage_(66).jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/7/70/Prakasam_barrage_(39).jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/f/f1/Prakasam_barrage_(21).jpg"
+    ]
+  },
+  {
+    "name": "Vijayawada Museum",
+    "slug": "vijayawada-museum",
+    "districtName": "NTR",
+    "description": "A regional museum showcasing Buddhist artifacts, historic weapons, and stone inscriptions.",
+    "shortDescription": "A beautiful culture spot in NTR.",
+    "category": "Culture",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        80.6296,
+        16.5194
+      ]
+    },
+    "rating": {
+      "average": 4.9,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/4/44/Bapu_museum_18.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/5/51/A_collected_Votive_Buddhist_stupa_at_Bapu_Museum_in_Vijayawada.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/0/0a/Collected_Buddhist_pillar_at_Bapu_museum_in_Vijayawada.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/e/e4/A_collected_Jaina_Mahavira_sculpture_at_Bapu_Museum_in_Vijayawada.jpg"
+    ]
+  }
+]

@@ -1,0 +1,299 @@
+[
+  {
+    "name": "Rajahmundry City Center",
+    "slug": "rajahmundry-city-center",
+    "districtName": "East Godavari",
+    "description": "The cultural capital of Andhra Pradesh, situated on the banks of Godavari.",
+    "shortDescription": "A beautiful city spot in East Godavari.",
+    "category": "City",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        81.804,
+        17.0005
+      ]
+    },
+    "rating": {
+      "average": 4.3,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": true,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Godavari_satellite_view.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/1/1e/Old_brick_wall.jpg"
+    ]
+  },
+  {
+    "name": "Godavari Arch Bridge",
+    "slug": "godavari-arch-bridge",
+    "districtName": "East Godavari",
+    "description": "An architectural railway bridge spanning the massive Godavari River.",
+    "shortDescription": "A beautiful historical spot in East Godavari.",
+    "category": "Historical",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        81.7794,
+        17.0009
+      ]
+    },
+    "rating": {
+      "average": 4.2,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Godavari_river_at_Rajahmundry.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/1/18/Railway_bridge_on_river_Godavari_near_Rajamundry,Andhra_Pradesh.JPG",
+      "https://upload.wikimedia.org/wikipedia/commons/a/af/Godavari_Bridge2.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/c/cc/River_Godavari_from_arch_bridge_at_Rajahmundry_01.jpg"
+    ]
+  },
+  {
+    "name": "Rajahmundry ISKCON Temple",
+    "slug": "rajahmundry-iskcon-temple",
+    "districtName": "East Godavari",
+    "description": "A beautiful temple complex on the riverbanks, featuring meditation halls.",
+    "shortDescription": "A beautiful temple / religious spot in East Godavari.",
+    "category": "Temple / Religious",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        81.7916,
+        17.0059
+      ]
+    },
+    "rating": {
+      "average": 4.5,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/f/f2/ISKCON_temple_in_Rajahmundry.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/a/af/Iskan_rajamahendravaram.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/3/3a/Diya_lamp.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/d/d0/Diya_re-imagined.jpg"
+    ]
+  },
+  {
+    "name": "Dowleswaram Barrage",
+    "slug": "dowleswaram-barrage",
+    "districtName": "East Godavari",
+    "description": "A historic barrage built by Sir Arthur Cotton, transforming delta agriculture.",
+    "shortDescription": "A beautiful city spot in East Godavari.",
+    "category": "City",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        81.7835,
+        16.9548
+      ]
+    },
+    "rating": {
+      "average": 4.4,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Dowleswaram_Barrage.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/e/e0/Godavari_flowing_at_Dowleswaram_barrage.JPG",
+      "https://upload.wikimedia.org/wikipedia/commons/9/9a/2024_Sir_Arthur_Cotton_bust_on_Barrage_named_after_him.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/f/ff/Dowleswaram_Barrage_near_Rajahmundry_on_River_Godavari.jpg"
+    ]
+  },
+  {
+    "name": "Godavari River cruise",
+    "slug": "godavari-river-cruise",
+    "districtName": "East Godavari",
+    "description": "Boat tours starting from Rajahmundry to explore the river islands.",
+    "shortDescription": "A beautiful adventure spot in East Godavari.",
+    "category": "Adventure",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        81.7858,
+        17.0032
+      ]
+    },
+    "rating": {
+      "average": 4.2,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/1/19/Life_along_Godavari_River_(images_taken_during_cruise)_IMG_0566.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/2/2d/Godavari_River_Cruise_IMG_0427.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/2/2c/Life_along_Godavari_River_(images_taken_during_cruise)_IMG_0705.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/8/8a/Life_along_Godavari_River_(images_taken_during_cruise)_IMG_0850.jpg"
+    ]
+  },
+  {
+    "name": "Kadiyam Nursery Gardens",
+    "slug": "kadiyam-nursery-gardens",
+    "districtName": "East Godavari",
+    "description": "A massive hub of plant nurseries, cultivating thousands of flower species.",
+    "shortDescription": "A beautiful nature spot in East Godavari.",
+    "category": "Nature",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        81.9988,
+        16.9204
+      ]
+    },
+    "rating": {
+      "average": 4.6,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/e/e9/View_of_a_Horticultural_Nursery_at_Kadiyam_04.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/0/04/View_of_a_Horticultural_Nursery_at_Kadiyam_01.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/c/ca/View_of_a_Horticultural_Nursery_at_Kadiyam_02.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/7/79/View_of_a_Horticultural_Nursery_at_Kadiyam_03.jpg"
+    ]
+  },
+  {
+    "name": "Dowleswaram Cotton Museum",
+    "slug": "dowleswaram-cotton-museum",
+    "districtName": "East Godavari",
+    "description": "A museum showcasing the life and canal works of British engineer Arthur Cotton.",
+    "shortDescription": "A beautiful culture spot in East Godavari.",
+    "category": "Culture",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        81.7848,
+        16.9556
+      ]
+    },
+    "rating": {
+      "average": 4.5,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/7/74/Dowleswaram_opposite_cotton_museum.JPG",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/f/f4/Sir_Arthur_Cotton_Museum.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/3/3a/Diya_lamp.jpg"
+    ]
+  },
+  {
+    "name": "Rajahmundry Ghats",
+    "slug": "rajahmundry-ghats",
+    "districtName": "East Godavari",
+    "description": "Sacred river steps (Saraswathi Ghat) where pilgrims take holy baths.",
+    "shortDescription": "A beautiful pilgrimage spot in East Godavari.",
+    "category": "Pilgrimage",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        81.7788,
+        17.0021
+      ]
+    },
+    "rating": {
+      "average": 4,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Rajamahendravaram_ghats.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/0/0d/1st_century_BCE_to_3rd_century_CE_Pandavula_Metta,_Korukonda_Buddhist_site,_Kapavaram_Andhra_Pradesh_-_18.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/9/98/1st_century_BCE_to_3rd_century_CE_Pandavula_Metta,_Korukonda_Buddhist_site,_Kapavaram_Andhra_Pradesh_-_14.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/c/ca/1st_century_BCE_to_3rd_century_CE_Pandavula_Metta,_Korukonda_Buddhist_site,_Kapavaram_Andhra_Pradesh_-_6.jpg"
+    ]
+  },
+  {
+    "name": "Kadiapulanka flower fields",
+    "slug": "kadiapulanka-flower-fields",
+    "districtName": "East Godavari",
+    "description": "Vast colorful fields of roses, jasmines, and lilies under cultivation.",
+    "shortDescription": "A beautiful nature spot in East Godavari.",
+    "category": "Nature",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        82.0527,
+        16.9468
+      ]
+    },
+    "rating": {
+      "average": 4.1,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Flower_Pots_Day_Nursery,_Prestwood_-_geograph.org.uk_-_5789174.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/8/8e/Flower_Nursery_near_Ilmer_-_geograph.org.uk_-_33708.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/b/b5/Flowers_Nursery_in_Pune.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/8/86/Forest_canopy.jpg"
+    ]
+  },
+  {
+    "name": "Rajahmundry parklands",
+    "slug": "rajahmundry-parklands",
+    "districtName": "East Godavari",
+    "description": "Riverside parks offering pathways, sunset decks, and local snacks.",
+    "shortDescription": "A beautiful nature spot in East Godavari.",
+    "category": "Nature",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        81.7994,
+        17.0112
+      ]
+    },
+    "rating": {
+      "average": 4.6,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/d/db/Gowthami_Nandanavanam_Ravikumar.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/7/7e/Durgabai_deshmukh.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/5/56/Duvvuri_subbamma.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/3/34/Garimella_satyanarayana.jpg"
+    ]
+  }
+]

@@ -1,0 +1,292 @@
+[
+  {
+    "name": "Manginapudi Beach",
+    "slug": "manginapudi-beach",
+    "districtName": "Krishna",
+    "description": "A historic beach with black soil, serving as a prominent port site in medieval eras.",
+    "shortDescription": "A beautiful beach spot in Krishna.",
+    "category": "Beach",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        81.2417,
+        16.1972
+      ]
+    },
+    "rating": {
+      "average": 5,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": true,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Machilipatnam_lighthouse_from_Manginapudi_Beach.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/2/29/Road_leading_to_Manginapudi_Beach_from_Machilipatnam.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/e/e3/Sunrise_on_Manginapudi_Beach.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/b/b0/Machilipatnam_beach_at_dusk11_09.jpg"
+    ]
+  },
+  {
+    "name": "Hamsaladeevi Beach",
+    "slug": "hamsaladeevi-beach",
+    "districtName": "Krishna",
+    "description": "The scenic confluence point where the Krishna River meets the Bay of Bengal.",
+    "shortDescription": "A beautiful beach spot in Krishna.",
+    "category": "Beach",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        81.0858,
+        15.953
+      ]
+    },
+    "rating": {
+      "average": 4,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/4/46/Dead_Olive_ridley_turtle_hatchling.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/0/0f/Wave_at_beach.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/c/c5/Ocean_wave.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/e/ea/Sand_texture.jpg"
+    ]
+  },
+  {
+    "name": "Kuchipudi Dance Academy",
+    "slug": "kuchipudi-dance-academy",
+    "districtName": "Krishna",
+    "description": "The birthplace village of Kuchipudi dance, preserving classical art training.",
+    "shortDescription": "A beautiful culture spot in Krishna.",
+    "category": "Culture",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        80.7936,
+        16.1872
+      ]
+    },
+    "rating": {
+      "average": 4.5,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Kuchipudi_Dance_Academy.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/f/fa/SNA-min-min_(1).jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/7/7c/Kuchipudi_Dance_Academy_.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/8/89/Kuchipudi_Dance_Academy_Group.jpg"
+    ]
+  },
+  {
+    "name": "Machilipatnam Kalamkari Town",
+    "slug": "machilipatnam-kalamkari-town",
+    "districtName": "Krishna",
+    "description": "The center of Machilipatnam Kalamkari, hand-block printing on textiles.",
+    "shortDescription": "A beautiful culture spot in Krishna.",
+    "category": "Culture",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        81.1301,
+        16.1804
+      ]
+    },
+    "rating": {
+      "average": 4.9,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/1/1a/A_liturgical_cotton_kalamkari_banqueting_cloth;_the_Armenian_community_of_Julfa,_Isfahan,_Qajar_Iran,_19th_century.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/3/3a/Diya_lamp.jpg"
+    ]
+  },
+  {
+    "name": "Machilipatnam Port town",
+    "slug": "machilipatnam-port-town",
+    "districtName": "Krishna",
+    "description": "A historic port town trading with European nations during the colonial era.",
+    "shortDescription": "A beautiful city spot in Krishna.",
+    "category": "City",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        81.1415,
+        16.1718
+      ]
+    },
+    "rating": {
+      "average": 4.6,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Musalipatam_Mschilipatnam_port_in_1759.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/1/1e/Old_brick_wall.jpg"
+    ]
+  },
+  {
+    "name": "Hamsaladeevi Venugopala Temple",
+    "slug": "hamsaladeevi-venugopala-temple",
+    "districtName": "Krishna",
+    "description": "An ancient temple located near the river mouth, built by Chola kings.",
+    "shortDescription": "A beautiful temple / religious spot in Krishna.",
+    "category": "Temple / Religious",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        81.0819,
+        15.9564
+      ]
+    },
+    "rating": {
+      "average": 4.5,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Hamsaladeevi_Venugopalaswamy_temple.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/3/3a/Diya_lamp.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/d/d0/Diya_re-imagined.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/e/e6/Temple_Bell%2C_Saurashtra.jpg"
+    ]
+  },
+  {
+    "name": "Krishna River Delta",
+    "slug": "krishna-river-delta",
+    "districtName": "Krishna",
+    "description": "Fertile delta plains with canal networks, paddy fields, and wetlands.",
+    "shortDescription": "A beautiful nature spot in Krishna.",
+    "category": "Nature",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        81.0724,
+        15.9655
+      ]
+    },
+    "rating": {
+      "average": 4.8,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/9/90/Emb_Krishna.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/d/db/Plan_of_Devy_point_-_from_an_English_MS._;_(publ._by_A._Dalrymple)_-_btv1b5962902v.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/8/86/Forest_canopy.jpg"
+    ]
+  },
+  {
+    "name": "Manginapudi Lake",
+    "slug": "manginapudi-lake",
+    "districtName": "Krishna",
+    "description": "A quiet lagoon lake located near the beach, ideal for birdwatching.",
+    "shortDescription": "A beautiful nature spot in Krishna.",
+    "category": "Nature",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        81.2336,
+        16.2028
+      ]
+    },
+    "rating": {
+      "average": 4.8,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Machilipatnam_lighthouse_from_Manginapudi_Beach.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/e/e3/Sunrise_on_Manginapudi_Beach.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/2/29/Road_leading_to_Manginapudi_Beach_from_Machilipatnam.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/4/40/Manginapudi_beach_waves.jpg"
+    ]
+  },
+  {
+    "name": "Hamsaladeevi boating point",
+    "slug": "hamsaladeevi-boating-point",
+    "districtName": "Krishna",
+    "description": "Boating safaris through delta channels to reach the ocean confluence.",
+    "shortDescription": "A beautiful adventure spot in Krishna.",
+    "category": "Adventure",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        81.0896,
+        15.9498
+      ]
+    },
+    "rating": {
+      "average": 4,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/8/86/Forest_canopy.jpg",
+    "images": []
+  },
+  {
+    "name": "Bandar Fort ruins",
+    "slug": "bandar-fort-ruins",
+    "districtName": "Krishna",
+    "description": "Remnants of the Dutch and British fortifications guarding the historic coast.",
+    "shortDescription": "A beautiful historical spot in Krishna.",
+    "category": "Historical",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        81.1382,
+        16.1835
+      ]
+    },
+    "rating": {
+      "average": 4.9,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/5/56/Historic_heritage_sites_of_Bihar_with_GPS_coordinates.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/1/1e/Old_brick_wall.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/8/87/Old_cannon.jpg"
+    ]
+  }
+]

@@ -1,10 +1,12 @@
 const Feedback = require('../models/Feedback');
+const { trackFeedback } = require('../services/analyticsService');
 
 exports.createFeedback = async (req, res, next) => {
   try {
     const { name, contactInfo, rating, message } = req.body;
     if (!name || !contactInfo || !message) return res.status(400).json({ success: false, message: 'Name, contact info, and message are required' });
     const feedback = await Feedback.create({ name, contactInfo, rating: rating || 5, message });
+    await trackFeedback(feedback._id);
     res.status(201).json({ success: true, data: feedback });
   } catch (error) {
     next(error);

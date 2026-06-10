@@ -1,0 +1,298 @@
+[
+  {
+    "name": "Kanipakam Varasiddhi Temple",
+    "slug": "kanipakam-varasiddhi-temple",
+    "districtName": "Chittoor",
+    "description": "A famous self-manifested Ganesha temple, where the idol is believed to be growing.",
+    "shortDescription": "A beautiful temple / religious spot in Chittoor.",
+    "category": "Temple / Religious",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        79.027,
+        13.2536
+      ]
+    },
+    "rating": {
+      "average": 4.6,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": true,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Lord_Shiva_temple_located_at_Kanipakkam,_Andhra_Pradesh,_India.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/1/1b/Swayambu_Sri_Varasiddhi_Vinayaka_Swamy_temple_at_Kanipakkam.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/9/94/Kanipakam,_AP.JPG",
+      "https://upload.wikimedia.org/wikipedia/commons/6/66/Kanpakam,_AP_3.JPG"
+    ]
+  },
+  {
+    "name": "Gurramkonda Fort borders",
+    "slug": "gurramkonda-fort-borders",
+    "districtName": "Chittoor",
+    "description": "The historic hill trails connecting Chittoor with Annamayya district.",
+    "shortDescription": "A beautiful historical spot in Chittoor.",
+    "category": "Historical",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        78.5822,
+        13.7805
+      ]
+    },
+    "rating": {
+      "average": 4.2,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Gurramkonda_Hill_Fort.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/1/1d/GURRAM_KONDA_FORT^_KADAPA_AP_-_panoramio.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/6/60/Gurramkonda_fort_plan.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/e/eb/View_of_Gurramkonda.jpg"
+    ]
+  },
+  {
+    "name": "Kaundinya Wildlife Sanctuary",
+    "slug": "kaundinya-wildlife-sanctuary",
+    "districtName": "Chittoor",
+    "description": "A wildlife sanctuary and elephant reserve, covered in thorny scrub forests.",
+    "shortDescription": "A beautiful wildlife spot in Chittoor.",
+    "category": "Wildlife",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        78.7524,
+        13.3986
+      ]
+    },
+    "rating": {
+      "average": 4.7,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Andhra_Pradesh_-_Landscapes_from_Andhra_Pradesh,_views_from_Indias_South_Central_Railway_(77).JPG",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/a/a0/Ganganna_sirrasu_falls.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/5/56/Koundinya_Wildlife_Sanctuary.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/e/ed/Koundinya_Wildlife.jpg"
+    ]
+  },
+  {
+    "name": "Kanipakam Temple tank",
+    "slug": "kanipakam-temple-tank",
+    "districtName": "Chittoor",
+    "description": "The holy temple pond (Bahuda River channel) where devotees take dips.",
+    "shortDescription": "A beautiful heritage spot in Chittoor.",
+    "category": "Heritage",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        79.0273,
+        13.2538
+      ]
+    },
+    "rating": {
+      "average": 4.1,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/2/2d/View_of_Kanipakam_Temple,_Chittoor_district.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/3/32/Galipgopuram_of_Kanipakam_temple_(May_2019)_3.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/6/66/Galipgopuram_of_Kanipakam_temple_(May_2019)_14.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/9/94/Galipgopuram_of_Kanipakam_temple_(May_2019)_5.jpg"
+    ]
+  },
+  {
+    "name": "Chittoor mango markets",
+    "slug": "chittoor-mango-markets",
+    "districtName": "Chittoor",
+    "description": "A major agricultural hub town, home to Asia's largest mango processing industry.",
+    "shortDescription": "A beautiful city spot in Chittoor.",
+    "category": "City",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        79.1016,
+        13.2148
+      ]
+    },
+    "rating": {
+      "average": 5,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/6/61/Mango_market_along_the_Powerpet_station_road,_Eluru.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/2/2e/Mangoes_waiting_for_customers,_at_a_market_in_morning.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/7/75/Bananas_and_mangoes_at_a_market_in_morning,_in_West_Bengal.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/d/d7/Mango_stall_at_City_Market,_Bangalore_in_May_2008_(1).jpg"
+    ]
+  },
+  {
+    "name": "Kaundinya elephant camps",
+    "slug": "kaundinya-elephant-camps",
+    "districtName": "Chittoor",
+    "description": "Protected forest zones where wild Asiatic elephant herds are conserved.",
+    "shortDescription": "A beautiful nature spot in Chittoor.",
+    "category": "Nature",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        78.7602,
+        13.4058
+      ]
+    },
+    "rating": {
+      "average": 4.9,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Andhra_Pradesh_-_Landscapes_from_Andhra_Pradesh,_views_from_Indias_South_Central_Railway_(77).JPG",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/a/a0/Ganganna_sirrasu_falls.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/5/56/Koundinya_Wildlife_Sanctuary.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/e/ed/Koundinya_Wildlife.jpg"
+    ]
+  },
+  {
+    "name": "Chittoor Hills path",
+    "slug": "chittoor-hills-path",
+    "districtName": "Chittoor",
+    "description": "Winding forest ghat roads crossing the Rayalaseema border ranges.",
+    "shortDescription": "A beautiful nature spot in Chittoor.",
+    "category": "Nature",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        79.1128,
+        13.2252
+      ]
+    },
+    "rating": {
+      "average": 4.3,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Tirumala_Venkateswara_Temple,_Tirupati_(24338261275).jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/c/c5/Tirumala_Venkateswara_Temple,_Tirupati_(24255769711).jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/9/94/Tirumala_Venkateswara_Temple,_Tirupati_(23710086864).jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/6/6a/Tirumala_Venkateswara_Temple,_Tirupati_(23970483119).jpg"
+    ]
+  },
+  {
+    "name": "Ardhagiri Veeranjaneya Temple",
+    "slug": "ardhagiri-veeranjaneya-temple",
+    "districtName": "Chittoor",
+    "description": "A hill temple dedicated to Hanuman, famed for a natural spring with healing powers.",
+    "shortDescription": "A beautiful temple / religious spot in Chittoor.",
+    "category": "Temple / Religious",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        79.1235,
+        13.2689
+      ]
+    },
+    "rating": {
+      "average": 4.1,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Ardhagiri_Hanuman_Temple.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/3/3a/Diya_lamp.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/d/d0/Diya_re-imagined.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/e/e6/Temple_Bell%2C_Saurashtra.jpg"
+    ]
+  },
+  {
+    "name": "Kaundinya forest trekking",
+    "slug": "kaundinya-forest-trekking",
+    "districtName": "Chittoor",
+    "description": "Hiking trails crossing scrub forests, rocky outcrops, and seasonal streams.",
+    "shortDescription": "A beautiful adventure spot in Chittoor.",
+    "category": "Adventure",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        78.7468,
+        13.3921
+      ]
+    },
+    "rating": {
+      "average": 5,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/8/86/Forest_canopy.jpg",
+    "images": []
+  },
+  {
+    "name": "Chittoor Fort ruins",
+    "slug": "chittoor-fort-ruins",
+    "districtName": "Chittoor",
+    "description": "Lesser-known ruins of Vijayanagara-era outposts scattered on hills.",
+    "shortDescription": "A beautiful historical spot in Chittoor.",
+    "category": "Historical",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        79.1004,
+        13.2178
+      ]
+    },
+    "rating": {
+      "average": 4.9,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Gurramkonda-Maqbara_Tomb-1.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/6/6d/Gurramkonda_narasimhaswamy.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/6/60/Gurramkonda_fort_plan.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/b/bc/Gurramkonda_Hill_Fort.jpg"
+    ]
+  }
+]

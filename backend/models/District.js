@@ -36,12 +36,19 @@ const districtSchema = new mongoose.Schema({
     type: Boolean,
     default: true,
   },
+  saveCount: {
+    type: Number,
+    default: 0,
+  },
+  lastSavedAt: {
+    type: Date,
+  },
 }, { timestamps: true });
 
 // Auto-generate slug from name
 districtSchema.pre('save', function (next) {
   if (this.isModified('name')) {
-    this.slug = this.name.toLowerCase().replace(/\s+/g, '-').replace(/[^\w-]+/g, '');
+    this.slug = this.name.toLowerCase().replace(/\s+/g, '-').replace(/[^\w-]+/g, '').replace(/-+/g, '-');
   }
   next();
 });

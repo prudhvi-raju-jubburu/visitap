@@ -1,0 +1,80 @@
+[
+  {
+    "district": "Visakhapatnam",
+    "type": "highlights",
+    "issue": "Incorrect district highlight",
+    "details": "Highlight \"Kailasagiri\" does not correspond to any tourist attraction within the district places dataset"
+  },
+  {
+    "district": "Tirupati",
+    "type": "highlights",
+    "issue": "Incorrect district highlight",
+    "details": "Highlight \"Tirumala Temple\" does not correspond to any tourist attraction within the district places dataset"
+  },
+  {
+    "district": "Kurnool",
+    "type": "highlights",
+    "issue": "Incorrect district highlight",
+    "details": "Highlight \"Gandikota\" does not correspond to any tourist attraction within the district places dataset"
+  },
+  {
+    "district": "Kurnool",
+    "type": "highlights",
+    "issue": "Incorrect district highlight",
+    "details": "Highlight \"Mantralayam\" does not correspond to any tourist attraction within the district places dataset"
+  },
+  {
+    "district": "Annakapalli",
+    "type": "highlights",
+    "issue": "Incorrect district highlight",
+    "details": "Highlight \"Kondakarla Ava\" does not correspond to any tourist attraction within the district places dataset"
+  },
+  {
+    "district": "Annakapalli",
+    "type": "highlights",
+    "issue": "Incorrect district highlight",
+    "details": "Highlight \"Bojjannakonda\" does not correspond to any tourist attraction within the district places dataset"
+  },
+  {
+    "district": "Annakapalli",
+    "type": "highlights",
+    "issue": "Incorrect district highlight",
+    "details": "Highlight \"Upaka Forest\" does not correspond to any tourist attraction within the district places dataset"
+  },
+  {
+    "district": "Nandyal",
+    "type": "highlights",
+    "issue": "Incorrect district highlight",
+    "details": "Highlight \"Srisailam (part)\" does not correspond to any tourist attraction within the district places dataset"
+  },
+  {
+    "district": "Palnadu",
+    "type": "highlights",
+    "issue": "Incorrect district highlight",
+    "details": "Highlight \"Amaravati\" does not correspond to any tourist attraction within the district places dataset"
+  },
+  {
+    "district": "Bapatla",
+    "type": "highlights",
+    "issue": "Incorrect district highlight",
+    "details": "Highlight \"Bapatla Temple\" does not correspond to any tourist attraction within the district places dataset"
+  },
+  {
+    "district": "East Godavari",
+    "type": "highlights",
+    "issue": "Incorrect district highlight",
+    "details": "Highlight \"Godavari Bridge\" does not correspond to any tourist attraction within the district places dataset"
+  },
+  {
+    "district": "Sri Sathya Sai",
+    "type": "highlights",
+    "issue": "Incorrect district highlight",
+    "details": "Highlight \"Yaganti\" does not correspond to any tourist attraction within the district places dataset"
+  },
+  {
+    "district": "Chittoor",
+    "type": "highlights",
+    "issue": "Incorrect district highlight",
+    "details": "Highlight \"Horsley Hills (part)\" does not correspond to any tourist attraction within the district places dataset"
+  }
+]

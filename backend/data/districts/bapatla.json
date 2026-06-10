@@ -1,0 +1,296 @@
+[
+  {
+    "name": "Suryalanka Beach",
+    "slug": "suryalanka-beach",
+    "districtName": "Bapatla",
+    "description": "A popular flat beach with fine sand, ideal for family picnics and weekend getaways.",
+    "shortDescription": "A beautiful beach spot in Bapatla.",
+    "category": "Beach",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        80.5211,
+        15.8453
+      ]
+    },
+    "rating": {
+      "average": 4.5,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": true,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Beautiful_Morning_at_Bay_of_Bengal.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/3/3d/Suryalankaa.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/1/13/Beach_143.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/0/0f/Wave_at_beach.jpg"
+    ]
+  },
+  {
+    "name": "Vodarevu Beach",
+    "slug": "vodarevu-beach",
+    "districtName": "Bapatla",
+    "description": "A busy fishing harbor beach offering scenic views of traditional boats.",
+    "shortDescription": "A beautiful beach spot in Bapatla.",
+    "category": "Beach",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        80.4093,
+        15.7912
+      ]
+    },
+    "rating": {
+      "average": 4.2,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Wave_at_beach.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/c/c5/Ocean_wave.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/e/ea/Sand_texture.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/1/1d/Sunset_at_beach.jpg"
+    ]
+  },
+  {
+    "name": "Bapatla Bhavanarayana Temple",
+    "slug": "bapatla-bhavanarayana-temple",
+    "districtName": "Bapatla",
+    "description": "A historic 11th-century temple showcasing Chola and Vijayanagara architectural styles.",
+    "shortDescription": "A beautiful temple / religious spot in Bapatla.",
+    "category": "Temple / Religious",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        80.4672,
+        15.9048
+      ]
+    },
+    "rating": {
+      "average": 4.8,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/8/83/Historical_Bhavanarayana_Swamy_Temple_at_Bapatla.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/d/de/భావనారాయణ_స్వామి_దేవాలయం_నుంచి_బాపట్ల_దృశ్యం_2.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/4/42/భావనారాయణ_స్వామి_దేవాలయం_నుంచి_బాపట్ల_దృశ్యం.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/3/3a/Diya_lamp.jpg"
+    ]
+  },
+  {
+    "name": "Chirala Weaving Hub",
+    "slug": "chirala-weaving-hub",
+    "districtName": "Bapatla",
+    "description": "A famous textile hub town known for handloom weaving of cotton sarees.",
+    "shortDescription": "A beautiful culture spot in Bapatla.",
+    "category": "Culture",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        80.3521,
+        15.8234
+      ]
+    },
+    "rating": {
+      "average": 4.6,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/d/d8/GuatemalaWeavings79.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/4/4a/Haslach_an_der_Mühl_-_Textiles_Zentrum_Haslach_-_20_-_Bandwebstuhl_mit_Loch-Schlitz-Blatt.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/7/78/Haslach_an_der_Mühl_-_Textiles_Zentrum_Haslach_-_30_-_verschiedene_Handwebstühle.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/7/72/Loom_nepal.jpg"
+    ]
+  },
+  {
+    "name": "Bapatla City Center",
+    "slug": "bapatla-city-center",
+    "districtName": "Bapatla",
+    "description": "An educational and agricultural research hub city with historic churches.",
+    "shortDescription": "A beautiful city spot in Bapatla.",
+    "category": "City",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        80.4676,
+        15.9041
+      ]
+    },
+    "rating": {
+      "average": 4.5,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/2/29/Bapatla_junction_at_night.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/2/2a/Bapatla_Badam_Milk.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/9/9a/AP-town-Bapatla-1.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/4/4a/Sweets_naivedyam_for_venkateswaraswamy,_bapatla,_andhra_pradesh-DSC_0016.jpg"
+    ]
+  },
+  {
+    "name": "Suryalanka Resorts",
+    "slug": "suryalanka-resorts",
+    "districtName": "Bapatla",
+    "description": "Scenic beach resort complexes managed for coastal recreation.",
+    "shortDescription": "A beautiful nature spot in Bapatla.",
+    "category": "Nature",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        80.5179,
+        15.8427
+      ]
+    },
+    "rating": {
+      "average": 4.6,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Suryalanka_beach_resort,_AP.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/8/86/Forest_canopy.jpg"
+    ]
+  },
+  {
+    "name": "Vodarevu Fishing Port",
+    "slug": "vodarevu-fishing-port",
+    "districtName": "Bapatla",
+    "description": "A traditional coastal fish landing center, bustling with morning auctions.",
+    "shortDescription": "A beautiful nature spot in Bapatla.",
+    "category": "Nature",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        80.4064,
+        15.7878
+      ]
+    },
+    "rating": {
+      "average": 4.5,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/8/86/Forest_canopy.jpg",
+    "images": []
+  },
+  {
+    "name": "Bhavanarayana temple tanks",
+    "slug": "bhavanarayana-temple-tanks",
+    "districtName": "Bapatla",
+    "description": "Holy water tanks attached to the ancient temple, surrounded by stone steps.",
+    "shortDescription": "A beautiful heritage spot in Bapatla.",
+    "category": "Heritage",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        80.467,
+        15.9044
+      ]
+    },
+    "rating": {
+      "average": 4.6,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/d/de/భావనారాయణ_స్వామి_దేవాలయం_నుంచి_బాపట్ల_దృశ్యం_2.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/4/42/భావనారాయణ_స్వామి_దేవాలయం_నుంచి_బాపట్ల_దృశ్యం.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/8/83/Historical_Bhavanarayana_Swamy_Temple_at_Bapatla.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/7/79/Vimana_Gopuram_of_Bhavanarayana_temple_01.JPG"
+    ]
+  },
+  {
+    "name": "Suryalanka Coastline",
+    "slug": "suryalanka-coastline",
+    "districtName": "Bapatla",
+    "description": "Long stretches of sandy coastline offering shore birds observation.",
+    "shortDescription": "A beautiful nature spot in Bapatla.",
+    "category": "Nature",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        80.5268,
+        15.8481
+      ]
+    },
+    "rating": {
+      "average": 4.4,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/6/65/Fishing_boat_near_Suryalanka_beach.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/3/3b/Suryalanka_beach.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/7/73/Aptdc_cottages_at_suryalanka_beach.JPG",
+      "https://upload.wikimedia.org/wikipedia/commons/4/44/Beach_suryalanka.jpg"
+    ]
+  },
+  {
+    "name": "Chirala Beach point",
+    "slug": "chirala-beach-point",
+    "districtName": "Bapatla",
+    "description": "A quiet, less-crowded extension of the sandy coastline near Chirala.",
+    "shortDescription": "A beautiful beach spot in Bapatla.",
+    "category": "Beach",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        80.3696,
+        15.8115
+      ]
+    },
+    "rating": {
+      "average": 4.2,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Boats_sailing_on_Chirala_beach.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/3/3b/Boat_hanger_near_Chirala_beach.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/a/aa/ATV_on_Chirala_beach.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/8/8b/Chirala_Beach.JPG"
+    ]
+  }
+]

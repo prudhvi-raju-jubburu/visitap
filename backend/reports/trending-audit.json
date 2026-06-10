@@ -1,0 +1,174 @@
+{
+  "auditTimestamp": "2026-06-08T18:42:12.999Z",
+  "searchMetrics": {
+    "totalSearches": 0,
+    "failSearches": 0,
+    "clickClicks": 0,
+    "successRate": 0,
+    "clickConversionRate": 0
+  },
+  "topTrendingPlaces": [
+    {
+      "placeId": "6a2700265c40a7e1ce043f2a",
+      "name": "Dwaraka Tirumala Temple",
+      "slug": "dwaraka-tirumala-temple",
+      "views": 0,
+      "saves": 0,
+      "reviews": 0,
+      "tripInclusions": 2,
+      "ratingAverage": 4.6,
+      "popularityScore": 0.5
+    },
+    {
+      "placeId": "6a2700265c40a7e1ce043f31",
+      "name": "Kolleru boating channels",
+      "slug": "kolleru-boating-channels",
+      "views": 0,
+      "saves": 0,
+      "reviews": 0,
+      "tripInclusions": 2,
+      "ratingAverage": 4.8,
+      "popularityScore": 0.5
+    },
+    {
+      "placeId": "6a2700265c40a7e1ce043fb5",
+      "name": "RK Beach",
+      "slug": "rk-beach",
+      "views": 0,
+      "saves": 0,
+      "reviews": 0,
+      "tripInclusions": 1,
+      "ratingAverage": 4.2,
+      "popularityScore": 0.4
+    },
+    {
+      "placeId": "6a2700265c40a7e1ce043fb8",
+      "name": "Bheemili Beach",
+      "slug": "bheemili-beach",
+      "views": 0,
+      "saves": 0,
+      "reviews": 0,
+      "tripInclusions": 1,
+      "ratingAverage": 4.2,
+      "popularityScore": 0.4
+    },
+    {
+      "placeId": "6a2700265c40a7e1ce043f0f",
+      "name": "Chittoor mango markets",
+      "slug": "chittoor-mango-markets",
+      "views": 0,
+      "saves": 0,
+      "reviews": 0,
+      "tripInclusions": 0,
+      "ratingAverage": 5,
+      "popularityScore": 0.3
+    },
+    {
+      "placeId": "6a2700265c40a7e1ce043f13",
+      "name": "Kaundinya forest trekking",
+      "slug": "kaundinya-forest-trekking",
+      "views": 0,
+      "saves": 0,
+      "reviews": 0,
+      "tripInclusions": 0,
+      "ratingAverage": 5,
+      "popularityScore": 0.3
+    },
+    {
+      "placeId": "6a2700265c40a7e1ce043f1b",
+      "name": "Vashishta Godavari River confluence",
+      "slug": "vashishta-godavari-river-confluence",
+      "views": 0,
+      "saves": 0,
+      "reviews": 0,
+      "tripInclusions": 0,
+      "ratingAverage": 5,
+      "popularityScore": 0.3
+    },
+    {
+      "placeId": "6a2700265c40a7e1ce043f47",
+      "name": "Manginapudi Beach",
+      "slug": "manginapudi-beach",
+      "views": 0,
+      "saves": 0,
+      "reviews": 0,
+      "tripInclusions": 0,
+      "ratingAverage": 5,
+      "popularityScore": 0.3
+    },
+    {
+      "placeId": "6a2700265c40a7e1ce043f55",
+      "name": "Orvakal Rock Garden",
+      "slug": "orvakal-rock-garden",
+      "views": 0,
+      "saves": 0,
+      "reviews": 0,
+      "tripInclusions": 0,
+      "ratingAverage": 5,
+      "popularityScore": 0.3
+    },
+    {
+      "placeId": "6a2700265c40a7e1ce043f5c",
+      "name": "Ahobilam Temple",
+      "slug": "ahobilam-temple",
+      "views": 0,
+      "saves": 0,
+      "reviews": 0,
+      "tripInclusions": 0,
+      "ratingAverage": 5,
+      "popularityScore": 0.3
+    }
+  ],
+  "topDistricts": [
+    {
+      "districtId": "6a1f17fabe4f38aa22bb4261",
+      "name": "Eluru",
+      "slug": "eluru",
+      "views": 0,
+      "saves": 0,
+      "trips": 2,
+      "reviews": 0,
+      "score": 0.5
+    },
+    {
+      "districtId": "6a1f17fabe4f38aa22bb425e",
+      "name": "Guntur",
+      "slug": "guntur",
+      "views": 0,
+      "saves": 0,
+      "trips": 1,
+      "reviews": 0,
+      "score": 0.3
+    },
+    {
+      "districtId": "6a1f17fabe4f38aa22bb4268",
+      "name": "East Godavari",
+      "slug": "east-godavari",
+      "views": 0,
+      "saves": 0,
+      "trips": 1,
+      "reviews": 0,
+      "score": 0.3
+    },
+    {
+      "districtId": "6a1f17fabe4f38aa22bb4259",
+      "name": "Dr. B.R. Ambedkar Konaseema",
+      "slug": "dr-br-ambedkar-konaseema",
+      "views": 0,
+      "saves": 0,
+      "trips": 1,
+      "reviews": 0,
+      "score": 0.3
+    },
+    {
+      "districtId": "6a1f17fabe4f38aa22bb4254",
+      "name": "Visakhapatnam",
+      "slug": "visakhapatnam",
+      "views": 0,
+      "saves": 0,
+      "trips": 1,
+      "reviews": 0,
+      "score": 0.3
+    }
+  ]
+}

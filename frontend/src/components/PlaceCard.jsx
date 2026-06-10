@@ -1,40 +1,105 @@
+import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { transformCloudinaryUrl } from '../utils/cloudinaryUtils';
+import { useUserAuth } from '../context/AuthContext';
+import { addFavorite, removeFavorite } from '../services/api';
 
 const DEFAULT_IMAGE = 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800';
 
-const categoryColors = {
-  'Temple / Religious': 'bg-orange-500/20 text-orange-300',
-  Beach: 'bg-blue-500/20 text-blue-300',
-  'Hill Station': 'bg-green-500/20 text-green-300',
-  Historical: 'bg-amber-500/20 text-amber-300',
-  Nature: 'bg-lime-500/20 text-lime-300',
-  Waterfalls: 'bg-cyan-500/20 text-cyan-300',
-  Wildlife: 'bg-emerald-500/20 text-emerald-300',
-  Adventure: 'bg-red-500/20 text-red-300',
-  City: 'bg-slate-500/20 text-slate-300',
-  Culture: 'bg-pink-500/20 text-pink-300',
-  Heritage: 'bg-yellow-500/20 text-yellow-300',
-  Backwaters: 'bg-sky-600/20 text-sky-300',
-  Tribal: 'bg-amber-700/20 text-amber-400',
-  Pilgrimage: 'bg-rose-500/20 text-rose-300',
-  default: 'bg-indigo-500/20 text-indigo-300',
+const categoryIcons = {
+  'Temple / Religious': '🛕',
+  Beach: '🏖️',
+  'Hill Station': '⛰️',
+  Historical: '🏛️',
+  Nature: '🌿',
+  Waterfalls: '🌊',
+  Wildlife: '🦁',
+  Adventure: '🧗',
+  City: '🏙️',
+  Culture: '🎭',
+  Heritage: '🏯',
+  Backwaters: '🛶',
+  Tribal: '🛖',
+  Pilgrimage: '🙏',
+  default: '📍'
 };
 
 export default function PlaceCard({ place, index = 0 }) {
-  const categoryClass = categoryColors[place.category] || categoryColors.default;
+  const navigate = useNavigate();
+  const { user, setUser, isAuthenticated } = useUserAuth();
+  const [favoriteLoading, setFavoriteLoading] = useState(false);
+
+  // Sync Simple Mode settings
+  const [isSimpleMode, setIsSimpleMode] = useState(
+    () => localStorage.getItem('simpleMode') === 'true'
+  );
+
+  useEffect(() => {
+    const syncMode = () => {
+      setIsSimpleMode(localStorage.getItem('simpleMode') === 'true');
+    };
+    window.addEventListener('simpleModeChanged', syncMode);
+    return () => window.removeEventListener('simpleModeChanged', syncMode);
+  }, []);
+
+  const ratingVal = place.rating
+    ? (typeof place.rating === 'object' ? (place.rating.average || 0) : place.rating)
+    : 0;
+
+  const isFav = user?.favorites?.includes(place._id);
+
+  const handleFavoriteToggle = async (e) => {
+    e.preventDefault();
+    e.stopPropagation();
+    if (!isAuthenticated) {
+      navigate('/login');
+      return;
+    }
+    if (favoriteLoading) return;
+
+    setFavoriteLoading(true);
+    const originalFavorite = isFav;
+    const updatedFavs = originalFavorite
+      ? (user.favorites || []).filter(id => id !== place._id)
+      : [...(user.favorites || []), place._id];
+    
+    const updatedUser = { ...user, favorites: updatedFavs };
+    setUser(updatedUser);
+    localStorage.setItem('visitap_user', JSON.stringify(updatedUser));
+
+    try {
+      if (originalFavorite) {
+        await removeFavorite(place._id);
+      } else {
+        await addFavorite(place._id);
+      }
+    } catch (err) {
+      console.error('Failed to toggle favorite on card', err);
+      // rollback
+      const rollbackFavs = originalFavorite
+        ? [...(user.favorites || []), place._id]
+        : (user.favorites || []).filter(id => id !== place._id);
+      const rollbackUser = { ...user, favorites: rollbackFavs };
+      setUser(rollbackUser);
+      localStorage.setItem('visitap_user', JSON.stringify(rollbackUser));
+    } finally {
+      setFavoriteLoading(false);
+    }
+  };
+
+  const catIcon = categoryIcons[place.category] || categoryIcons.default;
 
   return (
     <motion.div
-      initial={{ opacity: 0, scale: 0.95 }}
-      animate={{ opacity: 1, scale: 1 }}
-      transition={{ delay: index * 0.05, duration: 0.4 }}
-      className="group relative rounded-3xl overflow-hidden bg-surface border border-white/5 transition-all duration-500 hover:shadow-glow hover:-translate-y-1"
+      initial={{ opacity: 0, y: 20 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ delay: index * 0.04, duration: 0.4 }}
+      className="group relative rounded-[32px] overflow-hidden bg-surface/50 backdrop-blur-md border border-white/10 transition-all duration-500 hover:shadow-2xl hover:-translate-y-1 flex flex-col justify-between"
     >
-      <Link to={`/place/${place._id}`}>
+      <Link to={`/place/${place.slug || place._id}`} className="flex flex-col h-full">
         {/* Image Section */}
-        <div className="relative h-56 overflow-hidden">
+        <div className="relative aspect-[16/10] w-full overflow-hidden">
           <img
             src={transformCloudinaryUrl(place.coverImage || (place.images?.[0]) || DEFAULT_IMAGE)}
             alt={place.name}
@@ -44,65 +109,54 @@ export default function PlaceCard({ place, index = 0 }) {
           />
           <div className="absolute inset-0 bg-gradient-to-t from-bg via-bg/20 to-transparent"></div>
 
+          {/* Floating Favorite (Save) Button - Enlarge touch size */}
+          <button
+            onClick={handleFavoriteToggle}
+            disabled={favoriteLoading}
+            className="absolute top-4 right-4 w-12 h-12 rounded-full bg-black/75 backdrop-blur-md border border-white/20 flex items-center justify-center hover:scale-110 active:scale-95 transition-all text-white hover:text-red-400 z-10"
+            title={isFav ? "Remove from Saved Places" : "Save Place"}
+            aria-label="Favorite Toggle"
+          >
+            {isFav ? (
+              <span className="text-red-500 text-2xl">★</span>
+            ) : (
+              <span className="text-white hover:text-red-400 text-2xl">☆</span>
+            )}
+          </button>
+
           {/* Category overlay */}
-          <div className={`absolute top-4 left-4 text-[10px] uppercase tracking-widest font-bold px-3 py-1 rounded-full backdrop-blur-md border border-white/10 ${categoryClass}`}>
-            {place.category}
+          <div className="absolute bottom-4 left-4 bg-black/60 backdrop-blur-md border border-white/10 px-3.5 py-1.5 rounded-xl flex items-center gap-1.5">
+            <span className="text-lg">{catIcon}</span>
+            <span className="text-white text-xs font-bold uppercase tracking-wider">{place.category}</span>
           </div>
-
-          {/* Rating Badge */}
-          {place.rating && (
-            <div className="absolute top-4 right-4 flex items-center gap-1.5 bg-bg/40 backdrop-blur-md border border-white/10 px-2.5 py-1 rounded-full">
-              <span className="text-primary text-xs">★</span>
-              <span className="text-text text-xs font-bold">{place.rating}</span>
-            </div>
-          )}
-
-          {/* Featured indicator */}
-          {place.isFeatured && (
-            <div className="absolute bottom-4 left-4 bg-primary text-bg text-[10px] uppercase font-black px-3 py-1 rounded-full shadow-lg">
-              Featured
-            </div>
-          )}
-          {/* Image count badge */}
-          {place.images && place.images.length > 0 && (
-            <div className="absolute bottom-4 right-4 bg-bg/60 backdrop-blur-md border border-white/10 px-2.5 py-1 rounded-full flex items-center gap-1 group-hover:bg-primary/20 transition-colors">
-              <span className="text-primary text-[10px] font-bold">+{place.images.length}</span>
-              <svg className="w-3 h-3 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h14a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
-              </svg>
-            </div>
-          )}
         </div>
 
-        {/* Content Section */}
-        <div className="p-5">
-          <div className="flex justify-between items-start gap-2">
-            <h3 className="font-display font-bold text-xl text-text group-hover:text-primary transition-colors line-clamp-1">
+        {/* Content Section - Simplified: name, rating, distance */}
+        <div className="p-6 flex-1 flex flex-col justify-between">
+          <div>
+            <h3 className="font-display font-black text-xl md:text-2xl text-white group-hover:text-primary transition-colors line-clamp-1 mb-3">
               {place.name}
             </h3>
-          </div>
 
-          <p className="text-textMuted text-[11px] uppercase tracking-wider font-semibold mt-1.5 flex items-center gap-1.5">
-            <svg className="w-3.5 h-3.5 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-            </svg>
-            {place.districtName}
-          </p>
-
-          <p className="text-textMuted text-sm mt-3 leading-relaxed line-clamp-2 min-h-[40px]">
-            {place.shortDescription || place.description}
-          </p>
-
-          {/* Details Row */}
-          <div className="flex items-center gap-4 mt-4">
-            {place.bestTimeToVisit && (
-              <div className="flex items-center gap-1.5">
-                <span className="text-xs grayscale group-hover:grayscale-0 transition-all">🗓</span>
-                <span className="text-xs text-textMuted font-medium">{place.bestTimeToVisit}</span>
+            <div className="flex flex-wrap items-center justify-between gap-3 pt-2">
+              {/* Rating */}
+              <div className="flex items-center gap-1.5 bg-white/5 border border-white/10 px-3 py-1.5 rounded-xl">
+                <span className="text-amber-400 text-lg">★</span>
+                <span className="text-white text-base font-black">{ratingVal > 0 ? ratingVal.toFixed(1) : '0.0'}</span>
               </div>
-            )}
-            <div className="flex items-center gap-1.5 ml-auto">
-              <span className="text-primary text-[10px] font-black uppercase tracking-tighter group-hover:translate-x-1 transition-transform">Details →</span>
+
+              {/* Distance badge */}
+              {place.distance !== undefined ? (
+                <span className="bg-primary/20 text-primary border border-primary/30 font-bold px-3 py-1.5 rounded-xl flex items-center gap-1.5 text-base">
+                  <span>🚗</span>
+                  <span>{place.distance.toFixed(1)} km away</span>
+                </span>
+              ) : (
+                <span className="text-textMuted text-base font-bold flex items-center gap-1">
+                  <span>📍</span>
+                  <span>{place.districtName}</span>
+                </span>
+              )}
             </div>
           </div>
         </div>

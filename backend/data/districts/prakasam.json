@@ -1,0 +1,300 @@
+[
+  {
+    "name": "Markapur Chennakesava Temple",
+    "slug": "markapur-chennakesava-temple",
+    "districtName": "Prakasam",
+    "description": "A historic temple built by Vijayanagara rulers, featuring a 135-foot gopuram.",
+    "shortDescription": "A beautiful temple / religious spot in Prakasam.",
+    "category": "Temple / Religious",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        79.2687,
+        15.7358
+      ]
+    },
+    "rating": {
+      "average": 4.5,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": true,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Chenna_Kesava_Temple-_Markapur_-_Outer_View.JPG",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/3/3a/Diya_lamp.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/d/d0/Diya_re-imagined.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/e/e6/Temple_Bell%2C_Saurashtra.jpg"
+    ]
+  },
+  {
+    "name": "Ongole City Center",
+    "slug": "ongole-city-center",
+    "districtName": "Prakasam",
+    "description": "The district capital city, famous for the globally renowned Ongole bull breed.",
+    "shortDescription": "A beautiful city spot in Prakasam.",
+    "category": "City",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        80.0499,
+        15.5057
+      ]
+    },
+    "rating": {
+      "average": 4.8,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Ongole_town_view_from_Ongole_konda_(hill).jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/3/30/An_old_modelled_house_in_Ongole,_Andhra_Pradesh,_India.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/3/39/In_brightest_Asia_(1891)_(14581053139).jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/7/76/Ongole_1_(cropped).jpg"
+    ]
+  },
+  {
+    "name": "Singarayakonda Temple",
+    "slug": "singarayakonda-temple",
+    "districtName": "Prakasam",
+    "description": "A hill temple dedicated to Sri Varaha Narasimha Swamy, overlooking the plains.",
+    "shortDescription": "A beautiful temple / religious spot in Prakasam.",
+    "category": "Temple / Religious",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        80.0381,
+        15.2589
+      ]
+    },
+    "rating": {
+      "average": 4.4,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/9/91/Narasimha_Swamy_Temple_Old_Singarayakonda.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/3/3a/Diya_lamp.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/d/d0/Diya_re-imagined.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/e/e6/Temple_Bell%2C_Saurashtra.jpg"
+    ]
+  },
+  {
+    "name": "Chirala Beach",
+    "slug": "chirala-beach",
+    "districtName": "Prakasam",
+    "description": "A clean beach offering waves, fishing activities, and sunset viewpoints.",
+    "shortDescription": "A beautiful beach spot in Prakasam.",
+    "category": "Beach",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        80.3639,
+        15.8128
+      ]
+    },
+    "rating": {
+      "average": 4.9,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Chirala_Beach.JPG",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/c/c4/Palm_Beach_India.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/2/20/Palm_Beach,_India.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/8/8d/Boats_sailing_on_Chirala_beach.jpg"
+    ]
+  },
+  {
+    "name": "Markapur Slate Industry",
+    "slug": "markapur-slate-industry",
+    "districtName": "Prakasam",
+    "description": "A commercial hub town known for producing slates for schools across India.",
+    "shortDescription": "A beautiful city spot in Prakasam.",
+    "category": "City",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        79.2709,
+        15.7352
+      ]
+    },
+    "rating": {
+      "average": 4.1,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/6/6e/The_former_\"Dynamic_Friction\"_Factory_-_geograph.org.uk_-_275999.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/4/4d/Reclaimed_waste_tip_land_at_Lower_Glynrhonwy_Quarry_-_geograph.org.uk_-_315600.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/7/78/Ancien_site_ardoisier_Fumay.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/6/68/Lom_Kosov_Pohled_Na_Jezero_C.jpg"
+    ]
+  },
+  {
+    "name": "Cumbum Lake",
+    "slug": "cumbum-lake",
+    "districtName": "Prakasam",
+    "description": "A historic artificial lake built by Princess Vardhanadevi in the 15th century.",
+    "shortDescription": "A beautiful nature spot in Prakasam.",
+    "category": "Nature",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        79.1122,
+        15.5786
+      ]
+    },
+    "rating": {
+      "average": 4.9,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Cumbum_Lake_1.JPG",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/a/a9/Cumbum_lake.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/f/f7/The_night_mode_of_Cumbum_Lake.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/c/ce/Cumbum2.jpg"
+    ]
+  },
+  {
+    "name": "Singarayakonda Hilltop View",
+    "slug": "singarayakonda-hilltop-view",
+    "districtName": "Prakasam",
+    "description": "Panoramic points atop the temple hill, offering views of coconut groves.",
+    "shortDescription": "A beautiful nature spot in Prakasam.",
+    "category": "Nature",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        80.0279,
+        15.2517
+      ]
+    },
+    "rating": {
+      "average": 4.3,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/1/13/Singarayakonda_Railway_Station_SCR.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/5/57/Singarayakonda.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/1/18/Pakala_Beach,Singarayakonda.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/4/4d/Pakala_prakasam_Paddy_Fields-02.jpg"
+    ]
+  },
+  {
+    "name": "Ongole Bull farm",
+    "slug": "ongole-bull-farm",
+    "districtName": "Prakasam",
+    "description": "Breeding stations conserving the massive Ongole bull livestock heritage.",
+    "shortDescription": "A beautiful nature spot in Prakasam.",
+    "category": "Nature",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        80.0499,
+        15.5157
+      ]
+    },
+    "rating": {
+      "average": 4.1,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/c/cc/The_Ongole_Bull_of_Moses.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/d/da/ఒంగోలు_జాతి_గిత్త(Bull).jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/6/66/Bull_of_Hanumaiah_with_PM_of_India.JPG",
+      "https://upload.wikimedia.org/wikipedia/commons/f/f4/Bull_of_Moses_with_Balram_Jhakad_and_NT_Rama_Rao.jpg"
+    ]
+  },
+  {
+    "name": "Cumbum Dam",
+    "slug": "cumbum-dam",
+    "districtName": "Prakasam",
+    "description": "One of the oldest dams in Asia, constructed using massive dry stone blocks.",
+    "shortDescription": "A beautiful heritage spot in Prakasam.",
+    "category": "Heritage",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        79.1138,
+        15.5814
+      ]
+    },
+    "rating": {
+      "average": 5,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/9/9e/A_hill_at_Cumbum_tank.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/1/1e/Old_brick_wall.jpg"
+    ]
+  },
+  {
+    "name": "Kothapatnam Beach",
+    "slug": "kothapatnam-beach",
+    "districtName": "Prakasam",
+    "description": "A peaceful coastal beach located close to Ongole, featuring recreation parks.",
+    "shortDescription": "A beautiful beach spot in Prakasam.",
+    "category": "Beach",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        80.1784,
+        15.4836
+      ]
+    },
+    "rating": {
+      "average": 4.4,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/1/13/Kothapatnam_Beach.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/b/ba/Kothapatnam-beach.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/0/0f/Wave_at_beach.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/c/c5/Ocean_wave.jpg"
+    ]
+  }
+]

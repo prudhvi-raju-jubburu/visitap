@@ -1,0 +1,4162 @@
+[
+  {
+    "place": "Araku Valley",
+    "slug": "araku-valley",
+    "district": "Alluri Sitharama Raju",
+    "storedCoordinates": [
+      82.8806,
+      18.3274
+    ],
+    "verifiedCoordinates": [
+      82.8806,
+      18.3274
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Lambasingi",
+    "slug": "lambasingi",
+    "district": "Alluri Sitharama Raju",
+    "storedCoordinates": [
+      82.8122,
+      17.8117
+    ],
+    "verifiedCoordinates": [
+      82.8122,
+      17.8117
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Maredumilli Forest",
+    "slug": "maredumilli-forest",
+    "district": "Alluri Sitharama Raju",
+    "storedCoordinates": [
+      81.7028,
+      17.4344
+    ],
+    "verifiedCoordinates": [
+      81.7028,
+      17.4344
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Papikonda National Park",
+    "slug": "papikonda-national-park",
+    "district": "Alluri Sitharama Raju",
+    "storedCoordinates": [
+      81.774,
+      17.596
+    ],
+    "verifiedCoordinates": [
+      81.774,
+      17.596
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Araku Valley Trekking",
+    "slug": "araku-valley-trekking",
+    "district": "Alluri Sitharama Raju",
+    "storedCoordinates": [
+      82.872,
+      18.338
+    ],
+    "verifiedCoordinates": [
+      82.872,
+      18.338
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Papikondalu Boat Ride",
+    "slug": "papikondalu-boat-ride",
+    "district": "Alluri Sitharama Raju",
+    "storedCoordinates": [
+      81.77,
+      17.553
+    ],
+    "verifiedCoordinates": [
+      81.77,
+      17.553
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Araku Tribal Museum",
+    "slug": "araku-tribal-museum",
+    "district": "Alluri Sitharama Raju",
+    "storedCoordinates": [
+      82.8786,
+      18.3278
+    ],
+    "verifiedCoordinates": [
+      82.8786,
+      18.3278
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Lambasingi Tribal Area",
+    "slug": "lambasingi-tribal-area",
+    "district": "Alluri Sitharama Raju",
+    "storedCoordinates": [
+      82.8185,
+      17.818
+    ],
+    "verifiedCoordinates": [
+      82.8185,
+      17.818
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Papikondalu Gorges",
+    "slug": "papikondalu-gorges",
+    "district": "Alluri Sitharama Raju",
+    "storedCoordinates": [
+      81.782,
+      17.565
+    ],
+    "verifiedCoordinates": [
+      81.782,
+      17.565
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Borra Caves",
+    "slug": "borra-caves",
+    "district": "Alluri Sitharama Raju",
+    "storedCoordinates": [
+      83.0385,
+      18.2813
+    ],
+    "verifiedCoordinates": [
+      83.0385,
+      18.2813
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Kondakarla Ava Lake",
+    "slug": "kondakarla-ava-lake",
+    "district": "Anakapalli",
+    "storedCoordinates": [
+      82.9777,
+      17.6154
+    ],
+    "verifiedCoordinates": [
+      82.9777,
+      17.6154
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Bojjannakonda Caves",
+    "slug": "bojjannakonda-caves",
+    "district": "Anakapalli",
+    "storedCoordinates": [
+      83.0167,
+      17.6936
+    ],
+    "verifiedCoordinates": [
+      83.0167,
+      17.6936
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Anakapalli Jaggery Market",
+    "slug": "anakapalli-jaggery-market",
+    "district": "Anakapalli",
+    "storedCoordinates": [
+      83.0037,
+      17.6913
+    ],
+    "verifiedCoordinates": [
+      83.0037,
+      17.6913
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Upaka Forest Reserve",
+    "slug": "upaka-forest-reserve",
+    "district": "Anakapalli",
+    "storedCoordinates": [
+      82.93,
+      17.65
+    ],
+    "verifiedCoordinates": [
+      82.93,
+      17.65
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Bojjannakonda Stupas",
+    "slug": "bojjannakonda-stupas",
+    "district": "Anakapalli",
+    "storedCoordinates": [
+      83.0169,
+      17.6938
+    ],
+    "verifiedCoordinates": [
+      83.0169,
+      17.6938
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Kondakarla birding",
+    "slug": "kondakarla-birding",
+    "district": "Anakapalli",
+    "storedCoordinates": [
+      82.975,
+      17.619
+    ],
+    "verifiedCoordinates": [
+      82.975,
+      17.619
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Sarada Riverfront",
+    "slug": "sarada-riverfront",
+    "district": "Anakapalli",
+    "storedCoordinates": [
+      82.95,
+      17.7
+    ],
+    "verifiedCoordinates": [
+      82.95,
+      17.7
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Anakapalli Town Center",
+    "slug": "anakapalli-town-center",
+    "district": "Anakapalli",
+    "storedCoordinates": [
+      83.0025,
+      17.691
+    ],
+    "verifiedCoordinates": [
+      83.0025,
+      17.691
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Bojjannakonda Museum",
+    "slug": "bojjannakonda-museum",
+    "district": "Anakapalli",
+    "storedCoordinates": [
+      83.0172,
+      17.694
+    ],
+    "verifiedCoordinates": [
+      83.0172,
+      17.694
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Kondakarla Boating Point",
+    "slug": "kondakarla-boating-point",
+    "district": "Anakapalli",
+    "storedCoordinates": [
+      82.98,
+      17.617
+    ],
+    "verifiedCoordinates": [
+      82.98,
+      17.617
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Lepakshi Veerabhadra Temple",
+    "slug": "lepakshi-veerabhadra-temple",
+    "district": "Anantapur",
+    "storedCoordinates": [
+      77.6098,
+      13.8035
+    ],
+    "verifiedCoordinates": [
+      77.6098,
+      13.8035
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Gooty Fort",
+    "slug": "gooty-fort",
+    "district": "Anantapur",
+    "storedCoordinates": [
+      77.6342,
+      15.1247
+    ],
+    "verifiedCoordinates": [
+      77.6342,
+      15.1247
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Penukonda Fort",
+    "slug": "penukonda-fort",
+    "district": "Anantapur",
+    "storedCoordinates": [
+      77.5948,
+      14.0825
+    ],
+    "verifiedCoordinates": [
+      77.5948,
+      14.0825
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Dharmavaram Silk Village",
+    "slug": "dharmavaram-silk-village",
+    "district": "Anantapur",
+    "storedCoordinates": [
+      77.7197,
+      14.4136
+    ],
+    "verifiedCoordinates": [
+      77.7197,
+      14.4136
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Anantapur City Center",
+    "slug": "anantapur-city-center",
+    "district": "Anantapur",
+    "storedCoordinates": [
+      77.6006,
+      14.6819
+    ],
+    "verifiedCoordinates": [
+      77.6006,
+      14.6819
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Lepakshi Nandi",
+    "slug": "lepakshi-nandi",
+    "district": "Anantapur",
+    "storedCoordinates": [
+      77.6075,
+      13.801
+    ],
+    "verifiedCoordinates": [
+      77.6075,
+      13.801
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Tadpatri Temples",
+    "slug": "tadpatri-temples",
+    "district": "Anantapur",
+    "storedCoordinates": [
+      78.0105,
+      14.9097
+    ],
+    "verifiedCoordinates": [
+      78.0105,
+      14.9097
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Penukonda Gagan Mahal",
+    "slug": "penukonda-gagan-mahal",
+    "district": "Anantapur",
+    "storedCoordinates": [
+      77.5961,
+      14.0812
+    ],
+    "verifiedCoordinates": [
+      77.5961,
+      14.0812
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Dharmavaram Lake",
+    "slug": "dharmavaram-lake",
+    "district": "Anantapur",
+    "storedCoordinates": [
+      77.7208,
+      14.4145
+    ],
+    "verifiedCoordinates": [
+      77.7208,
+      14.4145
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Gooty Hilltop Viewpoint",
+    "slug": "gooty-hilltop-viewpoint",
+    "district": "Anantapur",
+    "storedCoordinates": [
+      77.6355,
+      15.1265
+    ],
+    "verifiedCoordinates": [
+      77.6355,
+      15.1265
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Horsley Hills Resort",
+    "slug": "horsley-hills-resort",
+    "district": "Annamayya",
+    "storedCoordinates": [
+      78.3938,
+      13.6552
+    ],
+    "verifiedCoordinates": [
+      78.3938,
+      13.6552
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Tallapaka Poet Village",
+    "slug": "tallapaka-poet-village",
+    "district": "Annamayya",
+    "storedCoordinates": [
+      79.1525,
+      14.23
+    ],
+    "verifiedCoordinates": [
+      79.1525,
+      14.23
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Gurramkonda Fort",
+    "slug": "gurramkonda-fort",
+    "district": "Annamayya",
+    "storedCoordinates": [
+      78.5854,
+      13.7828
+    ],
+    "verifiedCoordinates": [
+      78.5854,
+      13.7828
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Horsley Hills Trekking",
+    "slug": "horsley-hills-trekking",
+    "district": "Annamayya",
+    "storedCoordinates": [
+      78.3992,
+      13.6615
+    ],
+    "verifiedCoordinates": [
+      78.3992,
+      13.6615
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Annamacharya Memorial",
+    "slug": "annamacharya-memorial",
+    "district": "Annamayya",
+    "storedCoordinates": [
+      79.1505,
+      14.2308
+    ],
+    "verifiedCoordinates": [
+      79.1505,
+      14.2308
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Gurramkonda Rangin Mahal",
+    "slug": "gurramkonda-rangin-mahal",
+    "district": "Annamayya",
+    "storedCoordinates": [
+      78.5868,
+      13.7819
+    ],
+    "verifiedCoordinates": [
+      78.5868,
+      13.7819
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Horsley Hills forest path",
+    "slug": "horsley-hills-forest-path",
+    "district": "Annamayya",
+    "storedCoordinates": [
+      78.3886,
+      13.6488
+    ],
+    "verifiedCoordinates": [
+      78.3886,
+      13.6488
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Madanapalle Town Center",
+    "slug": "madanapalle-town-center",
+    "district": "Annamayya",
+    "storedCoordinates": [
+      78.5029,
+      13.5503
+    ],
+    "verifiedCoordinates": [
+      78.5029,
+      13.5503
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Kalyani Dam Reservoir",
+    "slug": "kalyani-dam-reservoir",
+    "district": "Annamayya",
+    "storedCoordinates": [
+      79.2818,
+      13.6295
+    ],
+    "verifiedCoordinates": [
+      79.2818,
+      13.6295
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Sompalem Chennakesava Temple",
+    "slug": "sompalem-chennakesava-temple",
+    "district": "Annamayya",
+    "storedCoordinates": [
+      78.2704,
+      13.8602
+    ],
+    "verifiedCoordinates": [
+      78.2704,
+      13.8602
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Suryalanka Beach",
+    "slug": "suryalanka-beach",
+    "district": "Bapatla",
+    "storedCoordinates": [
+      80.5211,
+      15.8453
+    ],
+    "verifiedCoordinates": [
+      80.5211,
+      15.8453
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Vodarevu Beach",
+    "slug": "vodarevu-beach",
+    "district": "Bapatla",
+    "storedCoordinates": [
+      80.4093,
+      15.7912
+    ],
+    "verifiedCoordinates": [
+      80.4093,
+      15.7912
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Bapatla Bhavanarayana Temple",
+    "slug": "bapatla-bhavanarayana-temple",
+    "district": "Bapatla",
+    "storedCoordinates": [
+      80.4672,
+      15.9048
+    ],
+    "verifiedCoordinates": [
+      80.4672,
+      15.9048
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Chirala Weaving Hub",
+    "slug": "chirala-weaving-hub",
+    "district": "Bapatla",
+    "storedCoordinates": [
+      80.3521,
+      15.8234
+    ],
+    "verifiedCoordinates": [
+      80.3521,
+      15.8234
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Bapatla City Center",
+    "slug": "bapatla-city-center",
+    "district": "Bapatla",
+    "storedCoordinates": [
+      80.4676,
+      15.9041
+    ],
+    "verifiedCoordinates": [
+      80.4676,
+      15.9041
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Suryalanka Resorts",
+    "slug": "suryalanka-resorts",
+    "district": "Bapatla",
+    "storedCoordinates": [
+      80.5179,
+      15.8427
+    ],
+    "verifiedCoordinates": [
+      80.5179,
+      15.8427
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Vodarevu Fishing Port",
+    "slug": "vodarevu-fishing-port",
+    "district": "Bapatla",
+    "storedCoordinates": [
+      80.4064,
+      15.7878
+    ],
+    "verifiedCoordinates": [
+      80.4064,
+      15.7878
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Bhavanarayana temple tanks",
+    "slug": "bhavanarayana-temple-tanks",
+    "district": "Bapatla",
+    "storedCoordinates": [
+      80.467,
+      15.9044
+    ],
+    "verifiedCoordinates": [
+      80.467,
+      15.9044
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Suryalanka Coastline",
+    "slug": "suryalanka-coastline",
+    "district": "Bapatla",
+    "storedCoordinates": [
+      80.5268,
+      15.8481
+    ],
+    "verifiedCoordinates": [
+      80.5268,
+      15.8481
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Chirala Beach point",
+    "slug": "chirala-beach-point",
+    "district": "Bapatla",
+    "storedCoordinates": [
+      80.3696,
+      15.8115
+    ],
+    "verifiedCoordinates": [
+      80.3696,
+      15.8115
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Kanipakam Varasiddhi Temple",
+    "slug": "kanipakam-varasiddhi-temple",
+    "district": "Chittoor",
+    "storedCoordinates": [
+      79.027,
+      13.2536
+    ],
+    "verifiedCoordinates": [
+      79.027,
+      13.2536
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Gurramkonda Fort borders",
+    "slug": "gurramkonda-fort-borders",
+    "district": "Chittoor",
+    "storedCoordinates": [
+      78.5822,
+      13.7805
+    ],
+    "verifiedCoordinates": [
+      78.5822,
+      13.7805
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Kaundinya Wildlife Sanctuary",
+    "slug": "kaundinya-wildlife-sanctuary",
+    "district": "Chittoor",
+    "storedCoordinates": [
+      78.7524,
+      13.3986
+    ],
+    "verifiedCoordinates": [
+      78.7524,
+      13.3986
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Kanipakam Temple tank",
+    "slug": "kanipakam-temple-tank",
+    "district": "Chittoor",
+    "storedCoordinates": [
+      79.0273,
+      13.2538
+    ],
+    "verifiedCoordinates": [
+      79.0273,
+      13.2538
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Chittoor mango markets",
+    "slug": "chittoor-mango-markets",
+    "district": "Chittoor",
+    "storedCoordinates": [
+      79.1016,
+      13.2148
+    ],
+    "verifiedCoordinates": [
+      79.1016,
+      13.2148
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Kaundinya elephant camps",
+    "slug": "kaundinya-elephant-camps",
+    "district": "Chittoor",
+    "storedCoordinates": [
+      78.7602,
+      13.4058
+    ],
+    "verifiedCoordinates": [
+      78.7602,
+      13.4058
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Chittoor Hills path",
+    "slug": "chittoor-hills-path",
+    "district": "Chittoor",
+    "storedCoordinates": [
+      79.1128,
+      13.2252
+    ],
+    "verifiedCoordinates": [
+      79.1128,
+      13.2252
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Ardhagiri Veeranjaneya Temple",
+    "slug": "ardhagiri-veeranjaneya-temple",
+    "district": "Chittoor",
+    "storedCoordinates": [
+      79.1235,
+      13.2689
+    ],
+    "verifiedCoordinates": [
+      79.1235,
+      13.2689
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Kaundinya forest trekking",
+    "slug": "kaundinya-forest-trekking",
+    "district": "Chittoor",
+    "storedCoordinates": [
+      78.7468,
+      13.3921
+    ],
+    "verifiedCoordinates": [
+      78.7468,
+      13.3921
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Chittoor Fort ruins",
+    "slug": "chittoor-fort-ruins",
+    "district": "Chittoor",
+    "storedCoordinates": [
+      79.1004,
+      13.2178
+    ],
+    "verifiedCoordinates": [
+      79.1004,
+      13.2178
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Dindi Backwaters",
+    "slug": "dindi-backwaters",
+    "district": "Dr. B.R. Ambedkar Konaseema",
+    "storedCoordinates": [
+      81.7365,
+      16.5202
+    ],
+    "verifiedCoordinates": [
+      81.7365,
+      16.5202
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Antarvedi Beach",
+    "slug": "antarvedi-beach",
+    "district": "Dr. B.R. Ambedkar Konaseema",
+    "storedCoordinates": [
+      81.7348,
+      16.3336
+    ],
+    "verifiedCoordinates": [
+      81.7348,
+      16.3336
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Ainavilli Vinayaka Temple",
+    "slug": "ainavilli-vinayaka-temple",
+    "district": "Dr. B.R. Ambedkar Konaseema",
+    "storedCoordinates": [
+      82.0021,
+      16.5993
+    ],
+    "verifiedCoordinates": [
+      82.0021,
+      16.5993
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Peruru Heritage Village",
+    "slug": "peruru-heritage-village",
+    "district": "Dr. B.R. Ambedkar Konaseema",
+    "storedCoordinates": [
+      82.0413,
+      16.7821
+    ],
+    "verifiedCoordinates": [
+      82.0413,
+      16.7821
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Konaseema Houseboats",
+    "slug": "konaseema-houseboats",
+    "district": "Dr. B.R. Ambedkar Konaseema",
+    "storedCoordinates": [
+      81.7428,
+      16.5154
+    ],
+    "verifiedCoordinates": [
+      81.7428,
+      16.5154
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Razole town",
+    "slug": "razole-town",
+    "district": "Dr. B.R. Ambedkar Konaseema",
+    "storedCoordinates": [
+      81.8396,
+      16.4768
+    ],
+    "verifiedCoordinates": [
+      81.8396,
+      16.4768
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Vashishta Godavari River confluence",
+    "slug": "vashishta-godavari-river-confluence",
+    "district": "Dr. B.R. Ambedkar Konaseema",
+    "storedCoordinates": [
+      81.7289,
+      16.3375
+    ],
+    "verifiedCoordinates": [
+      81.7289,
+      16.3375
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Mamikuduru Wetlands",
+    "slug": "mamikuduru-wetlands",
+    "district": "Dr. B.R. Ambedkar Konaseema",
+    "storedCoordinates": [
+      82.0954,
+      16.6553
+    ],
+    "verifiedCoordinates": [
+      82.0954,
+      16.6553
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Ryali Jaganmohini Temple",
+    "slug": "ryali-jaganmohini-temple",
+    "district": "Dr. B.R. Ambedkar Konaseema",
+    "storedCoordinates": [
+      81.9591,
+      16.7924
+    ],
+    "verifiedCoordinates": [
+      81.9591,
+      16.7924
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Antarvedi Lakshmi Narasimha Temple",
+    "slug": "antarvedi-lakshmi-narasimha-temple",
+    "district": "Dr. B.R. Ambedkar Konaseema",
+    "storedCoordinates": [
+      81.7322,
+      16.3308
+    ],
+    "verifiedCoordinates": [
+      81.7322,
+      16.3308
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Rajahmundry City Center",
+    "slug": "rajahmundry-city-center",
+    "district": "East Godavari",
+    "storedCoordinates": [
+      81.804,
+      17.0005
+    ],
+    "verifiedCoordinates": [
+      81.804,
+      17.0005
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Godavari Arch Bridge",
+    "slug": "godavari-arch-bridge",
+    "district": "East Godavari",
+    "storedCoordinates": [
+      81.7794,
+      17.0009
+    ],
+    "verifiedCoordinates": [
+      81.7794,
+      17.0009
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Rajahmundry ISKCON Temple",
+    "slug": "rajahmundry-iskcon-temple",
+    "district": "East Godavari",
+    "storedCoordinates": [
+      81.7916,
+      17.0059
+    ],
+    "verifiedCoordinates": [
+      81.7916,
+      17.0059
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Dowleswaram Barrage",
+    "slug": "dowleswaram-barrage",
+    "district": "East Godavari",
+    "storedCoordinates": [
+      81.7835,
+      16.9548
+    ],
+    "verifiedCoordinates": [
+      81.7835,
+      16.9548
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Godavari River cruise",
+    "slug": "godavari-river-cruise",
+    "district": "East Godavari",
+    "storedCoordinates": [
+      81.7858,
+      17.0032
+    ],
+    "verifiedCoordinates": [
+      81.7858,
+      17.0032
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Kadiyam Nursery Gardens",
+    "slug": "kadiyam-nursery-gardens",
+    "district": "East Godavari",
+    "storedCoordinates": [
+      81.9988,
+      16.9204
+    ],
+    "verifiedCoordinates": [
+      81.9988,
+      16.9204
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Dowleswaram Cotton Museum",
+    "slug": "dowleswaram-cotton-museum",
+    "district": "East Godavari",
+    "storedCoordinates": [
+      81.7848,
+      16.9556
+    ],
+    "verifiedCoordinates": [
+      81.7848,
+      16.9556
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Rajahmundry Ghats",
+    "slug": "rajahmundry-ghats",
+    "district": "East Godavari",
+    "storedCoordinates": [
+      81.7788,
+      17.0021
+    ],
+    "verifiedCoordinates": [
+      81.7788,
+      17.0021
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Kadiapulanka flower fields",
+    "slug": "kadiapulanka-flower-fields",
+    "district": "East Godavari",
+    "storedCoordinates": [
+      82.0527,
+      16.9468
+    ],
+    "verifiedCoordinates": [
+      82.0527,
+      16.9468
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Rajahmundry parklands",
+    "slug": "rajahmundry-parklands",
+    "district": "East Godavari",
+    "storedCoordinates": [
+      81.7994,
+      17.0112
+    ],
+    "verifiedCoordinates": [
+      81.7994,
+      17.0112
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Kolleru Lake",
+    "slug": "kolleru-lake",
+    "district": "Eluru",
+    "storedCoordinates": [
+      81.2378,
+      16.6204
+    ],
+    "verifiedCoordinates": [
+      81.2378,
+      16.6204
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Dwaraka Tirumala Temple",
+    "slug": "dwaraka-tirumala-temple",
+    "district": "Eluru",
+    "storedCoordinates": [
+      81.2558,
+      16.9319
+    ],
+    "verifiedCoordinates": [
+      81.2558,
+      16.9319
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Guntupalli Caves",
+    "slug": "guntupalli-caves",
+    "district": "Eluru",
+    "storedCoordinates": [
+      81.0804,
+      17.2208
+    ],
+    "verifiedCoordinates": [
+      81.0804,
+      17.2208
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Kolleru Pelican Sanctuary",
+    "slug": "kolleru-pelican-sanctuary",
+    "district": "Eluru",
+    "storedCoordinates": [
+      81.2472,
+      16.6365
+    ],
+    "verifiedCoordinates": [
+      81.2472,
+      16.6365
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Eluru City Center",
+    "slug": "eluru-city-center",
+    "district": "Eluru",
+    "storedCoordinates": [
+      81.0952,
+      16.7107
+    ],
+    "verifiedCoordinates": [
+      81.0952,
+      16.7107
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Dwaraka Tirumala Hill",
+    "slug": "dwaraka-tirumala-hill",
+    "district": "Eluru",
+    "storedCoordinates": [
+      81.2552,
+      16.9328
+    ],
+    "verifiedCoordinates": [
+      81.2552,
+      16.9328
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Guntupalli Stupa Complex",
+    "slug": "guntupalli-stupa-complex",
+    "district": "Eluru",
+    "storedCoordinates": [
+      81.0815,
+      17.2219
+    ],
+    "verifiedCoordinates": [
+      81.0815,
+      17.2219
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Eluru Canal Park",
+    "slug": "eluru-canal-park",
+    "district": "Eluru",
+    "storedCoordinates": [
+      81.0956,
+      16.7108
+    ],
+    "verifiedCoordinates": [
+      81.0956,
+      16.7108
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Kolleru boating channels",
+    "slug": "kolleru-boating-channels",
+    "district": "Eluru",
+    "storedCoordinates": [
+      81.2426,
+      16.6248
+    ],
+    "verifiedCoordinates": [
+      81.2426,
+      16.6248
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Maddinala Waterfall",
+    "slug": "maddinala-waterfall",
+    "district": "Eluru",
+    "storedCoordinates": [
+      81.1654,
+      17.3512
+    ],
+    "verifiedCoordinates": [
+      81.1654,
+      17.3512
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Amaravati Stupa",
+    "slug": "amaravati-stupa",
+    "district": "Guntur",
+    "storedCoordinates": [
+      80.357,
+      16.5726
+    ],
+    "verifiedCoordinates": [
+      80.357,
+      16.5726
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Ethipothala Waterfalls",
+    "slug": "ethipothala-waterfalls",
+    "district": "Guntur",
+    "storedCoordinates": [
+      79.9235,
+      16.2112
+    ],
+    "verifiedCoordinates": [
+      79.9235,
+      16.2112
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Kondaveedu Fort",
+    "slug": "kondaveedu-fort",
+    "district": "Guntur",
+    "storedCoordinates": [
+      80.2508,
+      16.6947
+    ],
+    "verifiedCoordinates": [
+      80.2508,
+      16.6947
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Uppalapadu Bird Sanctuary",
+    "slug": "uppalapadu-bird-sanctuary",
+    "district": "Guntur",
+    "storedCoordinates": [
+      80.3708,
+      16.2789
+    ],
+    "verifiedCoordinates": [
+      80.3708,
+      16.2789
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Guntur City Center",
+    "slug": "guntur-city-center",
+    "district": "Guntur",
+    "storedCoordinates": [
+      80.4365,
+      16.3067
+    ],
+    "verifiedCoordinates": [
+      80.4365,
+      16.3067
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Amaravati Archaeological Museum",
+    "slug": "amaravati-archaeological-museum",
+    "district": "Guntur",
+    "storedCoordinates": [
+      80.3574,
+      16.5748
+    ],
+    "verifiedCoordinates": [
+      80.3574,
+      16.5748
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Kotappakonda Hill Temple",
+    "slug": "kotappakonda-hill-temple",
+    "district": "Guntur",
+    "storedCoordinates": [
+      80.0131,
+      16.1347
+    ],
+    "verifiedCoordinates": [
+      80.0131,
+      16.1347
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Mangalagiri Temple",
+    "slug": "mangalagiri-temple",
+    "district": "Guntur",
+    "storedCoordinates": [
+      80.5589,
+      16.4304
+    ],
+    "verifiedCoordinates": [
+      80.5589,
+      16.4304
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Ethipothala Crocodile Breeding Pond",
+    "slug": "ethipothala-crocodile-breeding-pond",
+    "district": "Guntur",
+    "storedCoordinates": [
+      79.9228,
+      16.2104
+    ],
+    "verifiedCoordinates": [
+      79.9228,
+      16.2104
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Kondaveedu Forest trekking",
+    "slug": "kondaveedu-forest-trekking",
+    "district": "Guntur",
+    "storedCoordinates": [
+      80.2476,
+      16.6918
+    ],
+    "verifiedCoordinates": [
+      80.2476,
+      16.6918
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Coringa Wildlife Sanctuary",
+    "slug": "coringa-wildlife-sanctuary",
+    "district": "Kakinada",
+    "storedCoordinates": [
+      82.2865,
+      16.9148
+    ],
+    "verifiedCoordinates": [
+      82.2865,
+      16.9148
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Kakinada Beach",
+    "slug": "kakinada-beach",
+    "district": "Kakinada",
+    "storedCoordinates": [
+      82.2794,
+      16.9897
+    ],
+    "verifiedCoordinates": [
+      82.2794,
+      16.9897
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Hope Island",
+    "slug": "hope-island",
+    "district": "Kakinada",
+    "storedCoordinates": [
+      82.3356,
+      16.9618
+    ],
+    "verifiedCoordinates": [
+      82.3356,
+      16.9618
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Annavaram Satyanarayana Temple",
+    "slug": "annavaram-satyanarayana-temple",
+    "district": "Kakinada",
+    "storedCoordinates": [
+      82.509,
+      17.2815
+    ],
+    "verifiedCoordinates": [
+      82.509,
+      17.2815
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Coringa Mangrove Boardwalk",
+    "slug": "coringa-mangrove-boardwalk",
+    "district": "Kakinada",
+    "storedCoordinates": [
+      82.2619,
+      16.9038
+    ],
+    "verifiedCoordinates": [
+      82.2619,
+      16.9038
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Kakinada City Center",
+    "slug": "kakinada-city-center",
+    "district": "Kakinada",
+    "storedCoordinates": [
+      82.2475,
+      16.9891
+    ],
+    "verifiedCoordinates": [
+      82.2475,
+      16.9891
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Annavaram Hills",
+    "slug": "annavaram-hills",
+    "district": "Kakinada",
+    "storedCoordinates": [
+      82.5085,
+      17.2811
+    ],
+    "verifiedCoordinates": [
+      82.5085,
+      17.2811
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Pithapuram Temple",
+    "slug": "pithapuram-temple",
+    "district": "Kakinada",
+    "storedCoordinates": [
+      82.2568,
+      17.1147
+    ],
+    "verifiedCoordinates": [
+      82.2568,
+      17.1147
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Uppada Beach",
+    "slug": "uppada-beach",
+    "district": "Kakinada",
+    "storedCoordinates": [
+      82.3297,
+      17.0603
+    ],
+    "verifiedCoordinates": [
+      82.3297,
+      17.0603
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Hope Island Lighthouse",
+    "slug": "hope-island-lighthouse",
+    "district": "Kakinada",
+    "storedCoordinates": [
+      82.3408,
+      16.9574
+    ],
+    "verifiedCoordinates": [
+      82.3408,
+      16.9574
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Manginapudi Beach",
+    "slug": "manginapudi-beach",
+    "district": "Krishna",
+    "storedCoordinates": [
+      81.2417,
+      16.1972
+    ],
+    "verifiedCoordinates": [
+      81.2417,
+      16.1972
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Hamsaladeevi Beach",
+    "slug": "hamsaladeevi-beach",
+    "district": "Krishna",
+    "storedCoordinates": [
+      81.0858,
+      15.953
+    ],
+    "verifiedCoordinates": [
+      81.0858,
+      15.953
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Kuchipudi Dance Academy",
+    "slug": "kuchipudi-dance-academy",
+    "district": "Krishna",
+    "storedCoordinates": [
+      80.7936,
+      16.1872
+    ],
+    "verifiedCoordinates": [
+      80.7936,
+      16.1872
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Machilipatnam Kalamkari Town",
+    "slug": "machilipatnam-kalamkari-town",
+    "district": "Krishna",
+    "storedCoordinates": [
+      81.1301,
+      16.1804
+    ],
+    "verifiedCoordinates": [
+      81.1301,
+      16.1804
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Machilipatnam Port town",
+    "slug": "machilipatnam-port-town",
+    "district": "Krishna",
+    "storedCoordinates": [
+      81.1415,
+      16.1718
+    ],
+    "verifiedCoordinates": [
+      81.1415,
+      16.1718
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Hamsaladeevi Venugopala Temple",
+    "slug": "hamsaladeevi-venugopala-temple",
+    "district": "Krishna",
+    "storedCoordinates": [
+      81.0819,
+      15.9564
+    ],
+    "verifiedCoordinates": [
+      81.0819,
+      15.9564
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Krishna River Delta",
+    "slug": "krishna-river-delta",
+    "district": "Krishna",
+    "storedCoordinates": [
+      81.0724,
+      15.9655
+    ],
+    "verifiedCoordinates": [
+      81.0724,
+      15.9655
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Manginapudi Lake",
+    "slug": "manginapudi-lake",
+    "district": "Krishna",
+    "storedCoordinates": [
+      81.2336,
+      16.2028
+    ],
+    "verifiedCoordinates": [
+      81.2336,
+      16.2028
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Hamsaladeevi boating point",
+    "slug": "hamsaladeevi-boating-point",
+    "district": "Krishna",
+    "storedCoordinates": [
+      81.0896,
+      15.9498
+    ],
+    "verifiedCoordinates": [
+      81.0896,
+      15.9498
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Bandar Fort ruins",
+    "slug": "bandar-fort-ruins",
+    "district": "Krishna",
+    "storedCoordinates": [
+      81.1382,
+      16.1835
+    ],
+    "verifiedCoordinates": [
+      81.1382,
+      16.1835
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Yaganti Temple",
+    "slug": "yaganti-temple",
+    "district": "Kurnool",
+    "storedCoordinates": [
+      78.1394,
+      15.3486
+    ],
+    "verifiedCoordinates": [
+      78.1394,
+      15.3486
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Belum Caves",
+    "slug": "belum-caves",
+    "district": "Kurnool",
+    "storedCoordinates": [
+      78.1147,
+      15.1017
+    ],
+    "verifiedCoordinates": [
+      78.1147,
+      15.1017
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Konda Reddy Buruzu",
+    "slug": "konda-reddy-buruzu",
+    "district": "Kurnool",
+    "storedCoordinates": [
+      78.0373,
+      15.8281
+    ],
+    "verifiedCoordinates": [
+      78.0373,
+      15.8281
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Kurnool Fort ruins",
+    "slug": "kurnool-fort-ruins",
+    "district": "Kurnool",
+    "storedCoordinates": [
+      78.0414,
+      15.8352
+    ],
+    "verifiedCoordinates": [
+      78.0414,
+      15.8352
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Orvakal Rock Garden",
+    "slug": "orvakal-rock-garden",
+    "district": "Kurnool",
+    "storedCoordinates": [
+      78.0169,
+      15.6811
+    ],
+    "verifiedCoordinates": [
+      78.0169,
+      15.6811
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Kurnool City Center",
+    "slug": "kurnool-city-center",
+    "district": "Kurnool",
+    "storedCoordinates": [
+      78.0378,
+      15.8289
+    ],
+    "verifiedCoordinates": [
+      78.0378,
+      15.8289
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Rollapadu Bird Sanctuary",
+    "slug": "rollapadu-bird-sanctuary",
+    "district": "Kurnool",
+    "storedCoordinates": [
+      78.3683,
+      15.7258
+    ],
+    "verifiedCoordinates": [
+      78.3683,
+      15.7258
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Tungabhadra Riverfront",
+    "slug": "tungabhadra-riverfront",
+    "district": "Kurnool",
+    "storedCoordinates": [
+      78.0556,
+      15.8451
+    ],
+    "verifiedCoordinates": [
+      78.0556,
+      15.8451
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Belum Cave Passages",
+    "slug": "belum-cave-passages",
+    "district": "Kurnool",
+    "storedCoordinates": [
+      78.1171,
+      15.1032
+    ],
+    "verifiedCoordinates": [
+      78.1171,
+      15.1032
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Mahanandi Temple Area",
+    "slug": "mahanandi-temple-area",
+    "district": "Kurnool",
+    "storedCoordinates": [
+      78.6112,
+      15.4875
+    ],
+    "verifiedCoordinates": [
+      78.6112,
+      15.4875
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Srisailam Mallikarjuna Temple",
+    "slug": "srisailam-mallikarjuna-temple",
+    "district": "Nandyal",
+    "storedCoordinates": [
+      78.8683,
+      16.0744
+    ],
+    "verifiedCoordinates": [
+      78.8683,
+      16.0744
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Ahobilam Temple",
+    "slug": "ahobilam-temple",
+    "district": "Nandyal",
+    "storedCoordinates": [
+      78.7167,
+      15.1333
+    ],
+    "verifiedCoordinates": [
+      78.7167,
+      15.1333
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Mahanandi Temple",
+    "slug": "mahanandi-temple",
+    "district": "Nandyal",
+    "storedCoordinates": [
+      78.6124,
+      15.4868
+    ],
+    "verifiedCoordinates": [
+      78.6124,
+      15.4868
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Srisailam Hill Forest",
+    "slug": "srisailam-hill-forest",
+    "district": "Nandyal",
+    "storedCoordinates": [
+      78.8689,
+      16.0762
+    ],
+    "verifiedCoordinates": [
+      78.8689,
+      16.0762
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Srisailam Tiger Reserve",
+    "slug": "srisailam-tiger-reserve",
+    "district": "Nandyal",
+    "storedCoordinates": [
+      78.8012,
+      16.0505
+    ],
+    "verifiedCoordinates": [
+      78.8012,
+      16.0505
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Nallamala Forest Trekking",
+    "slug": "nallamala-forest-trekking",
+    "district": "Nandyal",
+    "storedCoordinates": [
+      78.7304,
+      15.7205
+    ],
+    "verifiedCoordinates": [
+      78.7304,
+      15.7205
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Mahanandi Village",
+    "slug": "mahanandi-village",
+    "district": "Nandyal",
+    "storedCoordinates": [
+      78.6102,
+      15.4847
+    ],
+    "verifiedCoordinates": [
+      78.6102,
+      15.4847
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Ahobilam Hills",
+    "slug": "ahobilam-hills",
+    "district": "Nandyal",
+    "storedCoordinates": [
+      78.7212,
+      15.1338
+    ],
+    "verifiedCoordinates": [
+      78.7212,
+      15.1338
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Nandyal Town Center",
+    "slug": "nandyal-town-center",
+    "district": "Nandyal",
+    "storedCoordinates": [
+      78.4812,
+      15.4847
+    ],
+    "verifiedCoordinates": [
+      78.4812,
+      15.4847
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Yaganti Temple Complex",
+    "slug": "yaganti-temple-complex",
+    "district": "Nandyal",
+    "storedCoordinates": [
+      78.1394,
+      15.3486
+    ],
+    "verifiedCoordinates": [
+      78.1394,
+      15.3486
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Kanaka Durga Temple",
+    "slug": "kanaka-durga-temple",
+    "district": "NTR",
+    "storedCoordinates": [
+      80.6062,
+      16.5162
+    ],
+    "verifiedCoordinates": [
+      80.6062,
+      16.5162
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Prakasam Barrage",
+    "slug": "prakasam-barrage",
+    "district": "NTR",
+    "storedCoordinates": [
+      80.6044,
+      16.5061
+    ],
+    "verifiedCoordinates": [
+      80.6044,
+      16.5061
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Bhavani Island",
+    "slug": "bhavani-island",
+    "district": "NTR",
+    "storedCoordinates": [
+      80.5894,
+      16.5178
+    ],
+    "verifiedCoordinates": [
+      80.5894,
+      16.5178
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Kondapalli Fort",
+    "slug": "kondapalli-fort",
+    "district": "NTR",
+    "storedCoordinates": [
+      80.5369,
+      16.6186
+    ],
+    "verifiedCoordinates": [
+      80.5369,
+      16.6186
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Undavalli Caves",
+    "slug": "undavalli-caves",
+    "district": "NTR",
+    "storedCoordinates": [
+      80.5794,
+      16.4922
+    ],
+    "verifiedCoordinates": [
+      80.5794,
+      16.4922
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Vijayawada City Center",
+    "slug": "vijayawada-city-center",
+    "district": "NTR",
+    "storedCoordinates": [
+      80.648,
+      16.5062
+    ],
+    "verifiedCoordinates": [
+      80.648,
+      16.5062
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Kondapalli Toy Village",
+    "slug": "kondapalli-toy-village",
+    "district": "NTR",
+    "storedCoordinates": [
+      80.5408,
+      16.6125
+    ],
+    "verifiedCoordinates": [
+      80.5408,
+      16.6125
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Indrakeeladri Hills",
+    "slug": "indrakeeladri-hills",
+    "district": "NTR",
+    "storedCoordinates": [
+      80.6036,
+      16.5154
+    ],
+    "verifiedCoordinates": [
+      80.6036,
+      16.5154
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Prakasam Lakefront",
+    "slug": "prakasam-lakefront",
+    "district": "NTR",
+    "storedCoordinates": [
+      80.6005,
+      16.5039
+    ],
+    "verifiedCoordinates": [
+      80.6005,
+      16.5039
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Vijayawada Museum",
+    "slug": "vijayawada-museum",
+    "district": "NTR",
+    "storedCoordinates": [
+      80.6296,
+      16.5194
+    ],
+    "verifiedCoordinates": [
+      80.6296,
+      16.5194
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Nagarjuna Sagar Dam",
+    "slug": "nagarjuna-sagar-dam",
+    "district": "Palnadu",
+    "storedCoordinates": [
+      79.3124,
+      16.5757
+    ],
+    "verifiedCoordinates": [
+      79.3124,
+      16.5757
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Ethipothala Waterfalls",
+    "slug": "ethipothala-waterfalls-palnadu",
+    "district": "Palnadu",
+    "storedCoordinates": [
+      79.3183,
+      16.5847
+    ],
+    "verifiedCoordinates": [
+      79.3183,
+      16.5847
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Nagarjunakonda Island",
+    "slug": "nagarjunakonda-island",
+    "district": "Palnadu",
+    "storedCoordinates": [
+      79.3178,
+      16.5382
+    ],
+    "verifiedCoordinates": [
+      79.3178,
+      16.5382
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Palnadu Battlefield site",
+    "slug": "palnadu-battlefield-site",
+    "district": "Palnadu",
+    "storedCoordinates": [
+      79.7068,
+      16.5495
+    ],
+    "verifiedCoordinates": [
+      79.7068,
+      16.5495
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Ethipothala Valley park",
+    "slug": "ethipothala-valley-park",
+    "district": "Palnadu",
+    "storedCoordinates": [
+      79.3175,
+      16.5856
+    ],
+    "verifiedCoordinates": [
+      79.3175,
+      16.5856
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Nagarjuna Sagar Lake",
+    "slug": "nagarjuna-sagar-lake",
+    "district": "Palnadu",
+    "storedCoordinates": [
+      79.295,
+      16.5665
+    ],
+    "verifiedCoordinates": [
+      79.295,
+      16.5665
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Dachapalli Caves",
+    "slug": "dachapalli-caves",
+    "district": "Palnadu",
+    "storedCoordinates": [
+      79.7385,
+      16.6165
+    ],
+    "verifiedCoordinates": [
+      79.7385,
+      16.6165
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Karempudi town",
+    "slug": "karempudi-town",
+    "district": "Palnadu",
+    "storedCoordinates": [
+      79.7027,
+      16.5468
+    ],
+    "verifiedCoordinates": [
+      79.7027,
+      16.5468
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Nagarjunasagar boating point",
+    "slug": "nagarjunasagar-boating-point",
+    "district": "Palnadu",
+    "storedCoordinates": [
+      79.3085,
+      16.5728
+    ],
+    "verifiedCoordinates": [
+      79.3085,
+      16.5728
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Guttikonda Bilam Caves",
+    "slug": "guttikonda-bilam-caves",
+    "district": "Palnadu",
+    "storedCoordinates": [
+      79.7315,
+      16.6408
+    ],
+    "verifiedCoordinates": [
+      79.7315,
+      16.6408
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Thotapalli Barrage Project",
+    "slug": "thotapalli-barrage-project",
+    "district": "Parvathipuram Manyam",
+    "storedCoordinates": [
+      83.4703,
+      18.8129
+    ],
+    "verifiedCoordinates": [
+      83.4703,
+      18.8129
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Parvathipuram Town Center",
+    "slug": "parvathipuram-town-center",
+    "district": "Parvathipuram Manyam",
+    "storedCoordinates": [
+      83.4257,
+      18.7832
+    ],
+    "verifiedCoordinates": [
+      83.4257,
+      18.7832
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Kurupam Palace ruins",
+    "slug": "kurupam-palace-ruins",
+    "district": "Parvathipuram Manyam",
+    "storedCoordinates": [
+      83.4848,
+      18.8702
+    ],
+    "verifiedCoordinates": [
+      83.4848,
+      18.8702
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Nagavali River banks",
+    "slug": "nagavali-river-banks",
+    "district": "Parvathipuram Manyam",
+    "storedCoordinates": [
+      83.4208,
+      18.8055
+    ],
+    "verifiedCoordinates": [
+      83.4208,
+      18.8055
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Thotapalli Reservoir",
+    "slug": "thotapalli-reservoir",
+    "district": "Parvathipuram Manyam",
+    "storedCoordinates": [
+      83.4788,
+      18.8185
+    ],
+    "verifiedCoordinates": [
+      83.4788,
+      18.8185
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Parvathipuram tribal market",
+    "slug": "parvathipuram-tribal-market",
+    "district": "Parvathipuram Manyam",
+    "storedCoordinates": [
+      83.4274,
+      18.7848
+    ],
+    "verifiedCoordinates": [
+      83.4274,
+      18.7848
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Manyam Forest reserves",
+    "slug": "manyam-forest-reserves",
+    "district": "Parvathipuram Manyam",
+    "storedCoordinates": [
+      83.38,
+      18.76
+    ],
+    "verifiedCoordinates": [
+      83.38,
+      18.76
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Kurupam Hills",
+    "slug": "kurupam-hills",
+    "district": "Parvathipuram Manyam",
+    "storedCoordinates": [
+      83.545,
+      18.868
+    ],
+    "verifiedCoordinates": [
+      83.545,
+      18.868
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Thotapalli parklands",
+    "slug": "thotapalli-parklands",
+    "district": "Parvathipuram Manyam",
+    "storedCoordinates": [
+      83.4721,
+      18.8146
+    ],
+    "verifiedCoordinates": [
+      83.4721,
+      18.8146
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Nagavali bridge",
+    "slug": "nagavali-bridge",
+    "district": "Parvathipuram Manyam",
+    "storedCoordinates": [
+      83.4231,
+      18.8062
+    ],
+    "verifiedCoordinates": [
+      83.4231,
+      18.8062
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Markapur Chennakesava Temple",
+    "slug": "markapur-chennakesava-temple",
+    "district": "Prakasam",
+    "storedCoordinates": [
+      79.2687,
+      15.7358
+    ],
+    "verifiedCoordinates": [
+      79.2687,
+      15.7358
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Ongole City Center",
+    "slug": "ongole-city-center",
+    "district": "Prakasam",
+    "storedCoordinates": [
+      80.0499,
+      15.5057
+    ],
+    "verifiedCoordinates": [
+      80.0499,
+      15.5057
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Singarayakonda Temple",
+    "slug": "singarayakonda-temple",
+    "district": "Prakasam",
+    "storedCoordinates": [
+      80.0381,
+      15.2589
+    ],
+    "verifiedCoordinates": [
+      80.0381,
+      15.2589
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Chirala Beach",
+    "slug": "chirala-beach",
+    "district": "Prakasam",
+    "storedCoordinates": [
+      80.3639,
+      15.8128
+    ],
+    "verifiedCoordinates": [
+      80.3639,
+      15.8128
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Markapur Slate Industry",
+    "slug": "markapur-slate-industry",
+    "district": "Prakasam",
+    "storedCoordinates": [
+      79.2709,
+      15.7352
+    ],
+    "verifiedCoordinates": [
+      79.2709,
+      15.7352
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Cumbum Lake",
+    "slug": "cumbum-lake",
+    "district": "Prakasam",
+    "storedCoordinates": [
+      79.1122,
+      15.5786
+    ],
+    "verifiedCoordinates": [
+      79.1122,
+      15.5786
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Singarayakonda Hilltop View",
+    "slug": "singarayakonda-hilltop-view",
+    "district": "Prakasam",
+    "storedCoordinates": [
+      80.0279,
+      15.2517
+    ],
+    "verifiedCoordinates": [
+      80.0279,
+      15.2517
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Ongole Bull farm",
+    "slug": "ongole-bull-farm",
+    "district": "Prakasam",
+    "storedCoordinates": [
+      80.0499,
+      15.5157
+    ],
+    "verifiedCoordinates": [
+      80.0499,
+      15.5157
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Cumbum Dam",
+    "slug": "cumbum-dam",
+    "district": "Prakasam",
+    "storedCoordinates": [
+      79.1138,
+      15.5814
+    ],
+    "verifiedCoordinates": [
+      79.1138,
+      15.5814
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Kothapatnam Beach",
+    "slug": "kothapatnam-beach",
+    "district": "Prakasam",
+    "storedCoordinates": [
+      80.1784,
+      15.4836
+    ],
+    "verifiedCoordinates": [
+      80.1784,
+      15.4836
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Pulicat Lake Sanctuary",
+    "slug": "pulicat-lake-sanctuary",
+    "district": "SPSR Nellore",
+    "storedCoordinates": [
+      80.05,
+      13.6833
+    ],
+    "verifiedCoordinates": [
+      80.05,
+      13.6833
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Nelapattu Bird Sanctuary",
+    "slug": "nelapattu-bird-sanctuary",
+    "district": "SPSR Nellore",
+    "storedCoordinates": [
+      79.9708,
+      13.8406
+    ],
+    "verifiedCoordinates": [
+      79.9708,
+      13.8406
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Mypadu Beach",
+    "slug": "mypadu-beach",
+    "district": "SPSR Nellore",
+    "storedCoordinates": [
+      80.1802,
+      14.5098
+    ],
+    "verifiedCoordinates": [
+      80.1802,
+      14.5098
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Udayagiri Fort",
+    "slug": "udayagiri-fort",
+    "district": "SPSR Nellore",
+    "storedCoordinates": [
+      79.2908,
+      14.8692
+    ],
+    "verifiedCoordinates": [
+      79.2908,
+      14.8692
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Penchalakona Temple",
+    "slug": "penchalakona-temple",
+    "district": "SPSR Nellore",
+    "storedCoordinates": [
+      79.4587,
+      14.3048
+    ],
+    "verifiedCoordinates": [
+      79.4587,
+      14.3048
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Nellore City Center",
+    "slug": "nellore-city-center",
+    "district": "SPSR Nellore",
+    "storedCoordinates": [
+      79.9865,
+      14.4426
+    ],
+    "verifiedCoordinates": [
+      79.9865,
+      14.4426
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Jonnavada Temple",
+    "slug": "jonnavada-temple",
+    "district": "SPSR Nellore",
+    "storedCoordinates": [
+      79.9936,
+      14.5078
+    ],
+    "verifiedCoordinates": [
+      79.9936,
+      14.5078
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Venkatagiri Weaving Town",
+    "slug": "venkatagiri-weaving-town",
+    "district": "SPSR Nellore",
+    "storedCoordinates": [
+      79.5818,
+      13.9615
+    ],
+    "verifiedCoordinates": [
+      79.5818,
+      13.9615
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Nellapattu Wetlands",
+    "slug": "nellapattu-wetlands",
+    "district": "SPSR Nellore",
+    "storedCoordinates": [
+      79.9754,
+      13.8452
+    ],
+    "verifiedCoordinates": [
+      79.9754,
+      13.8452
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Pulicat Lagoon boating",
+    "slug": "pulicat-lagoon-boating",
+    "district": "SPSR Nellore",
+    "storedCoordinates": [
+      80.1615,
+      13.6712
+    ],
+    "verifiedCoordinates": [
+      80.1615,
+      13.6712
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Puttaparthi Ashram",
+    "slug": "puttaparthi-ashram",
+    "district": "Sri Sathya Sai",
+    "storedCoordinates": [
+      77.8106,
+      14.1664
+    ],
+    "verifiedCoordinates": [
+      77.8106,
+      14.1664
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Lepakshi Temple Complex",
+    "slug": "lepakshi-temple-complex",
+    "district": "Sri Sathya Sai",
+    "storedCoordinates": [
+      77.6062,
+      13.8021
+    ],
+    "verifiedCoordinates": [
+      77.6062,
+      13.8021
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Puttaparthi Planetarium",
+    "slug": "puttaparthi-planetarium",
+    "district": "Sri Sathya Sai",
+    "storedCoordinates": [
+      77.81,
+      14.165
+    ],
+    "verifiedCoordinates": [
+      77.81,
+      14.165
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Lepakshi monolithic Nandi",
+    "slug": "lepakshi-monolithic-nandi",
+    "district": "Sri Sathya Sai",
+    "storedCoordinates": [
+      77.608,
+      13.801
+    ],
+    "verifiedCoordinates": [
+      77.608,
+      13.801
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Puttaparthi Chaitanya Jyoti",
+    "slug": "puttaparthi-chaitanya-jyoti",
+    "district": "Sri Sathya Sai",
+    "storedCoordinates": [
+      77.8118,
+      14.1677
+    ],
+    "verifiedCoordinates": [
+      77.8118,
+      14.1677
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Lepakshi Hanging Pillar",
+    "slug": "lepakshi-hanging-pillar",
+    "district": "Sri Sathya Sai",
+    "storedCoordinates": [
+      77.6069,
+      13.8032
+    ],
+    "verifiedCoordinates": [
+      77.6069,
+      13.8032
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Pennar Riverbed",
+    "slug": "pennar-riverbed",
+    "district": "Sri Sathya Sai",
+    "storedCoordinates": [
+      77.81,
+      14.12
+    ],
+    "verifiedCoordinates": [
+      77.81,
+      14.12
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Puttaparthi Hill view",
+    "slug": "puttaparthi-hill-view",
+    "district": "Sri Sathya Sai",
+    "storedCoordinates": [
+      77.8175,
+      14.1725
+    ],
+    "verifiedCoordinates": [
+      77.8175,
+      14.1725
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Dharmavaram Border Area",
+    "slug": "dharmavaram-border-area",
+    "district": "Sri Sathya Sai",
+    "storedCoordinates": [
+      77.7208,
+      14.4145
+    ],
+    "verifiedCoordinates": [
+      77.7208,
+      14.4145
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Puttaparthi Super Hospital",
+    "slug": "puttaparthi-super-hospital",
+    "district": "Sri Sathya Sai",
+    "storedCoordinates": [
+      77.8088,
+      14.1657
+    ],
+    "verifiedCoordinates": [
+      77.8088,
+      14.1657
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Arasavalli Sun Temple",
+    "slug": "arasavalli-sun-temple",
+    "district": "Srikakulam",
+    "storedCoordinates": [
+      83.9015,
+      18.3039
+    ],
+    "verifiedCoordinates": [
+      83.9015,
+      18.3039
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Srikurmam Temple",
+    "slug": "srikurmam-temple",
+    "district": "Srikakulam",
+    "storedCoordinates": [
+      83.9839,
+      18.2706
+    ],
+    "verifiedCoordinates": [
+      83.9839,
+      18.2706
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Kalingapatnam Beach",
+    "slug": "kalingapatnam-beach",
+    "district": "Srikakulam",
+    "storedCoordinates": [
+      84.1264,
+      18.3414
+    ],
+    "verifiedCoordinates": [
+      84.1264,
+      18.3414
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Baruva Beach",
+    "slug": "baruva-beach",
+    "district": "Srikakulam",
+    "storedCoordinates": [
+      84.5888,
+      18.8824
+    ],
+    "verifiedCoordinates": [
+      84.5888,
+      18.8824
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Srimukhalingam Temple",
+    "slug": "srimukhalingam-temple",
+    "district": "Srikakulam",
+    "storedCoordinates": [
+      83.9634,
+      18.5954
+    ],
+    "verifiedCoordinates": [
+      83.9634,
+      18.5954
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Kalingapatnam Town",
+    "slug": "kalingapatnam-town",
+    "district": "Srikakulam",
+    "storedCoordinates": [
+      84.1227,
+      18.3388
+    ],
+    "verifiedCoordinates": [
+      84.1227,
+      18.3388
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Vamsadhara River Mouth",
+    "slug": "vamsadhara-river-mouth",
+    "district": "Srikakulam",
+    "storedCoordinates": [
+      84.1368,
+      18.3495
+    ],
+    "verifiedCoordinates": [
+      84.1368,
+      18.3495
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Srikakulam City Center",
+    "slug": "srikakulam-city-center",
+    "district": "Srikakulam",
+    "storedCoordinates": [
+      83.8935,
+      18.2949
+    ],
+    "verifiedCoordinates": [
+      83.8935,
+      18.2949
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Srikurmam Town",
+    "slug": "srikurmam-town",
+    "district": "Srikakulam",
+    "storedCoordinates": [
+      83.9815,
+      18.272
+    ],
+    "verifiedCoordinates": [
+      83.9815,
+      18.272
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Sangam Shiva Temple",
+    "slug": "sangam-shiva-temple",
+    "district": "Srikakulam",
+    "storedCoordinates": [
+      83.8297,
+      18.6045
+    ],
+    "verifiedCoordinates": [
+      83.8297,
+      18.6045
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Tirumala Venkateswara Temple",
+    "slug": "tirumala-venkateswara-temple",
+    "district": "Tirupati",
+    "storedCoordinates": [
+      79.35,
+      13.6833
+    ],
+    "verifiedCoordinates": [
+      79.35,
+      13.6833
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Srikalahasti Temple",
+    "slug": "srikalahasti-temple",
+    "district": "Tirupati",
+    "storedCoordinates": [
+      79.6983,
+      13.7498
+    ],
+    "verifiedCoordinates": [
+      79.6983,
+      13.7498
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Chandragiri Fort",
+    "slug": "chandragiri-fort",
+    "district": "Tirupati",
+    "storedCoordinates": [
+      79.3175,
+      13.6019
+    ],
+    "verifiedCoordinates": [
+      79.3175,
+      13.6019
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Talakona Waterfalls",
+    "slug": "talakona-waterfalls",
+    "district": "Tirupati",
+    "storedCoordinates": [
+      79.2151,
+      13.8034
+    ],
+    "verifiedCoordinates": [
+      79.2151,
+      13.8034
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Sri Venkateswara National Park",
+    "slug": "sri-venkateswara-national-park",
+    "district": "Tirupati",
+    "storedCoordinates": [
+      79.35,
+      13.67
+    ],
+    "verifiedCoordinates": [
+      79.35,
+      13.67
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Tirupati City Center",
+    "slug": "tirupati-city-center",
+    "district": "Tirupati",
+    "storedCoordinates": [
+      79.4192,
+      13.6288
+    ],
+    "verifiedCoordinates": [
+      79.4192,
+      13.6288
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Tirumala Hills Viewpoint",
+    "slug": "tirumala-hills-viewpoint",
+    "district": "Tirupati",
+    "storedCoordinates": [
+      79.3604,
+      13.6895
+    ],
+    "verifiedCoordinates": [
+      79.3604,
+      13.6895
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Srikalahasti town",
+    "slug": "srikalahasti-town",
+    "district": "Tirupati",
+    "storedCoordinates": [
+      79.7001,
+      13.7505
+    ],
+    "verifiedCoordinates": [
+      79.7001,
+      13.7505
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Kalyani Dam",
+    "slug": "kalyani-dam",
+    "district": "Tirupati",
+    "storedCoordinates": [
+      79.2804,
+      13.6308
+    ],
+    "verifiedCoordinates": [
+      79.2804,
+      13.6308
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Kapila Theertham",
+    "slug": "kapila-theertham",
+    "district": "Tirupati",
+    "storedCoordinates": [
+      79.4198,
+      13.6509
+    ],
+    "verifiedCoordinates": [
+      79.4198,
+      13.6509
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "RK Beach",
+    "slug": "rk-beach",
+    "district": "Visakhapatnam",
+    "storedCoordinates": [
+      83.3237,
+      17.7149
+    ],
+    "verifiedCoordinates": [
+      83.3237,
+      17.7149
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Rushikonda Beach",
+    "slug": "rushikonda-beach",
+    "district": "Visakhapatnam",
+    "storedCoordinates": [
+      83.3855,
+      17.782
+    ],
+    "verifiedCoordinates": [
+      83.3855,
+      17.782
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Yarada Beach",
+    "slug": "yarada-beach",
+    "district": "Visakhapatnam",
+    "storedCoordinates": [
+      83.2747,
+      17.6555
+    ],
+    "verifiedCoordinates": [
+      83.2747,
+      17.6555
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Bheemili Beach",
+    "slug": "bheemili-beach",
+    "district": "Visakhapatnam",
+    "storedCoordinates": [
+      83.4529,
+      17.8905
+    ],
+    "verifiedCoordinates": [
+      83.4529,
+      17.8905
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Simhachalam Temple",
+    "slug": "simhachalam-temple",
+    "district": "Visakhapatnam",
+    "storedCoordinates": [
+      83.2506,
+      17.7667
+    ],
+    "verifiedCoordinates": [
+      83.2506,
+      17.7667
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Katiki Waterfalls",
+    "slug": "katiki-waterfalls",
+    "district": "Visakhapatnam",
+    "storedCoordinates": [
+      82.9967,
+      18.2674
+    ],
+    "verifiedCoordinates": [
+      82.9967,
+      18.2674
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Tadimada Waterfalls",
+    "slug": "tadimada-waterfalls",
+    "district": "Visakhapatnam",
+    "storedCoordinates": [
+      82.9123,
+      18.2324
+    ],
+    "verifiedCoordinates": [
+      82.9123,
+      18.2324
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Kambalakonda Wildlife Sanctuary",
+    "slug": "kambalakonda-wildlife-sanctuary",
+    "district": "Visakhapatnam",
+    "storedCoordinates": [
+      83.3378,
+      17.7907
+    ],
+    "verifiedCoordinates": [
+      83.3378,
+      17.7907
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Visakhapatnam Harbor",
+    "slug": "visakhapatnam-harbor",
+    "district": "Visakhapatnam",
+    "storedCoordinates": [
+      83.2185,
+      17.6868
+    ],
+    "verifiedCoordinates": [
+      83.2185,
+      17.6868
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Simhachalam Hill Sanctuary",
+    "slug": "simhachalam-hill-sanctuary",
+    "district": "Visakhapatnam",
+    "storedCoordinates": [
+      83.251,
+      17.767
+    ],
+    "verifiedCoordinates": [
+      83.251,
+      17.767
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Vizianagaram Fort",
+    "slug": "vizianagaram-fort",
+    "district": "Vizianagaram",
+    "storedCoordinates": [
+      83.4072,
+      18.1172
+    ],
+    "verifiedCoordinates": [
+      83.4072,
+      18.1172
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Rama Tirtham Temple",
+    "slug": "rama-tirtham-temple",
+    "district": "Vizianagaram",
+    "storedCoordinates": [
+      83.4915,
+      18.1642
+    ],
+    "verifiedCoordinates": [
+      83.4915,
+      18.1642
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Kumili Temple Complex",
+    "slug": "kumili-temple-complex",
+    "district": "Vizianagaram",
+    "storedCoordinates": [
+      83.4502,
+      18.1018
+    ],
+    "verifiedCoordinates": [
+      83.4502,
+      18.1018
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Vizianagaram Clock Tower",
+    "slug": "vizianagaram-clock-tower",
+    "district": "Vizianagaram",
+    "storedCoordinates": [
+      83.4118,
+      18.116
+    ],
+    "verifiedCoordinates": [
+      83.4118,
+      18.116
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Gajapathiraju Palace",
+    "slug": "gajapathiraju-palace",
+    "district": "Vizianagaram",
+    "storedCoordinates": [
+      83.411,
+      18.1169
+    ],
+    "verifiedCoordinates": [
+      83.411,
+      18.1169
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Rama Tirtham Bodhikonda",
+    "slug": "rama-tirtham-bodhikonda",
+    "district": "Vizianagaram",
+    "storedCoordinates": [
+      83.4908,
+      18.1633
+    ],
+    "verifiedCoordinates": [
+      83.4908,
+      18.1633
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Vizianagaram Lake park",
+    "slug": "vizianagaram-lake-park",
+    "district": "Vizianagaram",
+    "storedCoordinates": [
+      83.415,
+      18.1215
+    ],
+    "verifiedCoordinates": [
+      83.415,
+      18.1215
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Vizianagaram Market",
+    "slug": "vizianagaram-market",
+    "district": "Vizianagaram",
+    "storedCoordinates": [
+      83.4132,
+      18.1153
+    ],
+    "verifiedCoordinates": [
+      83.4132,
+      18.1153
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Rama Tirtham Water tank",
+    "slug": "rama-tirtham-water-tank",
+    "district": "Vizianagaram",
+    "storedCoordinates": [
+      83.4897,
+      18.1625
+    ],
+    "verifiedCoordinates": [
+      83.4897,
+      18.1625
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Kumili Village gardens",
+    "slug": "kumili-village-gardens",
+    "district": "Vizianagaram",
+    "storedCoordinates": [
+      83.447,
+      18.0985
+    ],
+    "verifiedCoordinates": [
+      83.447,
+      18.0985
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Somarama Temple",
+    "slug": "somarama-temple",
+    "district": "West Godavari",
+    "storedCoordinates": [
+      81.5236,
+      16.5436
+    ],
+    "verifiedCoordinates": [
+      81.5236,
+      16.5436
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Ksheerarama Temple",
+    "slug": "ksheerarama-temple",
+    "district": "West Godavari",
+    "storedCoordinates": [
+      81.7289,
+      16.5208
+    ],
+    "verifiedCoordinates": [
+      81.7289,
+      16.5208
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Bhimavaram City Center",
+    "slug": "bhimavaram-city-center",
+    "district": "West Godavari",
+    "storedCoordinates": [
+      81.5212,
+      16.5449
+    ],
+    "verifiedCoordinates": [
+      81.5212,
+      16.5449
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Kolleru Wetlands",
+    "slug": "kolleru-wetlands",
+    "district": "West Godavari",
+    "storedCoordinates": [
+      81.25,
+      16.63
+    ],
+    "verifiedCoordinates": [
+      81.25,
+      16.63
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Palakollu town",
+    "slug": "palakollu-town",
+    "district": "West Godavari",
+    "storedCoordinates": [
+      81.7281,
+      16.5165
+    ],
+    "verifiedCoordinates": [
+      81.7281,
+      16.5165
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Somarama Temple Tank",
+    "slug": "somarama-temple-tank",
+    "district": "West Godavari",
+    "storedCoordinates": [
+      81.5242,
+      16.5431
+    ],
+    "verifiedCoordinates": [
+      81.5242,
+      16.5431
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Ksheerarama Gopuram",
+    "slug": "ksheerarama-gopuram",
+    "district": "West Godavari",
+    "storedCoordinates": [
+      81.7288,
+      16.5168
+    ],
+    "verifiedCoordinates": [
+      81.7288,
+      16.5168
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Narsapur Lace Industry",
+    "slug": "narsapur-lace-industry",
+    "district": "West Godavari",
+    "storedCoordinates": [
+      81.6985,
+      16.434
+    ],
+    "verifiedCoordinates": [
+      81.6985,
+      16.434
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Godavari delta canals",
+    "slug": "godavari-delta-canals",
+    "district": "West Godavari",
+    "storedCoordinates": [
+      81.65,
+      16.48
+    ],
+    "verifiedCoordinates": [
+      81.65,
+      16.48
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Perupalem Beach",
+    "slug": "perupalem-beach",
+    "district": "West Godavari",
+    "storedCoordinates": [
+      81.5956,
+      16.3589
+    ],
+    "verifiedCoordinates": [
+      81.5956,
+      16.3589
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Gandikota Fort",
+    "slug": "gandikota-fort",
+    "district": "YSR Kadapa",
+    "storedCoordinates": [
+      78.2866,
+      14.8154
+    ],
+    "verifiedCoordinates": [
+      78.2866,
+      14.8154
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Vontimitta Kodandarama Temple",
+    "slug": "vontimitta-kodandarama-temple",
+    "district": "YSR Kadapa",
+    "storedCoordinates": [
+      78.9667,
+      14.3833
+    ],
+    "verifiedCoordinates": [
+      78.9667,
+      14.3833
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Siddavatam Fort",
+    "slug": "siddavatam-fort",
+    "district": "YSR Kadapa",
+    "storedCoordinates": [
+      78.9268,
+      14.467
+    ],
+    "verifiedCoordinates": [
+      78.9268,
+      14.467
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Brahmamgari Matham",
+    "slug": "brahmamgari-matham",
+    "district": "YSR Kadapa",
+    "storedCoordinates": [
+      78.8503,
+      14.7845
+    ],
+    "verifiedCoordinates": [
+      78.8503,
+      14.7845
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Gandikota Gorge Camping",
+    "slug": "gandikota-gorge-camping",
+    "district": "YSR Kadapa",
+    "storedCoordinates": [
+      78.288,
+      14.8168
+    ],
+    "verifiedCoordinates": [
+      78.288,
+      14.8168
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Kadapa City Center",
+    "slug": "kadapa-city-center",
+    "district": "YSR Kadapa",
+    "storedCoordinates": [
+      78.8241,
+      14.4674
+    ],
+    "verifiedCoordinates": [
+      78.8241,
+      14.4674
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Ameen Peer Dargah",
+    "slug": "ameen-peer-dargah",
+    "district": "YSR Kadapa",
+    "storedCoordinates": [
+      78.8249,
+      14.4678
+    ],
+    "verifiedCoordinates": [
+      78.8249,
+      14.4678
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Lakkireddipalli Hills",
+    "slug": "lakkireddipalli-hills",
+    "district": "YSR Kadapa",
+    "storedCoordinates": [
+      78.7,
+      14.1667
+    ],
+    "verifiedCoordinates": [
+      78.7,
+      14.1667
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Gandikota viewpoint",
+    "slug": "gandikota-viewpoint",
+    "district": "YSR Kadapa",
+    "storedCoordinates": [
+      78.2904,
+      14.8202
+    ],
+    "verifiedCoordinates": [
+      78.2904,
+      14.8202
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  },
+  {
+    "place": "Pushpagiri Temple Complex",
+    "slug": "pushpagiri-temple-complex",
+    "district": "YSR Kadapa",
+    "storedCoordinates": [
+      78.7508,
+      14.5975
+    ],
+    "verifiedCoordinates": [
+      78.7508,
+      14.5975
+    ],
+    "deviationKm": 0,
+    "hasIssue": false,
+    "issues": []
+  }
+]

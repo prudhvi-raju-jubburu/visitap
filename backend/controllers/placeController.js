@@ -1,5 +1,7 @@
+const mongoose = require('mongoose');
 const Place = require('../models/Place');
 const District = require('../models/District');
+
 
 // @desc   Get all places (optionally by district)
 // @route  GET /api/places?district=name
@@ -8,7 +10,23 @@ const getAllPlaces = async (req, res) => {
   try {
     const filter = { isActive: true };
     if (req.query.district) {
-      filter.districtName = new RegExp(`^${req.query.district}$`, 'i');
+      const queryStr = req.query.district.trim();
+      const slugStr = queryStr.toLowerCase().replace(/\s+/g, '-').replace(/[^\w-]+/g, '').replace(/-+/g, '-');
+      
+      const districtDoc = await District.findOne({
+        $or: [
+          { slug: slugStr },
+          { slug: queryStr.toLowerCase() },
+          { name: new RegExp(`^${queryStr}$`, 'i') },
+          { name: new RegExp(`^${queryStr.replace(/[-\s.]+/g, '.*')}$`, 'i') }
+        ]
+      });
+
+      if (districtDoc) {
+        filter.districtId = districtDoc._id;
+      } else {
+        filter.districtName = new RegExp(`^${queryStr.replace(/-/g, ' ')}$`, 'i');
+      }
     }
     if (req.query.featured === 'true') {
       filter.isFeatured = true;
@@ -51,47 +69,140 @@ const getPlace = async (req, res) => {
   }
 };
 
-// @desc   Get nearby places using geospatial query
-// @route  GET /api/places/nearby?lng=80.2&lat=13.1&radius=20
+// @desc   Get smart recommended places ("You May Also Like") using weighted scoring
+// @route  GET /api/places/nearby?lng=80.2&lat=13.1&radius=20&excludeId=xxx
 // @access Public
 const getNearbyPlaces = async (req, res) => {
   try {
     const { lng, lat, radius = 20, excludeId } = req.query;
+    const { calculateHaversineDistance } = require('../utils/geospatial');
+    const jwt = require('jsonwebtoken');
+    const User = require('../models/User');
 
-    if (lng === undefined || lat === undefined) {
-      return res.status(400).json({ success: false, message: 'Longitude and latitude are required.' });
+    let anchorLng, anchorLat, currentPlace = null;
+
+    if (excludeId && mongoose.Types.ObjectId.isValid(excludeId)) {
+      currentPlace = await Place.findById(excludeId);
     }
 
-    const longitude = parseFloat(lng);
-    const latitude = parseFloat(lat);
-    const radiusInMeters = parseFloat(radius) * 1000;
-
-    if (isNaN(longitude) || isNaN(latitude)) {
-      return res.status(400).json({ success: false, message: 'Invalid coordinates provided.' });
+    if (currentPlace) {
+      anchorLng = currentPlace.location.coordinates[0];
+      anchorLat = currentPlace.location.coordinates[1];
+    } else {
+      if (lng === undefined || lat === undefined) {
+        return res.status(400).json({ success: false, message: 'Longitude and latitude are required.' });
+      }
+      anchorLng = parseFloat(lng);
+      anchorLat = parseFloat(lat);
     }
 
-    const filter = {
-      isActive: true,
-      location: {
-        $nearSphere: {
-          $geometry: {
-            type: 'Point',
-            coordinates: [longitude, latitude]
-          },
-          $maxDistance: radiusInMeters,
-        },
-      },
-    };
-
-    if (excludeId && excludeId.match(/^[0-9a-fA-F]{24}$/)) {
-      filter._id = { $ne: excludeId };
+    const searchRadiusKm = parseFloat(radius);
+    if (isNaN(anchorLng) || isNaN(anchorLat) || isNaN(searchRadiusKm)) {
+      return res.status(400).json({ success: false, message: 'Invalid coordinates or radius provided.' });
     }
 
-    const places = await Place.find(filter).limit(10).select('-__v');
+    // Optional user authentication to personalize favorites scores
+    let user = null;
+    let userFavoriteCategories = new Set();
+    try {
+      if (req.headers.authorization && req.headers.authorization.startsWith('Bearer')) {
+        const token = req.headers.authorization.split(' ')[1];
+        const decoded = jwt.verify(token, process.env.JWT_SECRET);
+        user = await User.findById(decoded.id).populate('favorites');
+        if (user && user.favorites) {
+          user.favorites.forEach(fav => {
+            if (fav.category) userFavoriteCategories.add(fav.category);
+          });
+        }
+      }
+    } catch (err) {
+      // Fail silently and proceed as anonymous
+    }
 
-    res.json({ success: true, count: places.length, data: places });
+    // Fetch all active places to calculate recommendations
+    const allPlaces = await Place.find({ isActive: true });
+    const candidates = [];
+
+    allPlaces.forEach(candidate => {
+      // Exclude reference attraction itself
+      if (excludeId && candidate._id.toString() === excludeId.toString()) {
+        return;
+      }
+
+      const candCoords = candidate.location.coordinates;
+      const dist = calculateHaversineDistance(anchorLng, anchorLat, candCoords[0], candCoords[1]);
+
+      // Filter by selected radius (5, 10, 20, 50 km)
+      if (dist > searchRadiusKm) {
+        return;
+      }
+
+      // 1. Distance Score: Closer is better
+      const distanceScore = 1 - (dist / searchRadiusKm);
+
+      // 2. Category Match Score
+      const categoryScore = (currentPlace && currentPlace.category && candidate.category === currentPlace.category) ? 1 : 0;
+
+      // 3. Rating Score: Average out of 5 stars
+      const ratingScore = (candidate.rating && candidate.rating.average) ? (candidate.rating.average / 5) : 0;
+
+      // 4. Popularity Score: Review count normalized (max 20)
+      const popularityScore = (candidate.rating && candidate.rating.count) ? Math.min(1, candidate.rating.count / 20) : 0;
+
+      // 5. User Favorites Score
+      let favoritesScore = 0;
+      if (user) {
+        const isFavorited = user.favorites.some(fav => fav._id.toString() === candidate._id.toString());
+        if (isFavorited) {
+          favoritesScore += 0.5;
+        }
+        if (userFavoriteCategories.has(candidate.category)) {
+          favoritesScore += 0.5;
+        }
+      }
+
+      // Compute final composite recommendation score
+      const score = (distanceScore * 0.35) + (categoryScore * 0.25) + (ratingScore * 0.20) + (popularityScore * 0.10) + (favoritesScore * 0.10);
+
+      candidates.push({
+        place: candidate.toObject ? candidate.toObject() : candidate,
+        distance: dist,
+        score
+      });
+    });
+
+    // Sort by composite score descending
+    candidates.sort((a, b) => b.score - a.score);
+
+    // Filter to limit duplicate districts where possible (max 2 places per district)
+    const recommended = [];
+    const districtCounts = {};
+    const deferredList = [];
+
+    candidates.forEach(c => {
+      const distName = c.place.districtName;
+      if (!districtCounts[distName]) {
+        districtCounts[distName] = 0;
+      }
+
+      if (districtCounts[distName] < 2) {
+        recommended.push({ ...c.place, distance: c.distance, score: c.score });
+        districtCounts[distName]++;
+      } else {
+        deferredList.push(c);
+      }
+    });
+
+    // Fill remaining spots up to 10 using deferred list
+    let index = 0;
+    while (recommended.length < 10 && index < deferredList.length) {
+      const c = deferredList[index++];
+      recommended.push({ ...c.place, distance: c.distance, score: c.score });
+    }
+
+    res.json({ success: true, count: recommended.length, data: recommended.slice(0, 10) });
   } catch (error) {
-    console.error('Nearby places error:', error.message);
+    console.error('Recommendations engine error:', error.message);
     res.status(500).json({ success: false, message: error.message });
   }
 };

@@ -1,0 +1,289 @@
+[
+  {
+    "name": "Kolleru Lake",
+    "slug": "kolleru-lake",
+    "districtName": "Eluru",
+    "description": "One of the largest freshwater lakes in India, hosting a huge wetland habitat.",
+    "shortDescription": "A beautiful nature spot in Eluru.",
+    "category": "Nature",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        81.2378,
+        16.6204
+      ]
+    },
+    "rating": {
+      "average": 4.4,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": true,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/4/49/Birds_in_Kolleru_Lake_captured_near_Devi_Chintapadu_(04).jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/6/64/Kolleru_lake_AndhraPradesh.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/2/2d/ISS006-E-17552_-_View_of_India.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/d/df/ISS006-E-17550_-_View_of_India.jpg"
+    ]
+  },
+  {
+    "name": "Dwaraka Tirumala Temple",
+    "slug": "dwaraka-tirumala-temple",
+    "districtName": "Eluru",
+    "description": "A popular hill temple dedicated to Lord Venkateswara, known as Chinna Tirupati.",
+    "shortDescription": "A beautiful temple / religious spot in Eluru.",
+    "category": "Temple / Religious",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        81.2558,
+        16.9319
+      ]
+    },
+    "rating": {
+      "average": 4.6,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/f/f1/East_Gopuram_of_Dwaraka_Tirumala_Temple.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/f/fb/Replica_of_Lord_Venkateswara_at_Dwaraka_Tirumala,_Andhra_Pradesh.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/9/97/Replica_of_sage_Valmiki_at_Dwaraka_Tirumala,_Andhra_Pradesh.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/a/a5/Buddha_statue_at_Dwaraka_Tirumala_Temple_01.jpg"
+    ]
+  },
+  {
+    "name": "Guntupalli Caves",
+    "slug": "guntupalli-caves",
+    "districtName": "Eluru",
+    "description": "An ancient rock-cut Buddhist monastery featuring circular stupas and caves.",
+    "shortDescription": "A beautiful historical spot in Eluru.",
+    "category": "Historical",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        81.0804,
+        17.2208
+      ]
+    },
+    "rating": {
+      "average": 4.4,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Stone_built_Stupa_and_Large_group_of_stupas.JPG",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/a/a4/Guntupalli_Buddhist_caves.JPG",
+      "https://upload.wikimedia.org/wikipedia/commons/4/42/Way_to_Stone_built_Stupa_and_Large_group_of_stupas..JPG",
+      "https://upload.wikimedia.org/wikipedia/commons/5/5b/Brick_Chaitya_along_with_group_of_Stupas.JPG"
+    ]
+  },
+  {
+    "name": "Kolleru Pelican Sanctuary",
+    "slug": "kolleru-pelican-sanctuary",
+    "districtName": "Eluru",
+    "description": "A seasonal breeding ground for spot-billed pelicans and painted storks.",
+    "shortDescription": "A beautiful wildlife spot in Eluru.",
+    "category": "Wildlife",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        81.2472,
+        16.6365
+      ]
+    },
+    "rating": {
+      "average": 4.1,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Spot-billed_Pelican_(Pelecanus_philippensis)_at_nest_at_Atapaka_in_Kolleru_W_IMG_3738.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/8/86/Forest_canopy.jpg"
+    ]
+  },
+  {
+    "name": "Eluru City Center",
+    "slug": "eluru-city-center",
+    "districtName": "Eluru",
+    "description": "A commercial district center famous for pile carpet weaving and agriculture.",
+    "shortDescription": "A beautiful city spot in Eluru.",
+    "category": "City",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        81.0952,
+        16.7107
+      ]
+    },
+    "rating": {
+      "average": 4.4,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/7/72/Fire_Station_center,_Eluru_on_a_morning.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/1/1e/Old_brick_wall.jpg"
+    ]
+  },
+  {
+    "name": "Dwaraka Tirumala Hill",
+    "slug": "dwaraka-tirumala-hill",
+    "districtName": "Eluru",
+    "description": "The holy hill complex surrounded by orchards and coconut plantations.",
+    "shortDescription": "A beautiful pilgrimage spot in Eluru.",
+    "category": "Pilgrimage",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        81.2552,
+        16.9328
+      ]
+    },
+    "rating": {
+      "average": 4.1,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Garuda_Dwarakatirumala.JPG",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/e/e6/Temple_Bell%2C_Saurashtra.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/3/3a/Diya_lamp.jpg"
+    ]
+  },
+  {
+    "name": "Guntupalli Stupa Complex",
+    "slug": "guntupalli-stupa-complex",
+    "districtName": "Eluru",
+    "description": "Beautifully carved rock stupas dating back to the 3rd century BC.",
+    "shortDescription": "A beautiful heritage spot in Eluru.",
+    "category": "Heritage",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        81.0815,
+        17.2219
+      ]
+    },
+    "rating": {
+      "average": 4.2,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/d/db/009_View_of_the_Stupa_Field.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/2/29/008_View_of_the_Stupa_Field.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/f/f8/029_Complex_from_Below.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/4/46/028_View_of_the_Complex_from_Above.jpg"
+    ]
+  },
+  {
+    "name": "Eluru Canal Park",
+    "slug": "eluru-canal-park",
+    "districtName": "Eluru",
+    "description": "A quiet riverfront park constructed along the canals of the Krishna River.",
+    "shortDescription": "A beautiful nature spot in Eluru.",
+    "category": "Nature",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        81.0956,
+        16.7108
+      ]
+    },
+    "rating": {
+      "average": 4.6,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Pollution_in_Eluru_canal_along_Mini-Bypass_road_Eluru.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/c/c2/Eluru_canal_and_National_Highway_16_near_Denduluru.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/3/34/Sattupalle_-_Eluru_APS_RTC_bus_on_Polavaram_canal.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/9/9e/Canal_and_locks_in_Eluru.jpg"
+    ]
+  },
+  {
+    "name": "Kolleru boating channels",
+    "slug": "kolleru-boating-channels",
+    "districtName": "Eluru",
+    "description": "Adventurous motorboat routes crossing the vast marshy wetlands.",
+    "shortDescription": "A beautiful adventure spot in Eluru.",
+    "category": "Adventure",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        81.2426,
+        16.6248
+      ]
+    },
+    "rating": {
+      "average": 4.8,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/8/86/Forest_canopy.jpg",
+    "images": []
+  },
+  {
+    "name": "Maddinala Waterfall",
+    "slug": "maddinala-waterfall",
+    "districtName": "Eluru",
+    "description": "A hidden natural waterfall cascade located in the upland forest ranges.",
+    "shortDescription": "A beautiful waterfalls spot in Eluru.",
+    "category": "Waterfalls",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        81.1654,
+        17.3512
+      ]
+    },
+    "rating": {
+      "average": 4.1,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Water_droplets.jpg",
+    "images": []
+  }
+]

@@ -1,0 +1,298 @@
+[
+  {
+    "name": "Puttaparthi Ashram",
+    "slug": "puttaparthi-ashram",
+    "districtName": "Sri Sathya Sai",
+    "description": "Prasanthi Nilayam, the global spiritual ashram founded by Sri Sathya Sai Baba.",
+    "shortDescription": "A beautiful pilgrimage spot in Sri Sathya Sai.",
+    "category": "Pilgrimage",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        77.8106,
+        14.1664
+      ]
+    },
+    "rating": {
+      "average": 4.3,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": true,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Prasanthi_Nilayam_entrance.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/4/49/The_sculpture_of_Jesus_Christ_in_the_ashram_of_Sathya_Sai_Baba_Prasanthi_Nilayam.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/d/de/Prasanthi_Nilayam_-_Sri_Sathya_Sai_Baba_01.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/9/9b/Chaitanya_Jyothi_Museum,_Prashanthi_Nilayam,_India.jpg"
+    ]
+  },
+  {
+    "name": "Lepakshi Temple Complex",
+    "slug": "lepakshi-temple-complex",
+    "districtName": "Sri Sathya Sai",
+    "description": "The Veerabhadra temple famous for stone carvings, murals, and the hanging pillar.",
+    "shortDescription": "A beautiful heritage spot in Sri Sathya Sai.",
+    "category": "Heritage",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        77.6062,
+        13.8021
+      ]
+    },
+    "rating": {
+      "average": 4.2,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Pillars_at_the_Veerabhadra_Temple,_Lepakshi,_Andhra_Pradesh,_India_(2016).jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/4/43/Portal_to_Divinity.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/e/e2/World_largest_Nandi_statue.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/7/76/LEPAKSHI_TEMPLE_02.jpg"
+    ]
+  },
+  {
+    "name": "Puttaparthi Planetarium",
+    "slug": "puttaparthi-planetarium",
+    "districtName": "Sri Sathya Sai",
+    "description": "A modern space science education center located inside the spiritual township.",
+    "shortDescription": "A beautiful city spot in Sri Sathya Sai.",
+    "category": "City",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        77.81,
+        14.165
+      ]
+    },
+    "rating": {
+      "average": 4.8,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/7/71/Planetarium_Puttaparthi.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/1/1e/Old_brick_wall.jpg"
+    ]
+  },
+  {
+    "name": "Lepakshi monolithic Nandi",
+    "slug": "lepakshi-monolithic-nandi",
+    "districtName": "Sri Sathya Sai",
+    "description": "The colossal stone Nandi bull located near the temple, carved from a single rock.",
+    "shortDescription": "A beautiful historical spot in Sri Sathya Sai.",
+    "category": "Historical",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        77.608,
+        13.801
+      ]
+    },
+    "rating": {
+      "average": 4.1,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/4/4c/LPK19_61_Lepakshi_Nandi_small.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/4/44/LPK19_66_Lepakshi_Nandi_and_Jatayu_small.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/b/ba/LPK23_Lepakshi_-_Nandi_and_Jatayu.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/9/9a/1_massive_Nandi_Bull_sculpture_in_Lepakshi_India_2017.jpg"
+    ]
+  },
+  {
+    "name": "Puttaparthi Chaitanya Jyoti",
+    "slug": "puttaparthi-chaitanya-jyoti",
+    "districtName": "Sri Sathya Sai",
+    "description": "An architectural museum showcasing the history and teachings of Sai Baba.",
+    "shortDescription": "A beautiful culture spot in Sri Sathya Sai.",
+    "category": "Culture",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        77.8118,
+        14.1677
+      ]
+    },
+    "rating": {
+      "average": 4.5,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/8/80/Divoties_at_caitanya_jyoti.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/2/26/Puttaparti_1.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/3/3a/Diya_lamp.jpg"
+    ]
+  },
+  {
+    "name": "Lepakshi Hanging Pillar",
+    "slug": "lepakshi-hanging-pillar",
+    "districtName": "Sri Sathya Sai",
+    "description": "An engineering marvel of Vijayanagara architects, where a pillar hangs without touching the floor.",
+    "shortDescription": "A beautiful heritage spot in Sri Sathya Sai.",
+    "category": "Heritage",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        77.6069,
+        13.8032
+      ]
+    },
+    "rating": {
+      "average": 4.9,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Hanging_Pillar,_Veerabhadra_Temple,_Lepakshi,_Andhra_Pradesh,_India_(2006).jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/4/4b/Hanging_pillar,_Veerabhadra_Temple,_Lepakshi,_AndhraPradesh.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/6/64/Pillars_at_the_Veerabhadra_Temple,_Lepakshi,_Andhra_Pradesh,_India_(2011).jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/8/8f/83-LepakshiPillar.jpg"
+    ]
+  },
+  {
+    "name": "Pennar Riverbed",
+    "slug": "pennar-riverbed",
+    "districtName": "Sri Sathya Sai",
+    "description": "The dry sandy bed of the Pennar River, ideal for evening walks.",
+    "shortDescription": "A beautiful nature spot in Sri Sathya Sai.",
+    "category": "Nature",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        77.81,
+        14.12
+      ]
+    },
+    "rating": {
+      "average": 4.3,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/a/ab/River_Pennar_also_called_Penner_Penna_Penneru_in_Eastern_Ghats_India.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/a/a1/Penna_River_near_Anantapuram.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/d/d9/Penna_River.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/f/f0/Penna_River_from_Siddavattam_IMG_1242.jpg"
+    ]
+  },
+  {
+    "name": "Puttaparthi Hill view",
+    "slug": "puttaparthi-hill-view",
+    "districtName": "Sri Sathya Sai",
+    "description": "Tranquil hills surrounding the ashram, offering meditation points.",
+    "shortDescription": "A beautiful nature spot in Sri Sathya Sai.",
+    "category": "Nature",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        77.8175,
+        14.1725
+      ]
+    },
+    "rating": {
+      "average": 4.7,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/5/56/Large_Hanuman_Statue,_Puttaparthi,_Andhra_Pradesh_2.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/b/b6/Large_Hanuman_Statue,_Puttaparthi,_Andhra_Pradesh.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/8/86/Forest_canopy.jpg"
+    ]
+  },
+  {
+    "name": "Dharmavaram Border Area",
+    "slug": "dharmavaram-border-area",
+    "districtName": "Sri Sathya Sai",
+    "description": "The region neighboring the silk weaving hub, preserving traditional crafts.",
+    "shortDescription": "A beautiful culture spot in Sri Sathya Sai.",
+    "category": "Culture",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        77.7208,
+        14.4145
+      ]
+    },
+    "rating": {
+      "average": 4,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/5/5c/GOATS_GOTLURU_DHARMAVARAM_AP_-_panoramio.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/0/07/Dharmavaram_revenue_division_in_Anantapur_district.png",
+      "https://upload.wikimedia.org/wikipedia/commons/4/40/Dharmavaram_Junction.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/3/3a/Diya_lamp.jpg"
+    ]
+  },
+  {
+    "name": "Puttaparthi Super Hospital",
+    "slug": "puttaparthi-super-hospital",
+    "districtName": "Sri Sathya Sai",
+    "description": "A monumental healthcare institution built in palatial architectural style.",
+    "shortDescription": "A beautiful city spot in Sri Sathya Sai.",
+    "category": "City",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        77.8088,
+        14.1657
+      ]
+    },
+    "rating": {
+      "average": 4.3,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/6/64/Sri_Sathya_Sai_Super_Speciality_Hospital_panorama.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/9/9d/Puttaparthi_Hospital.png",
+      "https://upload.wikimedia.org/wikipedia/commons/e/ed/Sri_Sathya_Sai_Super_Speciality_Hospital,_Puttaparthi.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/f/f8/Sri_Sathy_Sai_Puttaparthi_Hospital.JPG"
+    ]
+  }
+]

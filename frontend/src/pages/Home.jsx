@@ -1,7 +1,8 @@
 import { useState, useEffect, useRef } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { fetchDistricts, fetchPlaces, fetchTopFeedbacks } from '../services/api';
+import { fetchDistricts, fetchPlaces, fetchTopFeedbacks, trackClientEvent } from '../services/api';
+import { useGeolocation } from '../hooks/useGeolocation';
 import DistrictCard from '../components/DistrictCard';
 import PlaceCard from '../components/PlaceCard';
 import { GridSkeleton } from '../components/SkeletonLoader';
@@ -102,6 +103,71 @@ export default function Home() {
   const [feedbacks, setFeedbacks] = useState([]);
   const [loading, setLoading] = useState(true);
 
+  const navigate = useNavigate();
+  const { location: gpsLoc, getLocation } = useGeolocation();
+  const [searchQuery, setSearchQuery] = useState('');
+  const [isListening, setIsListening] = useState(false);
+
+  useEffect(() => {
+    getLocation();
+  }, [getLocation]);
+
+  const handleSearchSubmit = (e) => {
+    e.preventDefault();
+    if (searchQuery.trim()) {
+      trackClientEvent('SEARCH', { metadata: { searchQuery: searchQuery.trim() } });
+      navigate(`/districts?search=${encodeURIComponent(searchQuery.trim())}`);
+    }
+  };
+
+  const handleVoiceSearch = () => {
+    const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+    if (!SpeechRecognition) {
+      alert("Voice search is not supported in your browser.");
+      return;
+    }
+    const recognition = new SpeechRecognition();
+    recognition.continuous = false;
+    recognition.interimResults = false;
+    recognition.lang = 'en-US';
+
+    recognition.onstart = () => {
+      setIsListening(true);
+      setSearchQuery('');
+    };
+
+    recognition.onresult = (event) => {
+      let transcript = event.results[0][0].transcript;
+      transcript = transcript.replace(/[.,!?]$/, '').trim();
+      setSearchQuery(transcript);
+      trackClientEvent('VOICE_SEARCH', { metadata: { searchQuery: transcript } });
+      setTimeout(() => {
+        navigate(`/districts?search=${encodeURIComponent(transcript)}`);
+      }, 800);
+    };
+
+    recognition.onerror = (event) => {
+      console.error("Speech recognition error", event.error);
+      setIsListening(false);
+    };
+
+    recognition.onend = () => {
+      setIsListening(false);
+    };
+
+    recognition.start();
+  };
+
+  const handleEmergencyClick = (type) => {
+    const lat = gpsLoc ? gpsLoc.lat : '';
+    const lng = gpsLoc ? gpsLoc.lng : '';
+    let url = `https://www.google.com/maps/search/${type}+near+me`;
+    if (lat && lng) {
+      url = `https://www.google.com/maps/search/${type}/@${lat},${lng},14z`;
+    }
+    window.open(url, '_blank', 'noopener,noreferrer');
+  };
+
   useEffect(() => {
     const load = async () => {
       try {
@@ -155,6 +221,33 @@ export default function Home() {
                 Explore the beauty and heritage of <strong className="text-text">Andhra Pradesh</strong>.
                 From sacred temples to canyon gorges, pristine beaches to lush valleys — discover it all.
               </p>
+
+              {/* Search Bar in Hero Header */}
+              <form onSubmit={handleSearchSubmit} className="relative max-w-md mb-8">
+                <input
+                  type="text"
+                  placeholder={isListening ? "Listening..." : "Search districts, beaches, temples..."}
+                  value={searchQuery}
+                  onChange={(e) => setSearchQuery(e.target.value)}
+                  className="w-full bg-surfaceLight border border-white/10 rounded-2xl px-5 py-4 pl-12 pr-12 text-white placeholder-textMuted focus:outline-none focus:border-primary transition-all text-sm font-body shadow-lg"
+                />
+                <svg className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-textMuted" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                </svg>
+                <button
+                  type="button"
+                  onClick={handleVoiceSearch}
+                  className={`absolute right-4 top-1/2 -translate-y-1/2 p-1.5 rounded-full transition-colors ${
+                    isListening ? 'bg-primary/20 text-primary animate-pulse' : 'text-textMuted hover:text-primary hover:bg-white/5'
+                  }`}
+                  title="Voice Search"
+                  aria-label="Voice Search"
+                >
+                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M19 11a7 7 0 01-7 7m0 0a7 7 0 01-7-7m7 7v4m0 0H8m4 0h4m-4-8a3 3 0 01-3-3V5a3 3 0 116 0v6a3 3 0 01-3 3z" />
+                  </svg>
+                </button>
+              </form>
 
               <div className="flex flex-wrap gap-4 mb-12">
                 <Link to="/districts" className="btn-primary">
@@ -317,6 +410,60 @@ export default function Home() {
           </div>
         </section>
       )}
+
+      {/* ── EMERGENCY SERVICES ROW (ALWAYS ACCESSIBLE) ──────── */}
+      <section className="py-16 border-t border-white/10 bg-black/40">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center sm:text-left">
+          <div className="mb-8">
+            <h3 className="font-display text-2xl font-black text-red-500 uppercase tracking-tight flex items-center justify-center sm:justify-start gap-2 animate-pulse">
+              <span>🚨</span> Emergency Help Near Me
+            </h3>
+            <p className="text-textMuted text-sm mt-1 font-semibold">Find essential services near your location</p>
+          </div>
+
+          <div className="grid grid-cols-2 sm:grid-cols-5 gap-4">
+            <button
+              onClick={() => handleEmergencyClick('police')}
+              className="bg-red-500/10 hover:bg-red-500 hover:text-bg border border-red-500/30 p-5 rounded-2xl transition-all font-bold text-base flex flex-col items-center justify-center min-h-[96px] text-red-400"
+            >
+              <span className="text-2xl mb-1.5">🚓</span>
+              <span>Police Station</span>
+            </button>
+
+            <button
+              onClick={() => handleEmergencyClick('hospital')}
+              className="bg-red-500/10 hover:bg-red-500 hover:text-bg border border-red-500/30 p-5 rounded-2xl transition-all font-bold text-base flex flex-col items-center justify-center min-h-[96px] text-red-400"
+            >
+              <span className="text-2xl mb-1.5">🏥</span>
+              <span>Hospital</span>
+            </button>
+
+            <button
+              onClick={() => handleEmergencyClick('petrol+pump')}
+              className="bg-yellow-500/10 hover:bg-yellow-500 hover:text-bg border border-yellow-500/30 p-5 rounded-2xl transition-all font-bold text-base flex flex-col items-center justify-center min-h-[96px] text-yellow-400"
+            >
+              <span className="text-2xl mb-1.5">⛽</span>
+              <span>Petrol Pump</span>
+            </button>
+
+            <button
+              onClick={() => handleEmergencyClick('bus+stand')}
+              className="bg-blue-500/10 hover:bg-blue-500 hover:text-bg border border-blue-500/30 p-5 rounded-2xl transition-all font-bold text-base flex flex-col items-center justify-center min-h-[96px] text-blue-400"
+            >
+              <span className="text-2xl mb-1.5">🚌</span>
+              <span>Bus Stand</span>
+            </button>
+
+            <button
+              onClick={() => handleEmergencyClick('public+toilet')}
+              className="bg-green-500/10 hover:bg-green-500 hover:text-bg border border-green-500/30 p-5 rounded-2xl transition-all font-bold text-base flex flex-col items-center justify-center min-h-[96px] text-green-400 col-span-2 sm:col-span-1"
+            >
+              <span className="text-2xl mb-1.5">🚻</span>
+              <span>Public Toilet</span>
+            </button>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }

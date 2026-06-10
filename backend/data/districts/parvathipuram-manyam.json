@@ -1,0 +1,292 @@
+[
+  {
+    "name": "Thotapalli Barrage Project",
+    "slug": "thotapalli-barrage-project",
+    "districtName": "Parvathipuram Manyam",
+    "description": "A scenic dam reservoir built across the Nagavali River, surrounded by hills.",
+    "shortDescription": "A beautiful nature spot in Parvathipuram Manyam.",
+    "category": "Nature",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.4703,
+        18.8129
+      ]
+    },
+    "rating": {
+      "average": 4.4,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": true,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Thotapalli_old_Bridge.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/a/a6/Thotapalli_Vizianagaram_Branch_Canal_Aerial_view.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/b/b4/Nellore_mandals_Thotapalli_Gudur_pre_2022.png",
+      "https://upload.wikimedia.org/wikipedia/commons/9/9a/తోటపల్లి_త్రికుటాలయం.jpg"
+    ]
+  },
+  {
+    "name": "Parvathipuram Town Center",
+    "slug": "parvathipuram-town-center",
+    "districtName": "Parvathipuram Manyam",
+    "description": "A commercial agricultural town acting as the gateway to the tribal agency area.",
+    "shortDescription": "A beautiful city spot in Parvathipuram Manyam.",
+    "category": "City",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.4257,
+        18.7832
+      ]
+    },
+    "rating": {
+      "average": 4.3,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/d/da/Chanduphotography.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/7/72/Sunset_near_Parvathipuram_01.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/8/81/Sunset_near_Parvathipuram_02.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/c/cc/Old_model_ceiling_fan_at_Parvathipuram_03.jpg"
+    ]
+  },
+  {
+    "name": "Kurupam Palace ruins",
+    "slug": "kurupam-palace-ruins",
+    "districtName": "Parvathipuram Manyam",
+    "description": "The heritage ruins of the Kurupam Zamindars estate, featuring carvings.",
+    "shortDescription": "A beautiful historical spot in Parvathipuram Manyam.",
+    "category": "Historical",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.4848,
+        18.8702
+      ]
+    },
+    "rating": {
+      "average": 4.3,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Raja_and_Rani_of_Kurupam,_by_Raja_Ravi_Varma_(detail).jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/9/9a/Raja_and_Rani_of_Kurupam.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/a/a3/Sri_Rajah_V._Veerabhadra_Raju_Bahadur,_Garu_in_native_costume.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/4/42/Sri_Rajah_V._Veerabhadra_Raju_Bahadur_Garu_in_uniform.jpg"
+    ]
+  },
+  {
+    "name": "Nagavali River banks",
+    "slug": "nagavali-river-banks",
+    "districtName": "Parvathipuram Manyam",
+    "description": "Scenic riverbanks offering viewpoints of the rolling Eastern Ghats.",
+    "shortDescription": "A beautiful nature spot in Parvathipuram Manyam.",
+    "category": "Nature",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.4208,
+        18.8055
+      ]
+    },
+    "rating": {
+      "average": 4.2,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/8/80/Srikakulam_.rever_view_park.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/8/86/Forest_canopy.jpg"
+    ]
+  },
+  {
+    "name": "Thotapalli Reservoir",
+    "slug": "thotapalli-reservoir",
+    "districtName": "Parvathipuram Manyam",
+    "description": "A vast water body attracting water birds and local fishermen.",
+    "shortDescription": "A beautiful nature spot in Parvathipuram Manyam.",
+    "category": "Nature",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.4788,
+        18.8185
+      ]
+    },
+    "rating": {
+      "average": 4.1,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Thotapalli_old_Bridge.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/a/a6/Thotapalli_Vizianagaram_Branch_Canal_Aerial_view.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/b/b4/Nellore_mandals_Thotapalli_Gudur_pre_2022.png",
+      "https://upload.wikimedia.org/wikipedia/commons/9/9a/తోటపల్లి_త్రికుటాలయం.jpg"
+    ]
+  },
+  {
+    "name": "Parvathipuram tribal market",
+    "slug": "parvathipuram-tribal-market",
+    "districtName": "Parvathipuram Manyam",
+    "description": "Weekly tribal markets (shandy) where hill tribes trade forest produce.",
+    "shortDescription": "A beautiful tribal spot in Parvathipuram Manyam.",
+    "category": "Tribal",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.4274,
+        18.7848
+      ]
+    },
+    "rating": {
+      "average": 4.9,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/8/86/Forest_canopy.jpg",
+    "images": []
+  },
+  {
+    "name": "Manyam Forest reserves",
+    "slug": "manyam-forest-reserves",
+    "districtName": "Parvathipuram Manyam",
+    "description": "Forest ranges housing wild elephants, leopards, and deciduous trees.",
+    "shortDescription": "A beautiful wildlife spot in Parvathipuram Manyam.",
+    "category": "Wildlife",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.38,
+        18.76
+      ]
+    },
+    "rating": {
+      "average": 4.1,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Pterospermum_heyneanum_Wall._syn_for_P.xylocarpum_(Gaertn.)_-_a_beautiful_forest_tree_from_the_deciduous_forests_of_Indian_Eastern_and_Western_ghats._02.JPG",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/8/87/Rollapadu_Wildlife_Sanctuary.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/0/00/Pterospermum_heyneanum_Wall._syn_for_P.xylocarpum_(Gaertn.)_-_a_beautiful_forest_tree_from_the_deciduous_forests_of_Indian_Eastern_and_Western_ghats._04.JPG",
+      "https://upload.wikimedia.org/wikipedia/commons/f/f9/Pterospermum_heyneanum_Wall._syn_for_P.xylocarpum_(Gaertn.)_-_a_beautiful_forest_tree_from_the_deciduous_forests_of_Indian_Eastern_and_Western_ghats._01.jpg"
+    ]
+  },
+  {
+    "name": "Kurupam Hills",
+    "slug": "kurupam-hills",
+    "districtName": "Parvathipuram Manyam",
+    "description": "Trekking trails through tribal valleys and rolling hills of Manyam.",
+    "shortDescription": "A beautiful adventure spot in Parvathipuram Manyam.",
+    "category": "Adventure",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.545,
+        18.868
+      ]
+    },
+    "rating": {
+      "average": 4.5,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/8/86/Forest_canopy.jpg",
+    "images": []
+  },
+  {
+    "name": "Thotapalli parklands",
+    "slug": "thotapalli-parklands",
+    "districtName": "Parvathipuram Manyam",
+    "description": "A municipal park built near the barrage, offering play areas and views.",
+    "shortDescription": "A beautiful nature spot in Parvathipuram Manyam.",
+    "category": "Nature",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.4721,
+        18.8146
+      ]
+    },
+    "rating": {
+      "average": 4.3,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Thotapalli_old_Bridge.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/a/a6/Thotapalli_Vizianagaram_Branch_Canal_Aerial_view.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/b/b4/Nellore_mandals_Thotapalli_Gudur_pre_2022.png",
+      "https://upload.wikimedia.org/wikipedia/commons/9/9a/తోటపల్లి_త్రికుటాలయం.jpg"
+    ]
+  },
+  {
+    "name": "Nagavali bridge",
+    "slug": "nagavali-bridge",
+    "districtName": "Parvathipuram Manyam",
+    "description": "A long steel girder bridge connecting the tribal hills with the plains.",
+    "shortDescription": "A beautiful city spot in Parvathipuram Manyam.",
+    "category": "City",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.4231,
+        18.8062
+      ]
+    },
+    "rating": {
+      "average": 4.4,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Hanging_Bridge_over_the_nagavali_river_at_Chekaguda,_Rayagada.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/1/1a/Nagavali_river2.JPG",
+      "https://upload.wikimedia.org/wikipedia/commons/c/c0/Nagavali_river1.JPG",
+      "https://upload.wikimedia.org/wikipedia/commons/1/1e/Old_brick_wall.jpg"
+    ]
+  }
+]

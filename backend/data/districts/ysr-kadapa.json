@@ -1,0 +1,296 @@
+[
+  {
+    "name": "Gandikota Fort",
+    "slug": "gandikota-fort",
+    "districtName": "YSR Kadapa",
+    "description": "A historic red-stone fort situated on the edge of the Penna River gorge canyon.",
+    "shortDescription": "A beautiful historical spot in YSR Kadapa.",
+    "category": "Historical",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        78.2866,
+        14.8154
+      ]
+    },
+    "rating": {
+      "average": 4.9,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": true,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/3/38/Gandikota_Fort_Cuddapah_Andhra_Pradesh_PIC_0156.JPG",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/c/c9/Gandikota_Fort_Cuddapah_Andhra_Pradesh_PIC_0070.JPG",
+      "https://upload.wikimedia.org/wikipedia/commons/5/56/Gandikota_Fort_Cuddapah_Andhra_Pradesh_PIC_0056.JPG",
+      "https://upload.wikimedia.org/wikipedia/commons/f/fc/Gandikota_Fort_Cuddapah_Andhra_Pradesh_PIC_0146.JPG"
+    ]
+  },
+  {
+    "name": "Vontimitta Kodandarama Temple",
+    "slug": "vontimitta-kodandarama-temple",
+    "districtName": "YSR Kadapa",
+    "description": "A historic 16th-century temple built in Vijayanagara style, famed for Rama Navami.",
+    "shortDescription": "A beautiful temple / religious spot in YSR Kadapa.",
+    "category": "Temple / Religious",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        78.9667,
+        14.3833
+      ]
+    },
+    "rating": {
+      "average": 4.3,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/9/93/16th_century_Kodandarama_temple,_Vontimitta,_Andhra_Pradesh_India_-_22.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/f/f4/16th_century_Kodandarama_temple,_Vontimitta,_Andhra_Pradesh_India_-_13.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/0/00/16th_century_Kodandarama_temple,_Vontimitta,_Andhra_Pradesh_India_-_11.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/e/e4/16th_century_Kodandarama_temple,_Vontimitta,_Andhra_Pradesh_India_-_7.jpg"
+    ]
+  },
+  {
+    "name": "Siddavatam Fort",
+    "slug": "siddavatam-fort",
+    "districtName": "YSR Kadapa",
+    "description": "A fortified complex on the banks of Penna River, acting as the gateway to the city.",
+    "shortDescription": "A beautiful historical spot in YSR Kadapa.",
+    "category": "Historical",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        78.9268,
+        14.467
+      ]
+    },
+    "rating": {
+      "average": 4.7,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Siddavatam_Fort,_Kadapa,_Andhra_Pradesh_02.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/9/9c/Siddavatam_Fort,_Kadapa,_Andhra_Pradesh_03.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/f/f4/The_Pillars_in_Siddavatam_Fort,_Kadapa,_Andhra_Pradesh_01.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/f/f6/Penna_river_siddavatam_fort.jpg"
+    ]
+  },
+  {
+    "name": "Brahmamgari Matham",
+    "slug": "brahmamgari-matham",
+    "districtName": "YSR Kadapa",
+    "description": "The final resting place of Veera Brahmendra Swamy, the saint who wrote prophecy scriptures.",
+    "shortDescription": "A beautiful pilgrimage spot in YSR Kadapa.",
+    "category": "Pilgrimage",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        78.8503,
+        14.7845
+      ]
+    },
+    "rating": {
+      "average": 4.1,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/e/e3/GREEN_MEADOWS,BRAMMAMGARIMATTAM,A.P_-_panoramio.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/c/c0/GREEN_FIELDS,KADAPA_-_panoramio.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/b/b6/LAKE_VIEW,BRAMAMGARIMATTAM,ANDHRA_PRADESH_-_panoramio.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/4/46/SILVERY_WATER,LAKE_BHRAMAMGARIMATTAM,KADAPA.A.P_-_panoramio.jpg"
+    ]
+  },
+  {
+    "name": "Gandikota Gorge Camping",
+    "slug": "gandikota-gorge-camping",
+    "districtName": "YSR Kadapa",
+    "description": "Thrilling adventure campgrounds overlooking the deep red Penna River canyon.",
+    "shortDescription": "A beautiful adventure spot in YSR Kadapa.",
+    "category": "Adventure",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        78.288,
+        14.8168
+      ]
+    },
+    "rating": {
+      "average": 5,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Gandikota_10.JPG",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/8/86/Forest_canopy.jpg"
+    ]
+  },
+  {
+    "name": "Kadapa City Center",
+    "slug": "kadapa-city-center",
+    "districtName": "YSR Kadapa",
+    "description": "A historic city surrounded by hills, famous for black limestone slabs and spicy cuisine.",
+    "shortDescription": "A beautiful city spot in YSR Kadapa.",
+    "category": "City",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        78.8241,
+        14.4674
+      ]
+    },
+    "rating": {
+      "average": 4.1,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/b/b7/A_damaged_Hindu_temple_in_Pushpagiri_village,_near_Kadapa,_Andhra_Pradesh_3.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/4/48/A_damaged_Hindu_temple_in_Pushpagiri_village,_near_Kadapa,_Andhra_Pradesh_4.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/8/82/A_damaged_Hindu_temple_in_Pushpagiri_village,_near_Kadapa,_Andhra_Pradesh_2.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/8/8d/A_damaged_Hindu_temple_in_Pushpagiri_village,_near_Kadapa,_Andhra_Pradesh.jpg"
+    ]
+  },
+  {
+    "name": "Ameen Peer Dargah",
+    "slug": "ameen-peer-dargah",
+    "districtName": "YSR Kadapa",
+    "description": "A 300-year-old Sufi shrine representing communal harmony, visited by devotees globally.",
+    "shortDescription": "A beautiful pilgrimage spot in YSR Kadapa.",
+    "category": "Pilgrimage",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        78.8249,
+        14.4678
+      ]
+    },
+    "rating": {
+      "average": 4.1,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/f/f6/కడప_అమీన్_పీర్_దర్గా.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/4/46/AMEEN_PEER_Dargah_kadapa_AP_-_panoramio.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/7/74/AMEEN_PEER_DARGAH,KADAPA_AP_-_panoramio.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/e/e6/Temple_Bell%2C_Saurashtra.jpg"
+    ]
+  },
+  {
+    "name": "Lakkireddipalli Hills",
+    "slug": "lakkireddipalli-hills",
+    "districtName": "YSR Kadapa",
+    "description": "Scenic mountain ranges in the Kadapa basin, covered in deciduous forests.",
+    "shortDescription": "A beautiful nature spot in YSR Kadapa.",
+    "category": "Nature",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        78.7,
+        14.1667
+      ]
+    },
+    "rating": {
+      "average": 4.3,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/8/86/Forest_canopy.jpg",
+    "images": []
+  },
+  {
+    "name": "Gandikota viewpoint",
+    "slug": "gandikota-viewpoint",
+    "districtName": "YSR Kadapa",
+    "description": "The highest overlook along the gorge, providing views of the grand canyon of India.",
+    "shortDescription": "A beautiful nature spot in YSR Kadapa.",
+    "category": "Nature",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        78.2904,
+        14.8202
+      ]
+    },
+    "rating": {
+      "average": 4.1,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Sunrise_at_Gandikota_Gorge_02.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/2/24/Sunrise_at_Gandikota_Gorge_01.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/b/b2/Madhava_Perumal_Temple-the_grandest_structure_in_Gandikota.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/2/24/21-GandiKotaGorge.jpg"
+    ]
+  },
+  {
+    "name": "Pushpagiri Temple Complex",
+    "slug": "pushpagiri-temple-complex",
+    "districtName": "YSR Kadapa",
+    "description": "A sacred spot featuring multiple medieval temples on the banks of Penna River.",
+    "shortDescription": "A beautiful temple / religious spot in YSR Kadapa.",
+    "category": "Temple / Religious",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        78.7508,
+        14.5975
+      ]
+    },
+    "rating": {
+      "average": 4.6,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/9/92/10th_to_15th_century_Chennakesava_temples_group,_Pushpagiri,_Andhra_Pradesh_India_-_02.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/0/05/Chennakesava_temples_group,_Pushpagiri_Andhra_Pradesh.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/2/2c/10th_to_15th_century_Chennakesava_temples_group,_Pushpagiri,_Andhra_Pradesh_India_-_03.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/d/d0/10th_to_15th_century_Chennakesava_temples_mandapam,_Pushpagiri,_Andhra_Pradesh_India_-_15.jpg"
+    ]
+  }
+]

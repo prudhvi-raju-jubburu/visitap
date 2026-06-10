@@ -1,0 +1,19 @@
+{
+  "timestamp": "2026-06-08T18:23:15.282Z",
+  "summary": {
+    "totalCollections": 0,
+    "missingPlacesCount": 0,
+    "missingDistrictsCount": 0,
+    "missingTripsCount": 0,
+    "duplicateSavesCount": 0,
+    "statsMismatchesCount": 0,
+    "achievementMismatchesCount": 0,
+    "clean": true
+  },
+  "missingPlaces": [],
+  "missingDistricts": [],
+  "missingTrips": [],
+  "duplicateSaves": [],
+  "statsMismatches": [],
+  "achievementMismatches": []
+}

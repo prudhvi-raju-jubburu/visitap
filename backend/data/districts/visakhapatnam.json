@@ -1,0 +1,300 @@
+[
+  {
+    "name": "RK Beach",
+    "slug": "rk-beach",
+    "districtName": "Visakhapatnam",
+    "description": "RK Beach is a popular beachfront in Visakhapatnam, offering sunsets, a scenic walkway, and various local food vendors.",
+    "shortDescription": "Explore RK Beach in Visakhapatnam.",
+    "category": "Beach",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.3237,
+        17.7149
+      ]
+    },
+    "rating": {
+      "average": 4.2,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": true,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Far_view_of_Hawa_Mahal_at_RK_Beach_in_Visakhapatnam.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/8/87/Face_Rock_Monument_at_RK_Beach_Visakhapatnam_28.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/8/8f/B._R._Ambedkar_statue_Statues_at_RK_Beach_Visakhapatnam_27.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/1/10/Boat_at_RK_beach_in_Vizag.jpg"
+    ]
+  },
+  {
+    "name": "Rushikonda Beach",
+    "slug": "rushikonda-beach",
+    "districtName": "Visakhapatnam",
+    "description": "Rushikonda Beach is known for its gold-colored sands, water sports, and tranquil waves, making it ideal for swimming and windsurfing.",
+    "shortDescription": "Explore Rushikonda Beach in Visakhapatnam.",
+    "category": "Beach",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.3855,
+        17.782
+      ]
+    },
+    "rating": {
+      "average": 4.7,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/0/09/Aerial_view_of_Rushikonda_beach.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/8/84/Aerial_view_of_Rushikonda_beach_and_road.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/a/a5/Rushikonda_beach_view_001.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/f/ff/Deformations_on_sand_due_to_waves_near_Rushikonda_beach_(December_2018).jpg"
+    ]
+  },
+  {
+    "name": "Yarada Beach",
+    "slug": "yarada-beach",
+    "districtName": "Visakhapatnam",
+    "description": "Yarada Beach is a secluded beach surrounded by lush green hills, offering pristine sand and clean, calm ocean views.",
+    "shortDescription": "Explore Yarada Beach in Visakhapatnam.",
+    "category": "Beach",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.2747,
+        17.6555
+      ]
+    },
+    "rating": {
+      "average": 4.4,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Seaside_Harvest_-_Fishermen_Hauling_Nets_at_Yarada_Beach,_Visakhapatnam_(1).jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/8/82/Seaside_Harvest_-_Fishermen_Hauling_Nets_at_Yarada_Beach,_Visakhapatnam_(2).jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/1/19/Yarada_Beach.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/8/82/Aerial_photograph_of_Yarada_beach,_Visakhapatnam.jpg"
+    ]
+  },
+  {
+    "name": "Bheemili Beach",
+    "slug": "bheemili-beach",
+    "districtName": "Visakhapatnam",
+    "description": "Located at the mouth of the Gosthani River, this historic beach features ruins of a 17th-century Dutch settlement and lighthouse.",
+    "shortDescription": "Explore Bheemili Beach in Visakhapatnam.",
+    "category": "Beach",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.4529,
+        17.8905
+      ]
+    },
+    "rating": {
+      "average": 4.2,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/8/87/Boats_at_Bheemili_beach_in_Visakhapatnam_04.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/a/a6/Boats_at_Bheemili_beach_in_Visakhapatnam_03.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/d/d3/Boats_at_Bheemili_beach_in_Visakhapatnam_02.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/f/f7/Boat_view_at_Bheemili_beach_01.jpg"
+    ]
+  },
+  {
+    "name": "Simhachalam Temple",
+    "slug": "simhachalam-temple",
+    "districtName": "Visakhapatnam",
+    "description": "A famous 11th-century temple dedicated to Lord Varaha Narasimha, featuring detailed stone carvings and Gajapati kingdom architecture.",
+    "shortDescription": "Explore Simhachalam Temple in Visakhapatnam.",
+    "category": "Temple / Religious",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.2506,
+        17.7667
+      ]
+    },
+    "rating": {
+      "average": 4.3,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/1/14/Simhachalam_(4_July_2025)_6.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/5/50/Simhachalam_(4_July_2025)_2.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/3/31/Simhachalam_(4_July_2025)_3.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/4/4d/Simhachalam_(4_July_2025)_4.jpg"
+    ]
+  },
+  {
+    "name": "Katiki Waterfalls",
+    "slug": "katiki-waterfalls",
+    "districtName": "Visakhapatnam",
+    "description": "Katiki Falls is a natural waterfall plunging from 50 feet, surrounded by dense forests near the Borra Caves.",
+    "shortDescription": "Explore Katiki Waterfalls in Visakhapatnam.",
+    "category": "Waterfalls",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        82.9967,
+        18.2674
+      ]
+    },
+    "rating": {
+      "average": 4.6,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Katiki_Waterfall.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/6/60/Katika.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/f/fa/Waterfall218.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/3/3f/Katiki_waterfalls_cool.jpg"
+    ]
+  },
+  {
+    "name": "Tadimada Waterfalls",
+    "slug": "tadimada-waterfalls",
+    "districtName": "Visakhapatnam",
+    "description": "Also known as Ananthagiri Falls, Tadimada features a stunning cascade in a serene forest valley.",
+    "shortDescription": "Explore Tadimada Waterfalls in Visakhapatnam.",
+    "category": "Waterfalls",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        82.9123,
+        18.2324
+      ]
+    },
+    "rating": {
+      "average": 4,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Tadimada_Waterfalls.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/4/4c/Water_droplets.jpg"
+    ]
+  },
+  {
+    "name": "Kambalakonda Wildlife Sanctuary",
+    "slug": "kambalakonda-wildlife-sanctuary",
+    "districtName": "Visakhapatnam",
+    "description": "A lush forest reserve housing rare birds, panthers, and jackals, offering hiking trails and eco-tourism cottages.",
+    "shortDescription": "Explore Kambalakonda Wildlife Sanctuary in Visakhapatnam.",
+    "category": "Wildlife",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.3378,
+        17.7907
+      ]
+    },
+    "rating": {
+      "average": 4.4,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/2/2d/River_snail-shell_at_Kambalakonda_Wildlife_Sanctuary_01.JPG",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/c/ce/River_snail-shell_at_Kambalakonda_Wildlife_Sanctuary_02.JPG",
+      "https://upload.wikimedia.org/wikipedia/commons/0/02/Pentatomid_nymph,_Kambalakonda_Wildlife_Sanctuary,_Visakhapatnam.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/5/54/River_snail_at_Kambalakonda_Wildlife_Sanctuary.JPG"
+    ]
+  },
+  {
+    "name": "Visakhapatnam Harbor",
+    "slug": "visakhapatnam-harbor",
+    "districtName": "Visakhapatnam",
+    "description": "The bustling metropolitan heart of Visakhapatnam, featuring parks, maritime museums, and commercial ports.",
+    "shortDescription": "Explore Visakhapatnam Harbor in Visakhapatnam.",
+    "category": "City",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.2185,
+        17.6868
+      ]
+    },
+    "rating": {
+      "average": 4.2,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/2/26/INS_Jyoti_(A58)_departing_from_Visakhapatnam_harbor.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/0/06/Fisherman_working_on_fishing_nets_at_Visakhapatnam_harbor.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/1/1b/Fisherman_working_on_fishing_nets_at_Visakhapatnam_fishing_harbor.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/4/42/Boats_at_Finishing_Harbor,_Visakhapatnam.jpg"
+    ]
+  },
+  {
+    "name": "Simhachalam Hill Sanctuary",
+    "slug": "simhachalam-hill-sanctuary",
+    "districtName": "Visakhapatnam",
+    "description": "The sacred hill complex housing ancient shrines and offering panoramic views of the city coastline.",
+    "shortDescription": "Explore Simhachalam Hill Sanctuary in Visakhapatnam.",
+    "category": "Pilgrimage",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.251,
+        17.767
+      ]
+    },
+    "rating": {
+      "average": 4.7,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/6/68/View_of_Kambalakonda_Sanctuary_and_Mudasarlova_reservoir_in_Visakhapatnam.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/9/9f/Simhachalam_Temple_front_view.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/e/e6/Temple_Bell%2C_Saurashtra.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/3/3a/Diya_lamp.jpg"
+    ]
+  }
+]

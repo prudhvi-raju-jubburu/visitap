@@ -1,0 +1,288 @@
+[
+  {
+    "name": "Vizianagaram Fort",
+    "slug": "vizianagaram-fort",
+    "districtName": "Vizianagaram",
+    "description": "A majestic 18th-century stone fort built by the Gajapathi Kings, featuring a grand gateway.",
+    "shortDescription": "A beautiful historical spot in Vizianagaram.",
+    "category": "Historical",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.4072,
+        18.1172
+      ]
+    },
+    "rating": {
+      "average": 4.5,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": true,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/7/74/Vizianagaram_fort_walls_02.JPG",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/3/33/West_Entrance_of_the_Vizianagaram_fort_in_Andhra_Pradesh.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/3/31/Vizianagaram_fort_front_on_a_cloudy_day.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/8/83/Vizianagaram_Montage.png"
+    ]
+  },
+  {
+    "name": "Rama Tirtham Temple",
+    "slug": "rama-tirtham-temple",
+    "districtName": "Vizianagaram",
+    "description": "An ancient temple site on a hill, sacred to Lord Rama, featuring Buddhist ruins.",
+    "shortDescription": "A beautiful temple / religious spot in Vizianagaram.",
+    "category": "Temple / Religious",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.4915,
+        18.1642
+      ]
+    },
+    "rating": {
+      "average": 4,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Diya_lamp.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/d/d0/Diya_re-imagined.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/e/e6/Temple_Bell%2C_Saurashtra.jpg"
+    ]
+  },
+  {
+    "name": "Kumili Temple Complex",
+    "slug": "kumili-temple-complex",
+    "districtName": "Vizianagaram",
+    "description": "A unique collection of temples built by local kings, featuring detailed sculptures.",
+    "shortDescription": "A beautiful heritage spot in Vizianagaram.",
+    "category": "Heritage",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.4502,
+        18.1018
+      ]
+    },
+    "rating": {
+      "average": 4.4,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Old_brick_wall.jpg",
+    "images": []
+  },
+  {
+    "name": "Vizianagaram Clock Tower",
+    "slug": "vizianagaram-clock-tower",
+    "districtName": "Vizianagaram",
+    "description": "A historic 19th-century clock tower built in Gothic style in the city center.",
+    "shortDescription": "A beautiful city spot in Vizianagaram.",
+    "category": "City",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.4118,
+        18.116
+      ]
+    },
+    "rating": {
+      "average": 4.9,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/2/25/Ganta_stambham_(clock_tower)_in_Vizianagaram.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/f/fb/Vizianagaram_Ganta_Stambham.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/a/a1/Vizianagaram_ganta_stambham.png",
+      "https://upload.wikimedia.org/wikipedia/commons/8/81/Marketyard_road_in_Vizianagaram.jpg"
+    ]
+  },
+  {
+    "name": "Gajapathiraju Palace",
+    "slug": "gajapathiraju-palace",
+    "districtName": "Vizianagaram",
+    "description": "A grand royal palace (Moti Mahal) now housing historic educational institutions.",
+    "shortDescription": "A beautiful historical spot in Vizianagaram.",
+    "category": "Historical",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.411,
+        18.1169
+      ]
+    },
+    "rating": {
+      "average": 4.7,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/6/62/A_relief_of_Vishnu_at_Directorate_Of_Admissions_Andhra_University_building_in_Visakhapatnam.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/1/1e/Old_brick_wall.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/8/87/Old_cannon.jpg"
+    ]
+  },
+  {
+    "name": "Rama Tirtham Bodhikonda",
+    "slug": "rama-tirtham-bodhikonda",
+    "districtName": "Vizianagaram",
+    "description": "The sacred hill containing ruins of Buddhist monasteries and Jain caves.",
+    "shortDescription": "A beautiful nature spot in Vizianagaram.",
+    "category": "Nature",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.4908,
+        18.1633
+      ]
+    },
+    "rating": {
+      "average": 4.7,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Steps_leading_to_Bodhikonda_hilltop.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/5/5a/Northend_view_of_Bodhikonda_Hill.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/6/61/Partial_View_of_Bodhikonda_Hill.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/3/37/Cistern_on_hilltop_of_Bodhikonda_03.jpg"
+    ]
+  },
+  {
+    "name": "Vizianagaram Lake park",
+    "slug": "vizianagaram-lake-park",
+    "districtName": "Vizianagaram",
+    "description": "A peaceful lake park (Phool Bagh) constructed around a historic reservoir.",
+    "shortDescription": "A beautiful nature spot in Vizianagaram.",
+    "category": "Nature",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.415,
+        18.1215
+      ]
+    },
+    "rating": {
+      "average": 4.8,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/3/35/Abandoned_in_woods.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/8/86/Forest_canopy.jpg"
+    ]
+  },
+  {
+    "name": "Vizianagaram Market",
+    "slug": "vizianagaram-market",
+    "districtName": "Vizianagaram",
+    "description": "A traditional trade center famous for jute goods, brass vessels, and textiles.",
+    "shortDescription": "A beautiful city spot in Vizianagaram.",
+    "category": "City",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.4132,
+        18.1153
+      ]
+    },
+    "rating": {
+      "average": 4.5,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/8/81/Marketyard_road_in_Vizianagaram.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/c/ce/Balaji_Textile_Market_Complex_in_Vizianagaram.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/6/63/Hanuman_MR_Super_Market.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/1/1e/Old_brick_wall.jpg"
+    ]
+  },
+  {
+    "name": "Rama Tirtham Water tank",
+    "slug": "rama-tirtham-water-tank",
+    "districtName": "Vizianagaram",
+    "description": "A sacred spring-fed pond at the foot of the hill, used for temple rituals.",
+    "shortDescription": "A beautiful heritage spot in Vizianagaram.",
+    "category": "Heritage",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.4897,
+        18.1625
+      ]
+    },
+    "rating": {
+      "average": 4.6,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Old_brick_wall.jpg",
+    "images": []
+  },
+  {
+    "name": "Kumili Village gardens",
+    "slug": "kumili-village-gardens",
+    "districtName": "Vizianagaram",
+    "description": "Scenic agricultural fields and traditional orchards surrounding the Kumili temples.",
+    "shortDescription": "A beautiful nature spot in Vizianagaram.",
+    "category": "Nature",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.447,
+        18.0985
+      ]
+    },
+    "rating": {
+      "average": 4.2,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Elettaria_cardamomum.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/8/86/Forest_canopy.jpg"
+    ]
+  }
+]

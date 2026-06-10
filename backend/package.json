@@ -6,7 +6,32 @@
   "scripts": {
     "start": "node server.js",
     "dev": "nodemon server.js",
-    "seed": "node utils/seedData.js"
+    "seed": "node utils/seedData.js",
+    "backup": "node scripts/backupDatabase.js",
+    "validate-dataset": "node scripts/validateAttractions.js",
+    "build-dataset": "node scripts/buildMasterDataset.js",
+    "import-places": "node scripts/importPlaces.js",
+    "check-images": "node scripts/checkImages.js",
+    "audit-images": "node scripts/auditImages.js",
+    "generate-suggestions": "node scripts/updateRealImages.js --suggestions",
+    "generate-image-suggestions": "node scripts/updateRealImages.js --suggestions",
+    "fix-images": "node scripts/updateRealImages.js --fix",
+    "restore:places": "node scripts/restoreBackup.js --places",
+    "restore:all": "node scripts/restoreBackup.js --all",
+    "audit-districts": "node scripts/auditDistricts.js",
+    "audit-places": "node scripts/auditPlaces.js",
+    "verify-coordinates": "node scripts/verifyCoordinates.js",
+    "repair-dataset": "node scripts/repairDataset.js",
+    "verify-reviews": "node scripts/verifyReviews.js",
+    "repair-ratings": "node scripts/repairRatings.js",
+    "build-coordinates": "node scripts/buildVerifiedCoordinates.js",
+    "update-coordinates": "node scripts/updateGeospatialData.js",
+    "verify-geospatial": "node scripts/verifyGeospatialData.js",
+    "verify-consistency": "node scripts/verifyDataConsistency.js",
+    "verify-nearby": "node scripts/verifyNearbyRecommendations.js",
+    "verify-analytics": "node scripts/verifyAnalytics.js",
+    "verify-trending": "node scripts/verifyTrendingAnalytics.js",
+    "verify-dashboard": "node scripts/verifyDashboard.js"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
@@ -17,7 +42,8 @@
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.0.3",
     "multer": "^1.4.5-lts.1",
-    "multer-storage-cloudinary": "^4.0.0"
+    "multer-storage-cloudinary": "^4.0.0",
+    "pdf-lib": "^1.17.1"
   },
   "devDependencies": {
     "nodemon": "^3.0.2"

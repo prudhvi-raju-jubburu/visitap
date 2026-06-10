@@ -57,15 +57,22 @@ const placeSchema = new mongoose.Schema({
     },
   },
   rating: {
-    type: Number,
-    min: 0,
-    max: 5,
-    default: 4.0,
+    average: {
+      type: Number,
+      min: 0,
+      max: 5,
+      default: 0,
+    },
+    count: {
+      type: Number,
+      default: 0,
+    },
   },
   bestTimeToVisit: String,
   entryFee: String,
   timings: String,
   tags: [String],
+  googleMapsUrl: String,
   isFeatured: {
     type: Boolean,
     default: false,
@@ -74,14 +81,23 @@ const placeSchema = new mongoose.Schema({
     type: Boolean,
     default: true,
   },
+  saveCount: {
+    type: Number,
+    default: 0,
+  },
+  lastSavedAt: {
+    type: Date,
+  },
 }, { timestamps: true });
 
-// 2dsphere index for geospatial queries
+// Indexes for search performance and relationships
 placeSchema.index({ location: '2dsphere' });
+placeSchema.index({ districtId: 1 });
+placeSchema.index({ category: 1 });
 
-// Auto-generate slug
+// Auto-generate slug if not already provided
 placeSchema.pre('save', function (next) {
-  if (this.isModified('name')) {
+  if (this.isModified('name') && !this.slug) {
     this.slug = this.name.toLowerCase()
       .replace(/\s+/g, '-')
       .replace(/[^\w-]+/g, '') + '-' + Date.now();

@@ -1,0 +1,3135 @@
+{
+  "timestamp": "2026-06-06T16:42:21.614Z",
+  "backupVerified": true,
+  "cleanedOrphans": 0,
+  "cleanedDuplicates": 0,
+  "cleanedInvalidRatings": 0,
+  "placesRecalculated": 260,
+  "details": {
+    "orphansRemoved": [],
+    "duplicatesRemoved": [],
+    "invalidRatingsRemoved": [],
+    "placesUpdated": [
+      {
+        "placeId": "6a22dc5bdf0d8bcade8674c5",
+        "placeName": "Araku Valley",
+        "old": {
+          "average": 4.4,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade8674c6",
+        "placeName": "Lambasingi",
+        "old": {
+          "average": 4.5,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade8674c7",
+        "placeName": "Maredumilli Forest",
+        "old": {
+          "average": 4,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade8674c8",
+        "placeName": "Papikonda National Park",
+        "old": {
+          "average": 4.4,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade8674c9",
+        "placeName": "Araku Valley Trekking",
+        "old": {
+          "average": 4.4,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade8674ca",
+        "placeName": "Papikondalu Boat Ride",
+        "old": {
+          "average": 4,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade8674cb",
+        "placeName": "Araku Tribal Museum",
+        "old": {
+          "average": 4.1,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade8674cc",
+        "placeName": "Lambasingi Tribal Area",
+        "old": {
+          "average": 4.2,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade8674cd",
+        "placeName": "Papikondalu Gorges",
+        "old": {
+          "average": 4.8,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade8674ce",
+        "placeName": "Borra Caves",
+        "old": {
+          "average": 4.6,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade8674cf",
+        "placeName": "Kondakarla Ava Lake",
+        "old": {
+          "average": 4.2,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade8674d0",
+        "placeName": "Bojjannakonda Caves",
+        "old": {
+          "average": 4.6,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade8674d1",
+        "placeName": "Anakapalli Jaggery Market",
+        "old": {
+          "average": 4.9,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade8674d2",
+        "placeName": "Upaka Forest Reserve",
+        "old": {
+          "average": 4.4,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade8674d3",
+        "placeName": "Bojjannakonda Stupas",
+        "old": {
+          "average": 4.2,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade8674d4",
+        "placeName": "Kondakarla birding",
+        "old": {
+          "average": 4.5,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade8674d5",
+        "placeName": "Sarada Riverfront",
+        "old": {
+          "average": 4.2,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade8674d6",
+        "placeName": "Anakapalli Town Center",
+        "old": {
+          "average": 4.9,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade8674d7",
+        "placeName": "Bojjannakonda Museum",
+        "old": {
+          "average": 4.1,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade8674d8",
+        "placeName": "Kondakarla Boating Point",
+        "old": {
+          "average": 4.6,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade8674d9",
+        "placeName": "Lepakshi Veerabhadra Temple",
+        "old": {
+          "average": 4.7,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade8674da",
+        "placeName": "Gooty Fort",
+        "old": {
+          "average": 4.5,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade8674db",
+        "placeName": "Penukonda Fort",
+        "old": {
+          "average": 4,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade8674dc",
+        "placeName": "Dharmavaram Silk Village",
+        "old": {
+          "average": 4.7,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade8674dd",
+        "placeName": "Anantapur City Center",
+        "old": {
+          "average": 4.7,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade8674de",
+        "placeName": "Lepakshi Nandi",
+        "old": {
+          "average": 4.7,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade8674df",
+        "placeName": "Tadpatri Temples",
+        "old": {
+          "average": 4.9,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade8674e0",
+        "placeName": "Penukonda Gagan Mahal",
+        "old": {
+          "average": 4.8,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade8674e1",
+        "placeName": "Dharmavaram Lake",
+        "old": {
+          "average": 4,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade8674e2",
+        "placeName": "Gooty Hilltop Viewpoint",
+        "old": {
+          "average": 4.6,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade8674e3",
+        "placeName": "Horsley Hills Resort",
+        "old": {
+          "average": 4.1,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade8674e4",
+        "placeName": "Tallapaka Poet Village",
+        "old": {
+          "average": 4.7,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade8674e5",
+        "placeName": "Gurramkonda Fort",
+        "old": {
+          "average": 4.4,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade8674e6",
+        "placeName": "Horsley Hills Trekking",
+        "old": {
+          "average": 4.5,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade8674e7",
+        "placeName": "Annamacharya Memorial",
+        "old": {
+          "average": 4.4,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade8674e8",
+        "placeName": "Gurramkonda Rangin Mahal",
+        "old": {
+          "average": 4.9,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade8674e9",
+        "placeName": "Horsley Hills forest path",
+        "old": {
+          "average": 4.5,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade8674ea",
+        "placeName": "Madanapalle Town Center",
+        "old": {
+          "average": 4.8,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade8674eb",
+        "placeName": "Kalyani Dam Reservoir",
+        "old": {
+          "average": 4.3,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade8674ec",
+        "placeName": "Sompalem Chennakesava Temple",
+        "old": {
+          "average": 4.4,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade8674ed",
+        "placeName": "Suryalanka Beach",
+        "old": {
+          "average": 4.5,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade8674ee",
+        "placeName": "Vodarevu Beach",
+        "old": {
+          "average": 4.2,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade8674ef",
+        "placeName": "Bapatla Bhavanarayana Temple",
+        "old": {
+          "average": 4.8,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade8674f0",
+        "placeName": "Chirala Weaving Hub",
+        "old": {
+          "average": 4.6,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade8674f1",
+        "placeName": "Bapatla City Center",
+        "old": {
+          "average": 4.5,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade8674f2",
+        "placeName": "Suryalanka Resorts",
+        "old": {
+          "average": 4.6,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade8674f3",
+        "placeName": "Vodarevu Fishing Port",
+        "old": {
+          "average": 4.5,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade8674f4",
+        "placeName": "Bhavanarayana temple tanks",
+        "old": {
+          "average": 4.6,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade8674f5",
+        "placeName": "Suryalanka Coastline",
+        "old": {
+          "average": 4.4,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade8674f6",
+        "placeName": "Chirala Beach point",
+        "old": {
+          "average": 4.2,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade8674f7",
+        "placeName": "Kanipakam Varasiddhi Temple",
+        "old": {
+          "average": 4.6,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade8674f8",
+        "placeName": "Gurramkonda Fort borders",
+        "old": {
+          "average": 4.2,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade8674f9",
+        "placeName": "Kaundinya Wildlife Sanctuary",
+        "old": {
+          "average": 4.7,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade8674fa",
+        "placeName": "Kanipakam Temple tank",
+        "old": {
+          "average": 4.1,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade8674fb",
+        "placeName": "Chittoor mango markets",
+        "old": {
+          "average": 5,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade8674fc",
+        "placeName": "Kaundinya elephant camps",
+        "old": {
+          "average": 4.9,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade8674fd",
+        "placeName": "Chittoor Hills path",
+        "old": {
+          "average": 4.3,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade8674fe",
+        "placeName": "Ardhagiri Veeranjaneya Temple",
+        "old": {
+          "average": 4.1,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade8674ff",
+        "placeName": "Kaundinya forest trekking",
+        "old": {
+          "average": 5,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade867500",
+        "placeName": "Chittoor Fort ruins",
+        "old": {
+          "average": 4.9,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade867501",
+        "placeName": "Dindi Backwaters",
+        "old": {
+          "average": 4.4,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade867502",
+        "placeName": "Antarvedi Beach",
+        "old": {
+          "average": 4.3,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade867503",
+        "placeName": "Ainavilli Vinayaka Temple",
+        "old": {
+          "average": 4.7,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade867504",
+        "placeName": "Peruru Heritage Village",
+        "old": {
+          "average": 4.2,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade867505",
+        "placeName": "Konaseema Houseboats",
+        "old": {
+          "average": 4.1,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade867506",
+        "placeName": "Razole town",
+        "old": {
+          "average": 4.8,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade867507",
+        "placeName": "Vashishta Godavari River confluence",
+        "old": {
+          "average": 5,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade867508",
+        "placeName": "Mamikuduru Wetlands",
+        "old": {
+          "average": 4.1,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade867509",
+        "placeName": "Ryali Jaganmohini Temple",
+        "old": {
+          "average": 4.2,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade86750a",
+        "placeName": "Antarvedi Lakshmi Narasimha Temple",
+        "old": {
+          "average": 4.3,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade86750b",
+        "placeName": "Rajahmundry City Center",
+        "old": {
+          "average": 4.3,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade86750c",
+        "placeName": "Godavari Arch Bridge",
+        "old": {
+          "average": 4.2,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade86750d",
+        "placeName": "Rajahmundry ISKCON Temple",
+        "old": {
+          "average": 4.5,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade86750e",
+        "placeName": "Dowleswaram Barrage",
+        "old": {
+          "average": 4.4,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade86750f",
+        "placeName": "Godavari River cruise",
+        "old": {
+          "average": 4.2,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade867510",
+        "placeName": "Kadiyam Nursery Gardens",
+        "old": {
+          "average": 4.6,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade867511",
+        "placeName": "Dowleswaram Cotton Museum",
+        "old": {
+          "average": 4.5,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade867512",
+        "placeName": "Rajahmundry Ghats",
+        "old": {
+          "average": 4,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade867513",
+        "placeName": "Kadiapulanka flower fields",
+        "old": {
+          "average": 4.1,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade867514",
+        "placeName": "Rajahmundry parklands",
+        "old": {
+          "average": 4.6,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade867515",
+        "placeName": "Kolleru Lake",
+        "old": {
+          "average": 4.4,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade867516",
+        "placeName": "Dwaraka Tirumala Temple",
+        "old": {
+          "average": 4.6,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade867517",
+        "placeName": "Guntupalli Caves",
+        "old": {
+          "average": 4.4,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade867518",
+        "placeName": "Kolleru Pelican Sanctuary",
+        "old": {
+          "average": 4.1,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade867519",
+        "placeName": "Eluru City Center",
+        "old": {
+          "average": 4.4,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade86751a",
+        "placeName": "Dwaraka Tirumala Hill",
+        "old": {
+          "average": 4.1,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade86751b",
+        "placeName": "Guntupalli Stupa Complex",
+        "old": {
+          "average": 4.2,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade86751c",
+        "placeName": "Eluru Canal Park",
+        "old": {
+          "average": 4.6,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade86751d",
+        "placeName": "Kolleru boating channels",
+        "old": {
+          "average": 4.8,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade86751e",
+        "placeName": "Maddinala Waterfall",
+        "old": {
+          "average": 4.1,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade86751f",
+        "placeName": "Amaravati Stupa",
+        "old": {
+          "average": 4.6,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade867520",
+        "placeName": "Ethipothala Waterfalls",
+        "old": {
+          "average": 4.4,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade867521",
+        "placeName": "Kondaveedu Fort",
+        "old": {
+          "average": 4.6,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade867522",
+        "placeName": "Uppalapadu Bird Sanctuary",
+        "old": {
+          "average": 4.5,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade867523",
+        "placeName": "Guntur City Center",
+        "old": {
+          "average": 4.3,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade867524",
+        "placeName": "Amaravati Archaeological Museum",
+        "old": {
+          "average": 4.2,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade867525",
+        "placeName": "Kotappakonda Hill Temple",
+        "old": {
+          "average": 4.8,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade867526",
+        "placeName": "Mangalagiri Temple",
+        "old": {
+          "average": 4.2,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade867527",
+        "placeName": "Ethipothala Crocodile Breeding Pond",
+        "old": {
+          "average": 4.9,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade867528",
+        "placeName": "Kondaveedu Forest trekking",
+        "old": {
+          "average": 4.8,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade867529",
+        "placeName": "Coringa Wildlife Sanctuary",
+        "old": {
+          "average": 4.8,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade86752a",
+        "placeName": "Kakinada Beach",
+        "old": {
+          "average": 4.1,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade86752b",
+        "placeName": "Hope Island",
+        "old": {
+          "average": 4.7,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade86752c",
+        "placeName": "Annavaram Satyanarayana Temple",
+        "old": {
+          "average": 4.6,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade86752d",
+        "placeName": "Coringa Mangrove Boardwalk",
+        "old": {
+          "average": 4.4,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade86752e",
+        "placeName": "Kakinada City Center",
+        "old": {
+          "average": 4.2,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade86752f",
+        "placeName": "Annavaram Hills",
+        "old": {
+          "average": 4.8,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade867530",
+        "placeName": "Pithapuram Temple",
+        "old": {
+          "average": 4.8,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade867531",
+        "placeName": "Uppada Beach",
+        "old": {
+          "average": 4.9,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade867532",
+        "placeName": "Hope Island Lighthouse",
+        "old": {
+          "average": 4.2,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade867533",
+        "placeName": "Manginapudi Beach",
+        "old": {
+          "average": 5,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade867534",
+        "placeName": "Hamsaladeevi Beach",
+        "old": {
+          "average": 4,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade867535",
+        "placeName": "Kuchipudi Dance Academy",
+        "old": {
+          "average": 4.5,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade867536",
+        "placeName": "Machilipatnam Kalamkari Town",
+        "old": {
+          "average": 4.9,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade867537",
+        "placeName": "Machilipatnam Port town",
+        "old": {
+          "average": 4.6,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade867538",
+        "placeName": "Hamsaladeevi Venugopala Temple",
+        "old": {
+          "average": 4.5,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade867539",
+        "placeName": "Krishna River Delta",
+        "old": {
+          "average": 4.8,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade86753a",
+        "placeName": "Manginapudi Lake",
+        "old": {
+          "average": 4.8,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade86753b",
+        "placeName": "Hamsaladeevi boating point",
+        "old": {
+          "average": 4,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade86753c",
+        "placeName": "Bandar Fort ruins",
+        "old": {
+          "average": 4.9,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade86753d",
+        "placeName": "Yaganti Temple",
+        "old": {
+          "average": 4.9,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade86753e",
+        "placeName": "Belum Caves",
+        "old": {
+          "average": 4.1,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade86753f",
+        "placeName": "Konda Reddy Buruzu",
+        "old": {
+          "average": 4.7,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade867540",
+        "placeName": "Kurnool Fort ruins",
+        "old": {
+          "average": 4.8,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade867541",
+        "placeName": "Orvakal Rock Garden",
+        "old": {
+          "average": 5,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade867542",
+        "placeName": "Kurnool City Center",
+        "old": {
+          "average": 4.1,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade867543",
+        "placeName": "Rollapadu Bird Sanctuary",
+        "old": {
+          "average": 4.4,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade867544",
+        "placeName": "Tungabhadra Riverfront",
+        "old": {
+          "average": 4.1,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade867545",
+        "placeName": "Belum Cave Passages",
+        "old": {
+          "average": 4.8,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade867546",
+        "placeName": "Mahanandi Temple Area",
+        "old": {
+          "average": 4.6,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade867547",
+        "placeName": "Srisailam Mallikarjuna Temple",
+        "old": {
+          "average": 4.3,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade867548",
+        "placeName": "Ahobilam Temple",
+        "old": {
+          "average": 5,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade867549",
+        "placeName": "Mahanandi Temple",
+        "old": {
+          "average": 4.8,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade86754a",
+        "placeName": "Srisailam Hill Forest",
+        "old": {
+          "average": 4.1,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade86754b",
+        "placeName": "Srisailam Tiger Reserve",
+        "old": {
+          "average": 4.1,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade86754c",
+        "placeName": "Nallamala Forest Trekking",
+        "old": {
+          "average": 4.4,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade86754d",
+        "placeName": "Mahanandi Village",
+        "old": {
+          "average": 4.1,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade86754e",
+        "placeName": "Ahobilam Hills",
+        "old": {
+          "average": 4.4,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade86754f",
+        "placeName": "Nandyal Town Center",
+        "old": {
+          "average": 5,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade867550",
+        "placeName": "Yaganti Temple Complex",
+        "old": {
+          "average": 4.7,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade867551",
+        "placeName": "Kanaka Durga Temple",
+        "old": {
+          "average": 4.2,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade867552",
+        "placeName": "Prakasam Barrage",
+        "old": {
+          "average": 4.4,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade867553",
+        "placeName": "Bhavani Island",
+        "old": {
+          "average": 4.1,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade867554",
+        "placeName": "Kondapalli Fort",
+        "old": {
+          "average": 4.8,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade867555",
+        "placeName": "Undavalli Caves",
+        "old": {
+          "average": 4.3,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade867556",
+        "placeName": "Vijayawada City Center",
+        "old": {
+          "average": 4.4,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade867557",
+        "placeName": "Kondapalli Toy Village",
+        "old": {
+          "average": 5,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade867558",
+        "placeName": "Indrakeeladri Hills",
+        "old": {
+          "average": 4.8,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade867559",
+        "placeName": "Prakasam Lakefront",
+        "old": {
+          "average": 4.8,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade86755a",
+        "placeName": "Vijayawada Museum",
+        "old": {
+          "average": 4.9,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade86755b",
+        "placeName": "Nagarjuna Sagar Dam",
+        "old": {
+          "average": 4.9,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade86755c",
+        "placeName": "Ethipothala Waterfalls",
+        "old": {
+          "average": 4.6,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade86755d",
+        "placeName": "Nagarjunakonda Island",
+        "old": {
+          "average": 4.1,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade86755e",
+        "placeName": "Palnadu Battlefield site",
+        "old": {
+          "average": 4.7,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade86755f",
+        "placeName": "Ethipothala Valley park",
+        "old": {
+          "average": 4.4,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade867560",
+        "placeName": "Nagarjuna Sagar Lake",
+        "old": {
+          "average": 4.5,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade867561",
+        "placeName": "Dachapalli Caves",
+        "old": {
+          "average": 4.9,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade867562",
+        "placeName": "Karempudi town",
+        "old": {
+          "average": 4.3,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade867563",
+        "placeName": "Nagarjunasagar boating point",
+        "old": {
+          "average": 4,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade867564",
+        "placeName": "Guttikonda Bilam Caves",
+        "old": {
+          "average": 4.7,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade867565",
+        "placeName": "Thotapalli Barrage Project",
+        "old": {
+          "average": 4.4,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade867566",
+        "placeName": "Parvathipuram Town Center",
+        "old": {
+          "average": 4.3,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade867567",
+        "placeName": "Kurupam Palace ruins",
+        "old": {
+          "average": 4.3,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade867568",
+        "placeName": "Nagavali River banks",
+        "old": {
+          "average": 4.2,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade867569",
+        "placeName": "Thotapalli Reservoir",
+        "old": {
+          "average": 4.1,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade86756a",
+        "placeName": "Parvathipuram tribal market",
+        "old": {
+          "average": 4.9,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade86756b",
+        "placeName": "Manyam Forest reserves",
+        "old": {
+          "average": 4.1,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade86756c",
+        "placeName": "Kurupam Hills",
+        "old": {
+          "average": 4.5,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade86756d",
+        "placeName": "Thotapalli parklands",
+        "old": {
+          "average": 4.3,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade86756e",
+        "placeName": "Nagavali bridge",
+        "old": {
+          "average": 4.4,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade86756f",
+        "placeName": "Markapur Chennakesava Temple",
+        "old": {
+          "average": 4.5,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade867570",
+        "placeName": "Ongole City Center",
+        "old": {
+          "average": 4.8,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade867571",
+        "placeName": "Singarayakonda Temple",
+        "old": {
+          "average": 4.4,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade867572",
+        "placeName": "Chirala Beach",
+        "old": {
+          "average": 4.9,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade867573",
+        "placeName": "Markapur Slate Industry",
+        "old": {
+          "average": 4.1,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade867574",
+        "placeName": "Cumbum Lake",
+        "old": {
+          "average": 4.9,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade867575",
+        "placeName": "Singarayakonda Hilltop View",
+        "old": {
+          "average": 4.3,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade867576",
+        "placeName": "Ongole Bull farm",
+        "old": {
+          "average": 4.1,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade867577",
+        "placeName": "Cumbum Dam",
+        "old": {
+          "average": 5,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade867578",
+        "placeName": "Kothapatnam Beach",
+        "old": {
+          "average": 4.4,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade867579",
+        "placeName": "Pulicat Lake Sanctuary",
+        "old": {
+          "average": 4.9,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade86757a",
+        "placeName": "Nelapattu Bird Sanctuary",
+        "old": {
+          "average": 4.6,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade86757b",
+        "placeName": "Mypadu Beach",
+        "old": {
+          "average": 4.6,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade86757c",
+        "placeName": "Udayagiri Fort",
+        "old": {
+          "average": 4.8,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade86757d",
+        "placeName": "Penchalakona Temple",
+        "old": {
+          "average": 4.5,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade86757e",
+        "placeName": "Nellore City Center",
+        "old": {
+          "average": 4.4,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade86757f",
+        "placeName": "Jonnavada Temple",
+        "old": {
+          "average": 4.9,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade867580",
+        "placeName": "Venkatagiri Weaving Town",
+        "old": {
+          "average": 4.8,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade867581",
+        "placeName": "Nellapattu Wetlands",
+        "old": {
+          "average": 4.7,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade867582",
+        "placeName": "Pulicat Lagoon boating",
+        "old": {
+          "average": 4.5,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade867583",
+        "placeName": "Puttaparthi Ashram",
+        "old": {
+          "average": 4.3,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade867584",
+        "placeName": "Lepakshi Temple Complex",
+        "old": {
+          "average": 4.2,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade867585",
+        "placeName": "Puttaparthi Planetarium",
+        "old": {
+          "average": 4.8,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade867586",
+        "placeName": "Lepakshi monolithic Nandi",
+        "old": {
+          "average": 4.1,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade867587",
+        "placeName": "Puttaparthi Chaitanya Jyoti",
+        "old": {
+          "average": 4.5,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade867588",
+        "placeName": "Lepakshi Hanging Pillar",
+        "old": {
+          "average": 4.9,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade867589",
+        "placeName": "Pennar Riverbed",
+        "old": {
+          "average": 4.3,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade86758a",
+        "placeName": "Puttaparthi Hill view",
+        "old": {
+          "average": 4.7,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade86758b",
+        "placeName": "Dharmavaram Border Area",
+        "old": {
+          "average": 4,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade86758c",
+        "placeName": "Puttaparthi Super Hospital",
+        "old": {
+          "average": 4.3,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade86758d",
+        "placeName": "Arasavalli Sun Temple",
+        "old": {
+          "average": 4.9,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade86758e",
+        "placeName": "Srikurmam Temple",
+        "old": {
+          "average": 4.5,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade86758f",
+        "placeName": "Kalingapatnam Beach",
+        "old": {
+          "average": 4.1,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade867590",
+        "placeName": "Baruva Beach",
+        "old": {
+          "average": 4.8,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade867591",
+        "placeName": "Srimukhalingam Temple",
+        "old": {
+          "average": 4.6,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade867592",
+        "placeName": "Kalingapatnam Town",
+        "old": {
+          "average": 4.9,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade867593",
+        "placeName": "Vamsadhara River Mouth",
+        "old": {
+          "average": 4.7,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade867594",
+        "placeName": "Srikakulam City Center",
+        "old": {
+          "average": 4.5,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade867595",
+        "placeName": "Srikurmam Town",
+        "old": {
+          "average": 4.8,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade867596",
+        "placeName": "Sangam Shiva Temple",
+        "old": {
+          "average": 4.8,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade867597",
+        "placeName": "Tirumala Venkateswara Temple",
+        "old": {
+          "average": 4.5,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade867598",
+        "placeName": "Srikalahasti Temple",
+        "old": {
+          "average": 4.1,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade867599",
+        "placeName": "Chandragiri Fort",
+        "old": {
+          "average": 4.9,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade86759a",
+        "placeName": "Talakona Waterfalls",
+        "old": {
+          "average": 4.5,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade86759b",
+        "placeName": "Sri Venkateswara National Park",
+        "old": {
+          "average": 4.2,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade86759c",
+        "placeName": "Tirupati City Center",
+        "old": {
+          "average": 4.7,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade86759d",
+        "placeName": "Tirumala Hills Viewpoint",
+        "old": {
+          "average": 4.6,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade86759e",
+        "placeName": "Srikalahasti town",
+        "old": {
+          "average": 4.3,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade86759f",
+        "placeName": "Kalyani Dam",
+        "old": {
+          "average": 4.9,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade8675a0",
+        "placeName": "Kapila Theertham",
+        "old": {
+          "average": 4.2,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade8675a1",
+        "placeName": "RK Beach",
+        "old": {
+          "average": 4.2,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade8675a2",
+        "placeName": "Rushikonda Beach",
+        "old": {
+          "average": 4.7,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade8675a3",
+        "placeName": "Yarada Beach",
+        "old": {
+          "average": 4.4,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade8675a4",
+        "placeName": "Bheemili Beach",
+        "old": {
+          "average": 4.2,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade8675a5",
+        "placeName": "Simhachalam Temple",
+        "old": {
+          "average": 4.3,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade8675a6",
+        "placeName": "Katiki Waterfalls",
+        "old": {
+          "average": 4.6,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade8675a7",
+        "placeName": "Tadimada Waterfalls",
+        "old": {
+          "average": 4,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade8675a8",
+        "placeName": "Kambalakonda Wildlife Sanctuary",
+        "old": {
+          "average": 4.4,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade8675a9",
+        "placeName": "Visakhapatnam Harbor",
+        "old": {
+          "average": 4.2,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade8675aa",
+        "placeName": "Simhachalam Hill Sanctuary",
+        "old": {
+          "average": 4.7,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade8675ab",
+        "placeName": "Vizianagaram Fort",
+        "old": {
+          "average": 4.5,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade8675ac",
+        "placeName": "Rama Tirtham Temple",
+        "old": {
+          "average": 4,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade8675ad",
+        "placeName": "Kumili Temple Complex",
+        "old": {
+          "average": 4.4,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade8675ae",
+        "placeName": "Vizianagaram Clock Tower",
+        "old": {
+          "average": 4.9,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade8675af",
+        "placeName": "Gajapathiraju Palace",
+        "old": {
+          "average": 4.7,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade8675b0",
+        "placeName": "Rama Tirtham Bodhikonda",
+        "old": {
+          "average": 4.7,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade8675b1",
+        "placeName": "Vizianagaram Lake park",
+        "old": {
+          "average": 4.8,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade8675b2",
+        "placeName": "Vizianagaram Market",
+        "old": {
+          "average": 4.5,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade8675b3",
+        "placeName": "Rama Tirtham Water tank",
+        "old": {
+          "average": 4.6,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade8675b4",
+        "placeName": "Kumili Village gardens",
+        "old": {
+          "average": 4.2,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade8675b5",
+        "placeName": "Somarama Temple",
+        "old": {
+          "average": 4.4,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade8675b6",
+        "placeName": "Ksheerarama Temple",
+        "old": {
+          "average": 4,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade8675b7",
+        "placeName": "Bhimavaram City Center",
+        "old": {
+          "average": 4.4,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade8675b8",
+        "placeName": "Kolleru Wetlands",
+        "old": {
+          "average": 4.8,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade8675b9",
+        "placeName": "Palakollu town",
+        "old": {
+          "average": 4.1,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade8675ba",
+        "placeName": "Somarama Temple Tank",
+        "old": {
+          "average": 4.3,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade8675bb",
+        "placeName": "Ksheerarama Gopuram",
+        "old": {
+          "average": 4.9,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade8675bc",
+        "placeName": "Narsapur Lace Industry",
+        "old": {
+          "average": 4.7,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade8675bd",
+        "placeName": "Godavari delta canals",
+        "old": {
+          "average": 4.7,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade8675be",
+        "placeName": "Perupalem Beach",
+        "old": {
+          "average": 4,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade8675bf",
+        "placeName": "Gandikota Fort",
+        "old": {
+          "average": 4.9,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade8675c0",
+        "placeName": "Vontimitta Kodandarama Temple",
+        "old": {
+          "average": 4.3,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade8675c1",
+        "placeName": "Siddavatam Fort",
+        "old": {
+          "average": 4.7,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade8675c2",
+        "placeName": "Brahmamgari Matham",
+        "old": {
+          "average": 4.1,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade8675c3",
+        "placeName": "Gandikota Gorge Camping",
+        "old": {
+          "average": 5,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade8675c4",
+        "placeName": "Kadapa City Center",
+        "old": {
+          "average": 4.1,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade8675c5",
+        "placeName": "Ameen Peer Dargah",
+        "old": {
+          "average": 4.1,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade8675c6",
+        "placeName": "Lakkireddipalli Hills",
+        "old": {
+          "average": 4.3,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade8675c7",
+        "placeName": "Gandikota viewpoint",
+        "old": {
+          "average": 4.1,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      },
+      {
+        "placeId": "6a22dc5bdf0d8bcade8675c8",
+        "placeName": "Pushpagiri Temple Complex",
+        "old": {
+          "average": 4.6,
+          "count": 0
+        },
+        "new": {
+          "average": 0,
+          "count": 0
+        }
+      }
+    ]
+  }
+}

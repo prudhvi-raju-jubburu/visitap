@@ -1,0 +1,141 @@
+{
+  "timestamp": "2026-06-08T18:01:10.494Z",
+  "tests": {
+    "distanceVerification": [
+      {
+        "from": "RK Beach",
+        "to": "Rushikonda Beach",
+        "storedFromCoordinates": [
+          83.3237,
+          17.7149
+        ],
+        "storedToCoordinates": [
+          83.3855,
+          17.782
+        ],
+        "computedDistanceKm": 9.925,
+        "targetDistanceKm": 9.87,
+        "passed": true
+      },
+      {
+        "from": "Araku Valley",
+        "to": "Borra Caves",
+        "storedFromCoordinates": [
+          82.8806,
+          18.3274
+        ],
+        "storedToCoordinates": [
+          83.0385,
+          18.2813
+        ],
+        "computedDistanceKm": 17.44,
+        "targetDistanceKm": 17.84,
+        "passed": true
+      },
+      {
+        "from": "Tirumala Venkateswara Temple",
+        "to": "Chandragiri Fort",
+        "storedFromCoordinates": [
+          79.35,
+          13.6833
+        ],
+        "storedToCoordinates": [
+          79.3175,
+          13.6019
+        ],
+        "computedDistanceKm": 9.709,
+        "targetDistanceKm": 9.71,
+        "passed": true
+      },
+      {
+        "from": "Suryalanka Beach",
+        "to": "Vodarevu Beach",
+        "storedFromCoordinates": [
+          80.5211,
+          15.8453
+        ],
+        "storedToCoordinates": [
+          80.4093,
+          15.7912
+        ],
+        "computedDistanceKm": 13.388,
+        "targetDistanceKm": 12.89,
+        "passed": true
+      }
+    ],
+    "nearbyRecommendations": [
+      {
+        "origin": "RK Beach",
+        "radiusKm": 20,
+        "selfRecommendationCheck": "PASSED",
+        "recommendationsCount": 6,
+        "recommendations": [
+          {
+            "name": "Yarada Beach",
+            "slug": "yarada-beach",
+            "distanceKm": 8.401
+          },
+          {
+            "name": "Kambalakonda Wildlife Sanctuary",
+            "slug": "kambalakonda-wildlife-sanctuary",
+            "distanceKm": 8.56
+          },
+          {
+            "name": "Simhachalam Hill Sanctuary",
+            "slug": "simhachalam-hill-sanctuary",
+            "distanceKm": 9.636
+          },
+          {
+            "name": "Simhachalam Temple",
+            "slug": "simhachalam-temple",
+            "distanceKm": 9.649
+          },
+          {
+            "name": "Rushikonda Beach",
+            "slug": "rushikonda-beach",
+            "distanceKm": 9.925
+          },
+          {
+            "name": "Visakhapatnam Harbor",
+            "slug": "visakhapatnam-harbor",
+            "distanceKm": 11.574
+          }
+        ]
+      },
+      {
+        "origin": "Araku Valley",
+        "radiusKm": 35,
+        "selfRecommendationCheck": "PASSED",
+        "recommendationsCount": 5,
+        "recommendations": [
+          {
+            "name": "Araku Tribal Museum",
+            "slug": "araku-tribal-museum",
+            "distanceKm": 0.216
+          },
+          {
+            "name": "Araku Valley Trekking",
+            "slug": "araku-valley-trekking",
+            "distanceKm": 1.488
+          },
+          {
+            "name": "Tadimada Waterfalls",
+            "slug": "tadimada-waterfalls",
+            "distanceKm": 11.081
+          },
+          {
+            "name": "Katiki Waterfalls",
+            "slug": "katiki-waterfalls",
+            "distanceKm": 13.955
+          },
+          {
+            "name": "Borra Caves",
+            "slug": "borra-caves",
+            "distanceKm": 17.44
+          }
+        ]
+      }
+    ]
+  },
+  "status": "PASSED"
+}

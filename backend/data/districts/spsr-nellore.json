@@ -1,0 +1,296 @@
+[
+  {
+    "name": "Pulicat Lake Sanctuary",
+    "slug": "pulicat-lake-sanctuary",
+    "districtName": "SPSR Nellore",
+    "description": "The second-largest brackish water lake in India, hosting thousands of flamingos.",
+    "shortDescription": "A beautiful wildlife spot in SPSR Nellore.",
+    "category": "Wildlife",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        80.05,
+        13.6833
+      ]
+    },
+    "rating": {
+      "average": 4.9,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": true,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/2/20/NPBS-15-8181_Western_reef_heron_Egretta_gularis_Pulicat_lake.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/0/05/NPBS-15-8237_Cattle_egrets_Ardea_coromanda_Pulicat_lake.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/9/96/NPBS-15-8188_Little_egret_Egretta_garzetta_Pulicat_lake.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/f/fb/NPBS-15-8235_Indian_pond-heron_Ardeola_grayii_Pulicat_lake.jpg"
+    ]
+  },
+  {
+    "name": "Nelapattu Bird Sanctuary",
+    "slug": "nelapattu-bird-sanctuary",
+    "districtName": "SPSR Nellore",
+    "description": "A major breeding ground for grey pelicans, nesting in Barringtonia trees.",
+    "shortDescription": "A beautiful wildlife spot in SPSR Nellore.",
+    "category": "Wildlife",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        79.9708,
+        13.8406
+      ]
+    },
+    "rating": {
+      "average": 4.6,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/a/ab/NPBS-15-8124_Blackbuck_Antilope_cervicapra_Nelapattu_bird_sanctuary.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/4/48/NPBS-15-8061_Black_drongo_Dicrurus_macrocercus_Nelapattu_bird_sanctuary.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/b/b7/NPBS-15-7574_Spot-billed_pelican_Pelecanus_philippensis_Nelapattu_bird_sanctuary.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/9/96/NPBS-15-8118_Blackbucks_Antilope_cervicapra_Nelapattu_bird_sanctuary.jpg"
+    ]
+  },
+  {
+    "name": "Mypadu Beach",
+    "slug": "mypadu-beach",
+    "districtName": "SPSR Nellore",
+    "description": "A pristine beach with golden sand and palm-fringed shoreline, managed for tourism.",
+    "shortDescription": "A beautiful beach spot in SPSR Nellore.",
+    "category": "Beach",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        80.1802,
+        14.5098
+      ]
+    },
+    "rating": {
+      "average": 4.6,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/9/92/Fisherman_worshipping_at_Mypadu_Beach.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/5/5e/Maipadu_beach_Nellore_sunrise1.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/6/6a/Mypadu_Beach_2.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/c/ce/Mypadu_Beach.jpg"
+    ]
+  },
+  {
+    "name": "Udayagiri Fort",
+    "slug": "udayagiri-fort",
+    "districtName": "SPSR Nellore",
+    "description": "A historic fortress built on a hill, featuring ruins of temples and royal halls.",
+    "shortDescription": "A beautiful historical spot in SPSR Nellore.",
+    "category": "Historical",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        79.2908,
+        14.8692
+      ]
+    },
+    "rating": {
+      "average": 4.8,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/5/53/Udayagiri_Fort_(16).jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/9/9b/Udayagiri_Fort_(33).jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/2/24/Udayagiri_Fort_(26).jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/1/1f/Udayagiri_Fort_(3).jpg"
+    ]
+  },
+  {
+    "name": "Penchalakona Temple",
+    "slug": "penchalakona-temple",
+    "districtName": "SPSR Nellore",
+    "description": "A sacred Narasimha temple located in a scenic valley surrounded by Nallamala forests.",
+    "shortDescription": "A beautiful temple / religious spot in SPSR Nellore.",
+    "category": "Temple / Religious",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        79.4587,
+        14.3048
+      ]
+    },
+    "rating": {
+      "average": 4.5,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/b/be/Bharat_mata_Temple_at_Sri_Matrudevi_Viswasanthi_Asramam_(8).JPG",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/d/d0/Karunamayi_Sri_Vijayeswari_Devi_at_Penchalakona.JPG",
+      "https://upload.wikimedia.org/wikipedia/commons/e/e1/Bharat_mata_Temple_at_Sri_Matrudevi_Viswasanthi_Asramam_(6).JPG",
+      "https://upload.wikimedia.org/wikipedia/commons/a/a1/Bharat_mata_Temple_at_Sri_Matrudevi_Viswasanthi_Asramam_(7).JPG"
+    ]
+  },
+  {
+    "name": "Nellore City Center",
+    "slug": "nellore-city-center",
+    "districtName": "SPSR Nellore",
+    "description": "A commercial coastal city famous for aquaculture, rice milling, and Nellore sweets.",
+    "shortDescription": "A beautiful city spot in SPSR Nellore.",
+    "category": "City",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        79.9865,
+        14.4426
+      ]
+    },
+    "rating": {
+      "average": 4.4,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/9/98/Sri_Nagavarapamma_temple,_Kovur.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/e/e4/Kovur_Board_On_Newly_Constructed_NH-67.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/d/d8/Kovur_Trunk_Road.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/4/4a/Kovur_Board_on_NH67.jpg"
+    ]
+  },
+  {
+    "name": "Jonnavada Temple",
+    "slug": "jonnavada-temple",
+    "districtName": "SPSR Nellore",
+    "description": "A famous Kamakshi temple located on the banks of Penna River, drawing pilgrims.",
+    "shortDescription": "A beautiful temple / religious spot in SPSR Nellore.",
+    "category": "Temple / Religious",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        79.9936,
+        14.5078
+      ]
+    },
+    "rating": {
+      "average": 4.9,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Jonnavada_temple,_Nellore_Gopuram.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/3/3f/Mallikarjuna_Swamy_and_Kamakshi_Tayi_at_Jonnavada,_Nellore.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/3/3a/Diya_lamp.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/d/d0/Diya_re-imagined.jpg"
+    ]
+  },
+  {
+    "name": "Venkatagiri Weaving Town",
+    "slug": "venkatagiri-weaving-town",
+    "districtName": "SPSR Nellore",
+    "description": "A historic town renowned for handspun Venkatagiri cotton sarees with gold threads.",
+    "shortDescription": "A beautiful culture spot in SPSR Nellore.",
+    "category": "Culture",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        79.5818,
+        13.9615
+      ]
+    },
+    "rating": {
+      "average": 4.8,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Diya_lamp.jpg",
+    "images": []
+  },
+  {
+    "name": "Nellapattu Wetlands",
+    "slug": "nellapattu-wetlands",
+    "districtName": "SPSR Nellore",
+    "description": "Natural swamp ecosystems hosting migratory waterfowl from Siberia.",
+    "shortDescription": "A beautiful nature spot in SPSR Nellore.",
+    "category": "Nature",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        79.9754,
+        13.8452
+      ]
+    },
+    "rating": {
+      "average": 4.7,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/9/9f/NPBS-15-8043_Common_eggfly_Hypolimnas_bolina_Nelapattu_bird_sanctuary.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/d/db/NPBS-15-8070_Ground_skimmer_Diplacodes_trivialis_Nelapattu_bird_sanctuary.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/9/96/NPBS-15-8118_Blackbucks_Antilope_cervicapra_Nelapattu_bird_sanctuary.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/8/89/NPBS-15-8036_Eurasian_spoonbill_Platalea_leucorodia_Nelapattu_bird_sanctuary.jpg"
+    ]
+  },
+  {
+    "name": "Pulicat Lagoon boating",
+    "slug": "pulicat-lagoon-boating",
+    "districtName": "SPSR Nellore",
+    "description": "Boat safaris across the lagoon for up-close viewing of aquatic wildlife.",
+    "shortDescription": "A beautiful adventure spot in SPSR Nellore.",
+    "category": "Adventure",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        80.1615,
+        13.6712
+      ]
+    },
+    "rating": {
+      "average": 4.5,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/7/7c/India_-_Pulicat_Lake_-_022_-_local_transport_(1182529390).jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/8/86/Forest_canopy.jpg"
+    ]
+  }
+]

@@ -1,0 +1,299 @@
+[
+  {
+    "name": "Lepakshi Veerabhadra Temple",
+    "slug": "lepakshi-veerabhadra-temple",
+    "districtName": "Anantapur",
+    "description": "A legendary 16th-century temple featuring the hanging pillar and massive Nandi carving.",
+    "shortDescription": "A beautiful temple / religious spot in Anantapur.",
+    "category": "Temple / Religious",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        77.6098,
+        13.8035
+      ]
+    },
+    "rating": {
+      "average": 4.7,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": true,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/1/18/Shivalingam_at_veerabhadra_temple,_lepakshi,hindupur,_anantapur_dt,_andhra_pradesh.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/f/fc/Sculptures_at_the_Veerabhadra_Temple,_Lepakshi,_Andhra_Pradesh,_India_(2017).jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/3/3b/Sculptures_at_the_Veerabhadra_Temple,_Lepakshi,_Andhra_Pradesh,_India_(2017)_2.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/5/52/A_tree_in_Anantapur,_Andhra_Pradesh,_India_(2015).jpg"
+    ]
+  },
+  {
+    "name": "Gooty Fort",
+    "slug": "gooty-fort",
+    "districtName": "Anantapur",
+    "description": "An ancient shell-shaped hill fort built on granite rock, rising 300 meters high.",
+    "shortDescription": "A beautiful historical spot in Anantapur.",
+    "category": "Historical",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        77.6342,
+        15.1247
+      ]
+    },
+    "rating": {
+      "average": 4.5,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Gooty_fort.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/6/68/Gooty_fort_mosque.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/c/c8/Gooty_fort_and_mosque.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/b/b3/Gooty_fort_large_caliber_gun.jpg"
+    ]
+  },
+  {
+    "name": "Penukonda Fort",
+    "slug": "penukonda-fort",
+    "districtName": "Anantapur",
+    "description": "A medieval summer capital of Vijayanagara empire, containing palaces and mosques.",
+    "shortDescription": "A beautiful historical spot in Anantapur.",
+    "category": "Historical",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        77.5948,
+        14.0825
+      ]
+    },
+    "rating": {
+      "average": 4,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Penukonda_Fort_Anantapur.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/2/2a/Penukonda_Fort.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/f/fa/Gagan_Mahal_of_Sri_Krishna_devaraya_,_Andhra_Pradesh.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/a/ad/ChandraGiri_Fort_-_Raja_Palace.JPG"
+    ]
+  },
+  {
+    "name": "Dharmavaram Silk Village",
+    "slug": "dharmavaram-silk-village",
+    "districtName": "Anantapur",
+    "description": "The world-famous weaving town known for handloom Dharmavaram silk sarees.",
+    "shortDescription": "A beautiful culture spot in Anantapur.",
+    "category": "Culture",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        77.7197,
+        14.4136
+      ]
+    },
+    "rating": {
+      "average": 4.7,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/a/a6/మగ్గం_నేస్తున్న_మహిళ._IMG_20200126_145718-01.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/6/60/Handloom_Lungi_Weaving_at_Dohar.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/3/31/Handloom_3.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/a/a5/These_Mising_tribe_women_are_involved_in_the_traditional_craft_of_handloom_weaving.jpg"
+    ]
+  },
+  {
+    "name": "Anantapur City Center",
+    "slug": "anantapur-city-center",
+    "districtName": "Anantapur",
+    "description": "A major Rayalaseema commercial city known for agricultural trade and historic clocks.",
+    "shortDescription": "A beautiful city spot in Anantapur.",
+    "category": "City",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        77.6006,
+        14.6819
+      ]
+    },
+    "rating": {
+      "average": 4.7,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/b/be/MadakasiraFort-Top-View.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/1/1e/Old_brick_wall.jpg"
+    ]
+  },
+  {
+    "name": "Lepakshi Nandi",
+    "slug": "lepakshi-nandi",
+    "districtName": "Anantapur",
+    "description": "A colossal monolith stone carving of Nandi bull, one of the largest in India.",
+    "shortDescription": "A beautiful heritage spot in Anantapur.",
+    "category": "Heritage",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        77.6075,
+        13.801
+      ]
+    },
+    "rating": {
+      "average": 4.7,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/0/09/Nandi_Lepakshi_Temple_Hindupur_3.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/9/9b/Nandi_Lepakshi_Temple_Hindupur_9.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/3/32/Nandi_Lepakshi_Temple_Hindupur_10.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/9/97/Lepakshi_Basavayya.jpg"
+    ]
+  },
+  {
+    "name": "Tadpatri Temples",
+    "slug": "tadpatri-temples",
+    "districtName": "Anantapur",
+    "description": "The Bugga Ramalingeswara temple famed for intricate carvings depicting mythologies.",
+    "shortDescription": "A beautiful heritage spot in Anantapur.",
+    "category": "Heritage",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        78.0105,
+        14.9097
+      ]
+    },
+    "rating": {
+      "average": 4.9,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/6/64/15th_century_Bugga_Ramalingeswara_temple,_Tadipatri,_Andhra_Pradesh,_India_-_98.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/b/bf/15th_century_Bugga_Ramalingeswara_temple,_Tadipatri,_Andhra_Pradesh,_India_-_194.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/1/1c/15th_century_Bugga_Ramalingeswara_temple,_Tadipatri,_Andhra_Pradesh,_India_-_145.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/c/cf/15th_century_Bugga_Ramalingeswara_temple,_Tadipatri,_Andhra_Pradesh,_India_-_01.jpg"
+    ]
+  },
+  {
+    "name": "Penukonda Gagan Mahal",
+    "slug": "penukonda-gagan-mahal",
+    "districtName": "Anantapur",
+    "description": "A stunning palace watchtower showcasing Indo-Saracenic architectural styles.",
+    "shortDescription": "A beautiful historical spot in Anantapur.",
+    "category": "Historical",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        77.5961,
+        14.0812
+      ]
+    },
+    "rating": {
+      "average": 4.8,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Gagan_Mahal_of_Sri_Krishna_devaraya_,_Andhra_Pradesh.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/1/1e/Old_brick_wall.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/8/87/Old_cannon.jpg"
+    ]
+  },
+  {
+    "name": "Dharmavaram Lake",
+    "slug": "dharmavaram-lake",
+    "districtName": "Anantapur",
+    "description": "A peaceful lake reservoir offering birdwatching and boating spots.",
+    "shortDescription": "A beautiful nature spot in Anantapur.",
+    "category": "Nature",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        77.7208,
+        14.4145
+      ]
+    },
+    "rating": {
+      "average": 4,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Sanyaseswara_Swamy_at_Dharmavaram_in_Vizianagaram_district.JPG",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/0/07/Dharmavaram_revenue_division_in_Anantapur_district.png",
+      "https://upload.wikimedia.org/wikipedia/commons/5/5c/GOATS_GOTLURU_DHARMAVARAM_AP_-_panoramio.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/9/9f/Aunset_near_Dharmavaram.jpg"
+    ]
+  },
+  {
+    "name": "Gooty Hilltop Viewpoint",
+    "slug": "gooty-hilltop-viewpoint",
+    "districtName": "Anantapur",
+    "description": "Spectacular sunset views over the Deccan plateau from the fortress heights.",
+    "shortDescription": "A beautiful nature spot in Anantapur.",
+    "category": "Nature",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        77.6355,
+        15.1265
+      ]
+    },
+    "rating": {
+      "average": 4.6,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Gooty_Fort_Top_View.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/6/68/Gooty_fort_mosque.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/3/35/Gooty_Fort_From_Top.JPG",
+      "https://upload.wikimedia.org/wikipedia/commons/c/c8/Gooty_fort_and_mosque.jpg"
+    ]
+  }
+]

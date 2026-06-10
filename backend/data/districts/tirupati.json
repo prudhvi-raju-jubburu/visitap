@@ -1,0 +1,299 @@
+[
+  {
+    "name": "Tirumala Venkateswara Temple",
+    "slug": "tirumala-venkateswara-temple",
+    "districtName": "Tirupati",
+    "description": "The world-famous temple dedicated to Lord Venkateswara, situated atop the scenic Saptagiri hills in Tirumala.",
+    "shortDescription": "Explore Tirumala Venkateswara Temple in Tirupati.",
+    "category": "Temple / Religious",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        79.35,
+        13.6833
+      ]
+    },
+    "rating": {
+      "average": 4.5,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": true,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Tirumala_Venkateswara_temple_entrance_09062015.JPG",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/4/4e/Tirumala_090615.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/2/2a/A_View_of_Tirumala_Venkateswara_Temple.JPG",
+      "https://upload.wikimedia.org/wikipedia/commons/6/6c/TIRUMALA_TIRUPATI_TEMPLE,ANDHRA_PRADESH_-_panoramio.jpg"
+    ]
+  },
+  {
+    "name": "Srikalahasti Temple",
+    "slug": "srikalahasti-temple",
+    "districtName": "Tirupati",
+    "description": "A renowned Shiva temple representing the Wind element (Vayu Lingam), famous for Rahu-Ketu Puja and its towering gopuram.",
+    "shortDescription": "Explore Srikalahasti Temple in Tirupati.",
+    "category": "Temple / Religious",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        79.6983,
+        13.7498
+      ]
+    },
+    "rating": {
+      "average": 4.1,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/5/56/Srikalahasti_temple_and_Hill.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/8/85/Temple_near_Srikalahasti.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/5/53/Siddhi_Vinayaka_Temple,_Srikalahasti.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/3/3a/Diya_lamp.jpg"
+    ]
+  },
+  {
+    "name": "Chandragiri Fort",
+    "slug": "chandragiri-fort",
+    "districtName": "Tirupati",
+    "description": "A majestic 11th-century fort built by the Yadava rulers, featuring a spectacular Raja Mahal palace.",
+    "shortDescription": "Explore Chandragiri Fort in Tirupati.",
+    "category": "Historical",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        79.3175,
+        13.6019
+      ]
+    },
+    "rating": {
+      "average": 4.9,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Chandragiri_Fort,_Chandragiri,_Tirupati,_Andhra_Pradesh,_India_(2017).jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/2/26/Chandragiri_fort_(May_2019)_1.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/3/33/Chandragiri_fort_(May_2019)_2.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/7/78/Archeological_museum_at_Chandragiri_fort_(May_2019)_2.jpg"
+    ]
+  },
+  {
+    "name": "Talakona Waterfalls",
+    "slug": "talakona-waterfalls",
+    "districtName": "Tirupati",
+    "description": "The highest waterfall in Andhra Pradesh, cascading 270 feet in the Sri Venkateswara National Park.",
+    "shortDescription": "Explore Talakona Waterfalls in Tirupati.",
+    "category": "Waterfalls",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        79.2151,
+        13.8034
+      ]
+    },
+    "rating": {
+      "average": 4.5,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/8/88/Talakona-Waterfalls.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/a/ad/Manasa_Teertham_Waterfalls_Near_Talakona.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/b/ba/Talakona_waterfalls.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/e/e5/Talakona_waterfall_view_01.jpg"
+    ]
+  },
+  {
+    "name": "Sri Venkateswara National Park",
+    "slug": "sri-venkateswara-national-park",
+    "districtName": "Tirupati",
+    "description": "A rich national park encompassing deciduous forests, deep gorges, and endangered fauna like the Golden Gecko.",
+    "shortDescription": "Explore Sri Venkateswara National Park in Tirupati.",
+    "category": "Wildlife",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        79.35,
+        13.67
+      ]
+    },
+    "rating": {
+      "average": 4.2,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Sri_Venkateswara_National_Park_Tirumala_Hills_01.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/0/00/Sri_Venkateswara_National_Park_Tirumala_Hills_06.JPG",
+      "https://upload.wikimedia.org/wikipedia/commons/9/90/Sri_Venkateswara_National_Park_Tirumala_Hills_08.JPG",
+      "https://upload.wikimedia.org/wikipedia/commons/b/b0/Sri_Venkateswara_National_park_far_view.jpg"
+    ]
+  },
+  {
+    "name": "Tirupati City Center",
+    "slug": "tirupati-city-center",
+    "districtName": "Tirupati",
+    "description": "The spiritual hub city of Tirupati, full of traditional local crafts, shopping bazaars, and pilgrim facilities.",
+    "shortDescription": "Explore Tirupati City Center in Tirupati.",
+    "category": "City",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        79.4192,
+        13.6288
+      ]
+    },
+    "rating": {
+      "average": 4.7,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/4/44/The_Union_Minister_for_Urban_Development,_Housing_and_Urban_Poverty_Alleviation_and_Parliamentary_Affairs_(24).jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/1/1e/Old_brick_wall.jpg"
+    ]
+  },
+  {
+    "name": "Tirumala Hills Viewpoint",
+    "slug": "tirumala-hills-viewpoint",
+    "districtName": "Tirupati",
+    "description": "Panoramic points along the Tirumala ghat roads offering views of the holy valleys below.",
+    "shortDescription": "Explore Tirumala Hills Viewpoint in Tirupati.",
+    "category": "Pilgrimage",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        79.3604,
+        13.6895
+      ]
+    },
+    "rating": {
+      "average": 4.6,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Tirupati-Source-Flickr.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/4/4e/Tirumala_Venkateswara_Temple_in_India.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/e/e6/Temple_Bell%2C_Saurashtra.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/3/3a/Diya_lamp.jpg"
+    ]
+  },
+  {
+    "name": "Srikalahasti town",
+    "slug": "srikalahasti-town",
+    "districtName": "Tirupati",
+    "description": "An ancient temple town on the banks of the Swarnamukhi River, representing deep cultural roots.",
+    "shortDescription": "Explore Srikalahasti town in Tirupati.",
+    "category": "Pilgrimage",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        79.7001,
+        13.7505
+      ]
+    },
+    "rating": {
+      "average": 4.3,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/5/56/Srikalahasti_temple_and_Hill.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/4/40/Srikalahasti_Vegetable_market.jpeg",
+      "https://upload.wikimedia.org/wikipedia/commons/9/91/Varadaraja_swamy_temple,_Srikalahasti.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/5/57/Veyilingala_Kona,_Chittoor_district_Andhra_Pradesh_India.jpg"
+    ]
+  },
+  {
+    "name": "Kalyani Dam",
+    "slug": "kalyani-dam",
+    "districtName": "Tirupati",
+    "description": "A peaceful reservoir in the foothills of Tirumala, providing drinking water and scenic picnic grounds.",
+    "shortDescription": "Explore Kalyani Dam in Tirupati.",
+    "category": "Nature",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        79.2804,
+        13.6308
+      ]
+    },
+    "rating": {
+      "average": 4.9,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Kalyani_Dam_built_on_Swarna_Mukhi_river.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/e/e6/Anand_bora-maharahtra-DSC_0623.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/8/86/Forest_canopy.jpg"
+    ]
+  },
+  {
+    "name": "Kapila Theertham",
+    "slug": "kapila-theertham",
+    "districtName": "Tirupati",
+    "description": "A sacred Shiva temple located at the base of the Tirumala hills, featuring a natural waterfall feeding a holy pond.",
+    "shortDescription": "Explore Kapila Theertham in Tirupati.",
+    "category": "Temple / Religious",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        79.4198,
+        13.6509
+      ]
+    },
+    "rating": {
+      "average": 4.2,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Kapila_Theertham_waterfalls_Tirupati_2015_3.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/f/f6/Upper_view_of_Kapila_Theertham_waterfalls_Tirupathi.JPG",
+      "https://upload.wikimedia.org/wikipedia/commons/2/25/Kapila_Theertham_waterfalls_Tirupati_2015_1.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/f/ff/Kapila_theertham.jpg"
+    ]
+  }
+]

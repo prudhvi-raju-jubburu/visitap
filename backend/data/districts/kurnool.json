@@ -1,0 +1,299 @@
+[
+  {
+    "name": "Yaganti Temple",
+    "slug": "yaganti-temple",
+    "districtName": "Kurnool",
+    "description": "The famous Sri Uma Maheshwara Temple, built by Vijayanagara Kings, known for caves and its growing Nandi.",
+    "shortDescription": "Explore Yaganti Temple in Kurnool.",
+    "category": "Temple / Religious",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        78.1394,
+        15.3486
+      ]
+    },
+    "rating": {
+      "average": 4.9,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": true,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/8/89/Yaganti_cave,_Andhra_Pradesh.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/1/1d/Nandi_at_Yaganti_Temple_-Kurnool_-Andhra_Pradesh_-001.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/e/e2/Yaganti_Temple_premise.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/8/89/Yaganti_Temple_Sthamba.jpg"
+    ]
+  },
+  {
+    "name": "Belum Caves",
+    "slug": "belum-caves",
+    "districtName": "Kurnool",
+    "description": "The second-longest cave system in the Indian subcontinent, famous for musical chambers and water passages.",
+    "shortDescription": "Explore Belum Caves in Kurnool.",
+    "category": "Historical",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        78.1147,
+        15.1017
+      ]
+    },
+    "rating": {
+      "average": 4.1,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/d/d0/The_Main_Caves,_Belum,_Andhra_Pradesh.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/a/a8/Way_to_\"Pathala_Ganga\".jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/2/25/Belum_Caves_-Kurnool_-Andhra_Pradesh_-002.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/d/d9/Section_of_Belum_Caves_Andhra_pradesh_India.jpg"
+    ]
+  },
+  {
+    "name": "Konda Reddy Buruzu",
+    "slug": "konda-reddy-buruzu",
+    "districtName": "Kurnool",
+    "description": "A massive 12th-century bastion located in the heart of Kurnool city, built by the Vijayanagara rulers.",
+    "shortDescription": "Explore Konda Reddy Buruzu in Kurnool.",
+    "category": "Historical",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        78.0373,
+        15.8281
+      ]
+    },
+    "rating": {
+      "average": 4.7,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Konda_Reddy_Fort.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/6/6d/Konda_Reddy_Fort_Kurnool.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/7/7b/Konda_Reddy_Fort_(96137).jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/7/71/Konda_Reddy_Fort_(70000).jpg"
+    ]
+  },
+  {
+    "name": "Kurnool Fort ruins",
+    "slug": "kurnool-fort-ruins",
+    "districtName": "Kurnool",
+    "description": "Historic battlements and gateways reflecting the heritage of the Nawabs and Vijayanagara kings.",
+    "shortDescription": "Explore Kurnool Fort ruins in Kurnool.",
+    "category": "Historical",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        78.0414,
+        15.8352
+      ]
+    },
+    "rating": {
+      "average": 4.8,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Old_brick_wall.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/8/87/Old_cannon.jpg"
+    ]
+  },
+  {
+    "name": "Orvakal Rock Garden",
+    "slug": "orvakal-rock-garden",
+    "districtName": "Kurnool",
+    "description": "A stunning natural park of silica and quartz rock formations, interspersed with water bodies.",
+    "shortDescription": "Explore Orvakal Rock Garden in Kurnool.",
+    "category": "Nature",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        78.0169,
+        15.6811
+      ]
+    },
+    "rating": {
+      "average": 5,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/0/02/Nature's_own_rock_garden.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/8/82/Orvakal_-_Rock_Garden.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/9/9c/Orvakal_Rock_Formations.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/5/52/ROCK_GARDEN_,KURNOOL_AP_-_panoramio.jpg"
+    ]
+  },
+  {
+    "name": "Kurnool City Center",
+    "slug": "kurnool-city-center",
+    "districtName": "Kurnool",
+    "description": "The historic commercial gateway city to Rayalaseema, located on the banks of Tungabhadra River.",
+    "shortDescription": "Explore Kurnool City Center in Kurnool.",
+    "category": "City",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        78.0378,
+        15.8289
+      ]
+    },
+    "rating": {
+      "average": 4.1,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/0/03/Sivanandisvara_temples_complex,_Kadamala_kalava,_Andhra_Pradesh_India_-_27.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/6/67/Sivanandisvara_temples_complex,_Kadamala_kalava,_Andhra_Pradesh_India_-_46.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/a/a7/Sivanandisvara_temples_complex,_Kadamala_kalava,_Andhra_Pradesh_India_-_28.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/6/62/Sivanandisvara_temples_complex,_Kadamala_kalava,_Andhra_Pradesh_India_-_12.jpg"
+    ]
+  },
+  {
+    "name": "Rollapadu Bird Sanctuary",
+    "slug": "rollapadu-bird-sanctuary",
+    "districtName": "Kurnool",
+    "description": "A grassland sanctuary known for the conservation of the critically endangered Great Indian Bustard.",
+    "shortDescription": "Explore Rollapadu Bird Sanctuary in Kurnool.",
+    "category": "Wildlife",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        78.3683,
+        15.7258
+      ]
+    },
+    "rating": {
+      "average": 4.4,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/3/37/House_crow_(Corvus_splendens)_from_Rollapadu_Wildlife_Sanctuary,_Andhra_JEG7049.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/b/b6/Pied_crested_cuckoo_(Clamator_jacobinus)from_Rollapadu_Andhra_Pradesh_JEG7258.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/1/1a/Barred_buttonquail_or_Common_bustard-quail_(Turnix_suscitator)_from_Andhra_JEG7344.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/1/1a/Burhinus_indicus.JPG"
+    ]
+  },
+  {
+    "name": "Tungabhadra Riverfront",
+    "slug": "tungabhadra-riverfront",
+    "districtName": "Kurnool",
+    "description": "Scenic riverbanks in Kurnool, ideal for evening walks and participating in pushkaram festivals.",
+    "shortDescription": "Explore Tungabhadra Riverfront in Kurnool.",
+    "category": "Nature",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        78.0556,
+        15.8451
+      ]
+    },
+    "rating": {
+      "average": 4.1,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Tungabhadra_River_from_Kurnool_City.JPG",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/f/fb/A_construction_in_the_middle_of_Tungabhadra_River_Kurnool.JPG",
+      "https://upload.wikimedia.org/wikipedia/commons/f/f2/TUNGABHADRA_RIVER_KURNOOL.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/0/06/Board_says_Tungabhadra_river_near_Kurnool_PIC_0031.JPG"
+    ]
+  },
+  {
+    "name": "Belum Cave Passages",
+    "slug": "belum-cave-passages",
+    "districtName": "Kurnool",
+    "description": "Unique geological stalactite corridors inside the deep limestone chambers of Belum.",
+    "shortDescription": "Explore Belum Cave Passages in Kurnool.",
+    "category": "Nature",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        78.1171,
+        15.1032
+      ]
+    },
+    "rating": {
+      "average": 4.8,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Belum_Caves_-_Kurnool_-_Andhra_Pradesh_-_(90).jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/7/71/Belum_Caves_-_Kurnool_-_Andhra_Pradesh_-_(46).jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/4/41/Belum_Caves_-_Kurnool_-_Andhra_Pradesh_-_(66).jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/b/be/Belum_Caves_-_Kurnool_-_Andhra_Pradesh_-_(150).jpg"
+    ]
+  },
+  {
+    "name": "Mahanandi Temple Area",
+    "slug": "mahanandi-temple-area",
+    "districtName": "Kurnool",
+    "description": "Pilgrimage temple site known for crystal-clear natural water spring reservoirs.",
+    "shortDescription": "Explore Mahanandi Temple Area in Kurnool.",
+    "category": "Pilgrimage",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        78.6112,
+        15.4875
+      ]
+    },
+    "rating": {
+      "average": 4.6,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/4/40/Jaina_Temple_in_Mahanandi.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/e/e6/Temple_Bell%2C_Saurashtra.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/3/3a/Diya_lamp.jpg"
+    ]
+  }
+]

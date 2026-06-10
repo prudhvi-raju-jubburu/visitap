@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { useSearchParams } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { fetchCategories, fetchPlaces } from '../services/api';
 import PlaceCard from '../components/PlaceCard';
@@ -23,18 +24,40 @@ const CATEGORY_META = {
 
 export default function Categories() {
   const [categories, setCategories] = useState([]);
-  const [selectedCategory, setSelectedCategory] = useState(null);
+  const [searchParams, setSearchParams] = useSearchParams();
+  const cParam = searchParams.get('c');
+  const [selectedCategory, setSelectedCategory] = useState(cParam || null);
   const [places, setPlaces] = useState([]);
   const [loading, setLoading] = useState(true);
   const [placesLoading, setPlacesLoading] = useState(false);
 
   useEffect(() => {
+    if (cParam) {
+      setSelectedCategory(cParam);
+    } else {
+      setSelectedCategory(null);
+    }
+  }, [cParam]);
+
+  useEffect(() => {
     const loadCategories = async () => {
       try {
+        const cached = localStorage.getItem('cached_categories');
+        if (cached) {
+          setCategories(JSON.parse(cached));
+          setLoading(false);
+        }
+
         const res = await fetchCategories();
-        setCategories(res.data.data || []);
+        const data = res.data.data || [];
+        setCategories(data);
+        localStorage.setItem('cached_categories', JSON.stringify(data));
       } catch (err) {
         console.error('Error fetching categories:', err);
+        const cached = localStorage.getItem('cached_categories');
+        if (cached) {
+          setCategories(JSON.parse(cached));
+        }
       } finally {
         setLoading(false);
       }
@@ -46,11 +69,24 @@ export default function Categories() {
     if (selectedCategory) {
       const loadPlaces = async () => {
         setPlacesLoading(true);
+        const cacheKey = `cached_category_places_${selectedCategory}`;
         try {
+          const cached = localStorage.getItem(cacheKey);
+          if (cached) {
+            setPlaces(JSON.parse(cached));
+            setPlacesLoading(false);
+          }
+
           const res = await fetchPlaces({ category: selectedCategory });
-          setPlaces(res.data.data || []);
+          const data = res.data.data || [];
+          setPlaces(data);
+          localStorage.setItem(cacheKey, JSON.stringify(data));
         } catch (err) {
           console.error('Error fetching filtered places:', err);
+          const cached = localStorage.getItem(cacheKey);
+          if (cached) {
+            setPlaces(JSON.parse(cached));
+          }
         } finally {
           setPlacesLoading(false);
         }
@@ -101,7 +137,7 @@ export default function Categories() {
                 transition={{ delay: idx * 0.05 }}
                 whileHover={{ y: -8 }}
                 className="cursor-pointer group relative h-72 rounded-[2rem] overflow-hidden shadow-card transition-all duration-500 hover:shadow-2xl border border-white/10"
-                onClick={() => setSelectedCategory(cat.name)}
+                onClick={() => setSearchParams({ c: cat.name })}
               >
                 {/* Background Image */}
                 <img 
@@ -140,7 +176,7 @@ export default function Categories() {
           {/* Active Filter Header */}
           <div className="flex items-center justify-between mb-8">
             <button 
-              onClick={() => setSelectedCategory(null)}
+              onClick={() => setSearchParams({})}
               className="group flex items-center gap-2 text-textMuted hover:text-primary transition-colors"
             >
               <span className="text-xl group-hover:-translate-x-1 transition-transform">←</span>

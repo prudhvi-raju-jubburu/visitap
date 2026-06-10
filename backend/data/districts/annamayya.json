@@ -1,0 +1,300 @@
+[
+  {
+    "name": "Horsley Hills Resort",
+    "slug": "horsley-hills-resort",
+    "districtName": "Annamayya",
+    "description": "A beautiful hill resort at 1,265 meters elevation, named after collector W.D. Horsley.",
+    "shortDescription": "A beautiful hill station spot in Annamayya.",
+    "category": "Hill Station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        78.3938,
+        13.6552
+      ]
+    },
+    "rating": {
+      "average": 4.1,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": true,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/e/e1/The_baronial_halls,_picturesque_edifices,_and_ancient_churches_of_England_(1845)_(14766101755).jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/7/73/Horsley_hills_HDR.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/8/87/Papi_Hills_Tour_Pic_10.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/8/86/Forest_canopy.jpg"
+    ]
+  },
+  {
+    "name": "Tallapaka Poet Village",
+    "slug": "tallapaka-poet-village",
+    "districtName": "Annamayya",
+    "description": "The birthplace of Saint Annamacharya, who composed thousands of Telugu sankirtanas.",
+    "shortDescription": "A beautiful culture spot in Annamayya.",
+    "category": "Culture",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        79.1525,
+        14.23
+      ]
+    },
+    "rating": {
+      "average": 4.7,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/f/fc/TallapakaTree.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/d/db/SA_Rajampet.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/c/cc/Annamayya_at_Rajampet,_Kadapa_District.JPG",
+      "https://upload.wikimedia.org/wikipedia/commons/8/8d/Tallapaka_annamacharya.jpg"
+    ]
+  },
+  {
+    "name": "Gurramkonda Fort",
+    "slug": "gurramkonda-fort",
+    "districtName": "Annamayya",
+    "description": "A hill fortress featuring a palace (Rangin Mahal) and historic stone gates.",
+    "shortDescription": "A beautiful historical spot in Annamayya.",
+    "category": "Historical",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        78.5854,
+        13.7828
+      ]
+    },
+    "rating": {
+      "average": 4.4,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Gurramkonda_Hill_Fort.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/1/1d/GURRAM_KONDA_FORT^_KADAPA_AP_-_panoramio.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/6/60/Gurramkonda_fort_plan.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/e/eb/View_of_Gurramkonda.jpg"
+    ]
+  },
+  {
+    "name": "Horsley Hills Trekking",
+    "slug": "horsley-hills-trekking",
+    "districtName": "Annamayya",
+    "description": "Trekking trails through dense forests to reach viewpoints like Gali Bandalu.",
+    "shortDescription": "A beautiful adventure spot in Annamayya.",
+    "category": "Adventure",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        78.3992,
+        13.6615
+      ]
+    },
+    "rating": {
+      "average": 4.5,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/7/73/Horsley_hills_HDR.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/c/cf/Distant_hills,horsley_hills,AP_-_panoramio.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/f/f2/Horsley_Hills_Andhra_Pradesh_JEG9294.JPG",
+      "https://upload.wikimedia.org/wikipedia/commons/9/9e/Horsley_Hills_Andhra_Pradesh_JEG9264.JPG"
+    ]
+  },
+  {
+    "name": "Annamacharya Memorial",
+    "slug": "annamacharya-memorial",
+    "districtName": "Annamayya",
+    "description": "A cultural museum and music academy dedicated to the compositions of Annamayya.",
+    "shortDescription": "A beautiful culture spot in Annamayya.",
+    "category": "Culture",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        79.1505,
+        14.2308
+      ]
+    },
+    "rating": {
+      "average": 4.4,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/6/65/Annamacharya_statue_Rajampet.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/9/97/Annamacharya_Statue.JPG",
+      "https://upload.wikimedia.org/wikipedia/commons/c/cc/Annamayya_at_Rajampet,_Kadapa_District.JPG",
+      "https://upload.wikimedia.org/wikipedia/commons/c/ca/Tallapaka_Annamacharya_Anakapalle.jpg"
+    ]
+  },
+  {
+    "name": "Gurramkonda Rangin Mahal",
+    "slug": "gurramkonda-rangin-mahal",
+    "districtName": "Annamayya",
+    "description": "A two-story royal palace inside the fort, showcasing historic plaster designs.",
+    "shortDescription": "A beautiful heritage spot in Annamayya.",
+    "category": "Heritage",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        78.5868,
+        13.7819
+      ]
+    },
+    "rating": {
+      "average": 4.9,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Rangin_Mahal.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/a/a7/Bidar-Fort-Rangin-Mahal-Mother-Of-Pearl-Decoration.png",
+      "https://upload.wikimedia.org/wikipedia/commons/1/1e/Old_brick_wall.jpg"
+    ]
+  },
+  {
+    "name": "Horsley Hills forest path",
+    "slug": "horsley-hills-forest-path",
+    "districtName": "Annamayya",
+    "description": "Wooded trails winding through eucalyptus trees and wild scrublands.",
+    "shortDescription": "A beautiful nature spot in Annamayya.",
+    "category": "Nature",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        78.3886,
+        13.6488
+      ]
+    },
+    "rating": {
+      "average": 4.5,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Winter_Ash_tree_-_geograph.org.uk_-_1114791.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/7/73/Horsley_hills_HDR.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/8/8e/View_south_from_footpath_near_Northside_Farm_-_geograph.org.uk_-_1123579.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/6/6f/Beeston_-_the_Sandstone_Trail_-_geograph.org.uk_-_804850.jpg"
+    ]
+  },
+  {
+    "name": "Madanapalle Town Center",
+    "slug": "madanapalle-town-center",
+    "districtName": "Annamayya",
+    "description": "A commercial town famed for silk trade and the school where Tagore translated the national anthem.",
+    "shortDescription": "A beautiful city spot in Annamayya.",
+    "category": "City",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        78.5029,
+        13.5503
+      ]
+    },
+    "rating": {
+      "average": 4.8,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/0/05/Madanapalle.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/e/eb/Jiddu_Krishnamurti_house_-_Study_center.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/0/0e/View_from_Horsely_hills_01.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/5/5e/Jiddu_Krishnamurti_house.jpg"
+    ]
+  },
+  {
+    "name": "Kalyani Dam Reservoir",
+    "slug": "kalyani-dam-reservoir",
+    "districtName": "Annamayya",
+    "description": "A tranquil forest reservoir located near the base of the hills.",
+    "shortDescription": "A beautiful nature spot in Annamayya.",
+    "category": "Nature",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        79.2818,
+        13.6295
+      ]
+    },
+    "rating": {
+      "average": 4.3,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Kalyani_Dam_built_on_Swarna_Mukhi_river.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/e/e6/Anand_bora-maharahtra-DSC_0623.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/8/86/Forest_canopy.jpg"
+    ]
+  },
+  {
+    "name": "Sompalem Chennakesava Temple",
+    "slug": "sompalem-chennakesava-temple",
+    "districtName": "Annamayya",
+    "description": "An ancient temple featuring exquisitely carved monolithic pillars.",
+    "shortDescription": "A beautiful temple / religious spot in Annamayya.",
+    "category": "Temple / Religious",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        78.2704,
+        13.8602
+      ]
+    },
+    "rating": {
+      "average": 4.4,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/0/09/Pillar_in_sompalem.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/3/3a/Diya_lamp.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/d/d0/Diya_re-imagined.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/e/e6/Temple_Bell%2C_Saurashtra.jpg"
+    ]
+  }
+]

@@ -1,0 +1,299 @@
+[
+  {
+    "name": "Somarama Temple",
+    "slug": "somarama-temple",
+    "districtName": "West Godavari",
+    "description": "One of the five Pancharama Kshetras dedicated to Lord Shiva, located in Bhimavaram.",
+    "shortDescription": "A beautiful temple / religious spot in West Godavari.",
+    "category": "Temple / Religious",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        81.5236,
+        16.5436
+      ]
+    },
+    "rating": {
+      "average": 4.4,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": true,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Somarama_temple_car.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/2/29/SomeswaraSwamy-5.JPG",
+      "https://upload.wikimedia.org/wikipedia/commons/8/8a/Someswara-Swamy-Temple-Bhimavaram.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/b/bf/SomeswaraSwamy-3.JPG"
+    ]
+  },
+  {
+    "name": "Ksheerarama Temple",
+    "slug": "ksheerarama-temple",
+    "districtName": "West Godavari",
+    "description": "A holy Pancharama temple featuring a towering 120-foot gopuram built by Chalukyas.",
+    "shortDescription": "A beautiful temple / religious spot in West Godavari.",
+    "category": "Temple / Religious",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        81.7289,
+        16.5208
+      ]
+    },
+    "rating": {
+      "average": 4,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Ksheerarama.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/d/d2/CompleteTempleComplex.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/2/28/Ksheerarama_temple_view.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/4/45/KsheeraRamaLingeswaraSwamy-7.JPG"
+    ]
+  },
+  {
+    "name": "Bhimavaram City Center",
+    "slug": "bhimavaram-city-center",
+    "districtName": "West Godavari",
+    "description": "The commercial hub city, famous for shrimp farming, rice mills, and festivals.",
+    "shortDescription": "A beautiful city spot in West Godavari.",
+    "category": "City",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        81.5212,
+        16.5449
+      ]
+    },
+    "rating": {
+      "average": 4.4,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/8/83/Bhimavaram_Town_Railway_Staion_board_with_MSL_6.8metres.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/d/de/Bhimavaram_town,_AP.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/a/a3/Bhimavaram_town,_AP-2.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/c/c4/Bhimavaram_town,_AP-3.jpg"
+    ]
+  },
+  {
+    "name": "Kolleru Wetlands",
+    "slug": "kolleru-wetlands",
+    "districtName": "West Godavari",
+    "description": "The rich freshwater lake wetlands situated in the West Godavari basin.",
+    "shortDescription": "A beautiful nature spot in West Godavari.",
+    "category": "Nature",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        81.25,
+        16.63
+      ]
+    },
+    "rating": {
+      "average": 4.8,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/4/49/Birds_in_Kolleru_Lake_captured_near_Devi_Chintapadu_(04).jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/f/f0/Birds_in_Kolleru_Lake_captured_near_Devi_Chintapadu_(06).jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/b/be/Birds_in_Kolleru_Lake_captured_near_Devi_Chintapadu_(03).jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/2/23/Birds_in_Kolleru_Lake_captured_near_Devi_Chintapadu_(01).jpg"
+    ]
+  },
+  {
+    "name": "Palakollu town",
+    "slug": "palakollu-town",
+    "districtName": "West Godavari",
+    "description": "A bustling agricultural center surrounded by coconut groves and paddy fields.",
+    "shortDescription": "A beautiful city spot in West Godavari.",
+    "category": "City",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        81.7281,
+        16.5165
+      ]
+    },
+    "rating": {
+      "average": 4.1,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Palakollu_Municipal_Council_Nov_2019.png",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/0/0d/Ramalingeswara_Swamy_Gopuram.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/3/39/Palakollu_railway.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/1/1e/Old_brick_wall.jpg"
+    ]
+  },
+  {
+    "name": "Somarama Temple Tank",
+    "slug": "somarama-temple-tank",
+    "districtName": "West Godavari",
+    "description": "The sacred pond (Chandra Pushkarini) in front of the temple, filled with lotus flowers.",
+    "shortDescription": "A beautiful heritage spot in West Godavari.",
+    "category": "Heritage",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        81.5242,
+        16.5431
+      ]
+    },
+    "rating": {
+      "average": 4.3,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Somarama_temple_car.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/8/8a/Someswara-Swamy-Temple-Bhimavaram.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/1/1e/Old_brick_wall.jpg"
+    ]
+  },
+  {
+    "name": "Ksheerarama Gopuram",
+    "slug": "ksheerarama-gopuram",
+    "districtName": "West Godavari",
+    "description": "An architectural marvel representing East Chalukyan temple architecture.",
+    "shortDescription": "A beautiful heritage spot in West Godavari.",
+    "category": "Heritage",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        81.7288,
+        16.5168
+      ]
+    },
+    "rating": {
+      "average": 4.9,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Ramalingeswara_Swamy_Gopuram.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/c/cd/Palakol_Temple_Tower.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/1/1e/Plakollu_temple.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/1/17/KsheeraRamaLingeswaraSwamy-1.JPG"
+    ]
+  },
+  {
+    "name": "Narsapur Lace Industry",
+    "slug": "narsapur-lace-industry",
+    "districtName": "West Godavari",
+    "description": "A famous export center where artisans weave intricate handmade thread lace works.",
+    "shortDescription": "A beautiful culture spot in West Godavari.",
+    "category": "Culture",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        81.6985,
+        16.434
+      ]
+    },
+    "rating": {
+      "average": 4.7,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Irish_crochet.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/e/e6/Irish_crochet_lace_single.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/4/4d/Irish_crochet_lace_pair.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/9/9f/Irish_crochet_lace_detail.jpg"
+    ]
+  },
+  {
+    "name": "Godavari delta canals",
+    "slug": "godavari-delta-canals",
+    "districtName": "West Godavari",
+    "description": "Scenic delta irrigation canals cutting through coconut orchards.",
+    "shortDescription": "A beautiful nature spot in West Godavari.",
+    "category": "Nature",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        81.65,
+        16.48
+      ]
+    },
+    "rating": {
+      "average": 4.7,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/3/32/Prabhalu_immersion_procession_in_a_canal_during_Sankranti_festival,_Konaseema.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/8/86/Forest_canopy.jpg"
+    ]
+  },
+  {
+    "name": "Perupalem Beach",
+    "slug": "perupalem-beach",
+    "districtName": "West Godavari",
+    "description": "A quiet, sandy beach located close to Narsapur, offering views of the bay.",
+    "shortDescription": "A beautiful beach spot in West Godavari.",
+    "category": "Beach",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        81.5956,
+        16.3589
+      ]
+    },
+    "rating": {
+      "average": 4,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Perupalem_Beach.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/1/13/Mahindra_Thar_Photoshoot_At_Perupalem_Beach_(West_Godavari_District,AP,India_)_Djdavid.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/3/3e/Perupalem.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/0/0f/Wave_at_beach.jpg"
+    ]
+  }
+]

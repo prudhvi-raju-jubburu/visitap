@@ -1,0 +1,25 @@
+{
+  "auditTimestamp": "2026-06-08T18:42:26.639Z",
+  "totalEventsAudited": 0,
+  "invalidEvents": [],
+  "eventCounts": {
+    "PLACE_VIEW": 0,
+    "DISTRICT_VIEW": 0,
+    "SEARCH": 0,
+    "VOICE_SEARCH": 0,
+    "SEARCH_RESULT_CLICK": 0,
+    "SEARCH_NO_RESULT": 0,
+    "SAVE_PLACE": 0,
+    "SAVE_DISTRICT": 0,
+    "CREATE_TRIP": 0,
+    "SHARE_TRIP": 0,
+    "REVIEW_SUBMITTED": 0,
+    "USER_REGISTERED": 0,
+    "USER_LOGIN": 0,
+    "FEEDBACK_SUBMITTED": 0
+  },
+  "summary": {
+    "valid": 0,
+    "invalid": 0
+  }
+}

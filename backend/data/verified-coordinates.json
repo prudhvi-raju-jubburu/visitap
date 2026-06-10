@@ -1,0 +1,1302 @@
+{
+  "araku-valley": {
+    "latitude": 18.3274,
+    "longitude": 82.8806,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=18.3274,82.8806"
+  },
+  "lambasingi": {
+    "latitude": 17.8117,
+    "longitude": 82.8122,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=17.8117,82.8122"
+  },
+  "maredumilli-forest": {
+    "latitude": 17.4344,
+    "longitude": 81.7028,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=17.4344,81.7028"
+  },
+  "papikonda-national-park": {
+    "latitude": 17.596,
+    "longitude": 81.774,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=17.596,81.774"
+  },
+  "araku-valley-trekking": {
+    "latitude": 18.338,
+    "longitude": 82.872,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=18.338,82.872"
+  },
+  "papikondalu-boat-ride": {
+    "latitude": 17.553,
+    "longitude": 81.77,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=17.553,81.77"
+  },
+  "araku-tribal-museum": {
+    "latitude": 18.3278,
+    "longitude": 82.8786,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=18.3278,82.8786"
+  },
+  "lambasingi-tribal-area": {
+    "latitude": 17.818,
+    "longitude": 82.8185,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=17.818,82.8185"
+  },
+  "papikondalu-gorges": {
+    "latitude": 17.565,
+    "longitude": 81.782,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=17.565,81.782"
+  },
+  "borra-caves": {
+    "latitude": 18.2813,
+    "longitude": 83.0385,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=18.2813,83.0385"
+  },
+  "kondakarla-ava-lake": {
+    "latitude": 17.6154,
+    "longitude": 82.9777,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=17.6154,82.9777"
+  },
+  "bojjannakonda-caves": {
+    "latitude": 17.6936,
+    "longitude": 83.0167,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=17.6936,83.0167"
+  },
+  "anakapalli-jaggery-market": {
+    "latitude": 17.6913,
+    "longitude": 83.0037,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=17.6913,83.0037"
+  },
+  "upaka-forest-reserve": {
+    "latitude": 17.65,
+    "longitude": 82.93,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=17.65,82.93"
+  },
+  "bojjannakonda-stupas": {
+    "latitude": 17.6938,
+    "longitude": 83.0169,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=17.6938,83.0169"
+  },
+  "kondakarla-birding": {
+    "latitude": 17.619,
+    "longitude": 82.975,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=17.619,82.975"
+  },
+  "sarada-riverfront": {
+    "latitude": 17.7,
+    "longitude": 82.95,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=17.7,82.95"
+  },
+  "anakapalli-town-center": {
+    "latitude": 17.691,
+    "longitude": 83.0025,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=17.691,83.0025"
+  },
+  "bojjannakonda-museum": {
+    "latitude": 17.694,
+    "longitude": 83.0172,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=17.694,83.0172"
+  },
+  "kondakarla-boating-point": {
+    "latitude": 17.617,
+    "longitude": 82.98,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=17.617,82.98"
+  },
+  "lepakshi-veerabhadra-temple": {
+    "latitude": 13.8035,
+    "longitude": 77.6098,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=13.8035,77.6098"
+  },
+  "gooty-fort": {
+    "latitude": 15.1247,
+    "longitude": 77.6342,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=15.1247,77.6342"
+  },
+  "penukonda-fort": {
+    "latitude": 14.0825,
+    "longitude": 77.5948,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=14.0825,77.5948"
+  },
+  "dharmavaram-silk-village": {
+    "latitude": 14.4136,
+    "longitude": 77.7197,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=14.4136,77.7197"
+  },
+  "anantapur-city-center": {
+    "latitude": 14.6819,
+    "longitude": 77.6006,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=14.6819,77.6006"
+  },
+  "lepakshi-nandi": {
+    "latitude": 13.801,
+    "longitude": 77.6075,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=13.801,77.6075"
+  },
+  "tadpatri-temples": {
+    "latitude": 14.9097,
+    "longitude": 78.0105,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=14.9097,78.0105"
+  },
+  "penukonda-gagan-mahal": {
+    "latitude": 14.0812,
+    "longitude": 77.5961,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=14.0812,77.5961"
+  },
+  "dharmavaram-lake": {
+    "latitude": 14.4145,
+    "longitude": 77.7208,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=14.4145,77.7208"
+  },
+  "gooty-hilltop-viewpoint": {
+    "latitude": 15.1265,
+    "longitude": 77.6355,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=15.1265,77.6355"
+  },
+  "horsley-hills-resort": {
+    "latitude": 13.6552,
+    "longitude": 78.3938,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=13.6552,78.3938"
+  },
+  "tallapaka-poet-village": {
+    "latitude": 14.23,
+    "longitude": 79.1525,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=14.23,79.1525"
+  },
+  "gurramkonda-fort": {
+    "latitude": 13.7828,
+    "longitude": 78.5854,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=13.7828,78.5854"
+  },
+  "horsley-hills-trekking": {
+    "latitude": 13.6615,
+    "longitude": 78.3992,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=13.6615,78.3992"
+  },
+  "annamacharya-memorial": {
+    "latitude": 14.2308,
+    "longitude": 79.1505,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=14.2308,79.1505"
+  },
+  "gurramkonda-rangin-mahal": {
+    "latitude": 13.7819,
+    "longitude": 78.5868,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=13.7819,78.5868"
+  },
+  "horsley-hills-forest-path": {
+    "latitude": 13.6488,
+    "longitude": 78.3886,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=13.6488,78.3886"
+  },
+  "madanapalle-town-center": {
+    "latitude": 13.5503,
+    "longitude": 78.5029,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=13.5503,78.5029"
+  },
+  "kalyani-dam-reservoir": {
+    "latitude": 13.6295,
+    "longitude": 79.2818,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=13.6295,79.2818"
+  },
+  "sompalem-chennakesava-temple": {
+    "latitude": 13.8602,
+    "longitude": 78.2704,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=13.8602,78.2704"
+  },
+  "suryalanka-beach": {
+    "latitude": 15.8453,
+    "longitude": 80.5211,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=15.8453,80.5211"
+  },
+  "vodarevu-beach": {
+    "latitude": 15.7912,
+    "longitude": 80.4093,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=15.7912,80.4093"
+  },
+  "bapatla-bhavanarayana-temple": {
+    "latitude": 15.9048,
+    "longitude": 80.4672,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=15.9048,80.4672"
+  },
+  "chirala-weaving-hub": {
+    "latitude": 15.8234,
+    "longitude": 80.3521,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=15.8234,80.3521"
+  },
+  "bapatla-city-center": {
+    "latitude": 15.9041,
+    "longitude": 80.4676,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=15.9041,80.4676"
+  },
+  "suryalanka-resorts": {
+    "latitude": 15.8427,
+    "longitude": 80.5179,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=15.8427,80.5179"
+  },
+  "vodarevu-fishing-port": {
+    "latitude": 15.7878,
+    "longitude": 80.4064,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=15.7878,80.4064"
+  },
+  "bhavanarayana-temple-tanks": {
+    "latitude": 15.9044,
+    "longitude": 80.467,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=15.9044,80.467"
+  },
+  "suryalanka-coastline": {
+    "latitude": 15.8481,
+    "longitude": 80.5268,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=15.8481,80.5268"
+  },
+  "chirala-beach-point": {
+    "latitude": 15.8115,
+    "longitude": 80.3696,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=15.8115,80.3696"
+  },
+  "kanipakam-varasiddhi-temple": {
+    "latitude": 13.2536,
+    "longitude": 79.027,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=13.2536,79.027"
+  },
+  "gurramkonda-fort-borders": {
+    "latitude": 13.7805,
+    "longitude": 78.5822,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=13.7805,78.5822"
+  },
+  "kaundinya-wildlife-sanctuary": {
+    "latitude": 13.3986,
+    "longitude": 78.7524,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=13.3986,78.7524"
+  },
+  "kanipakam-temple-tank": {
+    "latitude": 13.2538,
+    "longitude": 79.0273,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=13.2538,79.0273"
+  },
+  "chittoor-mango-markets": {
+    "latitude": 13.2148,
+    "longitude": 79.1016,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=13.2148,79.1016"
+  },
+  "kaundinya-elephant-camps": {
+    "latitude": 13.4058,
+    "longitude": 78.7602,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=13.4058,78.7602"
+  },
+  "chittoor-hills-path": {
+    "latitude": 13.2252,
+    "longitude": 79.1128,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=13.2252,79.1128"
+  },
+  "ardhagiri-veeranjaneya-temple": {
+    "latitude": 13.2689,
+    "longitude": 79.1235,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=13.2689,79.1235"
+  },
+  "kaundinya-forest-trekking": {
+    "latitude": 13.3921,
+    "longitude": 78.7468,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=13.3921,78.7468"
+  },
+  "chittoor-fort-ruins": {
+    "latitude": 13.2178,
+    "longitude": 79.1004,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=13.2178,79.1004"
+  },
+  "dindi-backwaters": {
+    "latitude": 16.5202,
+    "longitude": 81.7365,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.5202,81.7365"
+  },
+  "antarvedi-beach": {
+    "latitude": 16.3336,
+    "longitude": 81.7348,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.3336,81.7348"
+  },
+  "ainavilli-vinayaka-temple": {
+    "latitude": 16.5993,
+    "longitude": 82.0021,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.5993,82.0021"
+  },
+  "peruru-heritage-village": {
+    "latitude": 16.7821,
+    "longitude": 82.0413,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.7821,82.0413"
+  },
+  "konaseema-houseboats": {
+    "latitude": 16.5154,
+    "longitude": 81.7428,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.5154,81.7428"
+  },
+  "razole-town": {
+    "latitude": 16.4768,
+    "longitude": 81.8396,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.4768,81.8396"
+  },
+  "vashishta-godavari-river-confluence": {
+    "latitude": 16.3375,
+    "longitude": 81.7289,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.3375,81.7289"
+  },
+  "mamikuduru-wetlands": {
+    "latitude": 16.6553,
+    "longitude": 82.0954,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.6553,82.0954"
+  },
+  "ryali-jaganmohini-temple": {
+    "latitude": 16.7924,
+    "longitude": 81.9591,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.7924,81.9591"
+  },
+  "antarvedi-lakshmi-narasimha-temple": {
+    "latitude": 16.3308,
+    "longitude": 81.7322,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.3308,81.7322"
+  },
+  "rajahmundry-city-center": {
+    "latitude": 17.0005,
+    "longitude": 81.804,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=17.0005,81.804"
+  },
+  "godavari-arch-bridge": {
+    "latitude": 17.0009,
+    "longitude": 81.7794,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=17.0009,81.7794"
+  },
+  "rajahmundry-iskcon-temple": {
+    "latitude": 17.0059,
+    "longitude": 81.7916,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=17.0059,81.7916"
+  },
+  "dowleswaram-barrage": {
+    "latitude": 16.9548,
+    "longitude": 81.7835,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.9548,81.7835"
+  },
+  "godavari-river-cruise": {
+    "latitude": 17.0032,
+    "longitude": 81.7858,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=17.0032,81.7858"
+  },
+  "kadiyam-nursery-gardens": {
+    "latitude": 16.9204,
+    "longitude": 81.9988,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.9204,81.9988"
+  },
+  "dowleswaram-cotton-museum": {
+    "latitude": 16.9556,
+    "longitude": 81.7848,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.9556,81.7848"
+  },
+  "rajahmundry-ghats": {
+    "latitude": 17.0021,
+    "longitude": 81.7788,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=17.0021,81.7788"
+  },
+  "kadiapulanka-flower-fields": {
+    "latitude": 16.9468,
+    "longitude": 82.0527,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.9468,82.0527"
+  },
+  "rajahmundry-parklands": {
+    "latitude": 17.0112,
+    "longitude": 81.7994,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=17.0112,81.7994"
+  },
+  "kolleru-lake": {
+    "latitude": 16.6204,
+    "longitude": 81.2378,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.6204,81.2378"
+  },
+  "dwaraka-tirumala-temple": {
+    "latitude": 16.9319,
+    "longitude": 81.2558,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.9319,81.2558"
+  },
+  "guntupalli-caves": {
+    "latitude": 17.2208,
+    "longitude": 81.0804,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=17.2208,81.0804"
+  },
+  "kolleru-pelican-sanctuary": {
+    "latitude": 16.6365,
+    "longitude": 81.2472,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.6365,81.2472"
+  },
+  "eluru-city-center": {
+    "latitude": 16.7107,
+    "longitude": 81.0952,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.7107,81.0952"
+  },
+  "dwaraka-tirumala-hill": {
+    "latitude": 16.9328,
+    "longitude": 81.2552,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.9328,81.2552"
+  },
+  "guntupalli-stupa-complex": {
+    "latitude": 17.2219,
+    "longitude": 81.0815,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=17.2219,81.0815"
+  },
+  "eluru-canal-park": {
+    "latitude": 16.7108,
+    "longitude": 81.0956,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.7108,81.0956"
+  },
+  "kolleru-boating-channels": {
+    "latitude": 16.6248,
+    "longitude": 81.2426,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.6248,81.2426"
+  },
+  "maddinala-waterfall": {
+    "latitude": 17.3512,
+    "longitude": 81.1654,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=17.3512,81.1654"
+  },
+  "amaravati-stupa": {
+    "latitude": 16.5726,
+    "longitude": 80.357,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.5726,80.357"
+  },
+  "ethipothala-waterfalls": {
+    "latitude": 16.2112,
+    "longitude": 79.9235,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.2112,79.9235"
+  },
+  "kondaveedu-fort": {
+    "latitude": 16.6947,
+    "longitude": 80.2508,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.6947,80.2508"
+  },
+  "uppalapadu-bird-sanctuary": {
+    "latitude": 16.2789,
+    "longitude": 80.3708,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.2789,80.3708"
+  },
+  "guntur-city-center": {
+    "latitude": 16.3067,
+    "longitude": 80.4365,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.3067,80.4365"
+  },
+  "amaravati-archaeological-museum": {
+    "latitude": 16.5748,
+    "longitude": 80.3574,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.5748,80.3574"
+  },
+  "kotappakonda-hill-temple": {
+    "latitude": 16.1347,
+    "longitude": 80.0131,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.1347,80.0131"
+  },
+  "mangalagiri-temple": {
+    "latitude": 16.4304,
+    "longitude": 80.5589,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.4304,80.5589"
+  },
+  "ethipothala-crocodile-breeding-pond": {
+    "latitude": 16.2104,
+    "longitude": 79.9228,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.2104,79.9228"
+  },
+  "kondaveedu-forest-trekking": {
+    "latitude": 16.6918,
+    "longitude": 80.2476,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.6918,80.2476"
+  },
+  "coringa-wildlife-sanctuary": {
+    "latitude": 16.9148,
+    "longitude": 82.2865,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.9148,82.2865"
+  },
+  "kakinada-beach": {
+    "latitude": 16.9897,
+    "longitude": 82.2794,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.9897,82.2794"
+  },
+  "hope-island": {
+    "latitude": 16.9618,
+    "longitude": 82.3356,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.9618,82.3356"
+  },
+  "annavaram-satyanarayana-temple": {
+    "latitude": 17.2815,
+    "longitude": 82.509,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=17.2815,82.509"
+  },
+  "coringa-mangrove-boardwalk": {
+    "latitude": 16.9038,
+    "longitude": 82.2619,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.9038,82.2619"
+  },
+  "kakinada-city-center": {
+    "latitude": 16.9891,
+    "longitude": 82.2475,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.9891,82.2475"
+  },
+  "annavaram-hills": {
+    "latitude": 17.2811,
+    "longitude": 82.5085,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=17.2811,82.5085"
+  },
+  "pithapuram-temple": {
+    "latitude": 17.1147,
+    "longitude": 82.2568,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=17.1147,82.2568"
+  },
+  "uppada-beach": {
+    "latitude": 17.0603,
+    "longitude": 82.3297,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=17.0603,82.3297"
+  },
+  "hope-island-lighthouse": {
+    "latitude": 16.9574,
+    "longitude": 82.3408,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.9574,82.3408"
+  },
+  "manginapudi-beach": {
+    "latitude": 16.1972,
+    "longitude": 81.2417,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.1972,81.2417"
+  },
+  "hamsaladeevi-beach": {
+    "latitude": 15.953,
+    "longitude": 81.0858,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=15.953,81.0858"
+  },
+  "kuchipudi-dance-academy": {
+    "latitude": 16.1872,
+    "longitude": 80.7936,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.1872,80.7936"
+  },
+  "machilipatnam-kalamkari-town": {
+    "latitude": 16.1804,
+    "longitude": 81.1301,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.1804,81.1301"
+  },
+  "machilipatnam-port-town": {
+    "latitude": 16.1718,
+    "longitude": 81.1415,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.1718,81.1415"
+  },
+  "hamsaladeevi-venugopala-temple": {
+    "latitude": 15.9564,
+    "longitude": 81.0819,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=15.9564,81.0819"
+  },
+  "krishna-river-delta": {
+    "latitude": 15.9655,
+    "longitude": 81.0724,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=15.9655,81.0724"
+  },
+  "manginapudi-lake": {
+    "latitude": 16.2028,
+    "longitude": 81.2336,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.2028,81.2336"
+  },
+  "hamsaladeevi-boating-point": {
+    "latitude": 15.9498,
+    "longitude": 81.0896,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=15.9498,81.0896"
+  },
+  "bandar-fort-ruins": {
+    "latitude": 16.1835,
+    "longitude": 81.1382,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.1835,81.1382"
+  },
+  "yaganti-temple": {
+    "latitude": 15.3486,
+    "longitude": 78.1394,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=15.3486,78.1394"
+  },
+  "belum-caves": {
+    "latitude": 15.1017,
+    "longitude": 78.1147,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=15.1017,78.1147"
+  },
+  "konda-reddy-buruzu": {
+    "latitude": 15.8281,
+    "longitude": 78.0373,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=15.8281,78.0373"
+  },
+  "kurnool-fort-ruins": {
+    "latitude": 15.8352,
+    "longitude": 78.0414,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=15.8352,78.0414"
+  },
+  "orvakal-rock-garden": {
+    "latitude": 15.6811,
+    "longitude": 78.0169,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=15.6811,78.0169"
+  },
+  "kurnool-city-center": {
+    "latitude": 15.8289,
+    "longitude": 78.0378,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=15.8289,78.0378"
+  },
+  "rollapadu-bird-sanctuary": {
+    "latitude": 15.7258,
+    "longitude": 78.3683,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=15.7258,78.3683"
+  },
+  "tungabhadra-riverfront": {
+    "latitude": 15.8451,
+    "longitude": 78.0556,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=15.8451,78.0556"
+  },
+  "belum-cave-passages": {
+    "latitude": 15.1032,
+    "longitude": 78.1171,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=15.1032,78.1171"
+  },
+  "mahanandi-temple-area": {
+    "latitude": 15.4875,
+    "longitude": 78.6112,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=15.4875,78.6112"
+  },
+  "srisailam-mallikarjuna-temple": {
+    "latitude": 16.0744,
+    "longitude": 78.8683,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.0744,78.8683"
+  },
+  "ahobilam-temple": {
+    "latitude": 15.1333,
+    "longitude": 78.7167,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=15.1333,78.7167"
+  },
+  "mahanandi-temple": {
+    "latitude": 15.4868,
+    "longitude": 78.6124,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=15.4868,78.6124"
+  },
+  "srisailam-hill-forest": {
+    "latitude": 16.0762,
+    "longitude": 78.8689,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.0762,78.8689"
+  },
+  "srisailam-tiger-reserve": {
+    "latitude": 16.0505,
+    "longitude": 78.8012,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.0505,78.8012"
+  },
+  "nallamala-forest-trekking": {
+    "latitude": 15.7205,
+    "longitude": 78.7304,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=15.7205,78.7304"
+  },
+  "mahanandi-village": {
+    "latitude": 15.4847,
+    "longitude": 78.6102,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=15.4847,78.6102"
+  },
+  "ahobilam-hills": {
+    "latitude": 15.1338,
+    "longitude": 78.7212,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=15.1338,78.7212"
+  },
+  "nandyal-town-center": {
+    "latitude": 15.4847,
+    "longitude": 78.4812,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=15.4847,78.4812"
+  },
+  "yaganti-temple-complex": {
+    "latitude": 15.3486,
+    "longitude": 78.1394,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=15.3486,78.1394"
+  },
+  "kanaka-durga-temple": {
+    "latitude": 16.5162,
+    "longitude": 80.6062,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.5162,80.6062"
+  },
+  "prakasam-barrage": {
+    "latitude": 16.5061,
+    "longitude": 80.6044,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.5061,80.6044"
+  },
+  "bhavani-island": {
+    "latitude": 16.5178,
+    "longitude": 80.5894,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.5178,80.5894"
+  },
+  "kondapalli-fort": {
+    "latitude": 16.6186,
+    "longitude": 80.5369,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.6186,80.5369"
+  },
+  "undavalli-caves": {
+    "latitude": 16.4922,
+    "longitude": 80.5794,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.4922,80.5794"
+  },
+  "vijayawada-city-center": {
+    "latitude": 16.5062,
+    "longitude": 80.648,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.5062,80.648"
+  },
+  "kondapalli-toy-village": {
+    "latitude": 16.6125,
+    "longitude": 80.5408,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.6125,80.5408"
+  },
+  "indrakeeladri-hills": {
+    "latitude": 16.5154,
+    "longitude": 80.6036,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.5154,80.6036"
+  },
+  "prakasam-lakefront": {
+    "latitude": 16.5039,
+    "longitude": 80.6005,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.5039,80.6005"
+  },
+  "vijayawada-museum": {
+    "latitude": 16.5194,
+    "longitude": 80.6296,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.5194,80.6296"
+  },
+  "nagarjuna-sagar-dam": {
+    "latitude": 16.5757,
+    "longitude": 79.3124,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.5757,79.3124"
+  },
+  "ethipothala-waterfalls-palnadu": {
+    "latitude": 16.5847,
+    "longitude": 79.3183,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.5847,79.3183"
+  },
+  "nagarjunakonda-island": {
+    "latitude": 16.5382,
+    "longitude": 79.3178,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.5382,79.3178"
+  },
+  "palnadu-battlefield-site": {
+    "latitude": 16.5495,
+    "longitude": 79.7068,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.5495,79.7068"
+  },
+  "ethipothala-valley-park": {
+    "latitude": 16.5856,
+    "longitude": 79.3175,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.5856,79.3175"
+  },
+  "nagarjuna-sagar-lake": {
+    "latitude": 16.5665,
+    "longitude": 79.295,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.5665,79.295"
+  },
+  "dachapalli-caves": {
+    "latitude": 16.6165,
+    "longitude": 79.7385,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.6165,79.7385"
+  },
+  "karempudi-town": {
+    "latitude": 16.5468,
+    "longitude": 79.7027,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.5468,79.7027"
+  },
+  "nagarjunasagar-boating-point": {
+    "latitude": 16.5728,
+    "longitude": 79.3085,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.5728,79.3085"
+  },
+  "guttikonda-bilam-caves": {
+    "latitude": 16.6408,
+    "longitude": 79.7315,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.6408,79.7315"
+  },
+  "thotapalli-barrage-project": {
+    "latitude": 18.8129,
+    "longitude": 83.4703,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=18.8129,83.4703"
+  },
+  "parvathipuram-town-center": {
+    "latitude": 18.7832,
+    "longitude": 83.4257,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=18.7832,83.4257"
+  },
+  "kurupam-palace-ruins": {
+    "latitude": 18.8702,
+    "longitude": 83.4848,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=18.8702,83.4848"
+  },
+  "nagavali-river-banks": {
+    "latitude": 18.8055,
+    "longitude": 83.4208,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=18.8055,83.4208"
+  },
+  "thotapalli-reservoir": {
+    "latitude": 18.8185,
+    "longitude": 83.4788,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=18.8185,83.4788"
+  },
+  "parvathipuram-tribal-market": {
+    "latitude": 18.7848,
+    "longitude": 83.4274,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=18.7848,83.4274"
+  },
+  "manyam-forest-reserves": {
+    "latitude": 18.76,
+    "longitude": 83.38,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=18.76,83.38"
+  },
+  "kurupam-hills": {
+    "latitude": 18.868,
+    "longitude": 83.545,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=18.868,83.545"
+  },
+  "thotapalli-parklands": {
+    "latitude": 18.8146,
+    "longitude": 83.4721,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=18.8146,83.4721"
+  },
+  "nagavali-bridge": {
+    "latitude": 18.8062,
+    "longitude": 83.4231,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=18.8062,83.4231"
+  },
+  "markapur-chennakesava-temple": {
+    "latitude": 15.7358,
+    "longitude": 79.2687,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=15.7358,79.2687"
+  },
+  "ongole-city-center": {
+    "latitude": 15.5057,
+    "longitude": 80.0499,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=15.5057,80.0499"
+  },
+  "singarayakonda-temple": {
+    "latitude": 15.2589,
+    "longitude": 80.0381,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=15.2589,80.0381"
+  },
+  "chirala-beach": {
+    "latitude": 15.8128,
+    "longitude": 80.3639,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=15.8128,80.3639"
+  },
+  "markapur-slate-industry": {
+    "latitude": 15.7352,
+    "longitude": 79.2709,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=15.7352,79.2709"
+  },
+  "cumbum-lake": {
+    "latitude": 15.5786,
+    "longitude": 79.1122,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=15.5786,79.1122"
+  },
+  "singarayakonda-hilltop-view": {
+    "latitude": 15.2517,
+    "longitude": 80.0279,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=15.2517,80.0279"
+  },
+  "ongole-bull-farm": {
+    "latitude": 15.5157,
+    "longitude": 80.0499,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=15.5157,80.0499"
+  },
+  "cumbum-dam": {
+    "latitude": 15.5814,
+    "longitude": 79.1138,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=15.5814,79.1138"
+  },
+  "kothapatnam-beach": {
+    "latitude": 15.4836,
+    "longitude": 80.1784,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=15.4836,80.1784"
+  },
+  "pulicat-lake-sanctuary": {
+    "latitude": 13.6833,
+    "longitude": 80.05,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=13.6833,80.05"
+  },
+  "nelapattu-bird-sanctuary": {
+    "latitude": 13.8406,
+    "longitude": 79.9708,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=13.8406,79.9708"
+  },
+  "mypadu-beach": {
+    "latitude": 14.5098,
+    "longitude": 80.1802,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=14.5098,80.1802"
+  },
+  "udayagiri-fort": {
+    "latitude": 14.8692,
+    "longitude": 79.2908,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=14.8692,79.2908"
+  },
+  "penchalakona-temple": {
+    "latitude": 14.3048,
+    "longitude": 79.4587,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=14.3048,79.4587"
+  },
+  "nellore-city-center": {
+    "latitude": 14.4426,
+    "longitude": 79.9865,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=14.4426,79.9865"
+  },
+  "jonnavada-temple": {
+    "latitude": 14.5078,
+    "longitude": 79.9936,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=14.5078,79.9936"
+  },
+  "venkatagiri-weaving-town": {
+    "latitude": 13.9615,
+    "longitude": 79.5818,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=13.9615,79.5818"
+  },
+  "nellapattu-wetlands": {
+    "latitude": 13.8452,
+    "longitude": 79.9754,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=13.8452,79.9754"
+  },
+  "pulicat-lagoon-boating": {
+    "latitude": 13.6712,
+    "longitude": 80.1615,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=13.6712,80.1615"
+  },
+  "puttaparthi-ashram": {
+    "latitude": 14.1664,
+    "longitude": 77.8106,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=14.1664,77.8106"
+  },
+  "lepakshi-temple-complex": {
+    "latitude": 13.8021,
+    "longitude": 77.6062,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=13.8021,77.6062"
+  },
+  "puttaparthi-planetarium": {
+    "latitude": 14.165,
+    "longitude": 77.81,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=14.165,77.81"
+  },
+  "lepakshi-monolithic-nandi": {
+    "latitude": 13.801,
+    "longitude": 77.608,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=13.801,77.608"
+  },
+  "puttaparthi-chaitanya-jyoti": {
+    "latitude": 14.1677,
+    "longitude": 77.8118,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=14.1677,77.8118"
+  },
+  "lepakshi-hanging-pillar": {
+    "latitude": 13.8032,
+    "longitude": 77.6069,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=13.8032,77.6069"
+  },
+  "pennar-riverbed": {
+    "latitude": 14.12,
+    "longitude": 77.81,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=14.12,77.81"
+  },
+  "puttaparthi-hill-view": {
+    "latitude": 14.1725,
+    "longitude": 77.8175,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=14.1725,77.8175"
+  },
+  "dharmavaram-border-area": {
+    "latitude": 14.4145,
+    "longitude": 77.7208,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=14.4145,77.7208"
+  },
+  "puttaparthi-super-hospital": {
+    "latitude": 14.1657,
+    "longitude": 77.8088,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=14.1657,77.8088"
+  },
+  "arasavalli-sun-temple": {
+    "latitude": 18.3039,
+    "longitude": 83.9015,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=18.3039,83.9015"
+  },
+  "srikurmam-temple": {
+    "latitude": 18.2706,
+    "longitude": 83.9839,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=18.2706,83.9839"
+  },
+  "kalingapatnam-beach": {
+    "latitude": 18.3414,
+    "longitude": 84.1264,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=18.3414,84.1264"
+  },
+  "baruva-beach": {
+    "latitude": 18.8824,
+    "longitude": 84.5888,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=18.8824,84.5888"
+  },
+  "srimukhalingam-temple": {
+    "latitude": 18.5954,
+    "longitude": 83.9634,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=18.5954,83.9634"
+  },
+  "kalingapatnam-town": {
+    "latitude": 18.3388,
+    "longitude": 84.1227,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=18.3388,84.1227"
+  },
+  "vamsadhara-river-mouth": {
+    "latitude": 18.3495,
+    "longitude": 84.1368,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=18.3495,84.1368"
+  },
+  "srikakulam-city-center": {
+    "latitude": 18.2949,
+    "longitude": 83.8935,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=18.2949,83.8935"
+  },
+  "srikurmam-town": {
+    "latitude": 18.272,
+    "longitude": 83.9815,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=18.272,83.9815"
+  },
+  "sangam-shiva-temple": {
+    "latitude": 18.6045,
+    "longitude": 83.8297,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=18.6045,83.8297"
+  },
+  "tirumala-venkateswara-temple": {
+    "latitude": 13.6833,
+    "longitude": 79.35,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=13.6833,79.35"
+  },
+  "srikalahasti-temple": {
+    "latitude": 13.7498,
+    "longitude": 79.6983,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=13.7498,79.6983"
+  },
+  "chandragiri-fort": {
+    "latitude": 13.6019,
+    "longitude": 79.3175,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=13.6019,79.3175"
+  },
+  "talakona-waterfalls": {
+    "latitude": 13.8034,
+    "longitude": 79.2151,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=13.8034,79.2151"
+  },
+  "sri-venkateswara-national-park": {
+    "latitude": 13.67,
+    "longitude": 79.35,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=13.67,79.35"
+  },
+  "tirupati-city-center": {
+    "latitude": 13.6288,
+    "longitude": 79.4192,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=13.6288,79.4192"
+  },
+  "tirumala-hills-viewpoint": {
+    "latitude": 13.6895,
+    "longitude": 79.3604,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=13.6895,79.3604"
+  },
+  "srikalahasti-town": {
+    "latitude": 13.7505,
+    "longitude": 79.7001,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=13.7505,79.7001"
+  },
+  "kalyani-dam": {
+    "latitude": 13.6308,
+    "longitude": 79.2804,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=13.6308,79.2804"
+  },
+  "kapila-theertham": {
+    "latitude": 13.6509,
+    "longitude": 79.4198,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=13.6509,79.4198"
+  },
+  "rk-beach": {
+    "latitude": 17.7149,
+    "longitude": 83.3237,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=17.7149,83.3237"
+  },
+  "rushikonda-beach": {
+    "latitude": 17.782,
+    "longitude": 83.3855,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=17.782,83.3855"
+  },
+  "yarada-beach": {
+    "latitude": 17.6555,
+    "longitude": 83.2747,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=17.6555,83.2747"
+  },
+  "bheemili-beach": {
+    "latitude": 17.8905,
+    "longitude": 83.4529,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=17.8905,83.4529"
+  },
+  "simhachalam-temple": {
+    "latitude": 17.7667,
+    "longitude": 83.2506,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=17.7667,83.2506"
+  },
+  "katiki-waterfalls": {
+    "latitude": 18.2674,
+    "longitude": 82.9967,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=18.2674,82.9967"
+  },
+  "tadimada-waterfalls": {
+    "latitude": 18.2324,
+    "longitude": 82.9123,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=18.2324,82.9123"
+  },
+  "kambalakonda-wildlife-sanctuary": {
+    "latitude": 17.7907,
+    "longitude": 83.3378,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=17.7907,83.3378"
+  },
+  "visakhapatnam-harbor": {
+    "latitude": 17.6868,
+    "longitude": 83.2185,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=17.6868,83.2185"
+  },
+  "simhachalam-hill-sanctuary": {
+    "latitude": 17.767,
+    "longitude": 83.251,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=17.767,83.251"
+  },
+  "vizianagaram-fort": {
+    "latitude": 18.1172,
+    "longitude": 83.4072,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=18.1172,83.4072"
+  },
+  "rama-tirtham-temple": {
+    "latitude": 18.1642,
+    "longitude": 83.4915,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=18.1642,83.4915"
+  },
+  "kumili-temple-complex": {
+    "latitude": 18.1018,
+    "longitude": 83.4502,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=18.1018,83.4502"
+  },
+  "vizianagaram-clock-tower": {
+    "latitude": 18.116,
+    "longitude": 83.4118,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=18.116,83.4118"
+  },
+  "gajapathiraju-palace": {
+    "latitude": 18.1169,
+    "longitude": 83.411,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=18.1169,83.411"
+  },
+  "rama-tirtham-bodhikonda": {
+    "latitude": 18.1633,
+    "longitude": 83.4908,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=18.1633,83.4908"
+  },
+  "vizianagaram-lake-park": {
+    "latitude": 18.1215,
+    "longitude": 83.415,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=18.1215,83.415"
+  },
+  "vizianagaram-market": {
+    "latitude": 18.1153,
+    "longitude": 83.4132,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=18.1153,83.4132"
+  },
+  "rama-tirtham-water-tank": {
+    "latitude": 18.1625,
+    "longitude": 83.4897,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=18.1625,83.4897"
+  },
+  "kumili-village-gardens": {
+    "latitude": 18.0985,
+    "longitude": 83.447,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=18.0985,83.447"
+  },
+  "somarama-temple": {
+    "latitude": 16.5436,
+    "longitude": 81.5236,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.5436,81.5236"
+  },
+  "ksheerarama-temple": {
+    "latitude": 16.5208,
+    "longitude": 81.7289,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.5208,81.7289"
+  },
+  "bhimavaram-city-center": {
+    "latitude": 16.5449,
+    "longitude": 81.5212,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.5449,81.5212"
+  },
+  "kolleru-wetlands": {
+    "latitude": 16.63,
+    "longitude": 81.25,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.63,81.25"
+  },
+  "palakollu-town": {
+    "latitude": 16.5165,
+    "longitude": 81.7281,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.5165,81.7281"
+  },
+  "somarama-temple-tank": {
+    "latitude": 16.5431,
+    "longitude": 81.5242,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.5431,81.5242"
+  },
+  "ksheerarama-gopuram": {
+    "latitude": 16.5168,
+    "longitude": 81.7288,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.5168,81.7288"
+  },
+  "narsapur-lace-industry": {
+    "latitude": 16.434,
+    "longitude": 81.6985,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.434,81.6985"
+  },
+  "godavari-delta-canals": {
+    "latitude": 16.48,
+    "longitude": 81.65,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.48,81.65"
+  },
+  "perupalem-beach": {
+    "latitude": 16.3589,
+    "longitude": 81.5956,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.3589,81.5956"
+  },
+  "gandikota-fort": {
+    "latitude": 14.8154,
+    "longitude": 78.2866,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=14.8154,78.2866"
+  },
+  "vontimitta-kodandarama-temple": {
+    "latitude": 14.3833,
+    "longitude": 78.9667,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=14.3833,78.9667"
+  },
+  "siddavatam-fort": {
+    "latitude": 14.467,
+    "longitude": 78.9268,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=14.467,78.9268"
+  },
+  "brahmamgari-matham": {
+    "latitude": 14.7845,
+    "longitude": 78.8503,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=14.7845,78.8503"
+  },
+  "gandikota-gorge-camping": {
+    "latitude": 14.8168,
+    "longitude": 78.288,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=14.8168,78.288"
+  },
+  "kadapa-city-center": {
+    "latitude": 14.4674,
+    "longitude": 78.8241,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=14.4674,78.8241"
+  },
+  "ameen-peer-dargah": {
+    "latitude": 14.4678,
+    "longitude": 78.8249,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=14.4678,78.8249"
+  },
+  "lakkireddipalli-hills": {
+    "latitude": 14.1667,
+    "longitude": 78.7,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=14.1667,78.7"
+  },
+  "gandikota-viewpoint": {
+    "latitude": 14.8202,
+    "longitude": 78.2904,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=14.8202,78.2904"
+  },
+  "pushpagiri-temple-complex": {
+    "latitude": 14.5975,
+    "longitude": 78.7508,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=14.5975,78.7508"
+  }
+}

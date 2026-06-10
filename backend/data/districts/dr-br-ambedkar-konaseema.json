@@ -1,0 +1,283 @@
+[
+  {
+    "name": "Dindi Backwaters",
+    "slug": "dindi-backwaters",
+    "districtName": "Dr. B.R. Ambedkar Konaseema",
+    "description": "A serene lagoon destination with coconut groves, houseboat cruises, and resorts.",
+    "shortDescription": "A beautiful backwaters spot in Dr. B.R. Ambedkar Konaseema.",
+    "category": "Backwaters",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        81.7365,
+        16.5202
+      ]
+    },
+    "rating": {
+      "average": 4.4,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": true,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Dindi_resort.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/c/c5/Ocean_wave.jpg"
+    ]
+  },
+  {
+    "name": "Antarvedi Beach",
+    "slug": "antarvedi-beach",
+    "districtName": "Dr. B.R. Ambedkar Konaseema",
+    "description": "The scenic beach where the Vashishta Godavari River merges with the Bay of Bengal.",
+    "shortDescription": "A beautiful beach spot in Dr. B.R. Ambedkar Konaseema.",
+    "category": "Beach",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        81.7348,
+        16.3336
+      ]
+    },
+    "rating": {
+      "average": 4.3,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Antarvedi_Beach_view_02.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/5/51/Antarvedi_Beach_view_01.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/5/58/River_Godavari_near_Antarvedi.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/b/bf/Morning_play_@_beach_(_explored_)_-_Flickr_-_(_pranav_).jpg"
+    ]
+  },
+  {
+    "name": "Ainavilli Vinayaka Temple",
+    "slug": "ainavilli-vinayaka-temple",
+    "districtName": "Dr. B.R. Ambedkar Konaseema",
+    "description": "An ancient temple dedicated to Sri Siddhi Vinayaka Swamy, situated in lush delta fields.",
+    "shortDescription": "A beautiful temple / religious spot in Dr. B.R. Ambedkar Konaseema.",
+    "category": "Temple / Religious",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        82.0021,
+        16.5993
+      ]
+    },
+    "rating": {
+      "average": 4.7,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Diya_lamp.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/d/d0/Diya_re-imagined.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/e/e6/Temple_Bell%2C_Saurashtra.jpg"
+    ]
+  },
+  {
+    "name": "Peruru Heritage Village",
+    "slug": "peruru-heritage-village",
+    "districtName": "Dr. B.R. Ambedkar Konaseema",
+    "description": "A traditional village preserving 100-year-old architectural style houses and culture.",
+    "shortDescription": "A beautiful heritage spot in Dr. B.R. Ambedkar Konaseema.",
+    "category": "Heritage",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        82.0413,
+        16.7821
+      ]
+    },
+    "rating": {
+      "average": 4.2,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Old_brick_wall.jpg",
+    "images": []
+  },
+  {
+    "name": "Konaseema Houseboats",
+    "slug": "konaseema-houseboats",
+    "districtName": "Dr. B.R. Ambedkar Konaseema",
+    "description": "Houseboat journeys through the coconut lagoons of the Godavari delta.",
+    "shortDescription": "A beautiful adventure spot in Dr. B.R. Ambedkar Konaseema.",
+    "category": "Adventure",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        81.7428,
+        16.5154
+      ]
+    },
+    "rating": {
+      "average": 4.1,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/8/86/Forest_canopy.jpg",
+    "images": []
+  },
+  {
+    "name": "Razole town",
+    "slug": "razole-town",
+    "districtName": "Dr. B.R. Ambedkar Konaseema",
+    "description": "A picturesque town surrounded by coconut plantations and backwater channels.",
+    "shortDescription": "A beautiful city spot in Dr. B.R. Ambedkar Konaseema.",
+    "category": "City",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        81.8396,
+        16.4768
+      ]
+    },
+    "rating": {
+      "average": 4.8,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/9/97/Legislative_Assembly_constituencies_of_Andhra_Pradesh_(45-Razole_highlighted).png",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/1/16/EG_mandals_Rajolu_pre_2014.png",
+      "https://upload.wikimedia.org/wikipedia/commons/0/0a/Scenic_Greenery_of_Nagullanka_Village_by_Prasad_SVD.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/d/db/Ramachandrapuram_BHEL.jpg"
+    ]
+  },
+  {
+    "name": "Vashishta Godavari River confluence",
+    "slug": "vashishta-godavari-river-confluence",
+    "districtName": "Dr. B.R. Ambedkar Konaseema",
+    "description": "The holy meeting point of river and sea, featuring spiritual pushkaram steps.",
+    "shortDescription": "A beautiful nature spot in Dr. B.R. Ambedkar Konaseema.",
+    "category": "Nature",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        81.7289,
+        16.3375
+      ]
+    },
+    "rating": {
+      "average": 5,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/8/86/Forest_canopy.jpg",
+    "images": []
+  },
+  {
+    "name": "Mamikuduru Wetlands",
+    "slug": "mamikuduru-wetlands",
+    "districtName": "Dr. B.R. Ambedkar Konaseema",
+    "description": "Rich agricultural wetlands producing paddy, bananas, and delta spices.",
+    "shortDescription": "A beautiful nature spot in Dr. B.R. Ambedkar Konaseema.",
+    "category": "Nature",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        82.0954,
+        16.6553
+      ]
+    },
+    "rating": {
+      "average": 4.1,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/8/86/Forest_canopy.jpg",
+    "images": []
+  },
+  {
+    "name": "Ryali Jaganmohini Temple",
+    "slug": "ryali-jaganmohini-temple",
+    "districtName": "Dr. B.R. Ambedkar Konaseema",
+    "description": "A unique temple housing an idol representing Vishnu in front and Mohini in back.",
+    "shortDescription": "A beautiful temple / religious spot in Dr. B.R. Ambedkar Konaseema.",
+    "category": "Temple / Religious",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        81.9591,
+        16.7924
+      ]
+    },
+    "rating": {
+      "average": 4.2,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Stone_carved_relief_of_Lord_Vishnu_at_Ryali.JPG",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/5/51/Jaganmohini_Keshava_Swamy_Temple,_Ryali.JPG",
+      "https://upload.wikimedia.org/wikipedia/commons/2/20/Near_view_of_Gopuram,_Ryali_temple.JPG",
+      "https://upload.wikimedia.org/wikipedia/commons/3/3a/Diya_lamp.jpg"
+    ]
+  },
+  {
+    "name": "Antarvedi Lakshmi Narasimha Temple",
+    "slug": "antarvedi-lakshmi-narasimha-temple",
+    "districtName": "Dr. B.R. Ambedkar Konaseema",
+    "description": "A holy temple located at the river confluence, drawing millions during chariot festivals.",
+    "shortDescription": "A beautiful temple / religious spot in Dr. B.R. Ambedkar Konaseema.",
+    "category": "Temple / Religious",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        81.7322,
+        16.3308
+      ]
+    },
+    "rating": {
+      "average": 4.3,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Antarvedhi.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/3/3a/Diya_lamp.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/d/d0/Diya_re-imagined.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/e/e6/Temple_Bell%2C_Saurashtra.jpg"
+    ]
+  }
+]

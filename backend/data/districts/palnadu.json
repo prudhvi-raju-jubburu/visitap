@@ -1,0 +1,294 @@
+[
+  {
+    "name": "Nagarjuna Sagar Dam",
+    "slug": "nagarjuna-sagar-dam",
+    "districtName": "Palnadu",
+    "description": "One of the tallest masonry dams in the world, spanning the Krishna River.",
+    "shortDescription": "A beautiful city spot in Palnadu.",
+    "category": "City",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        79.3124,
+        16.5757
+      ]
+    },
+    "rating": {
+      "average": 4.9,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": true,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/3/38/Nagarjuna_Sagar_dam_with_all_Crest_gates_closed_(Wide_angle).jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/6/6a/Nagarjuna_Sagar_Interstate_bridge.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/5/5f/Charming_Swan_In_The_Mist_Of_Paradise_At_Nagarjuna_Sagar_Dam.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/d/de/Boats_on_Nagarjuna_sagar_resorvoir.jpg"
+    ]
+  },
+  {
+    "name": "Ethipothala Waterfalls",
+    "slug": "ethipothala-waterfalls-palnadu",
+    "districtName": "Palnadu",
+    "description": "The scenic waterfalls cascade located in the dense Palnadu valleys.",
+    "shortDescription": "A beautiful waterfalls spot in Palnadu.",
+    "category": "Waterfalls",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        79.3183,
+        16.5847
+      ]
+    },
+    "rating": {
+      "average": 4.6,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Tallpelly_Ethipothala_Waterfalls_Andhra_Pradesh.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/9/93/Ethipothala_waterfalls_Tallapelly_Andhra_Pradesh.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/6/64/Ethipothala_water_falls.JPG",
+      "https://upload.wikimedia.org/wikipedia/commons/6/64/Ethipothala_waterfall_guntur.jpg"
+    ]
+  },
+  {
+    "name": "Nagarjunakonda Island",
+    "slug": "nagarjunakonda-island",
+    "districtName": "Palnadu",
+    "description": "A river island housing the relocated ruins of ancient Buddhist sites.",
+    "shortDescription": "A beautiful historical spot in Palnadu.",
+    "category": "Historical",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        79.3178,
+        16.5382
+      ]
+    },
+    "rating": {
+      "average": 4.1,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/1/1c/1st_to_4th_century_Buddha_Nagarjunakonda_Andhra_Pradesh,_India.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/9/91/1st_to_3rd_century_inscription,_Prakrit,_Brahmi_script,_Nagarjunakonda_Andhra_Pradesh,_India.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/0/08/3rd_to_4th_century_CE_inscription,_Sanskrit,_Brahmi_script,_Ashtabhujaswami_temple,_Nagarjunakonda_Andhra_Pradesh,_India.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/4/48/1st_to_4th_century_Mahayana_Buddhist_site,_Nagarjunakonda_museum_Andhra_Pradesh,_India_-_02.jpg"
+    ]
+  },
+  {
+    "name": "Palnadu Battlefield site",
+    "slug": "palnadu-battlefield-site",
+    "districtName": "Palnadu",
+    "description": "The historic plains of Karempudi, famous for the battle of Palnadu.",
+    "shortDescription": "A beautiful historical spot in Palnadu.",
+    "category": "Historical",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        79.7068,
+        16.5495
+      ]
+    },
+    "rating": {
+      "average": 4.7,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/f/f3/AMARAVATHI_STUPA_16.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/3/39/AMARAVATHI_STUPA_12.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/4/47/AMARAVATHI_STUPA_37.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/d/da/AMARAVATHI_STUPA_35.jpg"
+    ]
+  },
+  {
+    "name": "Ethipothala Valley park",
+    "slug": "ethipothala-valley-park",
+    "districtName": "Palnadu",
+    "description": "A scenic valley reserve offering viewpoints and crocodile conservation pools.",
+    "shortDescription": "A beautiful nature spot in Palnadu.",
+    "category": "Nature",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        79.3175,
+        16.5856
+      ]
+    },
+    "rating": {
+      "average": 4.4,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/6/64/Ethipothala_water_falls.JPG",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/3/38/Ethipothala_Name.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/2/27/Ethipothala_waterfalls.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/2/23/Ethipothala_APTourism.jpg"
+    ]
+  },
+  {
+    "name": "Nagarjuna Sagar Lake",
+    "slug": "nagarjuna-sagar-lake",
+    "districtName": "Palnadu",
+    "description": "A massive artificial reservoir lake, perfect for boat cruises and photography.",
+    "shortDescription": "A beautiful nature spot in Palnadu.",
+    "category": "Nature",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        79.295,
+        16.5665
+      ]
+    },
+    "rating": {
+      "average": 4.5,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Panoramic_view_of_Nagarjuna_Sagar_reservoir_with_lush_green_hills.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/b/b1/Nagarjuna_Sagar_Dam,_India_(ASTER).jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/1/19/Country_Boats_at_Nagarjuna_Sagar_Lake_-_panoramio.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/c/c4/Nagarjuna_Sagar_Dam_of_Krishna_River.jpg"
+    ]
+  },
+  {
+    "name": "Dachapalli Caves",
+    "slug": "dachapalli-caves",
+    "districtName": "Palnadu",
+    "description": "Natural limestone caves located in the dry scrub forest terrains of Palnadu.",
+    "shortDescription": "A beautiful nature spot in Palnadu.",
+    "category": "Nature",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        79.7385,
+        16.6165
+      ]
+    },
+    "rating": {
+      "average": 4.9,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/8/86/Forest_canopy.jpg",
+    "images": []
+  },
+  {
+    "name": "Karempudi town",
+    "slug": "karempudi-town",
+    "districtName": "Palnadu",
+    "description": "A historic town preserving heritage shrines and weapons of the Palnadu heroes.",
+    "shortDescription": "A beautiful city spot in Palnadu.",
+    "category": "City",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        79.7027,
+        16.5468
+      ]
+    },
+    "rating": {
+      "average": 4.3,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/d/de/Veerulagudi.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/a/a2/Karempudi_Road_,_At_night.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/a/a9/Gunturu_mandals_Karempudi_pre_2022.png",
+      "https://upload.wikimedia.org/wikipedia/commons/e/e2/Komera_Ankarao.jpg"
+    ]
+  },
+  {
+    "name": "Nagarjunasagar boating point",
+    "slug": "nagarjunasagar-boating-point",
+    "districtName": "Palnadu",
+    "description": "Daily launch boat trips connecting the mainland to the Nagarjunakonda museum.",
+    "shortDescription": "A beautiful adventure spot in Palnadu.",
+    "category": "Adventure",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        79.3085,
+        16.5728
+      ]
+    },
+    "rating": {
+      "average": 4,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/8/86/Forest_canopy.jpg",
+    "images": []
+  },
+  {
+    "name": "Guttikonda Bilam Caves",
+    "slug": "guttikonda-bilam-caves",
+    "districtName": "Palnadu",
+    "description": "An ancient cave temple nestled in the hills, used by sages for meditation.",
+    "shortDescription": "A beautiful historical spot in Palnadu.",
+    "category": "Historical",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        79.7315,
+        16.6408
+      ]
+    },
+    "rating": {
+      "average": 4.7,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/7/75/Guttikonda_(12).jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/d/dd/Guttikonda_(3).jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/1/1e/Old_brick_wall.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/8/87/Old_cannon.jpg"
+    ]
+  }
+]

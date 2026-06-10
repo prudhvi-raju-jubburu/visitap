@@ -1,0 +1,300 @@
+[
+  {
+    "name": "Araku Valley",
+    "slug": "araku-valley",
+    "districtName": "Alluri Sitharama Raju",
+    "description": "A picturesque hill station famed for its coffee plantations, dense forests, and pleasant climate year-round.",
+    "shortDescription": "Explore Araku Valley in Alluri Sitharama Raju.",
+    "category": "Hill Station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        82.8806,
+        18.3274
+      ]
+    },
+    "rating": {
+      "average": 4.4,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": true,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Kottavalasa_Juncation_Railway_Station.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/4/46/Kottavalasa_Train_Station.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/2/28/Freight_train_at_Kottavalasa_03.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/1/1e/Freight_train_at_Kottavalasa_01.jpg"
+    ]
+  },
+  {
+    "name": "Lambasingi",
+    "slug": "lambasingi",
+    "districtName": "Alluri Sitharama Raju",
+    "description": "Known as the Kashmir of Andhra Pradesh, Lambasingi is a mist-covered village famous for apple orchards and cool temperatures.",
+    "shortDescription": "Explore Lambasingi in Alluri Sitharama Raju.",
+    "category": "Hill Station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        82.8122,
+        17.8117
+      ]
+    },
+    "rating": {
+      "average": 4.5,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/9/91/Valley_near_lambasinghi.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/5/52/The_Beautiful_Lambasingi,_Visakhapatnam,_Andhra_Pradesh.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/3/34/Bus_Enroute_to_lambasinghi.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/4/45/Plantation_near_Lambasinghi.jpg"
+    ]
+  },
+  {
+    "name": "Maredumilli Forest",
+    "slug": "maredumilli-forest",
+    "districtName": "Alluri Sitharama Raju",
+    "description": "An eco-tourism zone known for its rich biodiversity, dense canopy, medicinal plants, and scenic streams.",
+    "shortDescription": "Explore Maredumilli Forest in Alluri Sitharama Raju.",
+    "category": "Nature",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        81.7028,
+        17.4344
+      ]
+    },
+    "rating": {
+      "average": 4,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/2/2c/MAREDUMILLI_-_forest_area.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/5/5a/MAREDUMILLI_-_river_from_the_falls.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/7/7e/MAREDUMILLI_-_waterfalls.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/e/e1/Colour_Sergeant_Female.JPG"
+    ]
+  },
+  {
+    "name": "Papikonda National Park",
+    "slug": "papikonda-national-park",
+    "districtName": "Alluri Sitharama Raju",
+    "description": "A vast protected reserve spanning the scenic gorges of the Godavari River, home to tigers and leopards.",
+    "shortDescription": "Explore Papikonda National Park in Alluri Sitharama Raju.",
+    "category": "Wildlife",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        81.774,
+        17.596
+      ]
+    },
+    "rating": {
+      "average": 4.4,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/3/30/Papikondalu_view_16.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/8/86/Forest_canopy.jpg"
+    ]
+  },
+  {
+    "name": "Araku Valley Trekking",
+    "slug": "araku-valley-trekking",
+    "districtName": "Alluri Sitharama Raju",
+    "description": "Challenging trekking trails scaling the highest peaks of the Eastern Ghats, including Jindhagada Peak.",
+    "shortDescription": "Explore Araku Valley Trekking in Alluri Sitharama Raju.",
+    "category": "Adventure",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        82.872,
+        18.338
+      ]
+    },
+    "rating": {
+      "average": 4.4,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Arma_Konda_trek_08.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/7/7d/Arma_Konda_trek_01.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/d/d0/Arma_Konda_trek_11.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/9/99/Arma_Konda_trek_09.jpg"
+    ]
+  },
+  {
+    "name": "Papikondalu Boat Ride",
+    "slug": "papikondalu-boat-ride",
+    "districtName": "Alluri Sitharama Raju",
+    "description": "An adventurous boat cruise through the narrow, towering mountain hills of the Godavari river gorges.",
+    "shortDescription": "Explore Papikondalu Boat Ride in Alluri Sitharama Raju.",
+    "category": "Adventure",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        81.77,
+        17.553
+      ]
+    },
+    "rating": {
+      "average": 4,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/3/39/Papikondalu_11.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/4/49/Papikondalu_10.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/0/08/Papikondalu_Beauty.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/a/aa/Papikondalu_01.jpg"
+    ]
+  },
+  {
+    "name": "Araku Tribal Museum",
+    "slug": "araku-tribal-museum",
+    "districtName": "Alluri Sitharama Raju",
+    "description": "A cultural museum showcasing the lifestyle, weapons, jewelry, and traditional Dhimsa dance of local tribes.",
+    "shortDescription": "Explore Araku Tribal Museum in Alluri Sitharama Raju.",
+    "category": "Tribal",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        82.8786,
+        18.3278
+      ]
+    },
+    "rating": {
+      "average": 4.1,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/1/12/Araku_Tribal_Museum_at_Araku_in_Andhra_Pradesh_14.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/4/47/Araku_Tribal_Museum_at_Araku_in_Andhra_Pradesh_05.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/3/37/Araku_Tribal_Museum_at_Araku_in_Andhra_Pradesh_23.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/9/94/Araku_Tribal_Museum_at_Araku_in_Andhra_Pradesh_07.jpg"
+    ]
+  },
+  {
+    "name": "Lambasingi Tribal Area",
+    "slug": "lambasingi-tribal-area",
+    "districtName": "Alluri Sitharama Raju",
+    "description": "A region inhabited by indigenous tribes practicing traditional farming in mist-covered valleys.",
+    "shortDescription": "Explore Lambasingi Tribal Area in Alluri Sitharama Raju.",
+    "category": "Tribal",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        82.8185,
+        17.818
+      ]
+    },
+    "rating": {
+      "average": 4.2,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/9/91/Valley_near_lambasinghi.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/5/52/The_Beautiful_Lambasingi,_Visakhapatnam,_Andhra_Pradesh.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/4/45/Plantation_near_Lambasinghi.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/3/31/Lambasinghi_Forest.jpg"
+    ]
+  },
+  {
+    "name": "Papikondalu Gorges",
+    "slug": "papikondalu-gorges",
+    "districtName": "Alluri Sitharama Raju",
+    "description": "The stunning backwater gorge where the mighty Godavari river narrows between majestic forest hills.",
+    "shortDescription": "Explore Papikondalu Gorges in Alluri Sitharama Raju.",
+    "category": "Backwaters",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        81.782,
+        17.565
+      ]
+    },
+    "rating": {
+      "average": 4.8,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/3/39/Papikondalu_11.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/4/49/Papikondalu_10.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/0/08/Papikondalu_Beauty.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/a/aa/Papikondalu_01.jpg"
+    ]
+  },
+  {
+    "name": "Borra Caves",
+    "slug": "borra-caves",
+    "districtName": "Alluri Sitharama Raju",
+    "description": "Fascinating million-year-old limestone caves featuring spectacular stalactite and stalagmite formations.",
+    "shortDescription": "Explore Borra Caves in Alluri Sitharama Raju.",
+    "category": "Historical",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.0385,
+        18.2813
+      ]
+    },
+    "rating": {
+      "average": 4.6,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Borra_caves_1.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/f/f2/The_Borra_Caves_or_Borra_Guhalu,_at_Ananthagiri_hills_of_the_Araku_Valley_in_Andhra_Pradesh_32.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/e/e3/The_Borra_Caves_or_Borra_Guhalu,_at_Ananthagiri_hills_of_the_Araku_Valley_in_Andhra_Pradesh_24.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/7/7f/The_Borra_Caves_or_Borra_Guhalu,_at_Ananthagiri_hills_of_the_Araku_Valley_in_Andhra_Pradesh_14.jpg"
+    ]
+  }
+]

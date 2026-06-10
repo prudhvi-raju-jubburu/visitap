@@ -1,0 +1,3122 @@
+[
+  {
+    "place": "Araku Valley",
+    "slug": "araku-valley",
+    "district": "Alluri Sitharama Raju",
+    "coordinates": {
+      "latitude": 18.27,
+      "longitude": 82.87
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=18.27,82.87",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Lambasingi",
+    "slug": "lambasingi",
+    "district": "Alluri Sitharama Raju",
+    "coordinates": {
+      "latitude": 17.8117,
+      "longitude": 82.8122
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=17.8117,82.8122",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0.3
+  },
+  {
+    "place": "Maredumilli Forest",
+    "slug": "maredumilli-forest",
+    "district": "Alluri Sitharama Raju",
+    "coordinates": {
+      "latitude": 17.4333,
+      "longitude": 81.7167
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=17.4333,81.7167",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0.8
+  },
+  {
+    "place": "Papikonda National Park",
+    "slug": "papikonda-national-park",
+    "district": "Alluri Sitharama Raju",
+    "coordinates": {
+      "latitude": 17.4,
+      "longitude": 81.5
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=17.4,81.5",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Araku Valley Trekking",
+    "slug": "araku-valley-trekking",
+    "district": "Alluri Sitharama Raju",
+    "coordinates": {
+      "latitude": 18.29,
+      "longitude": 82.86
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=18.29,82.86",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Papikondalu Boat Ride",
+    "slug": "papikondalu-boat-ride",
+    "district": "Alluri Sitharama Raju",
+    "coordinates": {
+      "latitude": 17.41,
+      "longitude": 81.51
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=17.41,81.51",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Araku Tribal Museum",
+    "slug": "araku-tribal-museum",
+    "district": "Alluri Sitharama Raju",
+    "coordinates": {
+      "latitude": 18.27,
+      "longitude": 82.84
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=18.27,82.84",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Lambasingi Tribal Area",
+    "slug": "lambasingi-tribal-area",
+    "district": "Alluri Sitharama Raju",
+    "coordinates": {
+      "latitude": 17.82,
+      "longitude": 82.82
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=17.82,82.82",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Papikondalu Gorges",
+    "slug": "papikondalu-gorges",
+    "district": "Alluri Sitharama Raju",
+    "coordinates": {
+      "latitude": 17.42,
+      "longitude": 81.52
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=17.42,81.52",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Borra Caves",
+    "slug": "borra-caves",
+    "district": "Alluri Sitharama Raju",
+    "coordinates": {
+      "latitude": 18.2813,
+      "longitude": 83.0385
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=18.2813,83.0385",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0.909
+  },
+  {
+    "place": "Kondakarla Ava Lake",
+    "slug": "kondakarla-ava-lake",
+    "district": "Anakapalli",
+    "coordinates": {
+      "latitude": 17.679,
+      "longitude": 82.9749
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=17.679,82.9749",
+    "source": "stored-fallback",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Bojjannakonda Caves",
+    "slug": "bojjannakonda-caves",
+    "district": "Anakapalli",
+    "coordinates": {
+      "latitude": 17.6599,
+      "longitude": 83.0097
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=17.6599,83.0097",
+    "source": "stored-fallback",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Anakapalli Jaggery Market",
+    "slug": "anakapalli-jaggery-market",
+    "district": "Anakapalli",
+    "coordinates": {
+      "latitude": 17.7215,
+      "longitude": 82.9727
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=17.7215,82.9727",
+    "source": "stored-fallback",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Upaka Forest Reserve",
+    "slug": "upaka-forest-reserve",
+    "district": "Anakapalli",
+    "coordinates": {
+      "latitude": 17.6895,
+      "longitude": 83.0231
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=17.6895,83.0231",
+    "source": "stored-fallback",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Bojjannakonda Stupas",
+    "slug": "bojjannakonda-stupas",
+    "district": "Anakapalli",
+    "coordinates": {
+      "latitude": 17.7086,
+      "longitude": 83.013
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=17.7086,83.013",
+    "source": "osm",
+    "distanceFromOriginalStoredKm": 4.243
+  },
+  {
+    "place": "Kondakarla birding",
+    "slug": "kondakarla-birding",
+    "district": "Anakapalli",
+    "coordinates": {
+      "latitude": 17.669,
+      "longitude": 82.9836
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=17.669,82.9836",
+    "source": "stored-fallback",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Sarada Riverfront",
+    "slug": "sarada-riverfront",
+    "district": "Anakapalli",
+    "coordinates": {
+      "latitude": 17.7145,
+      "longitude": 82.9816
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=17.7145,82.9816",
+    "source": "stored-fallback",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Anakapalli Town Center",
+    "slug": "anakapalli-town-center",
+    "district": "Anakapalli",
+    "coordinates": {
+      "latitude": 17.7134,
+      "longitude": 83.0035
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=17.7134,83.0035",
+    "source": "stored-fallback",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Bojjannakonda Museum",
+    "slug": "bojjannakonda-museum",
+    "district": "Anakapalli",
+    "coordinates": {
+      "latitude": 17.6649,
+      "longitude": 82.9869
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=17.6649,82.9869",
+    "source": "stored-fallback",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Kondakarla Boating Point",
+    "slug": "kondakarla-boating-point",
+    "district": "Anakapalli",
+    "coordinates": {
+      "latitude": 17.6012,
+      "longitude": 82.9966
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=17.6012,82.9966",
+    "source": "osm",
+    "distanceFromOriginalStoredKm": 9.029
+  },
+  {
+    "place": "Lepakshi Veerabhadra Temple",
+    "slug": "lepakshi-veerabhadra-temple",
+    "district": "Anantapur",
+    "coordinates": {
+      "latitude": 14.6926,
+      "longitude": 77.6375
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=14.6926,77.6375",
+    "source": "stored-fallback",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Gooty Fort",
+    "slug": "gooty-fort",
+    "district": "Anantapur",
+    "coordinates": {
+      "latitude": 15.1141,
+      "longitude": 77.6509
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=15.1141,77.6509",
+    "source": "osm",
+    "distanceFromOriginalStoredKm": 52.59
+  },
+  {
+    "place": "Penukonda Fort",
+    "slug": "penukonda-fort",
+    "district": "Anantapur",
+    "coordinates": {
+      "latitude": 14.0704,
+      "longitude": 77.5834
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=14.0704,77.5834",
+    "source": "osm",
+    "distanceFromOriginalStoredKm": 66.729
+  },
+  {
+    "place": "Dharmavaram Silk Village",
+    "slug": "dharmavaram-silk-village",
+    "district": "Anantapur",
+    "coordinates": {
+      "latitude": 14.6871,
+      "longitude": 77.5982
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=14.6871,77.5982",
+    "source": "stored-fallback",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Anantapur City Center",
+    "slug": "anantapur-city-center",
+    "district": "Anantapur",
+    "coordinates": {
+      "latitude": 14.6843,
+      "longitude": 77.5942
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=14.6843,77.5942",
+    "source": "stored-fallback",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Lepakshi Nandi",
+    "slug": "lepakshi-nandi",
+    "district": "Anantapur",
+    "coordinates": {
+      "latitude": 13.8037,
+      "longitude": 77.6122
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=13.8037,77.6122",
+    "source": "osm",
+    "distanceFromOriginalStoredKm": 101.732
+  },
+  {
+    "place": "Tadpatri Temples",
+    "slug": "tadpatri-temples",
+    "district": "Anantapur",
+    "coordinates": {
+      "latitude": 14.6882,
+      "longitude": 77.5615
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=14.6882,77.5615",
+    "source": "stored-fallback",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Penukonda Gagan Mahal",
+    "slug": "penukonda-gagan-mahal",
+    "district": "Anantapur",
+    "coordinates": {
+      "latitude": 14.651,
+      "longitude": 77.6221
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=14.651,77.6221",
+    "source": "stored-fallback",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Dharmavaram Lake",
+    "slug": "dharmavaram-lake",
+    "district": "Anantapur",
+    "coordinates": {
+      "latitude": 14.7208,
+      "longitude": 77.6217
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=14.7208,77.6217",
+    "source": "stored-fallback",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Gooty Hilltop Viewpoint",
+    "slug": "gooty-hilltop-viewpoint",
+    "district": "Anantapur",
+    "coordinates": {
+      "latitude": 14.7042,
+      "longitude": 77.6181
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=14.7042,77.6181",
+    "source": "stored-fallback",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Horsley Hills Resort",
+    "slug": "horsley-hills-resort",
+    "district": "Annamayya",
+    "coordinates": {
+      "latitude": 13.65,
+      "longitude": 78.4
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=13.65,78.4",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Tallapaka Poet Village",
+    "slug": "tallapaka-poet-village",
+    "district": "Annamayya",
+    "coordinates": {
+      "latitude": 14.23,
+      "longitude": 78.97
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=14.23,78.97",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Gurramkonda Fort",
+    "slug": "gurramkonda-fort",
+    "district": "Annamayya",
+    "coordinates": {
+      "latitude": 13.78,
+      "longitude": 78.58
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=13.78,78.58",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Horsley Hills Trekking",
+    "slug": "horsley-hills-trekking",
+    "district": "Annamayya",
+    "coordinates": {
+      "latitude": 14.0352,
+      "longitude": 78.7848
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=14.0352,78.7848",
+    "source": "stored-fallback",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Annamacharya Memorial",
+    "slug": "annamacharya-memorial",
+    "district": "Annamayya",
+    "coordinates": {
+      "latitude": 14.0375,
+      "longitude": 78.7414
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=14.0375,78.7414",
+    "source": "stored-fallback",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Gurramkonda Rangin Mahal",
+    "slug": "gurramkonda-rangin-mahal",
+    "district": "Annamayya",
+    "coordinates": {
+      "latitude": 14.0809,
+      "longitude": 78.7128
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=14.0809,78.7128",
+    "source": "stored-fallback",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Horsley Hills forest path",
+    "slug": "horsley-hills-forest-path",
+    "district": "Annamayya",
+    "coordinates": {
+      "latitude": 14.0675,
+      "longitude": 78.7397
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=14.0675,78.7397",
+    "source": "stored-fallback",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Madanapalle Town Center",
+    "slug": "madanapalle-town-center",
+    "district": "Annamayya",
+    "coordinates": {
+      "latitude": 14.0667,
+      "longitude": 78.7227
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=14.0667,78.7227",
+    "source": "stored-fallback",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Kalyani Dam Reservoir",
+    "slug": "kalyani-dam-reservoir",
+    "district": "Annamayya",
+    "coordinates": {
+      "latitude": 14.0769,
+      "longitude": 78.7817
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=14.0769,78.7817",
+    "source": "stored-fallback",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Sompalem Chennakesava Temple",
+    "slug": "sompalem-chennakesava-temple",
+    "district": "Annamayya",
+    "coordinates": {
+      "latitude": 13.86,
+      "longitude": 78.27
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=13.86,78.27",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Suryalanka Beach",
+    "slug": "suryalanka-beach",
+    "district": "Bapatla",
+    "coordinates": {
+      "latitude": 15.8453,
+      "longitude": 80.5211
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=15.8453,80.5211",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Vodarevu Beach",
+    "slug": "vodarevu-beach",
+    "district": "Bapatla",
+    "coordinates": {
+      "latitude": 15.9044,
+      "longitude": 80.4686
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=15.9044,80.4686",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Bapatla Bhavanarayana Temple",
+    "slug": "bapatla-bhavanarayana-temple",
+    "district": "Bapatla",
+    "coordinates": {
+      "latitude": 15.9285,
+      "longitude": 80.441
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=15.9285,80.441",
+    "source": "stored-fallback",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Chirala Weaving Hub",
+    "slug": "chirala-weaving-hub",
+    "district": "Bapatla",
+    "coordinates": {
+      "latitude": 15.82,
+      "longitude": 80.35
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=15.82,80.35",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Bapatla City Center",
+    "slug": "bapatla-city-center",
+    "district": "Bapatla",
+    "coordinates": {
+      "latitude": 15.9044,
+      "longitude": 80.4686
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=15.9044,80.4686",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Suryalanka Resorts",
+    "slug": "suryalanka-resorts",
+    "district": "Bapatla",
+    "coordinates": {
+      "latitude": 15.8943,
+      "longitude": 80.4852
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=15.8943,80.4852",
+    "source": "stored-fallback",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Vodarevu Fishing Port",
+    "slug": "vodarevu-fishing-port",
+    "district": "Bapatla",
+    "coordinates": {
+      "latitude": 15.8802,
+      "longitude": 80.4906
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=15.8802,80.4906",
+    "source": "stored-fallback",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Bhavanarayana temple tanks",
+    "slug": "bhavanarayana-temple-tanks",
+    "district": "Bapatla",
+    "coordinates": {
+      "latitude": 15.906,
+      "longitude": 80.5058
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=15.906,80.5058",
+    "source": "stored-fallback",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Suryalanka Coastline",
+    "slug": "suryalanka-coastline",
+    "district": "Bapatla",
+    "coordinates": {
+      "latitude": 15.9402,
+      "longitude": 80.4476
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=15.9402,80.4476",
+    "source": "stored-fallback",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Chirala Beach point",
+    "slug": "chirala-beach-point",
+    "district": "Bapatla",
+    "coordinates": {
+      "latitude": 15.8741,
+      "longitude": 80.4744
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=15.8741,80.4744",
+    "source": "stored-fallback",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Kanipakam Varasiddhi Temple",
+    "slug": "kanipakam-varasiddhi-temple",
+    "district": "Chittoor",
+    "coordinates": {
+      "latitude": 13.2036,
+      "longitude": 79.0975
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=13.2036,79.0975",
+    "source": "stored-fallback",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Gurramkonda Fort borders",
+    "slug": "gurramkonda-fort-borders",
+    "district": "Chittoor",
+    "coordinates": {
+      "latitude": 13.2139,
+      "longitude": 79.1384
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=13.2139,79.1384",
+    "source": "stored-fallback",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Kaundinya Wildlife Sanctuary",
+    "slug": "kaundinya-wildlife-sanctuary",
+    "district": "Chittoor",
+    "coordinates": {
+      "latitude": 13.2115,
+      "longitude": 79.1326
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=13.2115,79.1326",
+    "source": "stored-fallback",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Kanipakam Temple tank",
+    "slug": "kanipakam-temple-tank",
+    "district": "Chittoor",
+    "coordinates": {
+      "latitude": 13.1845,
+      "longitude": 79.088
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=13.1845,79.088",
+    "source": "stored-fallback",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Chittoor mango markets",
+    "slug": "chittoor-mango-markets",
+    "district": "Chittoor",
+    "coordinates": {
+      "latitude": 13.1983,
+      "longitude": 79.1052
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=13.1983,79.1052",
+    "source": "stored-fallback",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Kaundinya elephant camps",
+    "slug": "kaundinya-elephant-camps",
+    "district": "Chittoor",
+    "coordinates": {
+      "latitude": 13.1965,
+      "longitude": 79.0674
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=13.1965,79.0674",
+    "source": "stored-fallback",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Chittoor Hills path",
+    "slug": "chittoor-hills-path",
+    "district": "Chittoor",
+    "coordinates": {
+      "latitude": 13.1839,
+      "longitude": 79.0931
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=13.1839,79.0931",
+    "source": "stored-fallback",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Ardhagiri Veeranjaneya Temple",
+    "slug": "ardhagiri-veeranjaneya-temple",
+    "district": "Chittoor",
+    "coordinates": {
+      "latitude": 13.192,
+      "longitude": 79.0912
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=13.192,79.0912",
+    "source": "stored-fallback",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Kaundinya forest trekking",
+    "slug": "kaundinya-forest-trekking",
+    "district": "Chittoor",
+    "coordinates": {
+      "latitude": 13.2226,
+      "longitude": 79.089
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=13.2226,79.089",
+    "source": "stored-fallback",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Chittoor Fort ruins",
+    "slug": "chittoor-fort-ruins",
+    "district": "Chittoor",
+    "coordinates": {
+      "latitude": 13.2563,
+      "longitude": 79.0624
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=13.2563,79.0624",
+    "source": "stored-fallback",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Dindi Backwaters",
+    "slug": "dindi-backwaters",
+    "district": "Dr. B.R. Ambedkar Konaseema",
+    "coordinates": {
+      "latitude": 16.5411,
+      "longitude": 81.8617
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.5411,81.8617",
+    "source": "stored-fallback",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Antarvedi Beach",
+    "slug": "antarvedi-beach",
+    "district": "Dr. B.R. Ambedkar Konaseema",
+    "coordinates": {
+      "latitude": 16.4962,
+      "longitude": 81.9234
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.4962,81.9234",
+    "source": "stored-fallback",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Ainavilli Vinayaka Temple",
+    "slug": "ainavilli-vinayaka-temple",
+    "district": "Dr. B.R. Ambedkar Konaseema",
+    "coordinates": {
+      "latitude": 16.5352,
+      "longitude": 81.8577
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.5352,81.8577",
+    "source": "stored-fallback",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Peruru Heritage Village",
+    "slug": "peruru-heritage-village",
+    "district": "Dr. B.R. Ambedkar Konaseema",
+    "coordinates": {
+      "latitude": 16.5386,
+      "longitude": 81.8896
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.5386,81.8896",
+    "source": "stored-fallback",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Konaseema Houseboats",
+    "slug": "konaseema-houseboats",
+    "district": "Dr. B.R. Ambedkar Konaseema",
+    "coordinates": {
+      "latitude": 16.4878,
+      "longitude": 81.8748
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.4878,81.8748",
+    "source": "stored-fallback",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Razole town",
+    "slug": "razole-town",
+    "district": "Dr. B.R. Ambedkar Konaseema",
+    "coordinates": {
+      "latitude": 16.4777,
+      "longitude": 81.8706
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.4777,81.8706",
+    "source": "stored-fallback",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Vashishta Godavari River confluence",
+    "slug": "vashishta-godavari-river-confluence",
+    "district": "Dr. B.R. Ambedkar Konaseema",
+    "coordinates": {
+      "latitude": 16.5317,
+      "longitude": 81.8886
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.5317,81.8886",
+    "source": "stored-fallback",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Mamikuduru Wetlands",
+    "slug": "mamikuduru-wetlands",
+    "district": "Dr. B.R. Ambedkar Konaseema",
+    "coordinates": {
+      "latitude": 16.529,
+      "longitude": 81.8939
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.529,81.8939",
+    "source": "stored-fallback",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Ryali Jaganmohini Temple",
+    "slug": "ryali-jaganmohini-temple",
+    "district": "Dr. B.R. Ambedkar Konaseema",
+    "coordinates": {
+      "latitude": 16.4886,
+      "longitude": 81.9102
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.4886,81.9102",
+    "source": "stored-fallback",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Antarvedi Lakshmi Narasimha Temple",
+    "slug": "antarvedi-lakshmi-narasimha-temple",
+    "district": "Dr. B.R. Ambedkar Konaseema",
+    "coordinates": {
+      "latitude": 16.5031,
+      "longitude": 81.9219
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.5031,81.9219",
+    "source": "stored-fallback",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Rajahmundry City Center",
+    "slug": "rajahmundry-city-center",
+    "district": "East Godavari",
+    "coordinates": {
+      "latitude": 17.3592,
+      "longitude": 81.7775
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=17.3592,81.7775",
+    "source": "stored-fallback",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Godavari Arch Bridge",
+    "slug": "godavari-arch-bridge",
+    "district": "East Godavari",
+    "coordinates": {
+      "latitude": 17.315,
+      "longitude": 81.7792
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=17.315,81.7792",
+    "source": "stored-fallback",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Rajahmundry ISKCON Temple",
+    "slug": "rajahmundry-iskcon-temple",
+    "district": "East Godavari",
+    "coordinates": {
+      "latitude": 17.3437,
+      "longitude": 81.7867
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=17.3437,81.7867",
+    "source": "stored-fallback",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Dowleswaram Barrage",
+    "slug": "dowleswaram-barrage",
+    "district": "East Godavari",
+    "coordinates": {
+      "latitude": 17.28,
+      "longitude": 81.7892
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=17.28,81.7892",
+    "source": "stored-fallback",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Godavari River cruise",
+    "slug": "godavari-river-cruise",
+    "district": "East Godavari",
+    "coordinates": {
+      "latitude": 17.3157,
+      "longitude": 81.7742
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=17.3157,81.7742",
+    "source": "stored-fallback",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Kadiyam Nursery Gardens",
+    "slug": "kadiyam-nursery-gardens",
+    "district": "East Godavari",
+    "coordinates": {
+      "latitude": 17.3043,
+      "longitude": 81.7449
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=17.3043,81.7449",
+    "source": "stored-fallback",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Dowleswaram Cotton Museum",
+    "slug": "dowleswaram-cotton-museum",
+    "district": "East Godavari",
+    "coordinates": {
+      "latitude": 17.293,
+      "longitude": 81.8126
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=17.293,81.8126",
+    "source": "stored-fallback",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Rajahmundry Ghats",
+    "slug": "rajahmundry-ghats",
+    "district": "East Godavari",
+    "coordinates": {
+      "latitude": 17.2842,
+      "longitude": 81.7468
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=17.2842,81.7468",
+    "source": "stored-fallback",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Kadiapulanka flower fields",
+    "slug": "kadiapulanka-flower-fields",
+    "district": "East Godavari",
+    "coordinates": {
+      "latitude": 17.3552,
+      "longitude": 81.8066
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=17.3552,81.8066",
+    "source": "stored-fallback",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Rajahmundry parklands",
+    "slug": "rajahmundry-parklands",
+    "district": "East Godavari",
+    "coordinates": {
+      "latitude": 17.2981,
+      "longitude": 81.807
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=17.2981,81.807",
+    "source": "stored-fallback",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Kolleru Lake",
+    "slug": "kolleru-lake",
+    "district": "Eluru",
+    "coordinates": {
+      "latitude": 16.6921,
+      "longitude": 81.1252
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.6921,81.1252",
+    "source": "stored-fallback",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Dwaraka Tirumala Temple",
+    "slug": "dwaraka-tirumala-temple",
+    "district": "Eluru",
+    "coordinates": {
+      "latitude": 16.9458,
+      "longitude": 81.2558
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.9458,81.2558",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Guntupalli Caves",
+    "slug": "guntupalli-caves",
+    "district": "Eluru",
+    "coordinates": {
+      "latitude": 16.6993,
+      "longitude": 81.0804
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.6993,81.0804",
+    "source": "stored-fallback",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Kolleru Pelican Sanctuary",
+    "slug": "kolleru-pelican-sanctuary",
+    "district": "Eluru",
+    "coordinates": {
+      "latitude": 16.6834,
+      "longitude": 81.1139
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.6834,81.1139",
+    "source": "stored-fallback",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Eluru City Center",
+    "slug": "eluru-city-center",
+    "district": "Eluru",
+    "coordinates": {
+      "latitude": 16.7343,
+      "longitude": 81.0669
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.7343,81.0669",
+    "source": "stored-fallback",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Dwaraka Tirumala Hill",
+    "slug": "dwaraka-tirumala-hill",
+    "district": "Eluru",
+    "coordinates": {
+      "latitude": 16.6778,
+      "longitude": 81.1245
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.6778,81.1245",
+    "source": "stored-fallback",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Guntupalli Stupa Complex",
+    "slug": "guntupalli-stupa-complex",
+    "district": "Eluru",
+    "coordinates": {
+      "latitude": 16.7399,
+      "longitude": 81.1299
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.7399,81.1299",
+    "source": "stored-fallback",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Eluru Canal Park",
+    "slug": "eluru-canal-park",
+    "district": "Eluru",
+    "coordinates": {
+      "latitude": 16.6766,
+      "longitude": 81.094
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.6766,81.094",
+    "source": "stored-fallback",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Kolleru boating channels",
+    "slug": "kolleru-boating-channels",
+    "district": "Eluru",
+    "coordinates": {
+      "latitude": 16.6955,
+      "longitude": 81.0673
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.6955,81.0673",
+    "source": "stored-fallback",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Maddinala Waterfall",
+    "slug": "maddinala-waterfall",
+    "district": "Eluru",
+    "coordinates": {
+      "latitude": 16.7303,
+      "longitude": 81.1149
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.7303,81.1149",
+    "source": "stored-fallback",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Amaravati Stupa",
+    "slug": "amaravati-stupa",
+    "district": "Guntur",
+    "coordinates": {
+      "latitude": 16.2644,
+      "longitude": 80.4457
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.2644,80.4457",
+    "source": "stored-fallback",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Ethipothala Waterfalls",
+    "slug": "ethipothala-waterfalls",
+    "district": "Guntur",
+    "coordinates": {
+      "latitude": 16.3213,
+      "longitude": 80.4688
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.3213,80.4688",
+    "source": "stored-fallback",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Kondaveedu Fort",
+    "slug": "kondaveedu-fort",
+    "district": "Guntur",
+    "coordinates": {
+      "latitude": 16.2628,
+      "longitude": 80.2784
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.2628,80.2784",
+    "source": "osm",
+    "distanceFromOriginalStoredKm": 13.682
+  },
+  {
+    "place": "Uppalapadu Bird Sanctuary",
+    "slug": "uppalapadu-bird-sanctuary",
+    "district": "Guntur",
+    "coordinates": {
+      "latitude": 16.3069,
+      "longitude": 80.5136
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.3069,80.5136",
+    "source": "osm",
+    "distanceFromOriginalStoredKm": 8.181
+  },
+  {
+    "place": "Guntur City Center",
+    "slug": "guntur-city-center",
+    "district": "Guntur",
+    "coordinates": {
+      "latitude": 16.3185,
+      "longitude": 80.4738
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.3185,80.4738",
+    "source": "stored-fallback",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Amaravati Archaeological Museum",
+    "slug": "amaravati-archaeological-museum",
+    "district": "Guntur",
+    "coordinates": {
+      "latitude": 16.2826,
+      "longitude": 80.4504
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.2826,80.4504",
+    "source": "stored-fallback",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Kotappakonda Hill Temple",
+    "slug": "kotappakonda-hill-temple",
+    "district": "Guntur",
+    "coordinates": {
+      "latitude": 16.2833,
+      "longitude": 80.4064
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.2833,80.4064",
+    "source": "stored-fallback",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Mangalagiri Temple",
+    "slug": "mangalagiri-temple",
+    "district": "Guntur",
+    "coordinates": {
+      "latitude": 16.3355,
+      "longitude": 80.405
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.3355,80.405",
+    "source": "stored-fallback",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Ethipothala Crocodile Breeding Pond",
+    "slug": "ethipothala-crocodile-breeding-pond",
+    "district": "Guntur",
+    "coordinates": {
+      "latitude": 16.3064,
+      "longitude": 80.4433
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.3064,80.4433",
+    "source": "stored-fallback",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Kondaveedu Forest trekking",
+    "slug": "kondaveedu-forest-trekking",
+    "district": "Guntur",
+    "coordinates": {
+      "latitude": 16.275,
+      "longitude": 80.474
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.275,80.474",
+    "source": "stored-fallback",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Coringa Wildlife Sanctuary",
+    "slug": "coringa-wildlife-sanctuary",
+    "district": "Kakinada",
+    "coordinates": {
+      "latitude": 17.0121,
+      "longitude": 82.2517
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=17.0121,82.2517",
+    "source": "stored-fallback",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Kakinada Beach",
+    "slug": "kakinada-beach",
+    "district": "Kakinada",
+    "coordinates": {
+      "latitude": 17.0236,
+      "longitude": 82.293
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=17.0236,82.293",
+    "source": "osm",
+    "distanceFromOriginalStoredKm": 9.067
+  },
+  {
+    "place": "Hope Island",
+    "slug": "hope-island",
+    "district": "Kakinada",
+    "coordinates": {
+      "latitude": 16.9236,
+      "longitude": 82.3627
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.9236,82.3627",
+    "source": "osm",
+    "distanceFromOriginalStoredKm": 14.032
+  },
+  {
+    "place": "Annavaram Satyanarayana Temple",
+    "slug": "annavaram-satyanarayana-temple",
+    "district": "Kakinada",
+    "coordinates": {
+      "latitude": 16.9501,
+      "longitude": 82.2227
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.9501,82.2227",
+    "source": "stored-fallback",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Coringa Mangrove Boardwalk",
+    "slug": "coringa-mangrove-boardwalk",
+    "district": "Kakinada",
+    "coordinates": {
+      "latitude": 16.9038,
+      "longitude": 82.2619
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.9038,82.2619",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Kakinada City Center",
+    "slug": "kakinada-city-center",
+    "district": "Kakinada",
+    "coordinates": {
+      "latitude": 16.9891,
+      "longitude": 82.2475
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.9891,82.2475",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0.613
+  },
+  {
+    "place": "Annavaram Hills",
+    "slug": "annavaram-hills",
+    "district": "Kakinada",
+    "coordinates": {
+      "latitude": 17.2811,
+      "longitude": 82.5085
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=17.2811,82.5085",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Pithapuram Temple",
+    "slug": "pithapuram-temple",
+    "district": "Kakinada",
+    "coordinates": {
+      "latitude": 17.1147,
+      "longitude": 82.2568
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=17.1147,82.2568",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Uppada Beach",
+    "slug": "uppada-beach",
+    "district": "Kakinada",
+    "coordinates": {
+      "latitude": 17.0603,
+      "longitude": 82.3297
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=17.0603,82.3297",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Hope Island Lighthouse",
+    "slug": "hope-island-lighthouse",
+    "district": "Kakinada",
+    "coordinates": {
+      "latitude": 16.95,
+      "longitude": 82.34
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.95,82.34",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Manginapudi Beach",
+    "slug": "manginapudi-beach",
+    "district": "Krishna",
+    "coordinates": {
+      "latitude": 16.1972,
+      "longitude": 81.2417
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.1972,81.2417",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Hamsaladeevi Beach",
+    "slug": "hamsaladeevi-beach",
+    "district": "Krishna",
+    "coordinates": {
+      "latitude": 15.9525,
+      "longitude": 81.0858
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=15.9525,81.0858",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Kuchipudi Dance Academy",
+    "slug": "kuchipudi-dance-academy",
+    "district": "Krishna",
+    "coordinates": {
+      "latitude": 16.1867,
+      "longitude": 80.7936
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.1867,80.7936",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Machilipatnam Kalamkari Town",
+    "slug": "machilipatnam-kalamkari-town",
+    "district": "Krishna",
+    "coordinates": {
+      "latitude": 16.18,
+      "longitude": 81.13
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.18,81.13",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Machilipatnam Port town",
+    "slug": "machilipatnam-port-town",
+    "district": "Krishna",
+    "coordinates": {
+      "latitude": 16.17,
+      "longitude": 81.14
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.17,81.14",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Hamsaladeevi Venugopala Temple",
+    "slug": "hamsaladeevi-venugopala-temple",
+    "district": "Krishna",
+    "coordinates": {
+      "latitude": 16.1915,
+      "longitude": 81.0927
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.1915,81.0927",
+    "source": "stored-fallback",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Krishna River Delta",
+    "slug": "krishna-river-delta",
+    "district": "Krishna",
+    "coordinates": {
+      "latitude": 16.14,
+      "longitude": 81.1051
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.14,81.1051",
+    "source": "stored-fallback",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Manginapudi Lake",
+    "slug": "manginapudi-lake",
+    "district": "Krishna",
+    "coordinates": {
+      "latitude": 16.1787,
+      "longitude": 81.1139
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.1787,81.1139",
+    "source": "stored-fallback",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Hamsaladeevi boating point",
+    "slug": "hamsaladeevi-boating-point",
+    "district": "Krishna",
+    "coordinates": {
+      "latitude": 16.1707,
+      "longitude": 81.0929
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.1707,81.0929",
+    "source": "stored-fallback",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Bandar Fort ruins",
+    "slug": "bandar-fort-ruins",
+    "district": "Krishna",
+    "coordinates": {
+      "latitude": 16.1833,
+      "longitude": 81.1667
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.1833,81.1667",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Yaganti Temple",
+    "slug": "yaganti-temple",
+    "district": "Kurnool",
+    "coordinates": {
+      "latitude": 15.3486,
+      "longitude": 78.1394
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=15.3486,78.1394",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Belum Caves",
+    "slug": "belum-caves",
+    "district": "Kurnool",
+    "coordinates": {
+      "latitude": 15.1017,
+      "longitude": 78.1147
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=15.1017,78.1147",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0.539
+  },
+  {
+    "place": "Konda Reddy Buruzu",
+    "slug": "konda-reddy-buruzu",
+    "district": "Kurnool",
+    "coordinates": {
+      "latitude": 15.8281,
+      "longitude": 78.0373
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=15.8281,78.0373",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0.358
+  },
+  {
+    "place": "Kurnool Fort ruins",
+    "slug": "kurnool-fort-ruins",
+    "district": "Kurnool",
+    "coordinates": {
+      "latitude": 15.84,
+      "longitude": 78.05
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=15.84,78.05",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Orvakal Rock Garden",
+    "slug": "orvakal-rock-garden",
+    "district": "Kurnool",
+    "coordinates": {
+      "latitude": 15.6811,
+      "longitude": 78.0169
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=15.6811,78.0169",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0.749
+  },
+  {
+    "place": "Kurnool City Center",
+    "slug": "kurnool-city-center",
+    "district": "Kurnool",
+    "coordinates": {
+      "latitude": 15.82,
+      "longitude": 78.03
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=15.82,78.03",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Rollapadu Bird Sanctuary",
+    "slug": "rollapadu-bird-sanctuary",
+    "district": "Kurnool",
+    "coordinates": {
+      "latitude": 15.7258,
+      "longitude": 78.3683
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=15.7258,78.3683",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Tungabhadra Riverfront",
+    "slug": "tungabhadra-riverfront",
+    "district": "Kurnool",
+    "coordinates": {
+      "latitude": 15.85,
+      "longitude": 78.06
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=15.85,78.06",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Belum Cave Passages",
+    "slug": "belum-cave-passages",
+    "district": "Kurnool",
+    "coordinates": {
+      "latitude": 15.11,
+      "longitude": 78.12
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=15.11,78.12",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Mahanandi Temple Area",
+    "slug": "mahanandi-temple-area",
+    "district": "Kurnool",
+    "coordinates": {
+      "latitude": 15.46,
+      "longitude": 78.58
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=15.46,78.58",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Srisailam Mallikarjuna Temple",
+    "slug": "srisailam-mallikarjuna-temple",
+    "district": "Nandyal",
+    "coordinates": {
+      "latitude": 16.0744,
+      "longitude": 78.8683
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.0744,78.8683",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Ahobilam Temple",
+    "slug": "ahobilam-temple",
+    "district": "Nandyal",
+    "coordinates": {
+      "latitude": 15.1333,
+      "longitude": 78.7167
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=15.1333,78.7167",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0.51
+  },
+  {
+    "place": "Mahanandi Temple",
+    "slug": "mahanandi-temple",
+    "district": "Nandyal",
+    "coordinates": {
+      "latitude": 15.4667,
+      "longitude": 78.5667
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=15.4667,78.5667",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0.806
+  },
+  {
+    "place": "Srisailam Hill Forest",
+    "slug": "srisailam-hill-forest",
+    "district": "Nandyal",
+    "coordinates": {
+      "latitude": 16.08,
+      "longitude": 78.87
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.08,78.87",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Srisailam Tiger Reserve",
+    "slug": "srisailam-tiger-reserve",
+    "district": "Nandyal",
+    "coordinates": {
+      "latitude": 16.05,
+      "longitude": 78.8
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.05,78.8",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Nallamala Forest Trekking",
+    "slug": "nallamala-forest-trekking",
+    "district": "Nandyal",
+    "coordinates": {
+      "latitude": 15.5,
+      "longitude": 78.6
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=15.5,78.6",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Mahanandi Village",
+    "slug": "mahanandi-village",
+    "district": "Nandyal",
+    "coordinates": {
+      "latitude": 15.48,
+      "longitude": 78.57
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=15.48,78.57",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Ahobilam Hills",
+    "slug": "ahobilam-hills",
+    "district": "Nandyal",
+    "coordinates": {
+      "latitude": 15.14,
+      "longitude": 78.73
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=15.14,78.73",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Nandyal Town Center",
+    "slug": "nandyal-town-center",
+    "district": "Nandyal",
+    "coordinates": {
+      "latitude": 15.4847,
+      "longitude": 78.4812
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=15.4847,78.4812",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0.538
+  },
+  {
+    "place": "Yaganti Temple Complex",
+    "slug": "yaganti-temple-complex",
+    "district": "Nandyal",
+    "coordinates": {
+      "latitude": 15.34,
+      "longitude": 78.14
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=15.34,78.14",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Kanaka Durga Temple",
+    "slug": "kanaka-durga-temple",
+    "district": "NTR",
+    "coordinates": {
+      "latitude": 16.5162,
+      "longitude": 80.6062
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.5162,80.6062",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Prakasam Barrage",
+    "slug": "prakasam-barrage",
+    "district": "NTR",
+    "coordinates": {
+      "latitude": 16.5061,
+      "longitude": 80.6044
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.5061,80.6044",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Bhavani Island",
+    "slug": "bhavani-island",
+    "district": "NTR",
+    "coordinates": {
+      "latitude": 16.5178,
+      "longitude": 80.5894
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.5178,80.5894",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Kondapalli Fort",
+    "slug": "kondapalli-fort",
+    "district": "NTR",
+    "coordinates": {
+      "latitude": 16.6186,
+      "longitude": 80.5369
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.6186,80.5369",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Undavalli Caves",
+    "slug": "undavalli-caves",
+    "district": "NTR",
+    "coordinates": {
+      "latitude": 16.4922,
+      "longitude": 80.5794
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.4922,80.5794",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Vijayawada City Center",
+    "slug": "vijayawada-city-center",
+    "district": "NTR",
+    "coordinates": {
+      "latitude": 16.5062,
+      "longitude": 80.648
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.5062,80.648",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Kondapalli Toy Village",
+    "slug": "kondapalli-toy-village",
+    "district": "NTR",
+    "coordinates": {
+      "latitude": 16.61,
+      "longitude": 80.54
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.61,80.54",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Indrakeeladri Hills",
+    "slug": "indrakeeladri-hills",
+    "district": "NTR",
+    "coordinates": {
+      "latitude": 16.51,
+      "longitude": 80.6
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.51,80.6",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Prakasam Lakefront",
+    "slug": "prakasam-lakefront",
+    "district": "NTR",
+    "coordinates": {
+      "latitude": 16.5,
+      "longitude": 80.6
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.5,80.6",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Vijayawada Museum",
+    "slug": "vijayawada-museum",
+    "district": "NTR",
+    "coordinates": {
+      "latitude": 16.51,
+      "longitude": 80.62
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.51,80.62",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Nagarjuna Sagar Dam",
+    "slug": "nagarjuna-sagar-dam",
+    "district": "Palnadu",
+    "coordinates": {
+      "latitude": 16.3872,
+      "longitude": 79.7081
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.3872,79.7081",
+    "source": "stored-fallback",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Ethipothala Waterfalls",
+    "slug": "ethipothala-waterfalls-palnadu",
+    "district": "Palnadu",
+    "coordinates": {
+      "latitude": 16.3779,
+      "longitude": 79.691
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.3779,79.691",
+    "source": "stored-fallback",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Nagarjunakonda Island",
+    "slug": "nagarjunakonda-island",
+    "district": "Palnadu",
+    "coordinates": {
+      "latitude": 16.3808,
+      "longitude": 79.6964
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.3808,79.6964",
+    "source": "stored-fallback",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Palnadu Battlefield site",
+    "slug": "palnadu-battlefield-site",
+    "district": "Palnadu",
+    "coordinates": {
+      "latitude": 16.3406,
+      "longitude": 79.6823
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.3406,79.6823",
+    "source": "stored-fallback",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Ethipothala Valley park",
+    "slug": "ethipothala-valley-park",
+    "district": "Palnadu",
+    "coordinates": {
+      "latitude": 16.3746,
+      "longitude": 79.7012
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.3746,79.7012",
+    "source": "stored-fallback",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Nagarjuna Sagar Lake",
+    "slug": "nagarjuna-sagar-lake",
+    "district": "Palnadu",
+    "coordinates": {
+      "latitude": 16.3602,
+      "longitude": 79.7249
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.3602,79.7249",
+    "source": "stored-fallback",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Dachapalli Caves",
+    "slug": "dachapalli-caves",
+    "district": "Palnadu",
+    "coordinates": {
+      "latitude": 16.3527,
+      "longitude": 79.6764
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.3527,79.6764",
+    "source": "stored-fallback",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Karempudi town",
+    "slug": "karempudi-town",
+    "district": "Palnadu",
+    "coordinates": {
+      "latitude": 16.369,
+      "longitude": 79.6804
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.369,79.6804",
+    "source": "stored-fallback",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Nagarjunasagar boating point",
+    "slug": "nagarjunasagar-boating-point",
+    "district": "Palnadu",
+    "coordinates": {
+      "latitude": 16.3708,
+      "longitude": 79.6906
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.3708,79.6906",
+    "source": "stored-fallback",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Guttikonda Bilam Caves",
+    "slug": "guttikonda-bilam-caves",
+    "district": "Palnadu",
+    "coordinates": {
+      "latitude": 16.3555,
+      "longitude": 79.7017
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.3555,79.7017",
+    "source": "stored-fallback",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Thotapalli Barrage Project",
+    "slug": "thotapalli-barrage-project",
+    "district": "Parvathipuram Manyam",
+    "coordinates": {
+      "latitude": 18.81,
+      "longitude": 83.47
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=18.81,83.47",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Parvathipuram Town Center",
+    "slug": "parvathipuram-town-center",
+    "district": "Parvathipuram Manyam",
+    "coordinates": {
+      "latitude": 18.7946,
+      "longitude": 83.4219
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=18.7946,83.4219",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Kurupam Palace ruins",
+    "slug": "kurupam-palace-ruins",
+    "district": "Parvathipuram Manyam",
+    "coordinates": {
+      "latitude": 18.87,
+      "longitude": 83.48
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=18.87,83.48",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Nagavali River banks",
+    "slug": "nagavali-river-banks",
+    "district": "Parvathipuram Manyam",
+    "coordinates": {
+      "latitude": 18.7876,
+      "longitude": 83.3843
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=18.7876,83.3843",
+    "source": "stored-fallback",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Thotapalli Reservoir",
+    "slug": "thotapalli-reservoir",
+    "district": "Parvathipuram Manyam",
+    "coordinates": {
+      "latitude": 18.7886,
+      "longitude": 83.492
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=18.7886,83.492",
+    "source": "osm",
+    "distanceFromOriginalStoredKm": 8.26
+  },
+  {
+    "place": "Parvathipuram tribal market",
+    "slug": "parvathipuram-tribal-market",
+    "district": "Parvathipuram Manyam",
+    "coordinates": {
+      "latitude": 18.7744,
+      "longitude": 83.4584
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=18.7744,83.4584",
+    "source": "stored-fallback",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Manyam Forest reserves",
+    "slug": "manyam-forest-reserves",
+    "district": "Parvathipuram Manyam",
+    "coordinates": {
+      "latitude": 18.7548,
+      "longitude": 83.392
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=18.7548,83.392",
+    "source": "stored-fallback",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Kurupam Hills",
+    "slug": "kurupam-hills",
+    "district": "Parvathipuram Manyam",
+    "coordinates": {
+      "latitude": 18.8091,
+      "longitude": 83.4447
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=18.8091,83.4447",
+    "source": "stored-fallback",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Thotapalli parklands",
+    "slug": "thotapalli-parklands",
+    "district": "Parvathipuram Manyam",
+    "coordinates": {
+      "latitude": 18.805,
+      "longitude": 83.3892
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=18.805,83.3892",
+    "source": "stored-fallback",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Nagavali bridge",
+    "slug": "nagavali-bridge",
+    "district": "Parvathipuram Manyam",
+    "coordinates": {
+      "latitude": 18.77,
+      "longitude": 83.4399
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=18.77,83.4399",
+    "source": "stored-fallback",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Markapur Chennakesava Temple",
+    "slug": "markapur-chennakesava-temple",
+    "district": "Prakasam",
+    "coordinates": {
+      "latitude": 15.7369,
+      "longitude": 79.2711
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=15.7369,79.2711",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Ongole City Center",
+    "slug": "ongole-city-center",
+    "district": "Prakasam",
+    "coordinates": {
+      "latitude": 15.5057,
+      "longitude": 80.0493
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=15.5057,80.0493",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Singarayakonda Temple",
+    "slug": "singarayakonda-temple",
+    "district": "Prakasam",
+    "coordinates": {
+      "latitude": 15.2589,
+      "longitude": 80.0381
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=15.2589,80.0381",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Chirala Beach",
+    "slug": "chirala-beach",
+    "district": "Prakasam",
+    "coordinates": {
+      "latitude": 15.4743,
+      "longitude": 80.0866
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=15.4743,80.0866",
+    "source": "stored-fallback",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Markapur Slate Industry",
+    "slug": "markapur-slate-industry",
+    "district": "Prakasam",
+    "coordinates": {
+      "latitude": 15.5084,
+      "longitude": 80.0104
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=15.5084,80.0104",
+    "source": "stored-fallback",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Cumbum Lake",
+    "slug": "cumbum-lake",
+    "district": "Prakasam",
+    "coordinates": {
+      "latitude": 15.5786,
+      "longitude": 79.1122
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=15.5786,79.1122",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Singarayakonda Hilltop View",
+    "slug": "singarayakonda-hilltop-view",
+    "district": "Prakasam",
+    "coordinates": {
+      "latitude": 15.5227,
+      "longitude": 80.0397
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=15.5227,80.0397",
+    "source": "stored-fallback",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Ongole Bull farm",
+    "slug": "ongole-bull-farm",
+    "district": "Prakasam",
+    "coordinates": {
+      "latitude": 15.5049,
+      "longitude": 80.0298
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=15.5049,80.0298",
+    "source": "stored-fallback",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Cumbum Dam",
+    "slug": "cumbum-dam",
+    "district": "Prakasam",
+    "coordinates": {
+      "latitude": 15.5174,
+      "longitude": 80.0528
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=15.5174,80.0528",
+    "source": "stored-fallback",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Kothapatnam Beach",
+    "slug": "kothapatnam-beach",
+    "district": "Prakasam",
+    "coordinates": {
+      "latitude": 15.48,
+      "longitude": 80.12
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=15.48,80.12",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Pulicat Lake Sanctuary",
+    "slug": "pulicat-lake-sanctuary",
+    "district": "SPSR Nellore",
+    "coordinates": {
+      "latitude": 13.6833,
+      "longitude": 80.05
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=13.6833,80.05",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Nelapattu Bird Sanctuary",
+    "slug": "nelapattu-bird-sanctuary",
+    "district": "SPSR Nellore",
+    "coordinates": {
+      "latitude": 13.8406,
+      "longitude": 79.9708
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=13.8406,79.9708",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Mypadu Beach",
+    "slug": "mypadu-beach",
+    "district": "SPSR Nellore",
+    "coordinates": {
+      "latitude": 14.5098,
+      "longitude": 80.1802
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=14.5098,80.1802",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Udayagiri Fort",
+    "slug": "udayagiri-fort",
+    "district": "SPSR Nellore",
+    "coordinates": {
+      "latitude": 14.8692,
+      "longitude": 79.2908
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=14.8692,79.2908",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Penchalakona Temple",
+    "slug": "penchalakona-temple",
+    "district": "SPSR Nellore",
+    "coordinates": {
+      "latitude": 14.3,
+      "longitude": 79.46
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=14.3,79.46",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Nellore City Center",
+    "slug": "nellore-city-center",
+    "district": "SPSR Nellore",
+    "coordinates": {
+      "latitude": 14.4483,
+      "longitude": 79.9739
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=14.4483,79.9739",
+    "source": "stored-fallback",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Jonnavada Temple",
+    "slug": "jonnavada-temple",
+    "district": "SPSR Nellore",
+    "coordinates": {
+      "latitude": 14.4197,
+      "longitude": 79.9557
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=14.4197,79.9557",
+    "source": "stored-fallback",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Venkatagiri Weaving Town",
+    "slug": "venkatagiri-weaving-town",
+    "district": "SPSR Nellore",
+    "coordinates": {
+      "latitude": 14.4599,
+      "longitude": 79.9617
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=14.4599,79.9617",
+    "source": "stored-fallback",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Nellapattu Wetlands",
+    "slug": "nellapattu-wetlands",
+    "district": "SPSR Nellore",
+    "coordinates": {
+      "latitude": 14.4548,
+      "longitude": 80.0001
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=14.4548,80.0001",
+    "source": "stored-fallback",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Pulicat Lagoon boating",
+    "slug": "pulicat-lagoon-boating",
+    "district": "SPSR Nellore",
+    "coordinates": {
+      "latitude": 14.4231,
+      "longitude": 79.9467
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=14.4231,79.9467",
+    "source": "stored-fallback",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Puttaparthi Ashram",
+    "slug": "puttaparthi-ashram",
+    "district": "Sri Sathya Sai",
+    "coordinates": {
+      "latitude": 14.1664,
+      "longitude": 77.8106
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=14.1664,77.8106",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Lepakshi Temple Complex",
+    "slug": "lepakshi-temple-complex",
+    "district": "Sri Sathya Sai",
+    "coordinates": {
+      "latitude": 13.8021,
+      "longitude": 77.8062
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=13.8021,77.8062",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Puttaparthi Planetarium",
+    "slug": "puttaparthi-planetarium",
+    "district": "Sri Sathya Sai",
+    "coordinates": {
+      "latitude": 14.165,
+      "longitude": 77.81
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=14.165,77.81",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Lepakshi monolithic Nandi",
+    "slug": "lepakshi-monolithic-nandi",
+    "district": "Sri Sathya Sai",
+    "coordinates": {
+      "latitude": 14.1593,
+      "longitude": 77.8321
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=14.1593,77.8321",
+    "source": "stored-fallback",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Puttaparthi Chaitanya Jyoti",
+    "slug": "puttaparthi-chaitanya-jyoti",
+    "district": "Sri Sathya Sai",
+    "coordinates": {
+      "latitude": 14.1388,
+      "longitude": 77.7795
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=14.1388,77.7795",
+    "source": "stored-fallback",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Lepakshi Hanging Pillar",
+    "slug": "lepakshi-hanging-pillar",
+    "district": "Sri Sathya Sai",
+    "coordinates": {
+      "latitude": 14.1956,
+      "longitude": 77.8484
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=14.1956,77.8484",
+    "source": "stored-fallback",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Pennar Riverbed",
+    "slug": "pennar-riverbed",
+    "district": "Sri Sathya Sai",
+    "coordinates": {
+      "latitude": 14.1934,
+      "longitude": 77.8211
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=14.1934,77.8211",
+    "source": "stored-fallback",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Puttaparthi Hill view",
+    "slug": "puttaparthi-hill-view",
+    "district": "Sri Sathya Sai",
+    "coordinates": {
+      "latitude": 14.1382,
+      "longitude": 77.8299
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=14.1382,77.8299",
+    "source": "stored-fallback",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Dharmavaram Border Area",
+    "slug": "dharmavaram-border-area",
+    "district": "Sri Sathya Sai",
+    "coordinates": {
+      "latitude": 14.1679,
+      "longitude": 77.7832
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=14.1679,77.7832",
+    "source": "stored-fallback",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Puttaparthi Super Hospital",
+    "slug": "puttaparthi-super-hospital",
+    "district": "Sri Sathya Sai",
+    "coordinates": {
+      "latitude": 14.1498,
+      "longitude": 77.8346
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=14.1498,77.8346",
+    "source": "stored-fallback",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Arasavalli Sun Temple",
+    "slug": "arasavalli-sun-temple",
+    "district": "Srikakulam",
+    "coordinates": {
+      "latitude": 18.3039,
+      "longitude": 83.9015
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=18.3039,83.9015",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Srikurmam Temple",
+    "slug": "srikurmam-temple",
+    "district": "Srikakulam",
+    "coordinates": {
+      "latitude": 18.2706,
+      "longitude": 83.9839
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=18.2706,83.9839",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Kalingapatnam Beach",
+    "slug": "kalingapatnam-beach",
+    "district": "Srikakulam",
+    "coordinates": {
+      "latitude": 18.3414,
+      "longitude": 84.1264
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=18.3414,84.1264",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Baruva Beach",
+    "slug": "baruva-beach",
+    "district": "Srikakulam",
+    "coordinates": {
+      "latitude": 18.8824,
+      "longitude": 84.5888
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=18.8824,84.5888",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Srimukhalingam Temple",
+    "slug": "srimukhalingam-temple",
+    "district": "Srikakulam",
+    "coordinates": {
+      "latitude": 18.5954,
+      "longitude": 83.9634
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=18.5954,83.9634",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Kalingapatnam Town",
+    "slug": "kalingapatnam-town",
+    "district": "Srikakulam",
+    "coordinates": {
+      "latitude": 18.34,
+      "longitude": 84.12
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=18.34,84.12",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Vamsadhara River Mouth",
+    "slug": "vamsadhara-river-mouth",
+    "district": "Srikakulam",
+    "coordinates": {
+      "latitude": 18.34,
+      "longitude": 84.13
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=18.34,84.13",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Srikakulam City Center",
+    "slug": "srikakulam-city-center",
+    "district": "Srikakulam",
+    "coordinates": {
+      "latitude": 18.2949,
+      "longitude": 83.8935
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=18.2949,83.8935",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Srikurmam Town",
+    "slug": "srikurmam-town",
+    "district": "Srikakulam",
+    "coordinates": {
+      "latitude": 18.27,
+      "longitude": 83.98
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=18.27,83.98",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Sangam Shiva Temple",
+    "slug": "sangam-shiva-temple",
+    "district": "Srikakulam",
+    "coordinates": {
+      "latitude": 18.282,
+      "longitude": 83.9284
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=18.282,83.9284",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Tirumala Venkateswara Temple",
+    "slug": "tirumala-venkateswara-temple",
+    "district": "Tirupati",
+    "coordinates": {
+      "latitude": 13.6833,
+      "longitude": 79.35
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=13.6833,79.35",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0.367
+  },
+  {
+    "place": "Srikalahasti Temple",
+    "slug": "srikalahasti-temple",
+    "district": "Tirupati",
+    "coordinates": {
+      "latitude": 13.7498,
+      "longitude": 79.6983
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=13.7498,79.6983",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0.185
+  },
+  {
+    "place": "Chandragiri Fort",
+    "slug": "chandragiri-fort",
+    "district": "Tirupati",
+    "coordinates": {
+      "latitude": 13.6019,
+      "longitude": 79.3175
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=13.6019,79.3175",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0.838
+  },
+  {
+    "place": "Talakona Waterfalls",
+    "slug": "talakona-waterfalls",
+    "district": "Tirupati",
+    "coordinates": {
+      "latitude": 13.8034,
+      "longitude": 79.2151
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=13.8034,79.2151",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0.668
+  },
+  {
+    "place": "Sri Venkateswara National Park",
+    "slug": "sri-venkateswara-national-park",
+    "district": "Tirupati",
+    "coordinates": {
+      "latitude": 13.67,
+      "longitude": 79.35
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=13.67,79.35",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Tirupati City Center",
+    "slug": "tirupati-city-center",
+    "district": "Tirupati",
+    "coordinates": {
+      "latitude": 13.6288,
+      "longitude": 79.4192
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=13.6288,79.4192",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Tirumala Hills Viewpoint",
+    "slug": "tirumala-hills-viewpoint",
+    "district": "Tirupati",
+    "coordinates": {
+      "latitude": 13.69,
+      "longitude": 79.36
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=13.69,79.36",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Srikalahasti town",
+    "slug": "srikalahasti-town",
+    "district": "Tirupati",
+    "coordinates": {
+      "latitude": 13.75,
+      "longitude": 79.7
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=13.75,79.7",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Kalyani Dam",
+    "slug": "kalyani-dam",
+    "district": "Tirupati",
+    "coordinates": {
+      "latitude": 13.63,
+      "longitude": 79.28
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=13.63,79.28",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Kapila Theertham",
+    "slug": "kapila-theertham",
+    "district": "Tirupati",
+    "coordinates": {
+      "latitude": 13.65,
+      "longitude": 79.42
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=13.65,79.42",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "RK Beach",
+    "slug": "rk-beach",
+    "district": "Visakhapatnam",
+    "coordinates": {
+      "latitude": 17.7149,
+      "longitude": 83.3237
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=17.7149,83.3237",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0.862
+  },
+  {
+    "place": "Rushikonda Beach",
+    "slug": "rushikonda-beach",
+    "district": "Visakhapatnam",
+    "coordinates": {
+      "latitude": 17.7817,
+      "longitude": 83.3851
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=17.7817,83.3851",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0.572
+  },
+  {
+    "place": "Yarada Beach",
+    "slug": "yarada-beach",
+    "district": "Visakhapatnam",
+    "coordinates": {
+      "latitude": 17.6534,
+      "longitude": 83.2694
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=17.6534,83.2694",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0.383
+  },
+  {
+    "place": "Bheemili Beach",
+    "slug": "bheemili-beach",
+    "district": "Visakhapatnam",
+    "coordinates": {
+      "latitude": 17.8902,
+      "longitude": 83.4542
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=17.8902,83.4542",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0.445
+  },
+  {
+    "place": "Simhachalam Temple",
+    "slug": "simhachalam-temple",
+    "district": "Visakhapatnam",
+    "coordinates": {
+      "latitude": 17.7669,
+      "longitude": 83.2506
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=17.7669,83.2506",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0.77
+  },
+  {
+    "place": "Katiki Waterfalls",
+    "slug": "katiki-waterfalls",
+    "district": "Visakhapatnam",
+    "coordinates": {
+      "latitude": 18.1568,
+      "longitude": 83.0234
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=18.1568,83.0234",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0.837
+  },
+  {
+    "place": "Tadimada Waterfalls",
+    "slug": "tadimada-waterfalls",
+    "district": "Visakhapatnam",
+    "coordinates": {
+      "latitude": 18.2324,
+      "longitude": 82.9123
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=18.2324,82.9123",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Kambalakonda Wildlife Sanctuary",
+    "slug": "kambalakonda-wildlife-sanctuary",
+    "district": "Visakhapatnam",
+    "coordinates": {
+      "latitude": 17.7915,
+      "longitude": 83.3385
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=17.7915,83.3385",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0.23
+  },
+  {
+    "place": "Visakhapatnam Harbor",
+    "slug": "visakhapatnam-harbor",
+    "district": "Visakhapatnam",
+    "coordinates": {
+      "latitude": 17.6912,
+      "longitude": 83.2985
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=17.6912,83.2985",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Simhachalam Hill Sanctuary",
+    "slug": "simhachalam-hill-sanctuary",
+    "district": "Visakhapatnam",
+    "coordinates": {
+      "latitude": 17.7702,
+      "longitude": 83.245
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=17.7702,83.245",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0.53
+  },
+  {
+    "place": "Vizianagaram Fort",
+    "slug": "vizianagaram-fort",
+    "district": "Vizianagaram",
+    "coordinates": {
+      "latitude": 18.1172,
+      "longitude": 83.4072
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=18.1172,83.4072",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Rama Tirtham Temple",
+    "slug": "rama-tirtham-temple",
+    "district": "Vizianagaram",
+    "coordinates": {
+      "latitude": 18.1633,
+      "longitude": 83.4908
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=18.1633,83.4908",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Kumili Temple Complex",
+    "slug": "kumili-temple-complex",
+    "district": "Vizianagaram",
+    "coordinates": {
+      "latitude": 18.1,
+      "longitude": 83.45
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=18.1,83.45",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Vizianagaram Clock Tower",
+    "slug": "vizianagaram-clock-tower",
+    "district": "Vizianagaram",
+    "coordinates": {
+      "latitude": 18.1159,
+      "longitude": 83.4097
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=18.1159,83.4097",
+    "source": "osm",
+    "distanceFromOriginalStoredKm": 4.252
+  },
+  {
+    "place": "Gajapathiraju Palace",
+    "slug": "gajapathiraju-palace",
+    "district": "Vizianagaram",
+    "coordinates": {
+      "latitude": 18.1177,
+      "longitude": 83.4085
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=18.1177,83.4085",
+    "source": "stored-fallback",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Rama Tirtham Bodhikonda",
+    "slug": "rama-tirtham-bodhikonda",
+    "district": "Vizianagaram",
+    "coordinates": {
+      "latitude": 18.1448,
+      "longitude": 83.3922
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=18.1448,83.3922",
+    "source": "stored-fallback",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Vizianagaram Lake park",
+    "slug": "vizianagaram-lake-park",
+    "district": "Vizianagaram",
+    "coordinates": {
+      "latitude": 18.0774,
+      "longitude": 83.418
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=18.0774,83.418",
+    "source": "stored-fallback",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Vizianagaram Market",
+    "slug": "vizianagaram-market",
+    "district": "Vizianagaram",
+    "coordinates": {
+      "latitude": 18.078,
+      "longitude": 83.391
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=18.078,83.391",
+    "source": "stored-fallback",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Rama Tirtham Water tank",
+    "slug": "rama-tirtham-water-tank",
+    "district": "Vizianagaram",
+    "coordinates": {
+      "latitude": 18.0678,
+      "longitude": 83.4081
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=18.0678,83.4081",
+    "source": "stored-fallback",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Kumili Village gardens",
+    "slug": "kumili-village-gardens",
+    "district": "Vizianagaram",
+    "coordinates": {
+      "latitude": 18.1451,
+      "longitude": 83.4247
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=18.1451,83.4247",
+    "source": "stored-fallback",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Somarama Temple",
+    "slug": "somarama-temple",
+    "district": "West Godavari",
+    "coordinates": {
+      "latitude": 16.5417,
+      "longitude": 81.5333
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.5417,81.5333",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Ksheerarama Temple",
+    "slug": "ksheerarama-temple",
+    "district": "West Godavari",
+    "coordinates": {
+      "latitude": 16.5208,
+      "longitude": 81.7289
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.5208,81.7289",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Bhimavaram City Center",
+    "slug": "bhimavaram-city-center",
+    "district": "West Godavari",
+    "coordinates": {
+      "latitude": 16.5445,
+      "longitude": 81.5212
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.5445,81.5212",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Kolleru Wetlands",
+    "slug": "kolleru-wetlands",
+    "district": "West Godavari",
+    "coordinates": {
+      "latitude": 16.6333,
+      "longitude": 81.25
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.6333,81.25",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Palakollu town",
+    "slug": "palakollu-town",
+    "district": "West Godavari",
+    "coordinates": {
+      "latitude": 16.52,
+      "longitude": 81.73
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.52,81.73",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Somarama Temple Tank",
+    "slug": "somarama-temple-tank",
+    "district": "West Godavari",
+    "coordinates": {
+      "latitude": 16.54,
+      "longitude": 81.53
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.54,81.53",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Ksheerarama Gopuram",
+    "slug": "ksheerarama-gopuram",
+    "district": "West Godavari",
+    "coordinates": {
+      "latitude": 16.52,
+      "longitude": 81.72
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.52,81.72",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Narsapur Lace Industry",
+    "slug": "narsapur-lace-industry",
+    "district": "West Godavari",
+    "coordinates": {
+      "latitude": 16.5352,
+      "longitude": 81.5158
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.5352,81.5158",
+    "source": "stored-fallback",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Godavari delta canals",
+    "slug": "godavari-delta-canals",
+    "district": "West Godavari",
+    "coordinates": {
+      "latitude": 16.5172,
+      "longitude": 81.4899
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.5172,81.4899",
+    "source": "stored-fallback",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Perupalem Beach",
+    "slug": "perupalem-beach",
+    "district": "West Godavari",
+    "coordinates": {
+      "latitude": 16.35,
+      "longitude": 81.6
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=16.35,81.6",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Gandikota Fort",
+    "slug": "gandikota-fort",
+    "district": "YSR Kadapa",
+    "coordinates": {
+      "latitude": 14.8154,
+      "longitude": 78.2866
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=14.8154,78.2866",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Vontimitta Kodandarama Temple",
+    "slug": "vontimitta-kodandarama-temple",
+    "district": "YSR Kadapa",
+    "coordinates": {
+      "latitude": 14.3833,
+      "longitude": 78.9667
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=14.3833,78.9667",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Siddavatam Fort",
+    "slug": "siddavatam-fort",
+    "district": "YSR Kadapa",
+    "coordinates": {
+      "latitude": 14.45,
+      "longitude": 78.9833
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=14.45,78.9833",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Brahmamgari Matham",
+    "slug": "brahmamgari-matham",
+    "district": "YSR Kadapa",
+    "coordinates": {
+      "latitude": 14.78,
+      "longitude": 78.85
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=14.78,78.85",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Gandikota Gorge Camping",
+    "slug": "gandikota-gorge-camping",
+    "district": "YSR Kadapa",
+    "coordinates": {
+      "latitude": 14.816,
+      "longitude": 78.288
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=14.816,78.288",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Kadapa City Center",
+    "slug": "kadapa-city-center",
+    "district": "YSR Kadapa",
+    "coordinates": {
+      "latitude": 14.4674,
+      "longitude": 78.8241
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=14.4674,78.8241",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Ameen Peer Dargah",
+    "slug": "ameen-peer-dargah",
+    "district": "YSR Kadapa",
+    "coordinates": {
+      "latitude": 14.47,
+      "longitude": 78.82
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=14.47,78.82",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Lakkireddipalli Hills",
+    "slug": "lakkireddipalli-hills",
+    "district": "YSR Kadapa",
+    "coordinates": {
+      "latitude": 14.1667,
+      "longitude": 78.7
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=14.1667,78.7",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Gandikota viewpoint",
+    "slug": "gandikota-viewpoint",
+    "district": "YSR Kadapa",
+    "coordinates": {
+      "latitude": 14.82,
+      "longitude": 78.29
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=14.82,78.29",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0
+  },
+  {
+    "place": "Pushpagiri Temple Complex",
+    "slug": "pushpagiri-temple-complex",
+    "district": "YSR Kadapa",
+    "coordinates": {
+      "latitude": 14.4445,
+      "longitude": 78.819
+    },
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=14.4445,78.819",
+    "source": "curated",
+    "distanceFromOriginalStoredKm": 0
+  }
+]

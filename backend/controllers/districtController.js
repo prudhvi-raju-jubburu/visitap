@@ -7,7 +7,18 @@ const Place = require('../models/Place');
 const getAllDistricts = async (req, res) => {
   try {
     const districts = await District.find({ isActive: true }).sort({ name: 1 });
-    res.json({ success: true, count: districts.length, data: districts });
+    const districtsWithStats = await Promise.all(
+      districts.map(async (d) => {
+        const placeCount = await Place.countDocuments({ districtId: d._id, isActive: true });
+        const categories = await Place.distinct('category', { districtId: d._id, isActive: true });
+        return {
+          ...d.toObject(),
+          placeCount,
+          topCategories: categories.slice(0, 3),
+        };
+      })
+    );
+    res.json({ success: true, count: districtsWithStats.length, data: districtsWithStats });
   } catch (error) {
     res.status(500).json({ success: false, message: error.message });
   }

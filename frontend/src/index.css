@@ -15,9 +15,36 @@
 
   body {
     background-color: #020617;
-    color: #e2e8f0;
+    color: #f8fafc; /* Slate 50 for strong WCAG AA high-contrast */
+    font-size: 16px; /* Minimum 16px body text standard */
+    line-height: 1.6;
     font-family: 'Poppins', 'Inter', sans-serif;
     -webkit-font-smoothing: antialiased;
+  }
+
+  /* Accessible Heading Hierarchies */
+  h1 {
+    font-size: 2.25rem; /* 36px */
+    font-weight: 900;
+  }
+  
+  h2 {
+    font-size: 1.75rem; /* 28px */
+    font-weight: 800;
+  }
+
+  h3 {
+    font-size: 1.5rem; /* 24px */
+    font-weight: 700;
+  }
+
+  a, button {
+    outline-offset: 4px;
+    transition: all 0.3s ease;
+  }
+
+  a:focus-visible, button:focus-visible {
+    outline: 3px solid #f59e0b; /* Visible focus ring for accessibility */
   }
 
   ::-webkit-scrollbar {
@@ -34,25 +61,30 @@
 
 @layer components {
   .btn-primary {
-    @apply bg-primary text-bg font-semibold px-6 py-3 rounded-xl hover:bg-amber-400 
-           transition-all duration-300 transform hover:scale-105 shadow-amber;
+    @apply bg-primary text-bg font-black px-6 py-4 rounded-2xl hover:bg-amber-400 
+           transform active:scale-95 shadow-amber flex items-center justify-center gap-2;
+    font-size: 18px !important; /* Enforce 18px button text standard */
+    min-height: 48px; /* 48px Touch Target minimum */
   }
 
   .btn-outline {
-    @apply border border-primary text-primary font-semibold px-6 py-3 rounded-xl 
-           hover:bg-primary hover:text-bg transition-all duration-300;
+    @apply border-2 border-primary text-primary font-black px-6 py-4 rounded-2xl 
+           hover:bg-primary hover:text-bg flex items-center justify-center gap-2;
+    font-size: 18px !important; /* Enforce 18px button text standard */
+    min-height: 48px; /* 48px Touch Target minimum */
   }
 
+  /* Accessible high-contrast card backgrounds for outdoors reading */
   .glass-card {
-    @apply bg-white/5 backdrop-blur-md border border-white/10 rounded-2xl;
+    @apply bg-surface/90 backdrop-blur-xl border border-white/15 rounded-3xl shadow-lg;
   }
 
   .section-title {
-    @apply font-display text-3xl md:text-4xl font-bold text-text;
+    @apply font-display text-3xl md:text-4xl font-black text-white uppercase tracking-tight;
   }
 
   .section-subtitle {
-    @apply text-textMuted text-lg mt-2;
+    @apply text-textMuted text-base font-semibold mt-2;
   }
 
   .gradient-text {

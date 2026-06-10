@@ -1,0 +1,300 @@
+[
+  {
+    "name": "Srisailam Mallikarjuna Temple",
+    "slug": "srisailam-mallikarjuna-temple",
+    "districtName": "Nandyal",
+    "description": "An ancient temple on the flat-topped Nallamala hills, holding both a Jyotirlinga and a Shakti Peetha.",
+    "shortDescription": "Explore Srisailam Mallikarjuna Temple in Nandyal.",
+    "category": "Temple / Religious",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        78.8683,
+        16.0744
+      ]
+    },
+    "rating": {
+      "average": 4.3,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": true,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/a/af/KASS301_Srisailam_Temple_Pond_3D.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/b/b0/Srisailam-temple-entrance.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/2/2d/APSS303_Srisailam_town_zoom_view_from_welcome_center2.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/3/3a/Diya_lamp.jpg"
+    ]
+  },
+  {
+    "name": "Ahobilam Temple",
+    "slug": "ahobilam-temple",
+    "districtName": "Nandyal",
+    "description": "A holy Narasimha pilgrimage center nestled in the Nallamala hills, featuring nine shrines dedicated to Lord Narasimha.",
+    "shortDescription": "Explore Ahobilam Temple in Nandyal.",
+    "category": "Temple / Religious",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        78.7167,
+        15.1333
+      ]
+    },
+    "rating": {
+      "average": 5,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/4/4c/16th_century_Lakshmi_Narasimha_Swamy_temple,_Lower_Ahobilam,_Andhra_Pradesh_India_-_85.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/d/df/16th_century_Lakshmi_Narasimha_Swamy_temple,_Lower_Ahobilam,_Andhra_Pradesh_India_-_15.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/7/77/16th_century_Lakshmi_Narasimha_Swamy_temple,_Lower_Ahobilam,_Andhra_Pradesh_India_-_46.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/5/56/16th_century_Lakshmi_Narasimha_Swamy_temple,_Lower_Ahobilam,_Andhra_Pradesh_India_-_79.jpg"
+    ]
+  },
+  {
+    "name": "Mahanandi Temple",
+    "slug": "mahanandi-temple",
+    "districtName": "Nandyal",
+    "description": "A historic temple dedicated to Lord Shiva, famous for its freshwater pools and massive Nandi idol.",
+    "shortDescription": "Explore Mahanandi Temple in Nandyal.",
+    "category": "Temple / Religious",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        78.6124,
+        15.4868
+      ]
+    },
+    "rating": {
+      "average": 4.8,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/7/79/Mahanadi_Temple,_Mahanandi,_Andhra_Pradesh_India_-_1.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/a/ac/Mahanadi_Temple,_Mahanandi,_Andhra_Pradesh_India_-_2.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/b/bd/Mahanadi_Temple,_Mahanandi,_Andhra_Pradesh_India_-_5.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/4/43/Mahanadi_Temple,_Mahanandi,_Andhra_Pradesh_India_-_3.jpg"
+    ]
+  },
+  {
+    "name": "Srisailam Hill Forest",
+    "slug": "srisailam-hill-forest",
+    "districtName": "Nandyal",
+    "description": "The sacred forest hills of Srisailam, providing sanctuary to pilgrims and rich vegetation.",
+    "shortDescription": "Explore Srisailam Hill Forest in Nandyal.",
+    "category": "Pilgrimage",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        78.8689,
+        16.0762
+      ]
+    },
+    "rating": {
+      "average": 4.1,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/3/35/Nallamalla_forests_at_Srisailam.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/9/97/Trees_at_Nallamala_forests.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/4/4c/PoornaAnanda_Swamiji.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/9/9e/Swamiji_Photo.jpg"
+    ]
+  },
+  {
+    "name": "Srisailam Tiger Reserve",
+    "slug": "srisailam-tiger-reserve",
+    "districtName": "Nandyal",
+    "description": "Part of the Nagarjunasagar Srisailam Tiger Reserve, the largest tiger conservation reserve in India.",
+    "shortDescription": "Explore Srisailam Tiger Reserve in Nandyal.",
+    "category": "Wildlife",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        78.8012,
+        16.0505
+      ]
+    },
+    "rating": {
+      "average": 4.1,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Srisailam_Tiger_reserve_sign_board.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/0/0a/Srisailam_Tiger_Reserve_Area_20150314_115117_Richtone(HDR).jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/e/e8/Panorama_of_Srisailam_Dam_(6_Photos_Stitched_together).jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/3/33/A_Black_Winged_Kite_preying_from_a_high_tree_(46787838684).jpg"
+    ]
+  },
+  {
+    "name": "Nallamala Forest Trekking",
+    "slug": "nallamala-forest-trekking",
+    "districtName": "Nandyal",
+    "description": "Guided trekking routes through dense forest reserve, passing through natural water springs and hills.",
+    "shortDescription": "Explore Nallamala Forest Trekking in Nandyal.",
+    "category": "Adventure",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        78.7304,
+        15.7205
+      ]
+    },
+    "rating": {
+      "average": 4.4,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Trekking_2.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/8/86/Forest_canopy.jpg"
+    ]
+  },
+  {
+    "name": "Mahanandi Village",
+    "slug": "mahanandi-village",
+    "districtName": "Nandyal",
+    "description": "A scenic village surrounded by green fields, orchards, and nine ancient Nandi temples.",
+    "shortDescription": "Explore Mahanandi Village in Nandyal.",
+    "category": "Nature",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        78.6102,
+        15.4847
+      ]
+    },
+    "rating": {
+      "average": 4.1,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/7/79/Mahanadi_Temple,_Mahanandi,_Andhra_Pradesh_India_-_1.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/a/ac/Mahanadi_Temple,_Mahanandi,_Andhra_Pradesh_India_-_2.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/b/bd/Mahanadi_Temple,_Mahanandi,_Andhra_Pradesh_India_-_5.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/4/43/Mahanadi_Temple,_Mahanandi,_Andhra_Pradesh_India_-_3.jpg"
+    ]
+  },
+  {
+    "name": "Ahobilam Hills",
+    "slug": "ahobilam-hills",
+    "districtName": "Nandyal",
+    "description": "Lush green valleys in the Eastern Ghats, containing ancient rock formations and stream pools.",
+    "shortDescription": "Explore Ahobilam Hills in Nandyal.",
+    "category": "Nature",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        78.7212,
+        15.1338
+      ]
+    },
+    "rating": {
+      "average": 4.4,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/4/4c/16th_century_Lakshmi_Narasimha_Swamy_temple,_Lower_Ahobilam,_Andhra_Pradesh_India_-_85.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/d/df/16th_century_Lakshmi_Narasimha_Swamy_temple,_Lower_Ahobilam,_Andhra_Pradesh_India_-_15.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/7/77/16th_century_Lakshmi_Narasimha_Swamy_temple,_Lower_Ahobilam,_Andhra_Pradesh_India_-_46.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/5/56/16th_century_Lakshmi_Narasimha_Swamy_temple,_Lower_Ahobilam,_Andhra_Pradesh_India_-_79.jpg"
+    ]
+  },
+  {
+    "name": "Nandyal Town Center",
+    "slug": "nandyal-town-center",
+    "districtName": "Nandyal",
+    "description": "A commercial agricultural hub town surrounded by the scenic Nallamala forest ranges.",
+    "shortDescription": "Explore Nandyal Town Center in Nandyal.",
+    "category": "City",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        78.4812,
+        15.4847
+      ]
+    },
+    "rating": {
+      "average": 5,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/7/78/Mahanadi_Temple,_Mahanandi,_Andhra_Pradesh_India_-_7.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/5/5e/Mahanadi_Temple,_Mahanandi,_Andhra_Pradesh_India_-_4.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/4/43/Mahanadi_Temple,_Mahanandi,_Andhra_Pradesh_India_-_3.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/7/79/Mahanadi_Temple,_Mahanandi,_Andhra_Pradesh_India_-_1.jpg"
+    ]
+  },
+  {
+    "name": "Yaganti Temple Complex",
+    "slug": "yaganti-temple-complex",
+    "districtName": "Nandyal",
+    "description": "The famous Uma Maheshwara temple containing natural caves and a mysteriously growing stone Nandi.",
+    "shortDescription": "Explore Yaganti Temple Complex in Nandyal.",
+    "category": "Heritage",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        78.1394,
+        15.3486
+      ]
+    },
+    "rating": {
+      "average": 4.7,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/6/6b/15th_century_Yaganti_Umamahesvara_temple,_Andhra_Pradesh_India_-_83.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/9/90/15th_century_Yaganti_Umamahesvara_temple,_Andhra_Pradesh_India_-_199.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/c/ce/15th_century_Yaganti_Umamahesvara_temple,_Andhra_Pradesh_India_-_86.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/4/4e/15th_century_Yaganti_Umamahesvara_temple,_Andhra_Pradesh_India_-_84.jpg"
+    ]
+  }
+]

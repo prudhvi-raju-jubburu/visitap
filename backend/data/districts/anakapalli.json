@@ -1,0 +1,300 @@
+[
+  {
+    "name": "Kondakarla Ava Lake",
+    "slug": "kondakarla-ava-lake",
+    "districtName": "Anakapalli",
+    "description": "A beautiful freshwater lake and bird sanctuary featuring traditional boat rides.",
+    "shortDescription": "A beautiful nature spot in Anakapalli.",
+    "category": "Nature",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        82.9777,
+        17.6154
+      ]
+    },
+    "rating": {
+      "average": 4.2,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": true,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Kondakarla_ava_lake_view.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/8/86/Forest_canopy.jpg"
+    ]
+  },
+  {
+    "name": "Bojjannakonda Caves",
+    "slug": "bojjannakonda-caves",
+    "districtName": "Anakapalli",
+    "description": "Centuries-old rock-cut Buddhist caves and monolithic stupas on twin hills.",
+    "shortDescription": "A beautiful historical spot in Anakapalli.",
+    "category": "Historical",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.0167,
+        17.6936
+      ]
+    },
+    "rating": {
+      "average": 4.6,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/6/6b/The_Rock_cut_caves_at_Bojjannakonda,_Sankaram,_Andhra_Pradesh.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/b/bf/A_view_of_Maha_stupa_at_Bojjannakonda_Monastic_Ruins,_Andhra_Pradesh.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/0/02/View_of_Maha_stupa_at_Bojjannakonda_Monastic_Ruins,_Andhra_Pradesh.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/6/66/Rock_cut_seated_Buddha_statue_at_Bojjannakonda,_Sankaram,_Andhra_Pradesh.jpg"
+    ]
+  },
+  {
+    "name": "Anakapalli Jaggery Market",
+    "slug": "anakapalli-jaggery-market",
+    "districtName": "Anakapalli",
+    "description": "The second-largest jaggery market in India, showcasing local agricultural trade.",
+    "shortDescription": "A beautiful city spot in Anakapalli.",
+    "category": "City",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.0037,
+        17.6913
+      ]
+    },
+    "rating": {
+      "average": 4.9,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/6/60/A_day_in_the_life_of_a_rural_07.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/f/f0/Organic_Chemical_free_Kolhapur_Jaggery_Dhep_(Block)_-_1_Kg_each.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/1/1d/Kolhapur_jaggery_in_semi-liquid_form_filled_in_the_Vofaa_rectangular_section._Later_will_be_transferred_into_the_1_Kg_containers_with_white_cloth_placed_inside_it_for_making_Jaggery_blocks_(Dheps).jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/6/67/Kolhapur_jaggery_in_semi-liquid_form_filled_in_the_Vofaa_rectangular_section._Later_will_be_transferred_into_the_1_Kg_containers_with_white_cloth_placed_inside_it_for_making_Jaggery_blocks_(Dheps)_(3).jpg"
+    ]
+  },
+  {
+    "name": "Upaka Forest Reserve",
+    "slug": "upaka-forest-reserve",
+    "districtName": "Anakapalli",
+    "description": "A dense forest reserve rich in medicinal plants, hiking trails, and wood trees.",
+    "shortDescription": "A beautiful nature spot in Anakapalli.",
+    "category": "Nature",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        82.93,
+        17.65
+      ]
+    },
+    "rating": {
+      "average": 4.4,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Forests_on_Simhachalam_hills_and_view_of_Eastern_Ghats_02.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/8/89/Forests_on_Simhachalam_hills_and_view_of_Eastern_Ghats_01.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/4/41/Forests_over_Eastern_Ghats_at_Kotturu_Dhanadibbalu.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/8/87/A_Scrub_forest_patch_near_Padmanabham.jpg"
+    ]
+  },
+  {
+    "name": "Bojjannakonda Stupas",
+    "slug": "bojjannakonda-stupas",
+    "districtName": "Anakapalli",
+    "description": "Stunning ancient stone carved stupas representing Theravada Buddhism.",
+    "shortDescription": "A beautiful heritage spot in Anakapalli.",
+    "category": "Heritage",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.0169,
+        17.6938
+      ]
+    },
+    "rating": {
+      "average": 4.2,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/6/62/Rock_cut_Buddhist_Stupas_at_Bojjannakonda,_Andhra_Pradesh.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/c/c2/Rock_cut_Stupas,_Bojjannakonda_Monastic_ruins,_Andhra_Pradesh.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/b/bf/A_view_of_Maha_stupa_at_Bojjannakonda_Monastic_Ruins,_Andhra_Pradesh.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/0/02/View_of_Maha_stupa_at_Bojjannakonda_Monastic_Ruins,_Andhra_Pradesh.jpg"
+    ]
+  },
+  {
+    "name": "Kondakarla birding",
+    "slug": "kondakarla-birding",
+    "districtName": "Anakapalli",
+    "description": "Freshwater marsh habitat attracting migratory waterbirds and lilies.",
+    "shortDescription": "A beautiful wildlife spot in Anakapalli.",
+    "category": "Wildlife",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        82.975,
+        17.619
+      ]
+    },
+    "rating": {
+      "average": 4.5,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/0/05/Boats_in_Kondakarla_ava_2.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/3/3c/View_of_Kondakarla_ava_lake_from_a_swamp.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/4/46/Boats_in_Kondakarla_ava_1.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/a/a6/Kondakarla_ava_lake_view.jpg"
+    ]
+  },
+  {
+    "name": "Sarada Riverfront",
+    "slug": "sarada-riverfront",
+    "districtName": "Anakapalli",
+    "description": "Quiet scenic riverbanks in Anakapalli, ideal for picnics.",
+    "shortDescription": "A beautiful nature spot in Anakapalli.",
+    "category": "Nature",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        82.95,
+        17.7
+      ]
+    },
+    "rating": {
+      "average": 4.2,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Anakapalle_Sarada_River_Bridge.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/1/11/Sarada_river_joining_bay_of_bengal.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/a/a9/Sarada_river_aerial_view.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/8/84/Sarada_river_aerial_view_06.jpg"
+    ]
+  },
+  {
+    "name": "Anakapalli Town Center",
+    "slug": "anakapalli-town-center",
+    "districtName": "Anakapalli",
+    "description": "A bustling market town known for agricultural commerce and sugar mills.",
+    "shortDescription": "A beautiful city spot in Anakapalli.",
+    "category": "City",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.0025,
+        17.691
+      ]
+    },
+    "rating": {
+      "average": 4.9,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/4/4c/APSRTC_Anakapalli_Bus_Depot.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/7/73/Anakapalle_Montage.png",
+      "https://upload.wikimedia.org/wikipedia/commons/9/9d/Anakapalli_Book_Festival_aerial_photo_2025.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/b/b3/Anakapalli,_AP.JPG"
+    ]
+  },
+  {
+    "name": "Bojjannakonda Museum",
+    "slug": "bojjannakonda-museum",
+    "districtName": "Anakapalli",
+    "description": "A collection of terracotta relics and Buddhist coins found during excavations.",
+    "shortDescription": "A beautiful culture spot in Anakapalli.",
+    "category": "Culture",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.0172,
+        17.694
+      ]
+    },
+    "rating": {
+      "average": 4.1,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/0/06/Bojjannakonda_(బొజ్జన్నకొండ).JPG",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/5/5b/Bojjannakonda_Budha.JPG",
+      "https://upload.wikimedia.org/wikipedia/commons/f/f4/Lingalakonda_rock_cut_stupas.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/2/29/Bojjana_Konda_statue_04.jpg"
+    ]
+  },
+  {
+    "name": "Kondakarla Boating Point",
+    "slug": "kondakarla-boating-point",
+    "districtName": "Anakapalli",
+    "description": "Rustic rowboat rides through marshy reed beds to explore the lake center.",
+    "shortDescription": "A beautiful adventure spot in Anakapalli.",
+    "category": "Adventure",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        82.98,
+        17.617
+      ]
+    },
+    "rating": {
+      "average": 4.6,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/0/05/Boats_in_Kondakarla_ava_2.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/4/46/Boats_in_Kondakarla_ava_1.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/f/fb/Kondakarla_Ava_anakapalle.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/e/ed/Kondakarla_ava_boatman.jpg"
+    ]
+  }
+]

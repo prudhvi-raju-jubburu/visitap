@@ -20,10 +20,15 @@ app.use(express.urlencoded({ extended: true, limit: '10mb' }));
 
 // Routes
 app.use('/api/auth', require('./routes/authRoutes'));
+app.use('/api/users', require('./routes/userAuthRoutes'));
 app.use('/api/districts', require('./routes/districtRoutes'));
 app.use('/api/places', require('./routes/placeRoutes'));
 app.use('/api/upload', require('./routes/uploadRoutes'));
 app.use('/api/feedback', require('./routes/feedbackRoutes'));
+app.use('/api/reviews', require('./routes/reviewRoutes'));
+app.use('/api/trips', require('./routes/tripRoutes'));
+app.use('/api/collection', require('./routes/collectionRoutes'));
+app.use('/api/analytics', require('./routes/analyticsRoutes'));
 
 // Health check
 app.get('/api/health', (req, res) => {

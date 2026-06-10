@@ -1,0 +1,302 @@
+[
+  {
+    "name": "Arasavalli Sun Temple",
+    "slug": "arasavalli-sun-temple",
+    "districtName": "Srikakulam",
+    "description": "An ancient solar temple built in the 7th century, where sun rays illuminate the idol directly during transition seasons.",
+    "shortDescription": "A beautiful temple / religious spot in Srikakulam.",
+    "category": "Temple / Religious",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.9015,
+        18.3039
+      ]
+    },
+    "rating": {
+      "average": 4.9,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": true,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Inscriptions_at_Sun_Temple_in_Arasavalli_02.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/9/96/Inscriptions_at_Sun_Temple_in_Arasavalli_01.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/a/ab/Inscriptions_at_Sun_Temple_in_Arasavalli_03.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/0/0d/Arasavilli_Sri_Suryanarayanamurty_Temple_of_Srikakulam,_Andhra_Pradesh_(3).jpg"
+    ]
+  },
+  {
+    "name": "Srikurmam Temple",
+    "slug": "srikurmam-temple",
+    "districtName": "Srikakulam",
+    "description": "The unique temple dedicated to the Kurma (tortoise) avatar of Vishnu, famous for its stone pillar inscriptions.",
+    "shortDescription": "A beautiful temple / religious spot in Srikakulam.",
+    "category": "Temple / Religious",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.9839,
+        18.2706
+      ]
+    },
+    "rating": {
+      "average": 4.5,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/2/25/11th_century_Kurmanatha_Swamy_Temple,_Srikurmam_Andhra_Pradesh_05.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/c/ca/11th_century_Kurmanatha_Swamy_Temple,_Srikurmam_Andhra_Pradesh_08.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/0/0d/11th_century_Kurmanatha_Swamy_Temple,_Srikurmam_Andhra_Pradesh_02.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/8/85/11th_century_Kurmanatha_Swamy_Temple,_Srikurmam_Andhra_Pradesh_04.jpg"
+    ]
+  },
+  {
+    "name": "Kalingapatnam Beach",
+    "slug": "kalingapatnam-beach",
+    "districtName": "Srikakulam",
+    "description": "A serene beach where the Vamsadhara River joins the sea, featuring a historic British-era lighthouse.",
+    "shortDescription": "A beautiful beach spot in Srikakulam.",
+    "category": "Beach",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        84.1264,
+        18.3414
+      ]
+    },
+    "rating": {
+      "average": 4.1,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Wave_at_beach.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/5/5a/Kalingapatnam_Beach_Coast.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/c/c5/Ocean_wave.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/e/ea/Sand_texture.jpg"
+    ]
+  },
+  {
+    "name": "Baruva Beach",
+    "slug": "baruva-beach",
+    "districtName": "Srikakulam",
+    "description": "A beautiful beach with golden sands and a pine grove, serving as a historic port site.",
+    "shortDescription": "A beautiful beach spot in Srikakulam.",
+    "category": "Beach",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        84.5888,
+        18.8824
+      ]
+    },
+    "rating": {
+      "average": 4.8,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/3/35/Baruva_Pillar.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/0/0f/Wave_at_beach.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/c/c5/Ocean_wave.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/e/ea/Sand_texture.jpg"
+    ]
+  },
+  {
+    "name": "Srimukhalingam Temple",
+    "slug": "srimukhalingam-temple",
+    "districtName": "Srikakulam",
+    "description": "A major Shiva temple of Kalinga architecture located on the banks of the Vamsadhara River.",
+    "shortDescription": "A beautiful temple / religious spot in Srikakulam.",
+    "category": "Temple / Religious",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.9634,
+        18.5954
+      ]
+    },
+    "rating": {
+      "average": 4.6,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/8/85/Srimukhalingam_temple_dhwaja_sthambham.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/f/f3/Srimukhalingam_temple_dhwaja_sthambham_1.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/6/66/Srimukhalingam_Rama_and_hanuman_on_temple_pillar.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/1/15/Ancient_Telugu_Inscription_found_at_Srimukhalingam_Temple,_Srikakulam.jpg"
+    ]
+  },
+  {
+    "name": "Kalingapatnam Town",
+    "slug": "kalingapatnam-town",
+    "districtName": "Srikakulam",
+    "description": "A scenic port town known for coastal trade history and solar temples.",
+    "shortDescription": "A beautiful city spot in Srikakulam.",
+    "category": "City",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        84.1227,
+        18.3388
+      ]
+    },
+    "rating": {
+      "average": 4.9,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Someshwara_Temple,_Mukhalingam,_Andhra_Pradesh_-_133.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/7/72/Someshwara_Temple,_Mukhalingam,_Andhra_Pradesh_-_62.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/2/29/700_CE_Mukhalingeswara_Temples_Group,_Kalinga_architecture,_Mukhalingam,_Andhra_Pradesh_-_60.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/f/f5/700_CE_Mukhalingeswara_Temples_Group,_Kalinga_architecture,_Mukhalingam,_Andhra_Pradesh_-_104.jpg"
+    ]
+  },
+  {
+    "name": "Vamsadhara River Mouth",
+    "slug": "vamsadhara-river-mouth",
+    "districtName": "Srikakulam",
+    "description": "The scenic confluence where the Vamsadhara River merges into the Bay of Bengal.",
+    "shortDescription": "A beautiful nature spot in Srikakulam.",
+    "category": "Nature",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        84.1368,
+        18.3495
+      ]
+    },
+    "rating": {
+      "average": 4.7,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/3/30/Ancient_Buddhist_site,_Kalingapatnam_Andhra_Pradesh_-_01.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/e/e8/Ancient_Buddhist_site,_Kalingapatnam_Andhra_Pradesh_-_3.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/8/89/Ancient_Buddhist_site,_Kalingapatnam_Andhra_Pradesh_-_32.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/b/bc/Ancient_Buddhist_site,_Kalingapatnam_Andhra_Pradesh_-_06.jpg"
+    ]
+  },
+  {
+    "name": "Srikakulam City Center",
+    "slug": "srikakulam-city-center",
+    "districtName": "Srikakulam",
+    "description": "A commercial city rich in cultural art forms, brassware, and temple heritage.",
+    "shortDescription": "A beautiful city spot in Srikakulam.",
+    "category": "City",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.8935,
+        18.2949
+      ]
+    },
+    "rating": {
+      "average": 4.5,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/0/02/Ambedkar_Junction,Govt.Arts_College_Road,_Srikakulam_town,_Srikakulam_district.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/8/81/Bhadramma_Thalli_utsava_vigraham_at_Balaga,_Srikakulam_Town,_Srikakulam.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/e/e2/Sand_art_of_Kalingotsavam_at_Srikakulam_Town,_Srikakulam_district.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/1/15/Lock_Down_in_Balaga_Street_in_Srikakulam_Town.jpg"
+    ]
+  },
+  {
+    "name": "Srikurmam Town",
+    "slug": "srikurmam-town",
+    "districtName": "Srikakulam",
+    "description": "The holy pilgrimage village centered around the tortoise-avatara temple.",
+    "shortDescription": "A beautiful pilgrimage spot in Srikakulam.",
+    "category": "Pilgrimage",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.9815,
+        18.272
+      ]
+    },
+    "rating": {
+      "average": 4.8,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Srikurmam_temple_view.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/2/25/11th_century_Kurmanatha_Swamy_Temple,_Srikurmam_Andhra_Pradesh_05.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/c/ca/11th_century_Kurmanatha_Swamy_Temple,_Srikurmam_Andhra_Pradesh_08.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/0/0d/11th_century_Kurmanatha_Swamy_Temple,_Srikurmam_Andhra_Pradesh_02.jpg"
+    ]
+  },
+  {
+    "name": "Sangam Shiva Temple",
+    "slug": "sangam-shiva-temple",
+    "districtName": "Srikakulam",
+    "description": "A popular pilgrimage spot located at the meeting point of three natural rivers.",
+    "shortDescription": "A beautiful temple / religious spot in Srikakulam.",
+    "category": "Temple / Religious",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.8297,
+        18.6045
+      ]
+    },
+    "rating": {
+      "average": 4.8,
+      "count": 0
+    },
+    "bestTimeToVisit": "October to March",
+    "entryFee": "Free",
+    "timings": "6:00 AM - 6:00 PM",
+    "isFeatured": false,
+    "isActive": true,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Shiva_Lingam_-_Sangam_Period_Saluvankuppam_temple.jpg",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/7/78/Sculpted_Figure_and_Lingam_with_Garlands_-_Outside_Patalpuri_Temple_-_Sangam_Site_-_Allahabad_-_Uttar_Pradesh_-_India_(12589414355).jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/9/9a/Sangam_sangameswaramTemple.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/5/58/Allahabad,_Triveni_Sangam_16_-_Shankar_Viman_Mandapam_(38817878324).jpg"
+    ]
+  }
+]
