@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { createFeedback } from '../services/api';
@@ -13,6 +13,12 @@ export default function FeedbackWidget() {
 
   const { user, isAuthenticated } = useUserAuth();
   const navigate = useNavigate();
+
+  useEffect(() => {
+    const handleOpen = () => setIsOpen(true);
+    window.addEventListener('open-feedback', handleOpen);
+    return () => window.removeEventListener('open-feedback', handleOpen);
+  }, []);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -43,7 +49,7 @@ export default function FeedbackWidget() {
     <>
       <button
         onClick={() => setIsOpen(true)}
-        className="fixed bottom-6 right-6 bg-gradient-to-r from-primary to-amber-400 text-bg p-3.5 rounded-full shadow-lg shadow-primary/20 hover:shadow-primary/40 hover:scale-110 active:scale-95 transition-all duration-300 z-50 flex items-center justify-center border border-white/20"
+        className="fixed bottom-[calc(5.5rem+env(safe-area-inset-bottom))] md:bottom-6 right-6 bg-gradient-to-r from-primary to-amber-400 text-bg p-3.5 rounded-full shadow-lg shadow-primary/20 hover:shadow-primary/40 hover:scale-110 active:scale-95 transition-all duration-300 z-50 flex items-center justify-center border border-white/20"
         title="Leave Feedback"
       >
         <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -57,7 +63,7 @@ export default function FeedbackWidget() {
             initial={{ opacity: 0, scale: 0.9, y: 20 }}
             animate={{ opacity: 1, scale: 1, y: 0 }}
             exit={{ opacity: 0, scale: 0.9, y: 20 }}
-            className="fixed bottom-20 right-6 w-80 bg-surface border border-white/15 rounded-2xl shadow-card z-50 overflow-hidden"
+            className="fixed bottom-[calc(9rem+env(safe-area-inset-bottom))] md:bottom-20 right-6 w-80 bg-surface border border-white/15 rounded-2xl shadow-card z-50 overflow-hidden"
           >
             <div className="p-4 bg-primary/10 border-b border-primary/20 flex justify-between items-center">
               <h3 className="font-display font-bold text-text text-base">Send Feedback</h3>
