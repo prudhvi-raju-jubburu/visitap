@@ -4,7 +4,7 @@ const path = require('path');
 const DATA_DIR = path.join(__dirname, '..', 'data');
 const DISTRICTS_DIR = path.join(DATA_DIR, 'districts');
 const VERIFIED_COORDS_FILE = path.join(DATA_DIR, 'verified-coordinates.json');
-const REPORT_PATH = path.join(__dirname, '..', 'reports', 'coordinate-audit.json');
+const REPORT_PATH = path.join(__dirname, '..', 'reports', 'geospatial-audit.json');
 
 // District centroids mapping
 const districtCentroids = {

@@ -2,10 +2,11 @@ import { useState, useEffect, useRef } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { fetchDistricts, fetchPlaces, fetchTopFeedbacks, trackClientEvent } from '../services/api';
+import { loadSearchIndex, findBestMatch, getSuggestions } from '../utils/searchUtils';
 import { useGeolocation } from '../hooks/useGeolocation';
 import DistrictCard from '../components/DistrictCard';
 import PlaceCard from '../components/PlaceCard';
-import { GridSkeleton } from '../components/SkeletonLoader';
+import { PlaceCardSkeleton, DistrictCardSkeleton } from '../components/SkeletonLoader';
 
 const HERO_SLIDES = [
   {
@@ -108,15 +109,45 @@ export default function Home() {
   const [searchQuery, setSearchQuery] = useState('');
   const [isListening, setIsListening] = useState(false);
 
+  // Search Engine & Visual Feedback States
+  const [voiceState, setVoiceState] = useState('idle'); // 'idle' | 'listening' | 'heard' | 'searching' | 'error'
+  const [heardText, setHeardText] = useState('');
+  const [suggestions, setSuggestions] = useState({ districts: [], places: [], categories: [] });
+  const [searchIndex, setSearchIndex] = useState({ districts: [], places: [] });
+
   useEffect(() => {
     getLocation();
   }, [getLocation]);
+
+  // Load search index on mount
+  useEffect(() => {
+    const load = async () => {
+      const idx = await loadSearchIndex();
+      setSearchIndex(idx);
+    };
+    load();
+  }, []);
+
+  const handleMatchNavigation = (match) => {
+    if (match.type === 'place') {
+      navigate(`/place/${match.data.slug || match.data._id}`);
+    } else if (match.type === 'district') {
+      navigate(`/district/${match.data.slug}`);
+    } else if (match.type === 'category') {
+      navigate(`/districts?category=${encodeURIComponent(match.data)}`);
+    }
+  };
 
   const handleSearchSubmit = (e) => {
     e.preventDefault();
     if (searchQuery.trim()) {
       trackClientEvent('SEARCH', { metadata: { searchQuery: searchQuery.trim() } });
-      navigate(`/districts?search=${encodeURIComponent(searchQuery.trim())}`);
+      const match = findBestMatch(searchQuery, searchIndex.districts, searchIndex.places);
+      if (match) {
+        handleMatchNavigation(match);
+      } else {
+        navigate(`/districts?search=${encodeURIComponent(searchQuery.trim())}`);
+      }
     }
   };
 
@@ -133,21 +164,39 @@ export default function Home() {
 
     recognition.onstart = () => {
       setIsListening(true);
+      setVoiceState('listening');
       setSearchQuery('');
+      setHeardText('');
     };
 
     recognition.onresult = (event) => {
       let transcript = event.results[0][0].transcript;
       transcript = transcript.replace(/[.,!?]$/, '').trim();
-      setSearchQuery(transcript);
+      setHeardText(transcript);
+      setVoiceState('heard');
       trackClientEvent('VOICE_SEARCH', { metadata: { searchQuery: transcript } });
+      
       setTimeout(() => {
-        navigate(`/districts?search=${encodeURIComponent(transcript)}`);
-      }, 800);
+        setVoiceState('searching');
+        setSearchQuery(transcript);
+        
+        setTimeout(() => {
+          const match = findBestMatch(transcript, searchIndex.districts, searchIndex.places);
+          if (match) {
+            handleMatchNavigation(match);
+            setVoiceState('idle');
+          } else {
+            setVoiceState('error');
+            setSuggestions(getSuggestions(transcript, searchIndex.districts, searchIndex.places));
+          }
+        }, 600);
+      }, 1000);
     };
 
     recognition.onerror = (event) => {
       console.error("Speech recognition error", event.error);
+      setVoiceState('error');
+      setSuggestions(getSuggestions('', searchIndex.districts, searchIndex.places));
       setIsListening(false);
     };
 
@@ -206,30 +255,31 @@ export default function Home() {
               initial={{ opacity: 0, x: -40 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.8, ease: 'easeOut' }}
+              className="text-center lg:text-left flex flex-col items-center lg:items-start"
             >
               <div className="inline-flex items-center gap-2 bg-primary/10 border border-primary/20 rounded-full px-4 py-2 mb-6">
                 <span className="w-2 h-2 bg-primary rounded-full animate-pulse"></span>
                 <span className="text-primary text-sm font-medium">Andhra Pradesh Tourism</span>
               </div>
 
-              <h1 className="font-display font-black leading-tight mb-4 flex items-baseline gap-4">
+              <h1 className="font-display font-black leading-tight mb-4 flex items-baseline justify-center lg:justify-start gap-4">
                 <span className="text-text text-[40px] md:text-[60px] lg:text-[80px]">Visit</span>
                 <span className="text-primary text-[40px] md:text-[60px] lg:text-[80px]">AP</span>
               </h1>
 
-              <p className="text-textMuted text-lg md:text-xl leading-relaxed max-w-lg mb-8">
+              <p className="text-textMuted text-lg md:text-xl leading-relaxed max-w-lg mb-8 mx-auto lg:mx-0">
                 Explore the beauty and heritage of <strong className="text-text">Andhra Pradesh</strong>.
                 From sacred temples to canyon gorges, pristine beaches to lush valleys — discover it all.
               </p>
 
               {/* Search Bar in Hero Header */}
-              <form onSubmit={handleSearchSubmit} className="relative max-w-md mb-8">
+              <form onSubmit={handleSearchSubmit} className="relative w-full max-w-md mb-4 mx-auto lg:mx-0 flex items-center">
                 <input
                   type="text"
-                  placeholder={isListening ? "Listening..." : "Search districts, beaches, temples..."}
+                  placeholder={voiceState === 'listening' ? "Listening..." : "Search districts, beaches, temples..."}
                   value={searchQuery}
                   onChange={(e) => setSearchQuery(e.target.value)}
-                  className="w-full bg-surfaceLight border border-white/10 rounded-2xl px-5 py-4 pl-12 pr-12 text-white placeholder-textMuted focus:outline-none focus:border-primary transition-all text-sm font-body shadow-lg"
+                  className="w-full h-12 bg-surfaceLight border border-white/10 rounded-2xl pl-12 pr-14 text-white placeholder-textMuted focus:outline-none focus:border-primary transition-all text-sm font-body shadow-lg"
                 />
                 <svg className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-textMuted" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
@@ -237,8 +287,8 @@ export default function Home() {
                 <button
                   type="button"
                   onClick={handleVoiceSearch}
-                  className={`absolute right-4 top-1/2 -translate-y-1/2 p-1.5 rounded-full transition-colors ${
-                    isListening ? 'bg-primary/20 text-primary animate-pulse' : 'text-textMuted hover:text-primary hover:bg-white/5'
+                  className={`absolute right-1 w-12 h-12 rounded-full flex items-center justify-center transition-colors ${
+                    voiceState === 'listening' ? 'bg-primary/20 text-primary animate-pulse' : 'text-textMuted hover:text-primary hover:bg-white/5'
                   }`}
                   title="Voice Search"
                   aria-label="Voice Search"
@@ -249,7 +299,94 @@ export default function Home() {
                 </button>
               </form>
 
-              <div className="flex flex-wrap gap-4 mb-12">
+              {/* Voice Search Visual Feedback States */}
+              {voiceState !== 'idle' && (
+                <div className="bg-surface/90 border border-white/10 rounded-2xl p-4 mt-2 mb-6 shadow-xl w-full max-w-md relative backdrop-blur-xl mx-auto lg:mx-0">
+                  {voiceState === 'listening' && (
+                    <div className="flex items-center gap-3">
+                      <div className="w-8 h-8 rounded-full bg-primary/20 flex items-center justify-center animate-pulse text-lg">🎤</div>
+                      <div>
+                        <p className="text-white text-sm font-bold">Listening...</p>
+                        <p className="text-textMuted text-xs">Speak a destination or category</p>
+                      </div>
+                    </div>
+                  )}
+
+                  {voiceState === 'heard' && (
+                    <div className="flex items-center gap-3">
+                      <div className="w-8 h-8 rounded-full bg-green-500/20 flex items-center justify-center text-lg">✅</div>
+                      <div>
+                        <p className="text-textMuted text-[10px] font-bold uppercase">Heard</p>
+                        <p className="text-white text-sm font-bold">"{heardText}"</p>
+                      </div>
+                    </div>
+                  )}
+
+                  {voiceState === 'searching' && (
+                    <div className="flex items-center gap-3">
+                      <div className="w-6 h-6 border-2 border-primary border-t-transparent rounded-full animate-spin"></div>
+                      <p className="text-white text-sm font-bold">Searching...</p>
+                    </div>
+                  )}
+
+                  {voiceState === 'error' && (
+                    <div>
+                      <div className="flex items-center gap-3 mb-2">
+                        <div className="text-xl">🔍</div>
+                        <p className="text-white text-sm font-bold">Sorry, we couldn't find that destination.</p>
+                      </div>
+                      {suggestions.places && (suggestions.places.length > 0 || suggestions.districts.length > 0 || suggestions.categories.length > 0) && (
+                        <div className="border-t border-white/10 pt-2.5 mt-2.5">
+                          <p className="text-[10px] font-bold text-primary uppercase mb-2">Suggestions</p>
+                          <div className="flex flex-wrap gap-1.5">
+                            {suggestions.places.slice(0, 2).map(p => (
+                              <button
+                                type="button"
+                                key={p._id}
+                                onClick={() => {
+                                  setVoiceState('idle');
+                                  navigate(`/place/${p.slug || p._id}`);
+                                }}
+                                className="px-2.5 py-1.5 rounded-lg bg-white/5 hover:bg-white/10 text-white text-xs font-semibold border border-white/5 hover:border-white/10"
+                              >
+                                🗺️ {p.name}
+                              </button>
+                            ))}
+                            {suggestions.districts.slice(0, 2).map(d => (
+                              <button
+                                type="button"
+                                key={d._id}
+                                onClick={() => {
+                                  setVoiceState('idle');
+                                  navigate(`/district/${d.slug}`);
+                                }}
+                                className="px-2.5 py-1.5 rounded-lg bg-white/5 hover:bg-white/10 text-white text-xs font-semibold border border-white/5 hover:border-white/10"
+                              >
+                                📍 {d.name}
+                              </button>
+                            ))}
+                            {suggestions.categories.slice(0, 2).map(cat => (
+                              <button
+                                type="button"
+                                key={cat}
+                                onClick={() => {
+                                  setVoiceState('idle');
+                                  navigate(`/districts?category=${encodeURIComponent(cat)}`);
+                                }}
+                                className="px-2.5 py-1.5 rounded-lg bg-white/5 hover:bg-white/10 text-white text-xs font-semibold border border-white/5 hover:border-white/10"
+                              >
+                                🏷️ {cat}
+                              </button>
+                            ))}
+                          </div>
+                        </div>
+                      )}
+                    </div>
+                  )}
+                </div>
+              )}
+
+              <div className="flex flex-wrap justify-center lg:justify-start gap-4 mb-12">
                 <Link to="/districts" className="btn-primary">
                   Explore Districts →
                 </Link>
@@ -259,7 +396,7 @@ export default function Home() {
               </div>
 
               {/* Stats */}
-              <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 pt-8 border-t border-white/5">
+              <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 pt-8 border-t border-white/5 w-full">
                 {STATS.map(({ value, label }) => (
                   <div key={label} className="group cursor-default">
                     <p className="font-display text-3xl font-black text-primary group-hover:scale-110 transition-transform origin-left">{value}</p>
@@ -305,7 +442,13 @@ export default function Home() {
           </motion.h2>
           <p className="section-subtitle">Handpicked attractions across Andhra Pradesh</p>
         </div>
-        {loading ? <GridSkeleton count={6} /> : (
+        {loading ? (
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {Array.from({ length: 6 }).map((_, i) => (
+              <PlaceCardSkeleton key={i} />
+            ))}
+          </div>
+        ) : (
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {featured.map((place, i) => <PlaceCard key={place._id} place={place} index={i} />)}
           </div>
@@ -331,7 +474,13 @@ export default function Home() {
               View All Districts →
             </Link>
           </div>
-          {loading ? <GridSkeleton count={6} /> : (
+          {loading ? (
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+              {Array.from({ length: 6 }).map((_, i) => (
+                <DistrictCardSkeleton key={i} />
+              ))}
+            </div>
+          ) : (
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
               {districts.map((d, i) => <DistrictCard key={d._id} district={d} index={i} />)}
             </div>

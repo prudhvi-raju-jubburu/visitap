@@ -39,9 +39,11 @@ export default function Login() {
           {/* Logo */}
           <div className="text-center mb-8">
             <Link to="/" className="inline-block">
-              <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-primary to-amber-300 flex items-center justify-center mx-auto mb-4 shadow-amber">
-                <span className="text-bg font-display font-black text-2xl">V</span>
-              </div>
+              <img 
+                src="/logo.png" 
+                alt="Visit AP" 
+                className="h-20 md:h-24 w-auto object-contain mx-auto mb-4 transition-transform hover:scale-105 duration-300" 
+              />
             </Link>
             <h1 className="font-display text-2xl font-bold text-text">Welcome Back</h1>
             <p className="text-textMuted text-sm mt-1">Sign in to explore and plan your trip</p>

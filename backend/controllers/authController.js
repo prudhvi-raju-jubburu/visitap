@@ -20,10 +20,17 @@ const login = async (req, res) => {
     const { username, password } = req.body;
 
     if (!username || !password) {
-      return res.status(400).json({ success: false, message: 'Please provide username and password.' });
+      return res.status(400).json({ success: false, message: 'Please provide username or email and password.' });
     }
 
-    const admin = await Admin.findOne({ username }).select('+password');
+    const identifier = username.trim();
+    const admin = await Admin.findOne({
+      $or: [
+        { username: identifier },
+        { email: identifier.toLowerCase() }
+      ]
+    }).select('+password');
+
     if (!admin || !(await admin.comparePassword(password))) {
       return res.status(401).json({ success: false, message: 'Invalid credentials.' });
     }

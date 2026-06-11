@@ -2,25 +2,44 @@ const mongoose = require('mongoose');
 const Review = require('../models/Review');
 const Place = require('../models/Place');
 const { trackReview } = require('../services/analyticsService');
+const { resolvePlace } = require('../utils/resolvePlace');
 
-// Helper function to calculate and update Place rating statistics using the static helper in Review model
-const updatePlaceRating = async (placeId) => {
-  const Review = mongoose.model('Review');
-  await Review.calculatePlaceRatings(placeId);
-};
-
-// @desc   Create or update a review for a tourist place (Upsert behavior)
+// @desc   Create a review for a tourist place
 // @route  POST /api/reviews/:placeId
-// @access Private
+// @access Private (Custom guest verification inside)
 const createReview = async (req, res) => {
   try {
     const { placeId } = req.params;
     const { rating, comment } = req.body;
 
-    if (!mongoose.Types.ObjectId.isValid(placeId)) {
-      return res.status(400).json({ success: false, message: 'Invalid place ID.' });
+    // 1. Resolve the Place (handles both ObjectId and slug)
+    const place = await resolvePlace(placeId);
+    if (!place) {
+      return res.status(404).json({ success: false, message: 'The requested tourist place could not be found.' });
     }
 
+    const resolvedPlaceId = place._id;
+
+    // 2. Custom verification of authorization for guest reviews
+    let user;
+    if (req.headers.authorization && req.headers.authorization.startsWith('Bearer')) {
+      const token = req.headers.authorization.split(' ')[1];
+      try {
+        const jwt = require('jsonwebtoken');
+        const decoded = jwt.verify(token, process.env.JWT_SECRET);
+        const User = require('../models/User');
+        user = await User.findById(decoded.id);
+      } catch (err) {
+        // Token verification failed
+      }
+    }
+
+    if (!user) {
+      return res.status(401).json({ success: false, message: 'Please log in to submit a rating and review.' });
+    }
+    req.user = user;
+
+    // 3. Validation of input parameters
     const numRating = parseInt(rating, 10);
     if (isNaN(numRating) || numRating < 1 || numRating > 5) {
       return res.status(400).json({ success: false, message: 'Rating must be an integer between 1 and 5.' });
@@ -30,35 +49,26 @@ const createReview = async (req, res) => {
       return res.status(400).json({ success: false, message: 'Comment content is required.' });
     }
 
-    const place = await Place.findById(placeId);
-    if (!place) {
-      return res.status(404).json({ success: false, message: 'Place not found.' });
+    // 4. Check if user already left a review to enforce "Duplicate Review" constraints
+    const existingReview = await Review.findOne({ user: req.user._id, place: resolvedPlaceId });
+    if (existingReview) {
+      return res.status(400).json({ success: false, message: 'You have already submitted a review for this place.' });
     }
 
-    // Check if user already left a review
-    let review = await Review.findOne({ user: req.user._id, place: placeId });
-
-    if (review) {
-      // Update existing review
-      review.rating = numRating;
-      review.comment = comment.trim();
-      await review.save();
-    } else {
-      // Create new review
-      review = new Review({
-        user: req.user._id,
-        place: placeId,
-        rating: numRating,
-        comment: comment.trim(),
-      });
-      await review.save();
-    }
+    // 5. Create new review
+    const review = new Review({
+      user: req.user._id,
+      place: resolvedPlaceId,
+      rating: numRating,
+      comment: comment.trim(),
+    });
+    await review.save();
 
     // Track review submission event
-    await trackReview(placeId, review._id, req.user._id, numRating);
+    await trackReview(resolvedPlaceId, review._id, req.user._id, numRating);
 
     // Update aggregate stats immediately
-    await Review.calculatePlaceRatings(placeId);
+    await Review.calculatePlaceRatings(resolvedPlaceId);
 
     // Populate user info for returning
     const populatedReview = await Review.findById(review._id).populate({
@@ -72,6 +82,9 @@ const createReview = async (req, res) => {
       review: populatedReview,
     });
   } catch (error) {
+    if (error.code === 11000) {
+      return res.status(400).json({ success: false, message: 'You have already submitted a review for this place.' });
+    }
     res.status(500).json({ success: false, message: error.message });
   }
 };
@@ -178,13 +191,17 @@ const getPlaceReviews = async (req, res) => {
     if (limit < 1) limit = 10;
     const skip = (page - 1) * limit;
 
-    if (!mongoose.Types.ObjectId.isValid(placeId)) {
-      return res.status(400).json({ success: false, message: 'Invalid place ID.' });
+    // Resolve the Place (handles both ObjectId and slug)
+    const place = await resolvePlace(placeId);
+    if (!place) {
+      return res.status(404).json({ success: false, message: 'The requested tourist place could not be found.' });
     }
 
-    const total = await Review.countDocuments({ place: placeId });
+    const resolvedPlaceId = place._id;
 
-    const reviews = await Review.find({ place: placeId })
+    const total = await Review.countDocuments({ place: resolvedPlaceId });
+
+    const reviews = await Review.find({ place: resolvedPlaceId })
       .populate({
         path: 'user',
         select: 'name',
@@ -235,9 +252,13 @@ const getReviewStats = async (req, res) => {
   try {
     const { placeId } = req.params;
 
-    if (!mongoose.Types.ObjectId.isValid(placeId)) {
-      return res.status(400).json({ success: false, message: 'Invalid place ID.' });
+    // Resolve the Place (handles both ObjectId and slug)
+    const place = await resolvePlace(placeId);
+    if (!place) {
+      return res.status(404).json({ success: false, message: 'The requested tourist place could not be found.' });
     }
+
+    const resolvedPlaceId = place._id;
 
     const distribution = {
       '5': 0,
@@ -248,7 +269,7 @@ const getReviewStats = async (req, res) => {
     };
 
     const stats = await Review.aggregate([
-      { $match: { place: new mongoose.Types.ObjectId(placeId) } },
+      { $match: { place: new mongoose.Types.ObjectId(resolvedPlaceId) } },
       {
         $group: {
           _id: '$rating',
@@ -289,11 +310,15 @@ const getMyReviewForPlace = async (req, res) => {
   try {
     const { placeId } = req.params;
 
-    if (!mongoose.Types.ObjectId.isValid(placeId)) {
-      return res.status(400).json({ success: false, message: 'Invalid place ID.' });
+    // Resolve the Place (handles both ObjectId and slug)
+    const place = await resolvePlace(placeId);
+    if (!place) {
+      return res.status(404).json({ success: false, message: 'The requested tourist place could not be found.' });
     }
 
-    const review = await Review.findOne({ user: req.user._id, place: placeId });
+    const resolvedPlaceId = place._id;
+
+    const review = await Review.findOne({ user: req.user._id, place: resolvedPlaceId });
 
     res.json({
       success: true,

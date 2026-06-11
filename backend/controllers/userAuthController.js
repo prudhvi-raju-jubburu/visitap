@@ -3,6 +3,7 @@ const mongoose = require('mongoose');
 const User = require('../models/User');
 const Place = require('../models/Place');
 const { trackRegistration, trackLogin } = require('../services/analyticsService');
+const { resolvePlace } = require('../utils/resolvePlace');
 
 const generateToken = (id) => {
   return jwt.sign({ id }, process.env.JWT_SECRET, {
@@ -213,18 +214,16 @@ const addFavorite = async (req, res) => {
   try {
     const { placeId } = req.params;
 
-    if (!mongoose.Types.ObjectId.isValid(placeId)) {
-      return res.status(400).json({ success: false, message: 'Invalid place ID.' });
+    const place = await resolvePlace(placeId);
+    if (!place) {
+      return res.status(404).json({ success: false, message: 'The requested tourist place could not be found.' });
     }
 
-    const placeExists = await Place.findById(placeId);
-    if (!placeExists) {
-      return res.status(404).json({ success: false, message: 'Place not found.' });
-    }
+    const resolvedPlaceId = place._id;
 
     await User.findByIdAndUpdate(
       req.user._id,
-      { $addToSet: { favorites: placeId } },
+      { $addToSet: { favorites: resolvedPlaceId } },
       { new: true }
     );
 
@@ -241,13 +240,16 @@ const removeFavorite = async (req, res) => {
   try {
     const { placeId } = req.params;
 
-    if (!mongoose.Types.ObjectId.isValid(placeId)) {
-      return res.status(400).json({ success: false, message: 'Invalid place ID.' });
+    const place = await resolvePlace(placeId);
+    if (!place) {
+      return res.status(404).json({ success: false, message: 'The requested tourist place could not be found.' });
     }
+
+    const resolvedPlaceId = place._id;
 
     await User.findByIdAndUpdate(
       req.user._id,
-      { $pull: { favorites: placeId } },
+      { $pull: { favorites: resolvedPlaceId } },
       { new: true }
     );
 
@@ -280,12 +282,15 @@ const checkFavoriteStatus = async (req, res) => {
   try {
     const { placeId } = req.params;
 
-    if (!mongoose.Types.ObjectId.isValid(placeId)) {
-      return res.status(400).json({ success: false, message: 'Invalid place ID.' });
+    const place = await resolvePlace(placeId);
+    if (!place) {
+      return res.status(404).json({ success: false, message: 'The requested tourist place could not be found.' });
     }
 
+    const resolvedPlaceId = place._id;
+
     const user = await User.findById(req.user._id);
-    const isFavorite = user.favorites.includes(placeId);
+    const isFavorite = user.favorites.includes(resolvedPlaceId);
 
     res.json({ success: true, isFavorite });
   } catch (error) {

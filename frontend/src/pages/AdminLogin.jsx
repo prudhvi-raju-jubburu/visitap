@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { useNavigate, Navigate } from 'react-router-dom';
+import { useNavigate, Navigate, Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { loginAdmin } from '../services/api';
 import { useAuth } from '../App';
@@ -29,8 +29,8 @@ export default function AdminLogin() {
   };
 
   return (
-    <div className="min-h-screen bg-hero-gradient flex items-center justify-center px-4 noise-overlay">
-      <div className="absolute inset-0 bg-amber-glow pointer-events-none"></div>
+    <div className="min-h-screen bg-bg flex items-center justify-center px-4 noise-overlay relative">
+      <div className="absolute inset-0 bg-gradient-to-tr from-primary/10 via-transparent to-accent/10 pointer-events-none"></div>
 
       <motion.div
         initial={{ opacity: 0, scale: 0.95 }}
@@ -40,9 +40,13 @@ export default function AdminLogin() {
         <div className="glass-card p-8 border-white/10">
           {/* Logo */}
           <div className="text-center mb-8">
-            <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-primary to-amber-300 flex items-center justify-center mx-auto mb-4 shadow-amber">
-              <span className="text-bg font-display font-black text-2xl">V</span>
-            </div>
+            <Link to="/" className="inline-block">
+              <img 
+                src="/logo.png" 
+                alt="Visit AP" 
+                className="h-20 md:h-24 w-auto object-contain mx-auto mb-4 transition-transform hover:scale-105 duration-300" 
+              />
+            </Link>
             <h1 className="font-display text-2xl font-bold text-text">Staff Portal</h1>
             <p className="text-textMuted text-sm mt-1">Sign in to manage tourism data</p>
           </div>
@@ -55,14 +59,14 @@ export default function AdminLogin() {
 
           <form onSubmit={handleSubmit} className="space-y-4">
             <div>
-              <label className="text-textMuted text-sm font-medium block mb-2">Username</label>
+              <label className="text-textMuted text-sm font-medium block mb-2">Username or Email</label>
               <input
                 type="text"
                 value={form.username}
                 onChange={e => setForm(f => ({ ...f, username: e.target.value }))}
-                placeholder="Enter username"
+                placeholder="Enter username or email"
                 required
-                className="w-full bg-surfaceLight border border-white/10 rounded-xl px-4 py-3 text-text placeholder-textMuted focus:outline-none focus:border-primary transition-colors"
+                className="w-full bg-surfaceLight border border-white/10 rounded-xl px-4 py-3 text-text placeholder-textMuted focus:outline-none focus:border-primary transition-colors text-sm"
               />
             </div>
 
@@ -74,7 +78,7 @@ export default function AdminLogin() {
                 onChange={e => setForm(f => ({ ...f, password: e.target.value }))}
                 placeholder="Enter password"
                 required
-                className="w-full bg-surfaceLight border border-white/10 rounded-xl px-4 py-3 text-text placeholder-textMuted focus:outline-none focus:border-primary transition-colors"
+                className="w-full bg-surfaceLight border border-white/10 rounded-xl px-4 py-3 text-text placeholder-textMuted focus:outline-none focus:border-primary transition-colors text-sm"
               />
             </div>
 
@@ -89,8 +93,8 @@ export default function AdminLogin() {
             </button>
           </form>
 
-          <div className="mt-4 p-3 bg-secondary rounded-xl text-center">
-            <p className="text-textMuted text-xs font-mono mt- 1">For Registration contact Admin</p>
+          <div className="mt-6 pt-6 border-t border-white/5 text-center text-sm text-textMuted">
+            For Registration contact Admin
           </div>
         </div>
       </motion.div>

@@ -193,8 +193,9 @@ async function trackLogin(userId, metadata = {}) {
 /**
  * Log feedback submission (kept indefinitely)
  */
-async function trackFeedback(feedbackId) {
+async function trackFeedback(feedbackId, userId) {
   return trackEvent('FEEDBACK_SUBMITTED', {
+    userId,
     metadata: { feedbackId }
   });
 }

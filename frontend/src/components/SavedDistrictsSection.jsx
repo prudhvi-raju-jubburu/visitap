@@ -41,6 +41,7 @@ export default function SavedDistrictsSection({ districts, onRemove }) {
                 alt={dist.name} 
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                 onError={(e) => { e.target.src = DEFAULT_IMAGE; }}
+                loading="lazy"
               />
               <div className="absolute inset-0 bg-gradient-to-t sm:bg-gradient-to-r from-bg/95 via-transparent to-transparent"></div>
               
@@ -50,10 +51,11 @@ export default function SavedDistrictsSection({ districts, onRemove }) {
                   e.stopPropagation();
                   onRemove(dist._id);
                 }}
-                className="absolute top-4 left-4 w-8 h-8 rounded-full bg-black/60 hover:bg-red-500/20 hover:text-red-400 text-white/80 border border-white/10 flex items-center justify-center transition-colors z-10"
+                className="absolute top-4 left-4 w-12 h-12 rounded-full bg-black/75 hover:bg-red-500/20 hover:text-red-400 text-white border border-white/15 flex items-center justify-center transition-all shadow-md active:scale-95 z-10"
                 title="Remove from collection"
+                aria-label="Remove from collection"
               >
-                <span className="text-sm">✕</span>
+                <span className="text-base">✕</span>
               </button>
             </div>
 

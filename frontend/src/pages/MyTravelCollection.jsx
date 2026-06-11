@@ -160,12 +160,12 @@ export default function MyTravelCollection() {
         />
 
         {/* Workspace Tabbed Panel */}
-        <div className="mb-8 border-b border-white/5 flex flex-wrap gap-2">
+        <div className="mb-8 border-b border-white/5 flex overflow-x-auto scrollbar-none gap-2 pb-px -mx-4 px-4 sm:mx-0 sm:px-0">
           {tabs.map((tab) => (
             <button
               key={tab.id}
               onClick={() => setActiveTab(tab.id)}
-              className={`px-5 py-3 rounded-t-2xl font-bold text-xs md:text-sm transition-all flex items-center gap-2 border-b-2 ${
+              className={`px-5 py-4 sm:py-3 rounded-t-2xl font-bold text-xs md:text-sm transition-all flex items-center gap-2 border-b-2 min-h-[48px] sm:min-h-[42px] shrink-0 ${
                 activeTab === tab.id
                   ? 'border-primary text-primary bg-primary/5 font-extrabold'
                   : 'border-transparent text-textMuted hover:text-text hover:bg-white/[0.02]'

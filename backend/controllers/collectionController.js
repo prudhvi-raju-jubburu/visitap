@@ -6,6 +6,7 @@ const District = require('../models/District');
 const TripPlan = require('../models/TripPlan');
 const { updateAchievements } = require('../services/achievementService');
 const { trackSavePlace, trackSaveDistrict } = require('../services/analyticsService');
+const { resolvePlace } = require('../utils/resolvePlace');
 
 // Soft abuse limits
 const MAX_SAVED_PLACES = 500;
@@ -115,15 +116,12 @@ const savePlace = async (req, res) => {
   try {
     const { placeId } = req.params;
 
-    if (!mongoose.Types.ObjectId.isValid(placeId)) {
-      return res.status(400).json({ success: false, message: 'Invalid Place ID.' });
+    const place = await resolvePlace(placeId);
+    if (!place) {
+      return res.status(404).json({ success: false, message: 'The requested tourist place could not be found.' });
     }
 
-    // Verify Place exists
-    const place = await Place.findById(placeId);
-    if (!place) {
-      return res.status(404).json({ success: false, message: 'Place not found.' });
-    }
+    const resolvedPlaceId = place._id;
 
     let collection = await UserCollection.findOne({ userId: req.user._id });
     if (!collection) {
@@ -140,20 +138,20 @@ const savePlace = async (req, res) => {
     }
 
     // Prevent duplicates
-    const alreadySaved = collection.savedPlaces.some(p => p.placeId.toString() === placeId);
+    const alreadySaved = collection.savedPlaces.some(p => p.placeId.toString() === resolvedPlaceId.toString());
     if (!alreadySaved) {
-      collection.savedPlaces.push({ placeId, savedAt: new Date() });
+      collection.savedPlaces.push({ placeId: resolvedPlaceId, savedAt: new Date() });
       await updateAchievements(collection);
       await collection.save();
 
       // Track save place event
-      await trackSavePlace(placeId, req.user._id);
+      await trackSavePlace(resolvedPlaceId, req.user._id);
 
       // Legacy synchronization (add to User favorites)
-      await User.findByIdAndUpdate(req.user._id, { $addToSet: { favorites: placeId } });
+      await User.findByIdAndUpdate(req.user._id, { $addToSet: { favorites: resolvedPlaceId } });
       
       // Update Place analytics counter & timestamp
-      await Place.findByIdAndUpdate(placeId, { 
+      await Place.findByIdAndUpdate(resolvedPlaceId, { 
         $inc: { saveCount: 1 },
         $set: { lastSavedAt: new Date() }
       });
@@ -173,24 +171,30 @@ const removePlace = async (req, res) => {
   try {
     const { placeId } = req.params;
 
+    const place = await resolvePlace(placeId);
+    if (!place) {
+      return res.status(404).json({ success: false, message: 'The requested tourist place could not be found.' });
+    }
+
+    const resolvedPlaceId = place._id;
+
     let collection = await UserCollection.findOne({ userId: req.user._id });
     if (!collection) {
       return res.status(404).json({ success: false, message: 'Collection not found.' });
     }
 
-    const alreadySaved = collection.savedPlaces.some(p => p.placeId.toString() === placeId);
+    const alreadySaved = collection.savedPlaces.some(p => p.placeId.toString() === resolvedPlaceId.toString());
     if (alreadySaved) {
-      collection.savedPlaces = collection.savedPlaces.filter(p => p.placeId.toString() !== placeId);
+      collection.savedPlaces = collection.savedPlaces.filter(p => p.placeId.toString() !== resolvedPlaceId.toString());
       await updateAchievements(collection);
       await collection.save();
 
       // Legacy synchronization (remove from User favorites)
-      await User.findByIdAndUpdate(req.user._id, { $pull: { favorites: placeId } });
+      await User.findByIdAndUpdate(req.user._id, { $pull: { favorites: resolvedPlaceId } });
 
       // Decrement Place saveCount counter (capped at 0)
-      const place = await Place.findById(placeId);
       if (place && place.saveCount > 0) {
-        await Place.findByIdAndUpdate(placeId, { $inc: { saveCount: -1 } });
+        await Place.findByIdAndUpdate(resolvedPlaceId, { $inc: { saveCount: -1 } });
       }
     }
 
@@ -364,9 +368,12 @@ const addRecentlyViewed = async (req, res) => {
     const { placeId } = req.params;
     const { guestRecentIds } = req.body; // Array of placeIds from localStorage for merging
 
-    if (!mongoose.Types.ObjectId.isValid(placeId)) {
-      return res.status(400).json({ success: false, message: 'Invalid Place ID.' });
+    const place = await resolvePlace(placeId);
+    if (!place) {
+      return res.status(404).json({ success: false, message: 'The requested tourist place could not be found.' });
     }
+
+    const resolvedPlaceId = place._id;
 
     let collection = await UserCollection.findOne({ userId: req.user._id });
     if (!collection) {
@@ -388,11 +395,11 @@ const addRecentlyViewed = async (req, res) => {
 
     // 2. Remove place if already in history to move it to the front (latest)
     collection.recentlyViewed = collection.recentlyViewed.filter(
-      r => r.placeId.toString() !== placeId.toString()
+      r => r.placeId.toString() !== resolvedPlaceId.toString()
     );
 
     // 3. Add current place to head
-    collection.recentlyViewed.unshift({ placeId, viewedAt: new Date() });
+    collection.recentlyViewed.unshift({ placeId: resolvedPlaceId, viewedAt: new Date() });
 
     // 4. Cap at MAX_RECENTLY_VIEWED
     if (collection.recentlyViewed.length > MAX_RECENTLY_VIEWED) {

@@ -41,6 +41,7 @@ export default function SavedPlacesSection({ places, onRemove }) {
                 alt={place.name} 
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                 onError={(e) => { e.target.src = DEFAULT_IMAGE; }}
+                loading="lazy"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-bg/90 via-transparent to-transparent"></div>
               
@@ -48,17 +49,18 @@ export default function SavedPlacesSection({ places, onRemove }) {
               <span className="absolute top-4 left-4 bg-bg/85 backdrop-blur-md border border-white/10 px-3 py-1 rounded-full text-[9px] font-black uppercase tracking-wider text-primary">
                 {place.category || 'Attraction'}
               </span>
-
+ 
               {/* Unsave button */}
               <button
                 onClick={(e) => {
                   e.stopPropagation();
                   onRemove(place._id);
                 }}
-                className="absolute top-4 right-4 w-8 h-8 rounded-full bg-black/60 hover:bg-red-500/20 hover:text-red-400 text-white/80 border border-white/10 flex items-center justify-center transition-colors"
+                className="absolute top-4 right-4 w-12 h-12 rounded-full bg-black/75 hover:bg-red-500/20 hover:text-red-400 text-white border border-white/15 flex items-center justify-center transition-all shadow-md active:scale-95 z-10"
                 title="Remove from collection"
+                aria-label="Remove from collection"
               >
-                <span className="text-sm">✕</span>
+                <span className="text-base">✕</span>
               </button>
             </div>
 

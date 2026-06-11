@@ -38,7 +38,13 @@ export default function BottomNavigation() {
   ];
 
   return (
-    <div className="md:hidden fixed bottom-0 left-0 right-0 z-50 bg-bg/95 backdrop-blur-xl border-t border-white/10 shadow-[0_-8px_24px_rgba(0,0,0,0.4)] px-2 py-1 flex items-center justify-around h-16 select-none safe-bottom">
+    <div 
+      className="md:hidden fixed bottom-0 left-0 right-0 z-50 bg-bg/95 backdrop-blur-xl border-t border-white/10 shadow-[0_-8px_24px_rgba(0,0,0,0.4)] px-2 flex items-center justify-around select-none safe-bottom"
+      style={{
+        paddingBottom: 'env(safe-area-inset-bottom)',
+        height: 'calc(4rem + env(safe-area-inset-bottom))'
+      }}
+    >
       {menuItems.map((item, idx) => {
         const isActive = item.path && location.pathname === item.path;
         

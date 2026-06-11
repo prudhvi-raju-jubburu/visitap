@@ -98,7 +98,7 @@ export const getReviewStats = (placeId) => API.get(`/reviews/stats/${placeId}`);
 export const getMyReviewForPlace = (placeId) => userApi.get(`/reviews/my-review/${placeId}`);
 
 // ── Feedback ───────────────────────────────────────────────
-export const createFeedback = (data) => API.post('/feedback', data);
+export const createFeedback = (data) => userApi.post('/feedback', data);
 export const fetchFeedbacks = () => API.get('/feedback');
 export const fetchTopFeedbacks = () => API.get('/feedback/top');
 

@@ -465,7 +465,7 @@ export default function TripPlanner() {
                   <button
                     key={d._id}
                     onClick={() => handleToggleDistrict(d.name)}
-                    className={`px-3 py-1.5 rounded-xl text-xs font-bold transition-all ${
+                    className={`px-4 py-3 sm:py-1.5 rounded-xl text-xs font-bold transition-all min-h-[48px] sm:min-h-[32px] flex items-center justify-center ${
                       isSelected
                         ? 'bg-primary/20 text-primary border border-primary/30'
                         : 'bg-white/5 text-textMuted border border-white/5 hover:text-text hover:bg-white/10'

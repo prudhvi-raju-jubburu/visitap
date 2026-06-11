@@ -40,8 +40,9 @@ export default function SavedTripsSection({ trips, onRemove }) {
                 e.stopPropagation();
                 onRemove(trip._id);
               }}
-              className="absolute top-4 right-4 w-8 h-8 rounded-full bg-black/40 hover:bg-red-500/20 hover:text-red-400 text-white/80 border border-white/10 flex items-center justify-center transition-colors z-10"
+              className="absolute top-4 right-4 w-12 h-12 rounded-full bg-black/40 hover:bg-red-500/20 hover:text-red-400 text-white/80 border border-white/10 flex items-center justify-center transition-colors z-10"
               title="Remove bookmark"
+              aria-label="Remove bookmark"
             >
               <span className="text-sm">✕</span>
             </button>

@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useMemo } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import {
@@ -51,16 +51,16 @@ function ImageUploadField({ label, value, onChange, placeholder }) {
           value={value}
           onChange={onChange}
           placeholder={placeholder}
-          className="flex-1 bg-surfaceLight/50 border border-white/10 rounded-xl px-4 py-2.5 text-text placeholder-textMuted/50 focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary/40 transition-all text-sm"
+          className="flex-1 bg-surfaceLight/50 border border-white/10 rounded-xl px-4 py-3 text-text placeholder-textMuted/50 focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary/40 transition-all text-sm"
         />
-        <label className={`cursor-pointer px-4 py-2.5 rounded-xl border border-dashed border-white/20 text-xs flex items-center justify-center transition-all bg-white/[0.02] hover:bg-white/[0.04] ${uploading ? 'opacity-50' : 'hover:border-primary/50 text-textMuted hover:text-primary'}`}>
+        <label className={`cursor-pointer px-4 py-3 rounded-xl border border-dashed border-white/20 text-xs flex items-center justify-center transition-all bg-white/[0.02] hover:bg-white/[0.04] ${uploading ? 'opacity-50' : 'hover:border-primary/50 text-textMuted hover:text-primary'}`}>
           {uploading ? '...' : 'Upload'}
           <input type="file" className="hidden" accept="image/*" onChange={handleUpload} disabled={uploading} />
         </label>
       </div>
       {value && (
         <div className="mt-2 relative rounded-xl overflow-hidden aspect-[16/9] w-40 border border-white/10">
-          <img src={value} alt="Preview" className="w-full h-full object-cover" />
+          <img src={value} alt="Preview" className="w-full h-full object-cover" loading="lazy" />
           <div className="absolute top-1 right-1 bg-black/60 backdrop-blur-md px-1.5 py-0.5 rounded text-[8px] text-white/80 font-black uppercase">Preview</div>
         </div>
       )}
@@ -83,11 +83,11 @@ function Modal({ title, onClose, children }) {
           animate={{ scale: 1, opacity: 1, y: 0 }}
           exit={{ scale: 0.95, opacity: 0, y: 15 }}
           transition={{ duration: 0.25 }}
-          className="bg-surface border border-white/10 rounded-3xl w-full max-w-3xl max-h-[90vh] overflow-y-auto custom-scroll shadow-glow"
+          className="bg-surface border border-white/10 rounded-3xl w-[94%] sm:w-full max-w-3xl max-h-[90vh] overflow-y-auto custom-scroll shadow-glow"
         >
           <div className="flex items-center justify-between p-5 md:px-7 border-b border-white/10 sticky top-0 bg-surface/95 backdrop-blur-md z-10">
             <h3 className="font-display text-lg font-bold text-text uppercase tracking-wide">{title}</h3>
-            <button onClick={onClose} className="p-1 rounded-lg bg-white/5 border border-white/10 text-textMuted hover:text-text transition-colors">
+            <button onClick={onClose} className="w-10 h-10 flex items-center justify-center rounded-lg bg-white/5 border border-white/10 text-textMuted hover:text-text transition-colors" aria-label="Close modal">
               <svg className="w-4.5 h-4.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
               </svg>
@@ -111,14 +111,14 @@ function FormField({ label, type = 'text', value, onChange, placeholder, require
           placeholder={placeholder}
           required={required}
           rows={3}
-          className="w-full bg-surfaceLight/50 border border-white/10 rounded-xl px-4 py-2.5 text-text placeholder-textMuted/50 focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary/40 transition-all resize-none text-sm font-body"
+          className="w-full bg-surfaceLight/50 border border-white/10 rounded-xl px-4 py-3 text-text placeholder-textMuted/50 focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary/40 transition-all resize-none text-sm font-body"
         />
       ) : type === 'select' ? (
         <select
           value={value}
           onChange={onChange}
           required={required}
-          className="w-full bg-surfaceLight/50 border border-white/10 rounded-xl px-4 py-2.5 text-text focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary/40 transition-all text-sm font-body"
+          className="w-full bg-surfaceLight/50 border border-white/10 rounded-xl px-4 py-3 text-text focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary/40 transition-all text-sm font-body"
         >
           {options.map(opt => <option key={opt} value={opt}>{opt}</option>)}
         </select>
@@ -129,7 +129,7 @@ function FormField({ label, type = 'text', value, onChange, placeholder, require
           onChange={onChange}
           placeholder={placeholder}
           required={required}
-          className="w-full bg-surfaceLight/50 border border-white/10 rounded-xl px-4 py-2.5 text-text placeholder-textMuted/50 focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary/40 transition-all text-sm"
+          className="w-full bg-surfaceLight/50 border border-white/10 rounded-xl px-4 py-3 text-text placeholder-textMuted/50 focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary/40 transition-all text-sm"
         />
       )}
     </div>
@@ -158,6 +158,13 @@ export default function AdminPortal() {
   const [placeCategoryFilter, setPlaceCategoryFilter] = useState('');
   const [placePage, setPlacePage] = useState(1);
 
+  // Feedbacks Panel Filters & Sorting
+  const [feedbackSearch, setFeedbackSearch] = useState('');
+  const [feedbackFilter, setFeedbackFilter] = useState('all'); // 'all', 'authenticated', 'guest'
+  const [feedbackRatingFilter, setFeedbackRatingFilter] = useState('all'); // 'all', 'high', 'low'
+  const [feedbackSort, setFeedbackSort] = useState('desc'); // 'desc', 'asc'
+
+  const ITEMS_PER_PAGE = 8;
   const [isListeningDistrict, setIsListeningDistrict] = useState(false);
   const [isListeningPlace, setIsListeningPlace] = useState(false);
 
@@ -205,8 +212,6 @@ export default function AdminPortal() {
       loadAnalytics();
     }
   }, [tab]);
-
-  const ITEMS_PER_PAGE = 9;
 
   useEffect(() => { loadData(); }, []);
 
@@ -416,6 +421,51 @@ export default function AdminPortal() {
   const totalPlacePages = Math.ceil(filteredPlaces.length / ITEMS_PER_PAGE) || 1;
   const paginatedPlaces = filteredPlaces.slice((placePage - 1) * ITEMS_PER_PAGE, placePage * ITEMS_PER_PAGE);
 
+  // Compute filtered & sorted feedbacks
+  const filteredFeedbacks = useMemo(() => {
+    let result = [...feedbacks];
+
+    // Search filter
+    if (feedbackSearch.trim()) {
+      const q = feedbackSearch.toLowerCase();
+      result = result.filter(f => {
+        const userName = f.user?.name || f.name || '';
+        const userEmail = f.user?.email || f.contactInfo || '';
+        const msg = f.message || '';
+        return userName.toLowerCase().includes(q) || 
+               userEmail.toLowerCase().includes(q) || 
+               msg.toLowerCase().includes(q);
+      });
+    }
+
+    // User Type filter
+    if (feedbackFilter !== 'all') {
+      const isAuth = feedbackFilter === 'authenticated';
+      result = result.filter(f => {
+        const hasUser = f.user !== undefined && f.user !== null;
+        return isAuth ? hasUser : !hasUser;
+      });
+    }
+
+    // Rating filter
+    if (feedbackRatingFilter !== 'all') {
+      if (feedbackRatingFilter === 'high') {
+        result = result.filter(f => f.rating >= 4);
+      } else if (feedbackRatingFilter === 'low') {
+        result = result.filter(f => f.rating <= 3);
+      }
+    }
+
+    // Sorting
+    result.sort((a, b) => {
+      const dateA = new Date(a.createdAt);
+      const dateB = new Date(b.createdAt);
+      return feedbackSort === 'desc' ? dateB - dateA : dateA - dateB;
+    });
+
+    return result;
+  }, [feedbacks, feedbackSearch, feedbackFilter, feedbackRatingFilter, feedbackSort]);
+
   useEffect(() => { setDistrictPage(1); }, [districtSearch]);
   useEffect(() => { setPlacePage(1); }, [placeSearch, placeCategoryFilter]);
 
@@ -424,9 +474,7 @@ export default function AdminPortal() {
       {/* Top Bar */}
       <div className="bg-surface/85 backdrop-blur-xl border-b border-white/10 px-4 sm:px-6 lg:px-8 py-4 flex items-center justify-between sticky top-0 z-40 shadow-md">
         <div className="flex items-center gap-3">
-          <div className="w-8.5 h-8.5 rounded-xl bg-gradient-to-br from-primary to-amber-300 flex items-center justify-center shadow-amber">
-            <span className="text-bg font-black text-sm">V</span>
-          </div>
+          <img src="/logo.png" alt="Visit AP" className="h-10 w-auto object-contain" />
           <div>
             <p className="font-display font-black text-sm leading-none uppercase tracking-wider text-white">Visit AP Portal</p>
             <p className="text-textMuted text-[10px] mt-1">Welcome, <span className="text-primary font-semibold">{admin?.username}</span></p>
@@ -643,6 +691,7 @@ export default function AdminPortal() {
                           alt={d.name}
                           className="w-12 h-12 rounded-xl object-cover border border-white/10 flex-shrink-0"
                           onError={e => e.target.src = 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=100'}
+                          loading="lazy"
                         />
                         <div className="min-w-0">
                           <div className="flex items-center gap-2">
@@ -767,6 +816,7 @@ export default function AdminPortal() {
                           alt={p.name}
                           className="w-12 h-12 rounded-xl object-cover border border-white/10 flex-shrink-0"
                           onError={e => e.target.src = 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=100'}
+                          loading="lazy"
                         />
                         <div className="min-w-0">
                           <div className="flex flex-wrap items-center gap-2">
@@ -834,42 +884,112 @@ export default function AdminPortal() {
         {/* Feedback Tab Content */}
         {tab === 'feedback' && (
           <div className="space-y-6">
-            <div>
-              <h2 className="font-display text-xl font-bold text-white uppercase tracking-wider">Feedbacks Portal</h2>
-              <p className="text-textMuted text-xs mt-0.5">Review semi-quantitative statistics and messages submitted by general visitors</p>
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+              <div>
+                <h2 className="font-display text-xl font-bold text-white uppercase tracking-wider">Feedbacks Portal</h2>
+                <p className="text-textMuted text-xs mt-0.5">Review feedback and messages submitted by visitors ({filteredFeedbacks.length})</p>
+              </div>
+
+              {/* Feedbacks Filters & Controls */}
+              <div className="flex flex-wrap items-center gap-2 w-full sm:w-auto">
+                <div className="relative w-full sm:w-48">
+                  <input
+                    type="text"
+                    placeholder="Search feedbacks..."
+                    value={feedbackSearch}
+                    onChange={(e) => setFeedbackSearch(e.target.value)}
+                    className="bg-surface/50 border border-white/10 rounded-xl px-4 py-2 text-xs text-white placeholder-textMuted/50 focus:outline-none focus:border-primary w-full"
+                  />
+                  {feedbackSearch && (
+                    <button 
+                      onClick={() => setFeedbackSearch('')}
+                      className="absolute right-2.5 top-2 text-textMuted hover:text-white text-[10px]"
+                    >
+                      ✕
+                    </button>
+                  )}
+                </div>
+
+                <select
+                  value={feedbackFilter}
+                  onChange={(e) => setFeedbackFilter(e.target.value)}
+                  className="bg-surface/50 border border-white/10 rounded-xl px-3 py-2 text-xs text-textMuted focus:outline-none focus:border-primary focus:text-white"
+                >
+                  <option value="all">All Users</option>
+                  <option value="authenticated">Registered Users</option>
+                  <option value="guest">Guest Visitors</option>
+                </select>
+
+                <select
+                  value={feedbackRatingFilter}
+                  onChange={(e) => setFeedbackRatingFilter(e.target.value)}
+                  className="bg-surface/50 border border-white/10 rounded-xl px-3 py-2 text-xs text-textMuted focus:outline-none focus:border-primary focus:text-white"
+                >
+                  <option value="all">All Ratings</option>
+                  <option value="high">High Ratings (4-5 ★)</option>
+                  <option value="low">Low Ratings (1-3 ★)</option>
+                </select>
+
+                <select
+                  value={feedbackSort}
+                  onChange={(e) => setFeedbackSort(e.target.value)}
+                  className="bg-surface/50 border border-white/10 rounded-xl px-3 py-2 text-xs text-textMuted focus:outline-none focus:border-primary focus:text-white"
+                >
+                  <option value="desc">Newest First</option>
+                  <option value="asc">Oldest First</option>
+                </select>
+              </div>
             </div>
             
             <div className="space-y-4">
-              {feedbacks.length === 0 ? (
+              {filteredFeedbacks.length === 0 ? (
                 <div className="bg-surface/30 border border-white/5 rounded-2xl p-12 text-center text-textMuted flex flex-col items-center shadow-lg">
                   <div className="bg-white/5 border border-white/10 w-16 h-16 rounded-2xl flex items-center justify-center text-3xl mb-4 shadow-md">💬</div>
-                  <p className="font-semibold text-xs">No feedback logs found.</p>
+                  <p className="font-semibold text-xs">No matching feedback logs found.</p>
                 </div>
               ) : (
-                feedbacks.map(f => (
-                  <div key={f._id} className="bg-surface/40 backdrop-blur-md border border-white/5 p-5 rounded-2xl flex flex-col gap-3 shadow-md hover:border-white/10 transition-all">
-                    <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
-                      <div className="flex items-center gap-3">
-                        <div className="w-9 h-9 rounded-full bg-gradient-to-br from-primary to-amber-300 flex items-center justify-center text-bg font-black text-sm uppercase">
-                          {f.name ? f.name[0] : 'V'}
+                filteredFeedbacks.map(f => {
+                  const hasUser = f.user !== undefined && f.user !== null;
+                  const displayName = hasUser ? (f.user.name || f.name) : f.name;
+                  const displayEmail = hasUser ? (f.user.email || f.contactInfo) : f.contactInfo;
+                  return (
+                    <div key={f._id} className="bg-surface/40 backdrop-blur-md border border-white/5 p-5 rounded-2xl flex flex-col gap-3 shadow-md hover:border-white/10 transition-all">
+                      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+                        <div className="flex items-center gap-3">
+                          <div className={`w-9 h-9 rounded-full flex items-center justify-center text-bg font-black text-sm uppercase ${
+                            hasUser 
+                              ? 'bg-gradient-to-br from-primary to-amber-300' 
+                              : 'bg-gradient-to-br from-slate-400 to-slate-600'
+                          }`}>
+                            {displayName ? displayName[0] : 'V'}
+                          </div>
+                          <div>
+                            <div className="flex items-center gap-2">
+                              <p className="font-bold text-white text-xs leading-none">{displayName}</p>
+                              <span className={`text-[8px] font-black uppercase px-1.5 py-0.5 rounded ${
+                                hasUser 
+                                  ? 'bg-primary/20 text-primary border border-primary/30' 
+                                  : 'bg-white/5 text-textMuted border border-white/10'
+                              }`}>
+                                {hasUser ? 'Registered User' : 'Guest'}
+                              </span>
+                            </div>
+                            <p className="text-textMuted text-[10px] mt-1">{displayEmail}</p>
+                          </div>
                         </div>
-                        <div>
-                          <p className="font-bold text-white text-xs leading-none">{f.name}</p>
-                          <p className="text-textMuted text-[10px] mt-1">{f.contactInfo}</p>
+                        <div className="flex flex-col sm:items-end gap-1.5">
+                          <p className="text-textMuted text-[9px] font-bold uppercase tracking-wider">{new Date(f.createdAt).toLocaleString()}</p>
+                          <div className="flex text-amber-400 text-xs">
+                            {Array.from({ length: 5 }).map((_, i) => (
+                              <span key={i} className={i < f.rating ? 'opacity-100' : 'opacity-20'}>★</span>
+                            ))}
+                          </div>
                         </div>
                       </div>
-                      <div className="flex flex-col sm:items-end gap-1.5">
-                        <p className="text-textMuted text-[9px] font-bold uppercase tracking-wider">{new Date(f.createdAt).toLocaleString()}</p>
-                        <div className="flex text-amber-400 text-xs">
-                          {Array.from({ length: 5 }).map((_, i) => (
-                            <span key={i} className={i < f.rating ? 'opacity-100' : 'opacity-20'}>★</span>
-                          ))}
-                        </div>
-                      </div>
+                      <p className="text-white/80 text-xs leading-relaxed border-t border-white/5 pt-3 font-body italic">"{f.message}"</p>
                     </div>
-                    <p className="text-white/80 text-xs leading-relaxed border-t border-white/5 pt-3 font-body italic">"{f.message}"</p>
-                  </div>
-                ))
+                  );
+                })
               )}
             </div>
           </div>

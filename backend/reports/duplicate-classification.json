@@ -1,0 +1,41 @@
+{
+  "allowedDuplicates": [
+    {
+      "coordinates": [
+        77.7208,
+        14.4145
+      ],
+      "places": [
+        {
+          "name": "Dharmavaram Lake",
+          "slug": "dharmavaram-lake",
+          "district": "Anantapur"
+        },
+        {
+          "name": "Dharmavaram Border Area",
+          "slug": "dharmavaram-border-area",
+          "district": "Sri Sathya Sai"
+        }
+      ]
+    },
+    {
+      "coordinates": [
+        78.1394,
+        15.3486
+      ],
+      "places": [
+        {
+          "name": "Yaganti Temple",
+          "slug": "yaganti-temple",
+          "district": "Kurnool"
+        },
+        {
+          "name": "Yaganti Temple Complex",
+          "slug": "yaganti-temple-complex",
+          "district": "Nandyal"
+        }
+      ]
+    }
+  ],
+  "unexpectedDuplicates": []
+}

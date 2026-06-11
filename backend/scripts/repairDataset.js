@@ -66,7 +66,18 @@ async function runRepair() {
 
   let coordAudits = [];
   try {
-    coordAudits = JSON.parse(fs.readFileSync(COORD_REPORT, 'utf-8'));
+    const rawData = JSON.parse(fs.readFileSync(COORD_REPORT, 'utf-8'));
+    if (Array.isArray(rawData)) {
+      coordAudits = rawData;
+    } else {
+      // If it is a summary object, read details from coordinate-audit-details.json
+      const detailsPath = path.join(path.dirname(COORD_REPORT), 'coordinate-audit-details.json');
+      if (fs.existsSync(detailsPath)) {
+        coordAudits = JSON.parse(fs.readFileSync(detailsPath, 'utf-8'));
+      } else {
+        console.warn('Warning: Detailed coordinate audit log not found at ' + detailsPath);
+      }
+    }
   } catch (err) {
     console.error(`Error parsing coordinate report: ${err.message}`);
     process.exit(1);

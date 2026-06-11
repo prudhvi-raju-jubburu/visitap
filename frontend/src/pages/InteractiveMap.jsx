@@ -136,8 +136,13 @@ export default function InteractiveMap() {
   }
 
   const getDirections = (lat, lng) => {
-    const start = userLocation ? `${userLocation.lat},${userLocation.lng}` : '';
-    window.open(`https://www.google.com/maps/dir/${start}/${lat},${lng}`, '_blank');
+    const url = `https://www.google.com/maps/dir/?api=1&destination=${lat},${lng}`;
+    const isMobile = /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
+    if (isMobile) {
+      window.location.href = url;
+    } else {
+      window.open(url, '_blank');
+    }
   };
 
   return (
@@ -151,12 +156,12 @@ export default function InteractiveMap() {
           </div>
 
           {/* Category filter */}
-          <div className="flex flex-wrap gap-2">
+          <div className="flex overflow-x-auto scrollbar-none gap-2 pb-2 -mx-4 px-4 sm:mx-0 sm:px-0 sm:flex-wrap w-full sm:w-auto">
             {categories.map(c => (
               <button
                 key={c}
                 onClick={() => setFilter(c)}
-                className={`px-3.5 py-2 rounded-xl text-xs font-bold transition-all uppercase tracking-wider ${
+                className={`px-4 py-3 sm:py-2 rounded-xl text-xs font-bold transition-all uppercase tracking-wider min-h-[48px] sm:min-h-[38px] flex items-center justify-center shrink-0 ${
                   filter === c ? 'bg-primary text-bg shadow-amber' : 'bg-surfaceLight border border-white/10 text-textMuted hover:text-white'
                 }`}
               >
@@ -370,7 +375,7 @@ export default function InteractiveMap() {
                     position={[lat, lng]}
                     icon={amberIcon}
                   >
-                    <Popup>
+                    <Popup className="custom-popup">
                       <div className="p-2 min-w-[180px] bg-surface text-white rounded-xl border border-white/10 font-body">
                         <h4 className="font-bold text-sm mb-1">{p.name}</h4>
                         <p className="text-xs text-textMuted mb-2 font-semibold">📍 {p.districtName}</p>
@@ -378,9 +383,10 @@ export default function InteractiveMap() {
                         <div className="flex flex-col gap-2 mt-3 border-t border-white/5 pt-2.5">
                           <button
                             onClick={() => getDirections(lat, lng)}
-                            className="bg-primary text-bg font-black py-2 rounded-lg text-xs uppercase tracking-wide transition-all text-center flex items-center justify-center gap-1.5"
+                            className="bg-primary text-bg font-black py-2 rounded-lg text-xs uppercase tracking-wide transition-all text-center flex items-center justify-center gap-1.5 active:scale-95"
+                            aria-label={`Start Journey Navigation to ${p.name}`}
                           >
-                            <span>🧭</span> {t('getDirections')}
+                            <span>🧭</span> Start Journey
                           </button>
 
                           <button

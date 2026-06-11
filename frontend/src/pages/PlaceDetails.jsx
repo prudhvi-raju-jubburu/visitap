@@ -98,7 +98,7 @@ export default function PlaceDetails() {
   const loadReviews = useCallback(async (page = 1) => {
     setReviewsLoading(true);
     try {
-      const res = await getPlaceReviews(placeId, { page, limit: 5 });
+      const res = await getPlaceReviews(place?._id || placeId, { page, limit: 5 });
       setReviews(res.data.reviews || []);
       setReviewsTotalPages(res.data.pages || 1);
       setReviewsTotalCount(res.data.total || 0);
@@ -108,12 +108,12 @@ export default function PlaceDetails() {
     } finally {
       setReviewsLoading(false);
     }
-  }, [placeId]);
+  }, [placeId, place?._id]);
 
   const loadStats = useCallback(async () => {
     setStatsLoading(true);
     try {
-      const res = await getReviewStats(placeId);
+      const res = await getReviewStats(place?._id || placeId);
       if (res.data) {
         setStats(res.data);
       }
@@ -122,7 +122,7 @@ export default function PlaceDetails() {
     } finally {
       setStatsLoading(false);
     }
-  }, [placeId]);
+  }, [placeId, place?._id]);
 
   const loadMyReview = useCallback(async () => {
     if (!isAuthenticated) {
@@ -131,7 +131,7 @@ export default function PlaceDetails() {
       return;
     }
     try {
-      const res = await getMyReviewForPlace(placeId);
+      const res = await getMyReviewForPlace(place?._id || placeId);
       if (res.data && res.data.review) {
         setReviewForm({ rating: res.data.review.rating, comment: res.data.review.comment });
         setEditingReviewId(res.data.review._id);
@@ -142,7 +142,7 @@ export default function PlaceDetails() {
     } catch (err) {
       console.error('[PlaceDetails] Load My Review Error:', err);
     }
-  }, [placeId, isAuthenticated]);
+  }, [placeId, place?._id, isAuthenticated]);
 
   useEffect(() => {
     loadReviews(1);
@@ -167,13 +167,13 @@ export default function PlaceDetails() {
         await updateReview(editingReviewId, reviewForm);
         setReviewSuccess('Review updated successfully!');
       } else {
-        await createReview(placeId, reviewForm);
+        await createReview(place?._id || placeId, reviewForm);
         setReviewSuccess('Review submitted successfully!');
       }
       await loadReviews(1);
       await loadStats();
       await loadMyReview();
-      const placeRes = await fetchPlace(placeId);
+      const placeRes = await fetchPlace(place?._id || placeId);
       const placeData = placeRes.data?.data || placeRes.data;
       if (placeData) setPlace(placeData);
     } catch (err) {
@@ -253,9 +253,9 @@ export default function PlaceDetails() {
   useEffect(() => {
     let isMounted = true;
     const getStatus = async () => {
-      if (isAuthenticated && placeId) {
+      if (isAuthenticated && (place?._id || placeId)) {
         try {
-          const res = await checkFavorite(placeId);
+          const res = await checkFavorite(place?._id || placeId);
           if (isMounted) {
             setIsFavorite(res.data.isFavorite);
           }
@@ -266,7 +266,7 @@ export default function PlaceDetails() {
     };
     getStatus();
     return () => { isMounted = false; };
-  }, [placeId, isAuthenticated]);
+  }, [placeId, place?._id, isAuthenticated]);
 
   useEffect(() => {
     if (!place || !place._id) return;
@@ -322,9 +322,10 @@ export default function PlaceDetails() {
     setIsFavorite(!originalFavorite);
     setUser(currUser => {
       if (!currUser) return null;
+      const targetId = place?._id || placeId;
       const updatedFavs = originalFavorite
-        ? (currUser.favorites || []).filter(id => id !== placeId)
-        : [...(currUser.favorites || []), placeId];
+        ? (currUser.favorites || []).filter(id => id !== targetId)
+        : [...(currUser.favorites || []), targetId];
       const updatedUser = { ...currUser, favorites: updatedFavs };
       localStorage.setItem('visitap_user', JSON.stringify(updatedUser));
       return updatedUser;
@@ -396,8 +397,34 @@ export default function PlaceDetails() {
     }
   };
 
+  const hasValidCoordinates = useMemo(() => {
+    if (!place?.location) return false;
+    const parsed = parseCoordinates(place.location);
+    return (
+      Number.isFinite(parsed.lat) &&
+      Number.isFinite(parsed.lng) &&
+      parsed.lat >= -90 &&
+      parsed.lat <= 90 &&
+      parsed.lng >= -180 &&
+      parsed.lng <= 180 &&
+      parsed.lat !== 0 &&
+      parsed.lng !== 0
+    );
+  }, [place?.location]);
+
   const openInGoogleMaps = () => {
     window.open(`https://www.google.com/maps?q=${coords.lat},${coords.lng}`, '_blank');
+  };
+
+  const handleStartJourney = () => {
+    if (!hasValidCoordinates) return;
+    const url = `https://www.google.com/maps/dir/?api=1&destination=${coords.lat},${coords.lng}`;
+    const isMobile = /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
+    if (isMobile) {
+      window.location.href = url;
+    } else {
+      window.open(url, '_blank');
+    }
   };
 
   const scrollToReviews = () => {
@@ -622,7 +649,7 @@ export default function PlaceDetails() {
               )}
 
               {/* Simplified Leaflet Map Preview */}
-              <div className="relative rounded-[32px] overflow-hidden h-80 mb-16 border border-white/10 group shadow-lg">
+              <div className="relative rounded-[32px] overflow-hidden h-64 md:h-96 mb-16 border border-white/10 group shadow-lg">
                 <iframe
                   title="Interactive Maps"
                   src={`https://maps.google.com/maps?q=${coords.lat},${coords.lng}&z=14&output=embed`}
@@ -807,7 +834,7 @@ export default function PlaceDetails() {
                                 ))}
                               </div>
                             </div>
-                            <p className="text-white/90 text-base leading-relaxed whitespace-pre-wrap font-body font-light">
+                            <p className="text-white/90 text-base leading-relaxed whitespace-pre-wrap break-words font-body font-light">
                               {rev.comment}
                             </p>
                             
@@ -895,7 +922,47 @@ export default function PlaceDetails() {
                   </div>
                 )}
 
-                {/* 4 STAGE 4 PRIMARY LARGE ACTIONS (Touch targets >= 48px) */}
+                {/* Route Summary Card */}
+                <div className="mb-6 p-5 bg-white/[0.03] border border-white/10 rounded-3xl relative overflow-hidden font-body">
+                  <div className="flex items-center gap-2 mb-3">
+                    <span className="text-primary text-base">📍</span>
+                    <span className="text-white text-xs font-black uppercase tracking-wider">Route Summary</span>
+                  </div>
+                  
+                  <button
+                    onClick={handleStartJourney}
+                    disabled={!hasValidCoordinates}
+                    className={`w-full font-black min-h-[50px] rounded-2xl transition-all border flex items-center justify-center gap-3 active:scale-[0.98] text-base ${
+                      hasValidCoordinates 
+                        ? 'bg-gradient-to-r from-primary to-amber-500 hover:from-amber-400 hover:to-amber-600 text-bg border-transparent shadow-amber' 
+                        : 'bg-white/5 text-textMuted border-white/5 opacity-50 cursor-not-allowed'
+                    }`}
+                    title={!hasValidCoordinates ? "Directions are currently unavailable for this destination." : "Start Navigation to Destination"}
+                    aria-label="Start Journey Navigation using Google Maps"
+                  >
+                    <span>🧭</span>
+                    <span>Start Journey</span>
+                  </button>
+
+                  {!hasValidCoordinates && (
+                    <p className="text-danger text-[10px] text-center font-bold mb-3 leading-relaxed">
+                      Directions are currently unavailable for this destination.
+                    </p>
+                  )}
+
+                  <div className="grid grid-cols-2 gap-4 border-t border-white/5 pt-3 font-mono text-[11px] leading-relaxed">
+                    <div>
+                      <p className="text-primary/50 text-[9px] font-black uppercase mb-0.5">Latitude</p>
+                      <p className="text-text">{coords.lat.toFixed(5)}°N</p>
+                    </div>
+                    <div>
+                      <p className="text-primary/50 text-[9px] font-black uppercase mb-0.5">Longitude</p>
+                      <p className="text-text">{coords.lng.toFixed(5)}°E</p>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Primary Actions (Touch targets >= 48px) */}
                 <div className="space-y-4 font-body">
                   <button
                     onClick={toggleFavorite}
@@ -905,6 +972,7 @@ export default function PlaceDetails() {
                         ? 'bg-primary text-bg border-primary shadow-amber' 
                         : 'bg-white/5 hover:bg-white/10 text-white border-white/10'
                     }`}
+                    aria-label={isFavorite ? "Saved Place" : "Save Place to Travel Collection"}
                   >
                     <span>{isFavorite ? '❤️' : '🤍'}</span>
                     <span>{isFavorite ? 'Saved Place' : 'Save Place'}</span>
@@ -913,6 +981,7 @@ export default function PlaceDetails() {
                   <button
                     onClick={openInGoogleMaps}
                     className="w-full bg-white/5 hover:bg-white/10 text-white font-black min-h-[52px] rounded-2xl transition-all border border-white/10 flex items-center justify-center gap-3 active:scale-[0.98] text-base"
+                    aria-label="Open location in standard Google Maps view"
                   >
                     <span>📍</span>
                     <span>Open in Maps</span>
@@ -921,6 +990,7 @@ export default function PlaceDetails() {
                   <button
                     onClick={scrollToReviews}
                     className="w-full bg-white/5 hover:bg-white/10 text-white font-black min-h-[52px] rounded-2xl transition-all border border-white/10 flex items-center justify-center gap-3 active:scale-[0.98] text-base"
+                    aria-label="Scroll to reviews submission form"
                   >
                     <span>⭐</span>
                     <span>Give Review</span>
@@ -929,24 +999,11 @@ export default function PlaceDetails() {
                   <button
                     onClick={scrollToNearby}
                     className="w-full bg-white/5 hover:bg-white/10 text-white font-black min-h-[52px] rounded-2xl transition-all border border-white/10 flex items-center justify-center gap-3 active:scale-[0.98] text-base"
+                    aria-label="Scroll to nearby places recommendations"
                   >
                     <span>🗺️</span>
                     <span>Nearby Places</span>
                   </button>
-                </div>
-
-                <div className="mt-10 pt-8 border-t border-white/5">
-                  <span className="text-textMuted text-[10px] font-black uppercase tracking-widest block mb-3 opacity-60">Location Data</span>
-                  <div className="grid grid-cols-2 gap-4 font-mono text-xs">
-                    <div>
-                      <p className="text-primary/50 text-[9px] font-black uppercase mb-1">Latitude</p>
-                      <p className="text-text">{coords.lat.toFixed(5)}°N</p>
-                    </div>
-                    <div>
-                      <p className="text-primary/50 text-[9px] font-black uppercase mb-1">Longitude</p>
-                      <p className="text-text">{coords.lng.toFixed(5)}°E</p>
-                    </div>
-                  </div>
                 </div>
               </motion.div>
               

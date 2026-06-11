@@ -3,7 +3,7 @@ import { useParams, Link } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { fetchDistrict, fetchPlaces, trackClientEvent } from '../services/api';
 import PlaceCard from '../components/PlaceCard';
-import { GridSkeleton } from '../components/SkeletonLoader';
+import { PlaceCardSkeleton } from '../components/SkeletonLoader';
 import { useUserAuth } from '../context/AuthContext';
 
 const DEFAULT_IMAGE = 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1200';
@@ -105,8 +105,12 @@ export default function DistrictDetails() {
   if (loading) {
     return (
       <div className="pt-24 pb-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="h-64 skeleton rounded-3xl mb-8"></div>
-        <GridSkeleton count={6} />
+        <div className="h-64 skeleton rounded-3xl mb-8 bg-white/5 animate-pulse"></div>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          {Array.from({ length: 6 }).map((_, i) => (
+            <PlaceCardSkeleton key={i} />
+          ))}
+        </div>
       </div>
     );
   }
@@ -146,7 +150,7 @@ export default function DistrictDetails() {
       </AnimatePresence>
 
       {/* Premium Banner */}
-      <div className="relative h-[400px] md:h-[500px] overflow-hidden group/banner">
+      <div className="relative h-[300px] sm:h-[400px] md:h-[500px] overflow-hidden group/banner">
         <img
           src={allImages[activeImage] || DEFAULT_IMAGE}
           alt={district.name}
@@ -165,7 +169,7 @@ export default function DistrictDetails() {
               </Link>
               <div className="flex flex-col md:flex-row md:items-center justify-between gap-6 mb-6">
                 <div>
-                  <h1 className="font-display text-5xl md:text-7xl font-black text-white tracking-tight uppercase">
+                  <h1 className="font-display text-4xl sm:text-5xl md:text-7xl font-black text-white tracking-tight uppercase">
                     {district.name}
                   </h1>
                   <div className="h-1.5 w-24 bg-primary rounded-full mt-2"></div>
@@ -192,9 +196,9 @@ export default function DistrictDetails() {
         </div>
         
         {/* Search/Filter hint */}
-        <div className="absolute top-8 right-8 bg-bg/40 backdrop-blur-md border border-white/10 px-4 py-2 rounded-2xl flex items-center gap-3">
-          <span className="text-primary font-black text-xl">{filtered.length}</span>
-          <span className="text-text/70 text-[10px] uppercase font-bold tracking-widest leading-none">Places to<br/>Explore</span>
+        <div className="absolute top-4 right-4 sm:top-8 sm:right-8 bg-bg/40 backdrop-blur-md border border-white/10 px-3 py-1.5 sm:px-4 sm:py-2 rounded-2xl flex items-center gap-2 sm:gap-3 z-10">
+          <span className="text-primary font-black text-lg sm:text-xl">{filtered.length}</span>
+          <span className="text-text/70 text-[9px] sm:text-[10px] uppercase font-bold tracking-widest leading-none">Places to<br/>Explore</span>
         </div>
       </div>
 
@@ -212,7 +216,7 @@ export default function DistrictDetails() {
             
             {/* Highlights Grid */}
             {district.highlights?.length > 0 && (
-              <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
+              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
                 {district.highlights.map(h => (
                   <div key={h} className="bg-surfaceLight/30 border border-white/5 p-4 rounded-2xl group hover:border-primary/30 transition-all">
                     <span className="text-primary text-xl mb-2 block group-hover:scale-125 transition-transform origin-left">✦</span>

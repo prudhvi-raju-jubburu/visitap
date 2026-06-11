@@ -1,6 +1,7 @@
 const mongoose = require('mongoose');
 const Place = require('../models/Place');
 const District = require('../models/District');
+const { resolvePlace } = require('../utils/resolvePlace');
 
 
 // @desc   Get all places (optionally by district)
@@ -51,16 +52,10 @@ const getAllPlaces = async (req, res) => {
 const getPlace = async (req, res) => {
   try {
     const { identifier } = req.params;
-    let place;
-
-    if (identifier.match(/^[0-9a-fA-F]{24}$/)) {
-      place = await Place.findById(identifier);
-    } else {
-      place = await Place.findOne({ slug: identifier });
-    }
+    const place = await resolvePlace(identifier);
 
     if (!place) {
-      return res.status(404).json({ success: false, message: 'Place not found.' });
+      return res.status(404).json({ success: false, message: 'The requested tourist place could not be found.' });
     }
 
     res.json({ success: true, data: place });

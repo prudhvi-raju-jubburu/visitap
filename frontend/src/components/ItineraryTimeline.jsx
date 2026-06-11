@@ -28,6 +28,46 @@ export default function ItineraryTimeline({
   onOptimizeDay,
   readOnly = false
 }) {
+  const hasValidCoordinates = (place) => {
+    const coords = place?.location?.coordinates;
+    if (!coords || coords.length !== 2) return false;
+    const [lng, lat] = coords;
+    return (
+      Number.isFinite(lat) &&
+      Number.isFinite(lng) &&
+      lat >= -90 &&
+      lat <= 90 &&
+      lng >= -180 &&
+      lng <= 180 &&
+      lat !== 0 &&
+      lng !== 0
+    );
+  };
+
+  const handleStartJourney = (place) => {
+    if (!hasValidCoordinates(place)) return;
+    const coords = place.location.coordinates;
+    const url = `https://www.google.com/maps/dir/?api=1&destination=${coords[1]},${coords[0]}`;
+    const isMobile = /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
+    if (isMobile) {
+      window.location.href = url;
+    } else {
+      window.open(url, '_blank');
+    }
+  };
+
+  const handleStartJourneyBetweenStops = (placeA, placeB) => {
+    if (!hasValidCoordinates(placeA) || !hasValidCoordinates(placeB)) return;
+    const coordsA = placeA.location.coordinates;
+    const coordsB = placeB.location.coordinates;
+    const url = `https://www.google.com/maps/dir/?api=1&origin=${coordsA[1]},${coordsA[0]}&destination=${coordsB[1]},${coordsB[0]}`;
+    const isMobile = /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
+    if (isMobile) {
+      window.location.href = url;
+    } else {
+      window.open(url, '_blank');
+    }
+  };
   const handleCopyCoords = (place) => {
     const coords = place.location?.coordinates;
     if (coords && coords.length === 2) {
@@ -140,12 +180,32 @@ export default function ItineraryTimeline({
                             <p className="mt-0.5">🎫 Entry: {place.entryFee || 'Free'}</p>
                           </div>
 
-                          <div className="flex flex-wrap items-center gap-1.5">
+                          <div className="flex flex-wrap items-center gap-1.5 font-body">
+                            {hasValidCoordinates(place) ? (
+                              <button
+                                onClick={() => handleStartJourney(place)}
+                                className="px-2.5 py-1.5 rounded-lg bg-primary text-bg text-[10px] font-black hover:bg-amber-400 transition-all flex items-center gap-1 uppercase tracking-wider"
+                                title={`Start Journey to ${place.name}`}
+                                aria-label={`Start Journey Navigation to ${place.name}`}
+                              >
+                                🧭 Start Journey
+                              </button>
+                            ) : (
+                              <button
+                                disabled
+                                className="px-2.5 py-1.5 rounded-lg bg-white/5 border border-white/5 text-[10px] font-bold text-textMuted/40 cursor-not-allowed flex items-center gap-1 uppercase tracking-wider"
+                                title="Directions are currently unavailable for this destination."
+                                aria-label="Start Journey Navigation Disabled"
+                              >
+                                🧭 Start Journey
+                              </button>
+                            )}
                             <a
                               href={googleMapsUrl}
                               target="_blank"
                               rel="noreferrer"
                               className="px-2.5 py-1.5 rounded-lg bg-white/5 border border-white/15 text-[10px] font-bold text-text hover:bg-white/10 hover:border-white/20 transition-all flex items-center gap-1"
+                              aria-label={`Open ${place.name} on map`}
                             >
                               🗺️ Directions
                             </a>
@@ -153,6 +213,7 @@ export default function ItineraryTimeline({
                               onClick={() => handleCopyCoords(place)}
                               className="px-2.5 py-1.5 rounded-lg bg-white/5 border border-white/15 text-[10px] font-bold text-textMuted hover:text-text hover:bg-white/10 transition-all"
                               title="Copy Coordinates"
+                              aria-label={`Copy coordinates for ${place.name}`}
                             >
                               📍 Copy Coords
                             </button>
@@ -160,6 +221,7 @@ export default function ItineraryTimeline({
                               onClick={() => handleShareLocation(place)}
                               className="px-2.5 py-1.5 rounded-lg bg-white/5 border border-white/15 text-[10px] font-bold text-textMuted hover:text-text hover:bg-white/10 transition-all"
                               title="Share Location"
+                              aria-label={`Share location of ${place.name}`}
                             >
                               🔗 Share
                             </button>
@@ -168,12 +230,13 @@ export default function ItineraryTimeline({
 
                         {/* Reordering Controls (Only if editable) */}
                         {!readOnly && (
-                          <div className="flex items-center gap-1.5 border-t border-white/5 pt-4 mt-2 md:pt-0 md:mt-0 w-full md:w-auto md:border-t-0 justify-end">
+                          <div className="flex flex-wrap items-center gap-2 border-t border-white/5 pt-4 mt-2 md:pt-0 md:mt-0 w-full md:w-auto md:border-t-0 justify-end">
                             {index > 0 && (
                               <button
                                 onClick={() => onReorderPlace(day.dayNumber, index, -1)}
-                                className="p-1.5 rounded-lg bg-white/5 hover:bg-white/10 text-textMuted hover:text-text transition-all"
+                                className="w-12 h-12 md:w-10 md:h-10 rounded-xl bg-white/5 hover:bg-white/10 text-textMuted hover:text-text transition-all flex items-center justify-center text-base md:text-sm"
                                 title="Move Up"
+                                aria-label="Move Up"
                               >
                                 ⬆️
                               </button>
@@ -181,8 +244,9 @@ export default function ItineraryTimeline({
                             {index < places.length - 1 && (
                               <button
                                 onClick={() => onReorderPlace(day.dayNumber, index, 1)}
-                                className="p-1.5 rounded-lg bg-white/5 hover:bg-white/10 text-textMuted hover:text-text transition-all"
+                                className="w-12 h-12 md:w-10 md:h-10 rounded-xl bg-white/5 hover:bg-white/10 text-textMuted hover:text-text transition-all flex items-center justify-center text-base md:text-sm"
                                 title="Move Down"
+                                aria-label="Move Down"
                               >
                                 ⬇️
                               </button>
@@ -190,8 +254,9 @@ export default function ItineraryTimeline({
                             {day.dayNumber > 1 && (
                               <button
                                 onClick={() => onMovePlaceDay(place._id, day.dayNumber, day.dayNumber - 1)}
-                                className="p-1.5 rounded-lg bg-white/5 hover:bg-white/10 text-textMuted hover:text-text transition-all text-xs font-bold"
+                                className="w-12 h-12 md:w-10 md:h-10 rounded-xl bg-white/5 hover:bg-white/10 text-textMuted hover:text-text transition-all text-xs font-bold flex items-center justify-center"
                                 title="Move to Previous Day"
+                                aria-label="Move to Previous Day"
                               >
                                 ◀ Day
                               </button>
@@ -199,16 +264,18 @@ export default function ItineraryTimeline({
                             {days.length > day.dayNumber && (
                               <button
                                 onClick={() => onMovePlaceDay(place._id, day.dayNumber, day.dayNumber + 1)}
-                                className="p-1.5 rounded-lg bg-white/5 hover:bg-white/10 text-textMuted hover:text-text transition-all text-xs font-bold"
+                                className="w-12 h-12 md:w-10 md:h-10 rounded-xl bg-white/5 hover:bg-white/10 text-textMuted hover:text-text transition-all text-xs font-bold flex items-center justify-center"
                                 title="Move to Next Day"
+                                aria-label="Move to Next Day"
                               >
                                 Day ▶
                               </button>
                             )}
                             <button
                               onClick={() => onRemovePlace(day.dayNumber, place._id)}
-                              className="p-1.5 rounded-lg bg-danger/10 hover:bg-danger/25 text-danger transition-all ml-2"
+                              className="w-12 h-12 md:w-10 md:h-10 rounded-xl bg-danger/10 hover:bg-danger/25 text-danger transition-all flex items-center justify-center text-base md:text-sm"
                               title="Remove Attraction"
+                              aria-label="Remove Attraction"
                             >
                               🗑️
                             </button>
@@ -218,13 +285,27 @@ export default function ItineraryTimeline({
 
                       {/* Transition Route (Distance/Time) to next place */}
                       {nextTransition && (
-                        <div className="py-2 pl-4 flex items-center">
-                          <div className="h-0.5 w-6 border-t border-dashed border-white/20 mr-2"></div>
-                          <DistanceBadge
-                            distance={nextTransition.distance}
-                            duration={nextTransition.duration}
-                            travelMode={travelMode}
-                          />
+                        <div className="py-2 pl-4 flex flex-wrap items-center gap-3 font-body">
+                          <div className="flex items-center">
+                            <div className="h-0.5 w-6 border-t border-dashed border-white/20 mr-2"></div>
+                            <DistanceBadge
+                              distance={nextTransition.distance}
+                              duration={nextTransition.duration}
+                              travelMode={travelMode}
+                            />
+                          </div>
+
+                          {/* Route Action between stops */}
+                          {hasValidCoordinates(place) && hasValidCoordinates(places[index + 1]) && (
+                            <button
+                              onClick={() => handleStartJourneyBetweenStops(place, places[index + 1])}
+                              className="px-2.5 py-1 rounded-lg bg-primary/10 border border-primary/20 text-[9px] font-black text-primary hover:bg-primary hover:text-bg transition-all flex items-center gap-1 uppercase tracking-wide"
+                              title={`Navigate from ${place.name} to ${places[index + 1].name}`}
+                              aria-label={`Navigate from ${place.name} to ${places[index + 1].name}`}
+                            >
+                              🧭 Start Journey to Next Stop
+                            </button>
+                          )}
                         </div>
                       )}
                     </div>

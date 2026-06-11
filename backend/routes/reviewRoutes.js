@@ -16,7 +16,7 @@ router.get('/place/:placeId', getPlaceReviews);
 router.get('/stats/:placeId', getReviewStats);
 
 // Protected routes (require user authentication)
-router.post('/:placeId', protectUser, createReview);
+router.post('/:placeId', createReview);
 router.put('/:reviewId', protectUser, updateReview);
 router.delete('/:reviewId', protectUser, deleteReview);
 router.get('/user', protectUser, getUserReviews);
